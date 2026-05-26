@@ -167,13 +167,184 @@
                     <li><strong>Proteção (PR)</strong><br>Absorve o dano recebido antes que atinja os PV. É totalmente restaurada no início do turno do personagem. Se a PR for zerada, o item de proteção recebe 1 ponto de Danificado e, ao atingir seu Limite de Quebra, deixa de fornecer PR até ser consertado.</li>
                 </ul>
 
-                <h3 class="text-2xl mt-6 mb-2">Cálculo de Danos</h3>
-                <p class="mb-2">Todo dano do sistema é definido utilizando d6s.</p>
-                <ul>
-                    <li><strong>Físico Básico</strong><br> 3 + 1d6 + Atributo Força.</li>
-                    <li><strong>Feitiço Simples</strong><br> 3 + 1d6 + Atributo Magia.</li>
-                    <li><strong>Dano Crítico</strong><br> Maximiza o valor base e adiciona 1d6 extra.</li>
-                </ul>
+                <h3 class="text-2xl mt-8 mb-3 font-serif text-magic-900 flex items-center">
+                    <svg class="w-6 h-6 mr-2 text-indigo-600" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z"></path>
+                    </svg>
+                    Cálculo de Danos & Sistema de Armas
+                </h3>
+                <p class="mb-4 text-gray-700 leading-relaxed font-sans">
+                    A padronização das armas sob a mesma fórmula matemática mantém o jogo rápido, elimina a necessidade de tabelas gigantes de equipamentos e coloca o foco estratégico no **tipo de dano e nos efeitos ativos**.
+                </p>
+
+                <!-- Fórmulas Básicas -->
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-4 mb-6">
+                    <div class="bg-indigo-50/50 border border-indigo-100 p-4 rounded-xl shadow-sm">
+                        <span class="text-[10px] font-bold text-indigo-600 uppercase tracking-wider font-sans block mb-1">Dano Físico Básico</span>
+                        <div class="font-serif text-xl font-bold text-magic-900 mb-1">3 + 1d6 + Físico</div>
+                        <p class="text-[11px] text-gray-500 font-sans leading-tight">Utilizado por armas físicas como espadas, machados, lanças e arcos.</p>
+                    </div>
+                    <div class="bg-cyan-50/50 border border-cyan-100 p-4 rounded-xl shadow-sm">
+                        <span class="text-[10px] font-bold text-cyan-600 uppercase tracking-wider font-sans block mb-1">Dano Mágico Básico</span>
+                        <div class="font-serif text-xl font-bold text-magic-900 mb-1">3 + 1d6 + Magia</div>
+                        <p class="text-[11px] text-gray-500 font-sans leading-tight">Utilizado por varinhas, cajados, orbes e canalizadores de Arcana.</p>
+                    </div>
+                    <div class="bg-amber-50/50 border border-amber-100 p-4 rounded-xl shadow-sm">
+                        <span class="text-[10px] font-bold text-amber-700 uppercase tracking-wider font-sans block mb-1">Dano Crítico</span>
+                        <div class="font-serif text-xl font-bold text-amber-900 mb-1">Máximo + 1d6 Extra</div>
+                        <p class="text-[11px] text-gray-500 font-sans leading-tight">Maximiza o valor base dos dados da arma e adiciona +1d6 de força extra.</p>
+                    </div>
+                </div>
+
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-6 mt-6">
+                    <!-- FÍSICOS -->
+                    <div class="space-y-4">
+                        <div class="bg-slate-900 text-white px-4 py-3 rounded-xl flex items-center justify-between shadow-md">
+                            <span class="font-serif font-bold text-base flex items-center gap-2">
+                                🗡️ Danos Físicos <span class="text-[10px] text-slate-300 font-sans font-normal">(Custo: +1 PA)</span>
+                            </span>
+                            <span class="bg-orange-500 text-white text-[9px] font-bold px-2 py-0.5 rounded uppercase tracking-wider font-sans">Físico Ativo</span>
+                        </div>
+                        <p class="text-xs text-gray-500 italic font-sans px-1">
+                            Ao acertar um ataque físico, o atacante pode gastar <strong>1 PA adicional</strong> no mesmo turno para ativar o efeito especial da sua arma.
+                        </p>
+
+                        <!-- Cortante -->
+                        <div class="bg-white border border-slate-200/80 rounded-xl p-4 hover:border-indigo-300 hover:shadow-md transition-all duration-200 shadow-sm">
+                            <div class="flex items-center justify-between mb-2">
+                                <span class="font-serif font-bold text-base text-magic-900">1. Cortante <span class="font-sans font-normal text-xs text-gray-500 block md:inline md:ml-1">(Espadas, Machados, Foices)</span></span>
+                                <span class="bg-red-50 text-red-800 text-[10px] font-bold px-2 py-0.5 rounded font-sans border border-red-100 uppercase tracking-wider">Sangramento</span>
+                            </div>
+                            <p class="text-xs text-gray-700 leading-relaxed font-sans mb-3">
+                                <em>O corte limpo que rompe a carne e causa perda contínua de vitalidade.</em>
+                            </p>
+                            <div class="space-y-2 text-xs text-gray-600 font-sans">
+                                <p><strong>Efeito:</strong> O alvo recebe 1 Ponto de Sangramento. No início de cada um dos turnos dele, ele sofre <strong>2 de dano direto nos PV</strong> (ignora PR) para cada Ponto de Sangramento ativo.</p>
+                                <p class="bg-red-50/50 text-red-950 px-2.5 py-1.5 rounded border border-red-100/60 text-[11px] flex items-start gap-1.5 leading-normal">
+                                    <svg class="w-3.5 h-3.5 flex-shrink-0 mt-0.5 text-red-600" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z"></path></svg>
+                                    <span><strong>Salvamento:</strong> Após sofrer o dano no seu turno, o alvo testa <strong>Físico + Vigor (DT 12 + Pontos de Sangramento)</strong>. Sucesso zera o sangramento; falha mantém o efeito ativo para a próxima rodada.</span>
+                                </p>
+                            </div>
+                        </div>
+
+                        <!-- Perfurante -->
+                        <div class="bg-white border border-slate-200/80 rounded-xl p-4 hover:border-indigo-300 hover:shadow-md transition-all duration-200 shadow-sm">
+                            <div class="flex items-center justify-between mb-2">
+                                <span class="font-serif font-bold text-base text-magic-900">2. Perfurante <span class="font-sans font-normal text-xs text-gray-500 block md:inline md:ml-1">(Adagas, Lanças, Flechas)</span></span>
+                                <span class="bg-amber-50 text-amber-800 text-[10px] font-bold px-2 py-0.5 rounded font-sans border border-amber-100 uppercase tracking-wider">Perfuração Brutal</span>
+                            </div>
+                            <p class="text-xs text-gray-700 leading-relaxed font-sans mb-3">
+                                <em>O ataque preciso que busca as frestas das armaduras e pontos vitais.</em>
+                            </p>
+                            <div class="space-y-2 text-xs text-gray-600 font-sans leading-normal">
+                                <p><strong>Efeito:</strong> Você foca o impacto em um ponto vulnerável. O dano deste ataque **ignora até 3 pontos de Proteção (PR)** do alvo, atingindo os PVs com mais facilidade.</p>
+                                <p><strong>Debuff:</strong> Se o ataque causar dano diretamente nos PV do alvo, a dor lancinante impõe **1 Desvantagem (-1d6)** na próxima rolagem física que o inimigo realizar.</p>
+                            </div>
+                        </div>
+
+                        <!-- Contusão -->
+                        <div class="bg-white border border-slate-200/80 rounded-xl p-4 hover:border-indigo-300 hover:shadow-md transition-all duration-200 shadow-sm">
+                            <div class="flex items-center justify-between mb-2">
+                                <span class="font-serif font-bold text-base text-magic-900">3. Contusão <span class="font-sans font-normal text-xs text-gray-500 block md:inline md:ml-1">(Martelos, Maças, Bastões Pesados, Punhos)</span></span>
+                                <span class="bg-indigo-50 text-indigo-800 text-[10px] font-bold px-2 py-0.5 rounded font-sans border border-indigo-100 uppercase tracking-wider">Quebra de Armadura</span>
+                            </div>
+                            <p class="text-xs text-gray-700 leading-relaxed font-sans mb-3">
+                                <em>O impacto bruto projetado para esmagar couraças, amassar escudos e estilhaçar barreiras mágicas.</em>
+                            </p>
+                            <div class="space-y-2 text-xs text-gray-600 font-sans leading-normal">
+                                <p><strong>Efeito:</strong> Você foca toda a energia cinética na estrutura defensiva do alvo. Ao acertar o ataque e gastar 1 PA, o dano direcionado à <strong>Proteção (PR)</strong> do oponente é <strong>dobrado</strong>. <em>(Nota: O dano extra atua apenas contra a PR; qualquer dano que ultrapasse o escudo e atinja a Vitalidade (PV) volta ao valor normal).</em></p>
+                                <p class="bg-red-50/50 text-red-950 px-2.5 py-1.5 rounded border border-red-100/60 text-[11px] flex items-start gap-1.5 mt-2">
+                                    <svg class="w-3.5 h-3.5 flex-shrink-0 mt-0.5 text-red-600" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z"></path></svg>
+                                    <span><strong>Destruição de Item:</strong> Caso a Proteção zerada por este golpe seja proveniente de um equipamento (armadura física, amuleto ou item mágico de defesa), o estresse mecânico é avassalador. O item recebe imediatamente <strong>2 pontos de Danificado (Quebra)</strong>, acelerando drasticamente a sua destruição completa.</span>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- MÁGICOS -->
+                    <div class="space-y-4">
+                        <div class="bg-indigo-950 text-white px-4 py-3 rounded-xl flex items-center justify-between shadow-md">
+                            <span class="font-serif font-bold text-base flex items-center gap-2">
+                                ✨ Danos Mágicos <span class="text-[10px] text-indigo-300 font-sans font-normal">(Custo: 1 PM)</span>
+                            </span>
+                            <span class="bg-cyan-500 text-white text-[9px] font-bold px-2 py-0.5 rounded uppercase tracking-wider font-sans">Mana Ativo</span>
+                        </div>
+                        <p class="text-xs text-gray-500 italic font-sans px-1">
+                            Ao acertar um ataque mágico, o aluno pode gastar <strong>1 PM</strong> para manifestar a reação mágica secundária da Arcana utilizada.
+                        </p>
+
+                        <!-- Fogo -->
+                        <div class="bg-white border border-slate-200/80 rounded-xl p-4 hover:border-cyan-300 hover:shadow-md transition-all duration-200 shadow-sm">
+                            <div class="flex items-center justify-between mb-2">
+                                <span class="font-serif font-bold text-base text-magic-900">1. Fogo / Combustão <span class="font-sans font-normal text-xs text-gray-500 block md:inline md:ml-1">(Fogo)</span></span>
+                                <span class="bg-orange-50 text-orange-800 text-[10px] font-bold px-2 py-0.5 rounded font-sans border border-orange-100 uppercase tracking-wider">Queimadura</span>
+                            </div>
+                            <p class="text-xs text-gray-700 leading-relaxed font-sans mb-3">
+                                <em>A chama faminta que consome tudo.</em>
+                            </p>
+                            <div class="space-y-2 text-xs text-gray-600 font-sans">
+                                <p><strong>Efeito:</strong> O alvo é incendiado. No início de cada turno dele, a chama causa <strong>1d6 de dano de fogo</strong> (reduz a Proteção/PR antes de atingir os PV).</p>
+                                <p class="bg-orange-50/50 text-orange-950 px-2.5 py-1.5 rounded border border-orange-100/60 text-[11px] flex items-start gap-1.5 leading-normal">
+                                    <svg class="w-3.5 h-3.5 flex-shrink-0 mt-0.5 text-orange-600" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z"></path></svg>
+                                    <span><strong>Salvamento:</strong> O alvo pode testar <strong>Físico + Destreza (DT 12 + seu Atributo Magia [do atacante])</strong>. Em caso de sucesso, apaga as chamas gastando o movimento do corpo; falha continua queimando.</span>
+                                </p>
+                            </div>
+                        </div>
+
+                        <!-- Gelo -->
+                        <div class="bg-white border border-slate-200/80 rounded-xl p-4 hover:border-cyan-300 hover:shadow-md transition-all duration-200 shadow-sm">
+                            <div class="flex items-center justify-between mb-2">
+                                <span class="font-serif font-bold text-base text-magic-900">2. Gelo / Água <span class="font-sans font-normal text-xs text-gray-500 block md:inline md:ml-1">(Água)</span></span>
+                                <span class="bg-blue-50 text-blue-800 text-[10px] font-bold px-2 py-0.5 rounded font-sans border border-blue-100 uppercase tracking-wider">Congelamento Parcial</span>
+                            </div>
+                            <p class="text-xs text-gray-700 leading-relaxed font-sans mb-3">
+                                <em>O frio absoluto que enrijece os músculos e congela juntas.</em>
+                            </p>
+                            <div class="space-y-2 text-xs text-gray-600 font-sans">
+                                <p><strong>Efeito:</strong> Camadas de gelo se formam sobre o alvo, reduzindo seu deslocamento pela metade.</p>
+                                <p class="bg-blue-50/50 text-blue-950 px-2.5 py-1.5 rounded border border-blue-100/60 text-[11px] flex items-start gap-1.5 leading-normal">
+                                    <svg class="w-3.5 h-3.5 flex-shrink-0 mt-0.5 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z"></path></svg>
+                                    <span><strong>Salvamento:</strong> O alvo testa <strong>Físico + Vigor (DT 12 + seu Atributo Magia [do atacante])</strong>. Se falhar, seu limite de ações no próximo turno cai para **2 PA** (em vez de 3 PA).</span>
+                                </p>
+                            </div>
+                        </div>
+
+                        <!-- Raio -->
+                        <div class="bg-white border border-slate-200/80 rounded-xl p-4 hover:border-cyan-300 hover:shadow-md transition-all duration-200 shadow-sm">
+                            <div class="flex items-center justify-between mb-2">
+                                <span class="font-serif font-bold text-base text-magic-900">3. Raio / Vento <span class="font-sans font-normal text-xs text-gray-500 block md:inline md:ml-1">(Elétrico)</span></span>
+                                <span class="bg-purple-50 text-purple-800 text-[10px] font-bold px-2 py-0.5 rounded font-sans border border-purple-100 uppercase tracking-wider">Choque Paralisante</span>
+                            </div>
+                            <p class="text-xs text-gray-700 leading-relaxed font-sans mb-3">
+                                <em>A descarga estática que sobrecarrega o sistema nervoso.</em>
+                            </p>
+                            <div class="space-y-2 text-xs text-gray-600 font-sans">
+                                <p><strong>Efeito:</strong> A eletricidade gera espasmos imediatos. O inimigo perde a capacidade de usar qualquer **Reação** até o fim do seu próximo turno.</p>
+                                <p class="bg-purple-50/50 text-purple-950 px-2.5 py-1.5 rounded border border-purple-100/60 text-[11px] flex items-start gap-1.5 leading-normal">
+                                    <svg class="w-3.5 h-3.5 flex-shrink-0 mt-0.5 text-purple-600" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z"></path></svg>
+                                    <span><strong>Salvamento Extra:</strong> O alvo testa <strong>Mental + Vontade (DT 12 + seu Atributo Magia [do atacante])</strong>. Se falhar, sofre um espasmo grave e **larga automaticamente** o que estiver segurando.</span>
+                                </p>
+                            </div>
+                        </div>
+
+                        <!-- Força Arcana -->
+                        <div class="bg-white border border-slate-200/80 rounded-xl p-4 hover:border-cyan-300 hover:shadow-md transition-all duration-200 shadow-sm">
+                            <div class="flex items-center justify-between mb-2">
+                                <span class="font-serif font-bold text-base text-magic-900">4. Força / Psíquico <span class="font-sans font-normal text-xs text-gray-500 block md:inline md:ml-1">(Mana / Psíquico)</span></span>
+                                <span class="bg-cyan-50 text-cyan-800 text-[10px] font-bold px-2 py-0.5 rounded font-sans border border-cyan-100 uppercase tracking-wider">Desorientação</span>
+                            </div>
+                            <p class="text-xs text-gray-700 leading-relaxed font-sans mb-3">
+                                <em>A pura pressão da mana ou invasão mental não elemental.</em>
+                            </p>
+                            <div class="space-y-2 text-xs text-gray-600 font-sans leading-normal">
+                                <p><strong>Efeito:</strong> Causa vertigem instantânea. O próximo ataque que o inimigo realizar sofrerá **1 Desvantagem (-1d6)**.</p>
+                                <p><strong>Abertura:</strong> O próximo ataque que qualquer aliado fizer *contra* este inimigo recebe **1 Vantagem (+1d6)**.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <hr class="my-8 border-gray-200">
 
                 <h3 class="text-2xl mt-6 mb-2">Economia de Ações (PA)</h3>
                 <p class="mb-2">Todo personagem recebe <strong>3 Pontos de Ação (PA)</strong> no início de seu turno.</p>
@@ -195,6 +366,136 @@
                         </ul>
                     </div>
                 </div>
+            </section>
+
+            <!-- Section 4 -->
+            <section class="content-section">
+                <h2 class="text-3xl border-b-2 border-magic-100 pb-2 mb-4">4. Economia Escolar: Créditos & Prestígio</h2>
+                <p class="mb-6 text-gray-700 leading-relaxed font-sans">
+                    A inclusão de <strong class="text-indigo-900 font-semibold">Créditos</strong> e <strong class="text-amber-900 font-semibold">Prestígio</strong> amarra perfeitamente o sistema ao tema de uma "Escola de Magia". Em vez de caçar moedas de ouro ou saquear tesouros em masmorras como em RPGs tradicionais, os alunos de <em>Doze Arcanas</em> lidam com a burocracia escolar, o desempenho acadêmico e as cruéis dinâmicas sociais da adolescência mágica.
+                </p>
+
+                <!-- Dual Currency Container -->
+                <div class="grid grid-cols-1 lg:grid-cols-2 gap-8 mt-6">
+                    
+                    <!-- CRÉDITOS ACADÊMICOS (COLUNA INDIGO) -->
+                    <div class="bg-indigo-50/20 border border-indigo-100 rounded-2xl p-6 shadow-md hover:shadow-lg transition-all duration-300">
+                        <!-- Header da Moeda -->
+                        <div class="flex items-center gap-3 pb-4 mb-5 border-b border-indigo-100">
+                            <div class="p-3 bg-indigo-600 text-white rounded-xl shadow-md">
+                                <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253"></path>
+                                </svg>
+                            </div>
+                            <div>
+                                <h3 class="text-2xl font-serif text-magic-900 mb-0.5">Créditos Acadêmicos</h3>
+                                <span class="bg-indigo-100 text-indigo-800 text-[10px] font-bold px-2 py-0.5 rounded font-sans uppercase tracking-wider">A Moeda Prática</span>
+                            </div>
+                        </div>
+
+                        <p class="text-xs text-gray-600 font-sans leading-relaxed mb-6">
+                            Os Créditos são a representação tangível do seu valor para a instituição. Eles substituem o dinheiro comum e medem a confiança que a escola deposita no aluno, permitindo o intercâmbio de favores, recursos e privilégios.
+                        </p>
+
+                        <div class="space-y-4">
+                            <!-- Como Ganhar -->
+                            <div class="bg-white border border-slate-200/80 rounded-xl p-4 hover:border-indigo-300 hover:shadow-md transition-all duration-200 shadow-sm">
+                                <div class="flex items-center gap-2 mb-2">
+                                    <svg class="w-5 h-5 text-emerald-500" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 11l3-3m0 0l3 3m-3-3v8m0-13a9 9 0 110 18 9 9 0 010-18z"></path>
+                                    </svg>
+                                    <span class="font-serif font-bold text-base text-magic-900">Como Ganhar</span>
+                                </div>
+                                <ul class="text-xs text-gray-600 font-sans space-y-2 pl-4 list-disc mb-0">
+                                    <li><strong>Desempenho Acadêmico:</strong> Tirar notas altas em exames (testes da perícia <em>Conhecimento</em>), apresentar trabalhos excepcionais ou auxiliar professores em pesquisas.</li>
+                                    <li><strong>Atividades Extracurriculares:</strong> Participar de clubes acadêmicos (como o Clube de Duelos ou de Alquimia) e vencer torneios esportivos.</li>
+                                    <li><strong>Missões Escolares:</strong> Cumprir tarefas dadas por monitores, professores ou pelo próprio diretor (ex: investigar uma criatura solta nas estufas).</li>
+                                </ul>
+                            </div>
+
+                            <!-- Como Gastar -->
+                            <div class="bg-white border border-slate-200/80 rounded-xl p-4 hover:border-indigo-300 hover:shadow-md transition-all duration-200 shadow-sm">
+                                <div class="flex items-center gap-2 mb-2">
+                                    <svg class="w-5 h-5 text-indigo-600" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z"></path>
+                                    </svg>
+                                    <span class="font-serif font-bold text-base text-magic-900">Como Gastar</span>
+                                </div>
+                                <ul class="text-xs text-gray-600 font-sans space-y-2 pl-4 list-disc mb-0">
+                                    <li><strong>Equipamentos:</strong> Adquirir novos itens de Proteção (PR), varinhas catalisadoras, ingredientes raros de Ofício ou poções na intendência da escola.</li>
+                                    <li><strong>Informação e Acesso:</strong> Pagar o passe para acessar a Seção Restrita da biblioteca, comprar chaves de laboratórios avançados para usar à noite ou solicitar permissões de saída para vilas vizinhas.</li>
+                                </ul>
+                            </div>
+
+                            <!-- Como Perder (Punições) -->
+                            <div class="bg-rose-50/50 border border-rose-100 rounded-xl p-4 hover:border-rose-200 hover:shadow-md transition-all duration-200 shadow-sm">
+                                <div class="flex items-center gap-2 mb-2">
+                                    <svg class="w-5 h-5 text-rose-600" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z"></path>
+                                    </svg>
+                                    <span class="font-serif font-bold text-base text-rose-900">Como Perder (Sistema de Punição)</span>
+                                </div>
+                                <p class="text-xs text-rose-950 font-sans leading-normal mb-0">
+                                    Quebrar as regras da escola (ser pego fora da cama após o toque de recolher, usar magia em corredores, duelar sem supervisão ou invadir áreas restritas) resulta em multas e na <strong>dedução direta de Créditos</strong>. Um aluno com saldo negativo perde privilégios básicos e pode sofrer detenção ou até suspensão de privilégios.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- PRESTÍGIO (COLUNA AMBER) -->
+                    <div class="bg-amber-50/20 border border-amber-100 rounded-2xl p-6 shadow-md hover:shadow-lg transition-all duration-300">
+                        <!-- Header da Moeda -->
+                        <div class="flex items-center gap-3 pb-4 mb-5 border-b border-amber-100">
+                            <div class="p-3 bg-amber-600 text-white rounded-xl shadow-md">
+                                <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z"></path>
+                                </svg>
+                            </div>
+                            <div>
+                                <h3 class="text-2xl font-serif text-magic-900 mb-0.5">Prestígio</h3>
+                                <span class="bg-amber-100 text-amber-900 text-[10px] font-bold px-2 py-0.5 rounded font-sans uppercase tracking-wider">A Moeda Social</span>
+                            </div>
+                        </div>
+
+                        <p class="text-xs text-gray-600 font-sans leading-relaxed mb-6">
+                            Se os Créditos ditam o que você pode <em>ter</em>, o Prestígio dita quem você <em>é</em>. Ele não é apenas um número a ser gasto, mas um status que acompanha o personagem e define como o ecossistema da escola reage a ele.
+                        </p>
+
+                        <div class="space-y-4">
+                            <!-- A Dupla Natureza -->
+                            <div class="bg-white border border-slate-200/80 rounded-xl p-4 hover:border-amber-300 hover:shadow-md transition-all duration-200 shadow-sm">
+                                <div class="flex items-center gap-2 mb-2">
+                                    <svg class="w-5 h-5 text-amber-600" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14.828 14.828a4 4 0 01-5.656 0M9 10h.01M15 10h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+                                    </svg>
+                                    <span class="font-serif font-bold text-base text-magic-900">A Dupla Natureza do Prestígio</span>
+                                </div>
+                                <ul class="text-xs text-gray-600 font-sans space-y-2 pl-4 list-disc mb-0">
+                                    <li><strong>A Fama (O Quanto te conhecem):</strong> Vai do anonimato completo até a popularidade absoluta. Um aluno com alto Prestígio é reconhecido nos corredores; seus feitos (ou boatos sobre eles) chegam aos ouvidos dos professores e líderes de outras Casas.</li>
+                                    <li><strong>A Reputação (Como te conhecem):</strong> O Prestígio carrega um "título" narrativo baseado em suas ações. Você pode ter um Prestígio alto como o <em class="text-amber-800 font-medium">"Gênio Benevolente"</em>, o <em class="text-amber-800 font-medium">"Encrenqueiro Temido"</em> ou o <em class="text-amber-800 font-medium">"Herdeiro Arrogante"</em>.</li>
+                                </ul>
+                            </div>
+
+                            <!-- Impactos Mecânicos -->
+                            <div class="bg-white border border-slate-200/80 rounded-xl p-4 hover:border-amber-300 hover:shadow-md transition-all duration-200 shadow-sm">
+                                <div class="flex items-center gap-2 mb-2">
+                                    <svg class="w-5 h-5 text-indigo-600" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"></path>
+                                    </svg>
+                                    <span class="font-serif font-bold text-base text-magic-900">Impacto Mecânico no Jogo</span>
+                                </div>
+                                <ul class="text-xs text-gray-600 font-sans space-y-2 pl-4 list-disc mb-0">
+                                    <li><strong>Bônus Sociais:</strong> Ter um Prestígio alinhado com o NPC com quem você está interagindo pode conceder <strong>1 Vantagem (+1d6)</strong> em testes do atributo <strong>Social</strong> (<em>Persuadir</em> ou <em>Intimidar</em>). Por exemplo, um aluno com a reputação de "Encrenqueiro Perigoso" tem facilidade para intimidar calouros.</li>
+                                    <li><strong>Abertura de Portas (Sem gastar Créditos):</strong> Certos NPCs (como o capitão do time esportivo ou o líder do grêmio estudantil) só aceitam conversar ou passar missões exclusivas para alunos que possuam um nível mínimo de Prestígio.</li>
+                                    <li><strong>O Peso da Fama:</strong> Ter Prestígio muito alto torna quase impossível realizar ações Furtivas ou passar despercebido. Se você é a estrela da escola, sempre haverá alguém prestando atenção no que você está fazendo.</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <hr class="my-8 border-gray-200">
             </section>
 
             <!-- Section 5 -->
@@ -220,6 +521,7 @@
                             <li><strong>A Lâmina</strong> Ataques e encantamentos <br><span class="text-xs text-gray-500">(Encantar, Fenda, Execução Arcana)</span></li>
                             <li><strong>O Bastião</strong> Defesa e retaliação <br><span class="text-xs text-gray-500">(Escudo Arcano, Retaliação Rúnica, Fortaleza Inabalável)</span></li>
                             <li><strong>A Vanguarda</strong> Mobilidade e impacto <br><span class="text-xs text-gray-500">(Acelerar, Impacto Meteórico, Deslize Dimensional)</span></li>
+                            <li><strong>O Franco-Atirador</strong> À distância e precisão <br><span class="text-xs text-gray-500">(Disparo Energizado, Mira Perfurante, Tiro de Execução)</span></li>
                         </ul>
                         <div class="mt-4 pt-3 border-t border-gray-100 flex items-center justify-between text-xs text-indigo-600 font-semibold group-hover:text-indigo-800">
                             <span>Explorar Especializações</span>
@@ -243,6 +545,7 @@
                             <li><strong>Elementalista</strong> Dano em área <br><span class="text-xs text-gray-500">(Erupção Elemental, Tempestade Persistente, Cataclismo)</span></li>
                             <li><strong>Mestre de Vínculos</strong> Familiares e evocações <br><span class="text-xs text-gray-500">(Evocar Servil Arcano, Elo de Sangue e Mana, Avatar de Invocação)</span></li>
                             <li><strong>Mestre de Domínios</strong> Alteração de terreno <br><span class="text-xs text-gray-500">(Muralha Mística, Pântano Arcano, Santuário do Manipulador)</span></li>
+                            <li><strong>O Arquiteto de Construtos</strong> Torres e dispositivos <br><span class="text-xs text-gray-500">(Sentinela Arcana, Campo de Interação, Sobrecarga do Arquiteto)</span></li>
                         </ul>
                         <div class="mt-4 pt-3 border-t border-gray-100 flex items-center justify-between text-xs text-cyan-600 font-semibold group-hover:text-cyan-800">
                             <span>Explorar Especializações</span>
@@ -266,6 +569,7 @@
                             <li><strong>Metamorfo</strong> Transformação anatômica <br><span class="text-xs text-gray-500">(Mutação de Batalha, Fisiologia Fluida, Quimera Arcana)</span></li>
                             <li><strong>Artífice da Matéria</strong> Alteração de cenário <br><span class="text-xs text-gray-500">(Transmutar Objeto, Sabotagem Arcana, Definir Ambiente)</span></li>
                             <li><strong>Biomante</strong> Buffs e debuffs corporais <br><span class="text-xs text-gray-500">(Costura Celular, Toque da Atrofia, Sobrecarga Vital)</span></li>
+                            <li><strong>O Alquimista Volátil</strong> Reações e consumíveis <br><span class="text-xs text-gray-500">(Mistura Instável, Catalisador Reativo, Transmutação Sanguínea)</span></li>
                         </ul>
                         <div class="mt-4 pt-3 border-t border-gray-100 flex items-center justify-between text-xs text-emerald-600 font-semibold group-hover:text-emerald-800">
                             <span>Explorar Especializações</span>
@@ -289,6 +593,7 @@
                             <li><strong>Ilusionista</strong> Falsa realidade visual/auditiva <br><span class="text-xs text-gray-500">(Imagem Falsa, Véu do Oculto, Pesadelo)</span></li>
                             <li><strong>Controlador</strong> Controle mental e punição <br><span class="text-xs text-gray-500">(Chicote Psíquico, Comando Subconsciente, Marionete Arcana)</span></li>
                             <li><strong>Dobrador do Destino</strong> Probabilidades temporais <br><span class="text-xs text-gray-500">(Fio da Causalidade, Sorte Roubada, Isso não aconteceu)</span></li>
+                            <li><strong>O Oráculo</strong> Premonição e interrupção <br><span class="text-xs text-gray-500">(Visão de Segundos, Ruído de Pensamento, Sincronia Tática Absoluta)</span></li>
                         </ul>
                         <div class="mt-4 pt-3 border-t border-gray-100 flex items-center justify-between text-xs text-purple-600 font-semibold group-hover:text-purple-800">
                             <span>Explorar Especializações</span>
@@ -333,6 +638,10 @@
                             <span class="font-serif text-base">A Vanguarda</span>
                             <span class="text-[9px] text-gray-400 uppercase tracking-wider font-sans font-normal">Mobilidade & Feitiços</span>
                         </button>
+                        <button onclick="switchSpec('francoatirador')" id="tab-francoatirador" class="flex-1 min-w-[120px] py-3 px-4 rounded-lg font-semibold text-sm transition-all duration-200 flex flex-col items-center justify-center gap-1 border border-transparent text-gray-500 hover:text-gray-800 hover:bg-gray-100/70 focus:outline-none">
+                            <span class="font-serif text-base">O Franco-Atirador</span>
+                            <span class="text-[9px] text-gray-400 uppercase tracking-wider font-sans font-normal">À Distância & Precisão</span>
+                        </button>
                     </div>
 
                     <!-- Specialization Navigation for Invocador -->
@@ -348,6 +657,10 @@
                         <button onclick="switchSpec('dominios')" id="tab-dominios" class="flex-1 min-w-[120px] py-3 px-4 rounded-lg font-semibold text-sm transition-all duration-200 flex flex-col items-center justify-center gap-1 border border-transparent text-gray-500 hover:text-gray-800 hover:bg-gray-100/70 focus:outline-none">
                             <span class="font-serif text-base">Mestre de Domínios</span>
                             <span class="text-[9px] text-gray-400 uppercase tracking-wider font-sans font-normal">Terreno & Espaço</span>
+                        </button>
+                        <button onclick="switchSpec('arquiteto')" id="tab-arquiteto" class="flex-1 min-w-[120px] py-3 px-4 rounded-lg font-semibold text-sm transition-all duration-200 flex flex-col items-center justify-center gap-1 border border-transparent text-gray-500 hover:text-gray-800 hover:bg-gray-100/70 focus:outline-none">
+                            <span class="font-serif text-base">O Arquiteto</span>
+                            <span class="text-[9px] text-gray-400 uppercase tracking-wider font-sans font-normal">Torres & Dispositivos</span>
                         </button>
                     </div>
 
@@ -365,6 +678,10 @@
                             <span class="font-serif text-base">Biomante</span>
                             <span class="text-[9px] text-gray-400 uppercase tracking-wider font-sans font-normal">Buffs & Debuffs</span>
                         </button>
+                        <button onclick="switchSpec('alquimista')" id="tab-alquimista" class="flex-1 min-w-[120px] py-3 px-4 rounded-lg font-semibold text-sm transition-all duration-200 flex flex-col items-center justify-center gap-1 border border-transparent text-gray-500 hover:text-gray-800 hover:bg-gray-100/70 focus:outline-none">
+                            <span class="font-serif text-base">Alquimista Volátil</span>
+                            <span class="text-[9px] text-gray-400 uppercase tracking-wider font-sans font-normal">Reações & Consumíveis</span>
+                        </button>
                     </div>
 
                     <!-- Specialization Navigation for Mentalista -->
@@ -380,6 +697,10 @@
                         <button onclick="switchSpec('dobrador')" id="tab-dobrador" class="flex-1 min-w-[120px] py-3 px-4 rounded-lg font-semibold text-sm transition-all duration-200 flex flex-col items-center justify-center gap-1 border border-transparent text-gray-500 hover:text-gray-800 hover:bg-gray-100/70 focus:outline-none">
                             <span class="font-serif text-base">Dobrador do Destino</span>
                             <span class="text-[9px] text-gray-400 uppercase tracking-wider font-sans font-normal">Manipulação de Sorte</span>
+                        </button>
+                        <button onclick="switchSpec('oraculo')" id="tab-oraculo" class="flex-1 min-w-[120px] py-3 px-4 rounded-lg font-semibold text-sm transition-all duration-200 flex flex-col items-center justify-center gap-1 border border-transparent text-gray-500 hover:text-gray-800 hover:bg-gray-100/70 focus:outline-none">
+                            <span class="font-serif text-base">O Oráculo</span>
+                            <span class="text-[9px] text-gray-400 uppercase tracking-wider font-sans font-normal">Premonição & Interrupção</span>
                         </button>
                     </div>
 
@@ -647,6 +968,77 @@
                             </div>
                         </div>
 
+                        <!-- O FRANCO-ATIRADOR SPEC CONTENT -->
+                        <div id="spec-content-francoatirador" class="spec-content space-y-6 hidden">
+                            <div class="flex items-center gap-2 border-b border-gray-100 pb-3 mb-4">
+                                <span class="w-2.5 h-2.5 rounded-full bg-indigo-600"></span>
+                                <h4 class="font-bold text-lg text-magic-900 font-serif">O Franco-Atirador <span class="font-sans font-normal text-sm text-gray-500 ml-1">| Especialização focada em Combate à Distância e Precisão</span></h4>
+                            </div>
+
+                            <!-- Nivel 1 -->
+                            <div class="bg-slate-50 border border-slate-200/80 rounded-xl p-5 hover:border-indigo-300 hover:bg-slate-50/50 transition-all duration-200 shadow-sm">
+                                <div class="flex flex-wrap items-center justify-between gap-3 mb-3">
+                                    <div class="flex items-center gap-3">
+                                        <span class="bg-amber-50 border border-amber-200 text-amber-800 text-[10px] font-bold px-2 py-1 rounded tracking-wider font-sans">NÍVEL 1</span>
+                                        <h5 class="font-bold text-xl text-magic-900 font-serif">Disparo Energizado</h5>
+                                    </div>
+                                    <div class="flex gap-2">
+                                        <span class="bg-orange-50 border border-orange-200/60 text-orange-800 text-xs font-semibold px-2.5 py-0.5 rounded flex items-center gap-1.5 shadow-sm">
+                                            <span class="w-1.5 h-1.5 rounded-full bg-orange-500"></span> 2 PA
+                                        </span>
+                                        <span class="bg-blue-50 border border-blue-200/60 text-blue-800 text-xs font-semibold px-2.5 py-0.5 rounded flex items-center gap-1.5 shadow-sm">
+                                            <span class="w-1.5 h-1.5 rounded-full bg-blue-500"></span> 3 PM
+                                        </span>
+                                    </div>
+                                </div>
+                                <div class="space-y-3 text-sm text-gray-700 font-sans">
+                                    <p><strong class="text-magic-900 font-semibold">Efeito:</strong> Você concentra uma densa carga mágica na ponta do seu projétil. Você realiza um ataque à distância (alcance <strong>Longo</strong>). Se acertar, o projétil atravessa o alvo primário, atingindo também um inimigo que esteja em linha reta logo atrás dele. Ambos sofrem o dano normal da arma.</p>
+                                </div>
+                            </div>
+
+                            <!-- Nivel 2 -->
+                            <div class="bg-slate-50 border border-slate-200/80 rounded-xl p-5 hover:border-indigo-300 hover:bg-slate-50/50 transition-all duration-200 shadow-sm">
+                                <div class="flex flex-wrap items-center justify-between gap-3 mb-3">
+                                    <div class="flex items-center gap-3">
+                                        <span class="bg-slate-200 border border-slate-300 text-slate-800 text-[10px] font-bold px-2 py-1 rounded tracking-wider font-sans">NÍVEL 2</span>
+                                        <h5 class="font-bold text-xl text-magic-900 font-serif">Mira Perfurante</h5>
+                                    </div>
+                                    <div class="flex gap-2">
+                                        <span class="bg-orange-50 border border-orange-200/60 text-orange-800 text-xs font-semibold px-2.5 py-0.5 rounded flex items-center gap-1.5 shadow-sm">
+                                            <span class="w-1.5 h-1.5 rounded-full bg-orange-500"></span> 1 PA
+                                        </span>
+                                        <span class="bg-blue-50 border border-blue-200/60 text-blue-800 text-xs font-semibold px-2.5 py-0.5 rounded flex items-center gap-1.5 shadow-sm">
+                                            <span class="w-1.5 h-1.5 rounded-full bg-blue-500"></span> 2 PM
+                                        </span>
+                                    </div>
+                                </div>
+                                <div class="space-y-3 text-sm text-gray-700 font-sans">
+                                    <p><strong class="text-magic-900 font-semibold">Efeito:</strong> Você gasta um tempo precioso lendo o padrão de movimento do alvo e as frestas de sua armadura. O seu próximo ataque à distância contra esse alvo recebe <strong>1 Vantagem (+1d6)</strong> e ignora passivamente até <strong>3 Pontos de Proteção (PR)</strong>.</p>
+                                </div>
+                            </div>
+
+                            <!-- Nivel 3 -->
+                            <div class="bg-slate-50 border border-slate-200/80 rounded-xl p-5 hover:border-indigo-300 hover:bg-slate-50/50 transition-all duration-200 shadow-sm">
+                                <div class="flex flex-wrap items-center justify-between gap-3 mb-3">
+                                    <div class="flex items-center gap-3">
+                                        <span class="bg-yellow-100 border border-yellow-300 text-yellow-800 text-[10px] font-bold px-2 py-1 rounded tracking-wider font-sans">NÍVEL 3</span>
+                                        <h5 class="font-bold text-xl text-magic-900 font-serif text-indigo-950">Tiro de Execução</h5>
+                                    </div>
+                                    <div class="flex gap-2">
+                                        <span class="bg-orange-50 border border-orange-200/60 text-orange-800 text-xs font-semibold px-2.5 py-0.5 rounded flex items-center gap-1.5 shadow-sm">
+                                            <span class="w-1.5 h-1.5 rounded-full bg-orange-500"></span> 3 PA
+                                        </span>
+                                        <span class="bg-blue-50 border border-blue-200/60 text-blue-800 text-xs font-semibold px-2.5 py-0.5 rounded flex items-center gap-1.5 shadow-sm">
+                                            <span class="w-1.5 h-1.5 rounded-full bg-blue-500"></span> 6 PM
+                                        </span>
+                                    </div>
+                                </div>
+                                <div class="space-y-3 text-sm text-gray-700 font-sans">
+                                    <p><strong class="text-magic-900 font-semibold">Efeito:</strong> O disparo perfeito, calibrado com a respiração e a pulsação do universo. Você realiza um ataque à distância. Se o alvo não estiver adjacente a nenhum aliado dele (isolado), este ataque causa <strong>dano máximo automático</strong> nos dados base, e o alvo perde a capacidade de usar Reações até o fim do próximo turno dele.</p>
+                                </div>
+                            </div>
+                        </div>
+
                         <!-- ELEMENTALISTA SPEC CONTENT -->
                         <div id="spec-content-elementalista" class="spec-content space-y-6 hidden">
                             <div class="flex items-center gap-2 border-b border-gray-100 pb-3 mb-4">
@@ -904,6 +1296,77 @@
                                         <svg class="w-4 h-4 flex-shrink-0 mt-0.5 text-purple-600" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
                                         <span><strong>Regras da Casa:</strong> Dentro deste domínio, a realidade favorece você. Você e seus aliados ganham <strong>+1 de Vantagem (+1d6)</strong> em um teste por Rodada. Os ataques contra você recebem <strong>+1 de Desvantagem (-1d6)</strong>.</span>
                                     </p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- O ARQUITETO DE CONSTRUTOS SPEC CONTENT -->
+                        <div id="spec-content-arquiteto" class="spec-content space-y-6 hidden">
+                            <div class="flex items-center gap-2 border-b border-gray-100 pb-3 mb-4">
+                                <span class="w-2.5 h-2.5 rounded-full bg-cyan-500"></span>
+                                <h4 class="font-bold text-lg text-magic-900 font-serif">O Arquiteto de Construtos <span class="font-sans font-normal text-sm text-gray-500 ml-1">| Especialização focada em Torres Autônomas e Dispositivos</span></h4>
+                            </div>
+
+                            <!-- Nivel 1 -->
+                            <div class="bg-slate-50 border border-slate-200/80 rounded-xl p-5 hover:border-cyan-300 hover:bg-slate-50/50 transition-all duration-200 shadow-sm">
+                                <div class="flex flex-wrap items-center justify-between gap-3 mb-3">
+                                    <div class="flex items-center gap-3">
+                                        <span class="bg-amber-50 border border-amber-200 text-amber-800 text-[10px] font-bold px-2 py-1 rounded tracking-wider font-sans">NÍVEL 1</span>
+                                        <h5 class="font-bold text-xl text-magic-900 font-serif">Sentinela Arcana</h5>
+                                    </div>
+                                    <div class="flex gap-2">
+                                        <span class="bg-orange-50 border border-orange-200/60 text-orange-800 text-xs font-semibold px-2.5 py-0.5 rounded flex items-center gap-1.5 shadow-sm">
+                                            <span class="w-1.5 h-1.5 rounded-full bg-orange-500"></span> 2 PA
+                                        </span>
+                                        <span class="bg-blue-50 border border-blue-200/60 text-blue-800 text-xs font-semibold px-2.5 py-0.5 rounded flex items-center gap-1.5 shadow-sm">
+                                            <span class="w-1.5 h-1.5 rounded-full bg-blue-500"></span> 4 PM
+                                        </span>
+                                    </div>
+                                </div>
+                                <div class="space-y-3 text-sm text-gray-700 font-sans">
+                                    <p><strong class="text-magic-900 font-semibold">Efeito:</strong> Você conjura um cristal flutuante ou um totem mecânico em um espaço vazio até o alcance <strong>Médio</strong>. A Sentinela possui <strong>10 PV</strong> e PR igual à sua Magia. No início de cada um de seus turnos, a Sentinela ataca automaticamente um inimigo em alcance <strong>Curto</strong> dela (rolando seu teste de Magia) e causando <strong>1d6 + Magia</strong> de dano (não gasta seus PA). Você pode manter até 2 Sentinelas ativas simultaneamente.</p>
+                                </div>
+                            </div>
+
+                            <!-- Nivel 2 -->
+                            <div class="bg-slate-50 border border-slate-200/80 rounded-xl p-5 hover:border-cyan-300 hover:bg-slate-50/50 transition-all duration-200 shadow-sm">
+                                <div class="flex flex-wrap items-center justify-between gap-3 mb-3">
+                                    <div class="flex items-center gap-3">
+                                        <span class="bg-slate-200 border border-slate-300 text-slate-800 text-[10px] font-bold px-2 py-1 rounded tracking-wider font-sans">NÍVEL 2</span>
+                                        <h5 class="font-bold text-xl text-magic-900 font-serif">Campo de Interação</h5>
+                                    </div>
+                                    <div class="flex gap-2">
+                                        <span class="bg-orange-50 border border-orange-200/60 text-orange-800 text-xs font-semibold px-2.5 py-0.5 rounded flex items-center gap-1.5 shadow-sm">
+                                            <span class="w-1.5 h-1.5 rounded-full bg-orange-500"></span> 1 PA
+                                        </span>
+                                        <span class="bg-blue-50 border border-blue-200/60 text-blue-800 text-xs font-semibold px-2.5 py-0.5 rounded flex items-center gap-1.5 shadow-sm">
+                                            <span class="w-1.5 h-1.5 rounded-full bg-blue-500"></span> 3 PM
+                                        </span>
+                                    </div>
+                                </div>
+                                <div class="space-y-3 text-sm text-gray-700 font-sans">
+                                    <p><strong class="text-magic-900 font-semibold">Efeito:</strong> Você ativa uma ressonância entre você e suas Sentinelas. A área ao redor (alcance <strong>Curto</strong>) de cada Sentinela sua se torna uma zona de buff. Aliados dentro dessa área ganham <strong>+2 de Proteção (PR) passiva</strong> e regeneram 1 PM no início de seus turnos enquanto permanecerem lá.</p>
+                                </div>
+                            </div>
+
+                            <!-- Nivel 3 -->
+                            <div class="bg-slate-50 border border-slate-200/80 rounded-xl p-5 hover:border-cyan-300 hover:bg-slate-50/50 transition-all duration-200 shadow-sm">
+                                <div class="flex flex-wrap items-center justify-between gap-3 mb-3">
+                                    <div class="flex items-center gap-3">
+                                        <span class="bg-yellow-100 border border-yellow-300 text-yellow-800 text-[10px] font-bold px-2 py-1 rounded tracking-wider font-sans">NÍVEL 3</span>
+                                        <h5 class="font-bold text-xl text-magic-900 font-serif text-cyan-950">Sobrecarga do Arquiteto</h5>
+                                    </div>
+                                    <div class="flex gap-2">
+                                        <span class="bg-orange-50 border border-orange-200/60 text-orange-800 text-xs font-semibold px-2.5 py-0.5 rounded flex items-center gap-1.5 shadow-sm">
+                                            <span class="w-1.5 h-1.5 rounded-full bg-orange-500"></span> 3 PA
+                                        </span>
+                                        <span class="bg-blue-50 border border-blue-200/60 text-blue-800 text-xs font-semibold px-2.5 py-0.5 rounded flex items-center gap-1.5 shadow-sm">
+                                            <span class="w-1.5 h-1.5 rounded-full bg-blue-500"></span> 6 PM
+                                        </span>
+                                    </div>
+                                </div>
+                                <div class="space-y-3 text-sm text-gray-700 font-sans">
+                                    <p><strong class="text-magic-900 font-semibold">Efeito:</strong> Você detona os núcleos de energia de todas as suas Sentinelas ativas simultaneamente. Cada Sentinela explode, forçando inimigos próximos a testarem <strong>Físico + Destreza (DT 14 + sua Magia)</strong>. Em caso de falha, sofrem <strong>3d6 + Magia</strong> de dano de força (metade no sucesso). Inimigos pegos na explosão de mais de uma Sentinela rolam o teste com <strong>1 Desvantagem (-1d6)</strong>.</p>
                                 </div>
                             </div>
                         </div>
@@ -1192,6 +1655,81 @@
                             </div>
                         </div>
 
+                        <!-- O ALQUIMISTA VOLÁTIL SPEC CONTENT -->
+                        <div id="spec-content-alquimista" class="spec-content space-y-6 hidden">
+                            <div class="flex items-center gap-2 border-b border-gray-100 pb-3 mb-4">
+                                <span class="w-2.5 h-2.5 rounded-full bg-emerald-500"></span>
+                                <h4 class="font-bold text-lg text-magic-900 font-serif">O Alquimista Volátil <span class="font-sans font-normal text-sm text-gray-500 ml-1">| Especialização focada em Reações Químicas e Consumíveis</span></h4>
+                            </div>
+
+                            <!-- Nivel 1 -->
+                            <div class="bg-slate-50 border border-slate-200/80 rounded-xl p-5 hover:border-emerald-300 hover:bg-slate-50/50 transition-all duration-200 shadow-sm">
+                                <div class="flex flex-wrap items-center justify-between gap-3 mb-3">
+                                    <div class="flex items-center gap-3">
+                                        <span class="bg-amber-50 border border-amber-200 text-amber-800 text-[10px] font-bold px-2 py-1 rounded tracking-wider font-sans">NÍVEL 1</span>
+                                        <h5 class="font-bold text-xl text-magic-900 font-serif">Mistura Instável</h5>
+                                    </div>
+                                    <div class="flex gap-2">
+                                        <span class="bg-orange-50 border border-orange-200/60 text-orange-800 text-xs font-semibold px-2.5 py-0.5 rounded flex items-center gap-1.5 shadow-sm">
+                                            <span class="w-1.5 h-1.5 rounded-full bg-orange-500"></span> 1 PA
+                                        </span>
+                                        <span class="bg-blue-50 border border-blue-200/60 text-blue-800 text-xs font-semibold px-2.5 py-0.5 rounded flex items-center gap-1.5 shadow-sm">
+                                            <span class="w-1.5 h-1.5 rounded-full bg-blue-500"></span> 2 PM
+                                        </span>
+                                    </div>
+                                </div>
+                                <div class="space-y-3 text-sm text-gray-700 font-sans">
+                                    <p><strong class="text-magic-900 font-semibold">Efeito:</strong> Como uma ação rápida, você transmuta os elements em um frasco explosivo e o arremessa. Escolha um elemento (Fogo, Gelo, Veneno). O frasco atinge uma pequena área (alcance <strong>Curto</strong>). Inimigos atingidos sofrem <strong>1d6 + seu Atributo de Magia</strong> do elemento escolhido. A área afetada fica coberta pelo elemento por 1 turno (ex: chão escorregadio, chamas).</p>
+                                </div>
+                            </div>
+
+                            <!-- Nivel 2 -->
+                            <div class="bg-slate-50 border border-slate-200/80 rounded-xl p-5 hover:border-emerald-300 hover:bg-slate-50/50 transition-all duration-200 shadow-sm">
+                                <div class="flex flex-wrap items-center justify-between gap-3 mb-3">
+                                    <div class="flex items-center gap-3">
+                                        <span class="bg-slate-200 border border-slate-300 text-slate-800 text-[10px] font-bold px-2 py-1 rounded tracking-wider font-sans">NÍVEL 2</span>
+                                        <h5 class="font-bold text-xl text-magic-900 font-serif">Catalisador Reativo</h5>
+                                    </div>
+                                    <div class="flex gap-2">
+                                        <span class="bg-purple-50 border border-purple-200/60 text-purple-800 text-xs font-semibold px-2.5 py-0.5 rounded flex items-center gap-1.5 shadow-sm">
+                                            <svg class="w-3.5 h-3.5 text-purple-600" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 4v5h.582m15.356 2A8.001 8.001 0 1121.21 8H17"></path></svg> Reação (1 PA)
+                                        </span>
+                                        <span class="bg-blue-50 border border-blue-200/60 text-blue-800 text-xs font-semibold px-2.5 py-0.5 rounded flex items-center gap-1.5 shadow-sm">
+                                            <span class="w-1.5 h-1.5 rounded-full bg-blue-500"></span> 3 PM
+                                        </span>
+                                    </div>
+                                </div>
+                                <div class="space-y-3 text-sm text-gray-700 font-sans">
+                                    <p class="bg-indigo-50/50 text-indigo-950 px-3.5 py-2.5 rounded-lg border border-indigo-100 text-xs flex items-start gap-2.5">
+                                        <svg class="w-4 h-4 flex-shrink-0 mt-0.5 text-indigo-600" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 17h5l-1.405-1.405A2.032 2.032 0 0118 14.158V11a6.002 6.002 0 00-4-5.659V5a2 2 0 10-4 0v.341C7.67 6.165 6 8.388 6 11v3.159c0 .538-.214 1.055-.595 1.436L4 17h5m6 0v1a3 3 0 11-6 0v-1m6 0H9"></path></svg>
+                                        <span><strong>Gatilho:</strong> Quando um inimigo sofrer dano elemental de qualquer fonte (sua ou de um aliado).</span>
+                                    </p>
+                                    <p><strong class="text-magic-900 font-semibold">Efeito:</strong> Você usa magia para acelerar drasticamente a reação molecular no corpo do inimigo. O dano elemental que ele acabou de sofrer é <strong>maximizado automaticamente</strong> nos dados. Além disso, o alvo sofre a condição <em>Cego</em> ou <em>Surdo</em> por 1 turno devido à explosão química repentina.</p>
+                                </div>
+                            </div>
+
+                            <!-- Nivel 3 -->
+                            <div class="bg-slate-50 border border-slate-200/80 rounded-xl p-5 hover:border-emerald-300 hover:bg-slate-50/50 transition-all duration-200 shadow-sm">
+                                <div class="flex flex-wrap items-center justify-between gap-3 mb-3">
+                                    <div class="flex items-center gap-3">
+                                        <span class="bg-yellow-100 border border-yellow-300 text-yellow-800 text-[10px] font-bold px-2 py-1 rounded tracking-wider font-sans">NÍVEL 3</span>
+                                        <h5 class="font-bold text-xl text-magic-900 font-serif text-emerald-950">Transmutação Sanguínea</h5>
+                                    </div>
+                                    <div class="flex gap-2">
+                                        <span class="bg-orange-50 border border-orange-200/60 text-orange-800 text-xs font-semibold px-2.5 py-0.5 rounded flex items-center gap-1.5 shadow-sm">
+                                            <span class="w-1.5 h-1.5 rounded-full bg-orange-500"></span> 3 PA
+                                        </span>
+                                        <span class="bg-blue-50 border border-blue-200/60 text-blue-800 text-xs font-semibold px-2.5 py-0.5 rounded flex items-center gap-1.5 shadow-sm">
+                                            <span class="w-1.5 h-1.5 rounded-full bg-blue-500"></span> 7 PM
+                                        </span>
+                                    </div>
+                                </div>
+                                <div class="space-y-3 text-sm text-gray-700 font-sans">
+                                    <p><strong class="text-magic-900 font-semibold">Efeito:</strong> O terror da biomagia química. Você altera a composição do sangue de um alvo vivo em alcance <strong>Curto</strong> (ex: transformando-o em chumbo pesado ou ácido fervente). O alvo testa <strong>Físico + Vigor (DT 14 + sua Magia)</strong>. Se falhar, sofre <strong>2d6 de dano contínuo (ignora PR)</strong> no início de seus próximos 3 turnos, e todos os seus Atributos Físicos contam como -2 enquanto o efeito durar.</p>
+                                </div>
+                            </div>
+                        </div>
+
                         <!-- ILUSIONISTA SPEC CONTENT -->
                         <div id="spec-content-ilusionista" class="spec-content space-y-6 hidden">
                             <div class="flex items-center gap-2 border-b border-gray-100 pb-3 mb-4">
@@ -1461,6 +1999,85 @@
                             </div>
                         </div>
 
+                        <!-- O ORÁCULO SPEC CONTENT -->
+                        <div id="spec-content-oraculo" class="spec-content space-y-6 hidden">
+                            <div class="flex items-center gap-2 border-b border-gray-100 pb-3 mb-4">
+                                <span class="w-2.5 h-2.5 rounded-full bg-purple-500"></span>
+                                <h4 class="font-bold text-lg text-magic-900 font-serif">O Oráculo <span class="font-sans font-normal text-sm text-gray-500 ml-1">| Especialização focada em Premonição e Interrupção</span></h4>
+                            </div>
+
+                            <!-- Nivel 1 -->
+                            <div class="bg-slate-50 border border-slate-200/80 rounded-xl p-5 hover:border-purple-300 hover:bg-slate-50/50 transition-all duration-200 shadow-sm">
+                                <div class="flex flex-wrap items-center justify-between gap-3 mb-3">
+                                    <div class="flex items-center gap-3">
+                                        <span class="bg-amber-50 border border-amber-200 text-amber-800 text-[10px] font-bold px-2 py-1 rounded tracking-wider font-sans">NÍVEL 1</span>
+                                        <h5 class="font-bold text-xl text-magic-900 font-serif">Visão de Segundos</h5>
+                                    </div>
+                                    <div class="flex gap-2">
+                                        <span class="bg-purple-50 border border-purple-200/60 text-purple-800 text-xs font-semibold px-2.5 py-0.5 rounded flex items-center gap-1.5 shadow-sm">
+                                            <svg class="w-3.5 h-3.5 text-purple-600" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 4v5h.582m15.356 2A8.001 8.001 0 1121.21 8H17"></path></svg> Reação (1 PA)
+                                        </span>
+                                        <span class="bg-blue-50 border border-blue-200/60 text-blue-800 text-xs font-semibold px-2.5 py-0.5 rounded flex items-center gap-1.5 shadow-sm">
+                                            <span class="w-1.5 h-1.5 rounded-full bg-blue-500"></span> 2 PM
+                                        </span>
+                                    </div>
+                                </div>
+                                <div class="space-y-3 text-sm text-gray-700 font-sans">
+                                    <p class="bg-indigo-50/50 text-indigo-950 px-3.5 py-2.5 rounded-lg border border-indigo-100 text-xs flex items-start gap-2.5">
+                                        <svg class="w-4 h-4 flex-shrink-0 mt-0.5 text-indigo-600" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 17h5l-1.405-1.405A2.032 2.032 0 0118 14.158V11a6.002 6.002 0 00-4-5.659V5a2 2 0 10-4 0v.341C7.67 6.165 6 8.388 6 11v3.159c0 .538-.214 1.055-.595 1.436L4 17h5m6 0v1a3 3 0 11-6 0v-1m6 0H9"></path></svg>
+                                        <span><strong>Gatilho:</strong> Quando você ou um aliado em alcance <strong>Curto</strong> for alvo de um ataque (antes da rolagem).</span>
+                                    </p>
+                                    <p><strong class="text-magic-900 font-semibold">Efeito:</strong> Você tem um vislumbre do futuro imediato e grita um aviso. O alvo do ataque ganha <strong>+3 na Defesa</strong> contra aquele golpe específico. Se o ataque errar por causa desse bônus, o inimigo fica confuso e perde 1 PA no turno dele.</p>
+                                </div>
+                            </div>
+
+                            <!-- Nivel 2 -->
+                            <div class="bg-slate-50 border border-slate-200/80 rounded-xl p-5 hover:border-purple-300 hover:bg-slate-50/50 transition-all duration-200 shadow-sm">
+                                <div class="flex flex-wrap items-center justify-between gap-3 mb-3">
+                                    <div class="flex items-center gap-3">
+                                        <span class="bg-slate-200 border border-slate-300 text-slate-800 text-[10px] font-bold px-2 py-1 rounded tracking-wider font-sans">NÍVEL 2</span>
+                                        <h5 class="font-bold text-xl text-magic-900 font-serif">Ruído de Pensamento <span class="font-sans font-normal text-sm text-gray-500 ml-1">(Counterspell)</span></h5>
+                                    </div>
+                                    <div class="flex gap-2">
+                                        <span class="bg-purple-50 border border-purple-200/60 text-purple-800 text-xs font-semibold px-2.5 py-0.5 rounded flex items-center gap-1.5 shadow-sm">
+                                            <svg class="w-3.5 h-3.5 text-purple-600" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 4v5h.582m15.356 2A8.001 8.001 0 1121.21 8H17"></path></svg> Reação (2 PA)
+                                        </span>
+                                        <span class="bg-blue-50 border border-blue-200/60 text-blue-800 text-xs font-semibold px-2.5 py-0.5 rounded flex items-center gap-1.5 shadow-sm">
+                                            <span class="w-1.5 h-1.5 rounded-full bg-blue-500"></span> 4 PM
+                                        </span>
+                                    </div>
+                                </div>
+                                <div class="space-y-3 text-sm text-gray-700 font-sans">
+                                    <p class="bg-indigo-50/50 text-indigo-950 px-3.5 py-2.5 rounded-lg border border-indigo-100 text-xs flex items-start gap-2.5">
+                                        <svg class="w-4 h-4 flex-shrink-0 mt-0.5 text-indigo-600" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 17h5l-1.405-1.405A2.032 2.032 0 0118 14.158V11a6.002 6.002 0 00-4-5.659V5a2 2 0 10-4 0v.341C7.67 6.165 6 8.388 6 11v3.159c0 .538-.214 1.055-.595 1.436L4 17h5m6 0v1a3 3 0 11-6 0v-1m6 0H9"></path></svg>
+                                        <span><strong>Gatilho:</strong> Quando um inimigo começar a conjurar uma magia ou habilidade.</span>
+                                    </p>
+                                    <p><strong class="text-magic-900 font-semibold">Efeito:</strong> Você invade a mente do conjurador com um grito psíquico para quebrar sua concentração. Faça uma rolagem disputada de <strong>Mental + Magia</strong> contra o inimigo. Si você vencer, a magia do inimigo falha miseravelmente. Ele gasta os PMs da habilidade, mas o efeito não acontece (os PAs dele também são consumidos).</p>
+                                </div>
+                            </div>
+
+                            <!-- Nivel 3 -->
+                            <div class="bg-slate-50 border border-slate-200/80 rounded-xl p-5 hover:border-purple-300 hover:bg-slate-50/50 transition-all duration-200 shadow-sm">
+                                <div class="flex flex-wrap items-center justify-between gap-3 mb-3">
+                                    <div class="flex items-center gap-3">
+                                        <span class="bg-yellow-100 border border-yellow-300 text-yellow-800 text-[10px] font-bold px-2 py-1 rounded tracking-wider font-sans">NÍVEL 3</span>
+                                        <h5 class="font-bold text-xl text-magic-900 font-serif text-purple-950">Sincronia Tática Absoluta</h5>
+                                    </div>
+                                    <div class="flex gap-2">
+                                        <span class="bg-orange-50 border border-orange-200/60 text-orange-800 text-xs font-semibold px-2.5 py-0.5 rounded flex items-center gap-1.5 shadow-sm">
+                                            <span class="w-1.5 h-1.5 rounded-full bg-orange-500"></span> 3 PA
+                                        </span>
+                                        <span class="bg-blue-50 border border-blue-200/60 text-blue-800 text-xs font-semibold px-2.5 py-0.5 rounded flex items-center gap-1.5 shadow-sm">
+                                            <span class="w-1.5 h-1.5 rounded-full bg-blue-500"></span> 6 PM
+                                        </span>
+                                    </div>
+                                </div>
+                                <div class="space-y-3 text-sm text-gray-700 font-sans">
+                                    <p><strong class="text-magic-900 font-semibold">Efeito:</strong> Você conecta temporariamente a mente de todos os seus aliados, compartilhando sua precognição com eles. Durante a próxima rodada inteira de combate, o seu grupo age como uma mente coletiva: <strong>todos os seus aliados</strong> (incluindo você) recebem <strong>1 Vantagem (+1d6)</strong> em todas as rolagens de ataque e defesa. Além disso, aliados não podem ser flanqueados ou pegos de surpresa sob este efeito.</p>
+                                </div>
+                            </div>
+                        </div>
+
                     </div>
                 </div>
             </section>
@@ -1681,7 +2298,7 @@
             }
 
             // Update tab styles
-            const tabs = ['lamina', 'bastiao', 'vanguarda', 'elementalista', 'vinculos', 'dominios', 'metamorfo', 'artifice', 'biomante', 'ilusionista', 'controlador', 'dobrador'];
+            const tabs = ['lamina', 'bastiao', 'vanguarda', 'francoatirador', 'elementalista', 'vinculos', 'dominios', 'arquiteto', 'metamorfo', 'artifice', 'biomante', 'alquimista', 'ilusionista', 'controlador', 'dobrador', 'oraculo'];
             tabs.forEach(tab => {
                 const tabEl = document.getElementById(`tab-${tab}`);
                 if (tabEl) {
