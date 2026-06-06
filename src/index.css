@@ -1,0 +1,79 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", sans-serif;
+  --font-serif: "Cinzel", serif;
+  
+  --color-magic-900: #1e1b4b;
+  --color-magic-800: #312e81;
+  --color-magic-100: #e0e7ff;
+
+  --text-xs: 1.0rem;
+  --text-sm: 1.15rem;
+  --text-base: 1.25rem;
+  --text-lg: 1.4rem;
+  --text-xl: 1.6rem;
+  --text-2xl: 1.9rem;
+  --text-3xl: 2.4rem;
+  --text-4xl: 3.0rem;
+  --text-5xl: 4.0rem;
+}
+
+@layer base {
+  body {
+    @apply bg-slate-50 text-gray-800 antialiased font-sans;
+    font-size: 1rem;
+    overflow-x: hidden;
+  }
+
+  h1, h2, h3 {
+    @apply font-serif text-magic-900;
+  }
+
+  table {
+    @apply w-full border-collapse mt-4 mb-6;
+  }
+
+  th, td {
+    @apply border border-gray-200 p-3.5 text-left text-sm font-sans;
+  }
+
+  th {
+    @apply bg-indigo-50 font-semibold text-magic-800;
+  }
+
+  tr:nth-child(even) {
+    @apply bg-gray-50;
+  }
+
+  ul {
+    @apply list-disc pl-6 mt-2 mb-4 font-sans;
+  }
+
+  li {
+    @apply mb-2;
+  }
+}
+
+.content-section {
+  @apply mb-12;
+  scroll-margin-top: 90px;
+}
+
+/* Custom transitions and scrollbar styling for premium look */
+html {
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  @apply bg-gray-100;
+}
+
+::-webkit-scrollbar-thumb {
+  @apply bg-indigo-200 rounded-full hover:bg-indigo-300 transition-colors;
+}

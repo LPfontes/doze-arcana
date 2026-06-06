@@ -1,0 +1,146 @@
+import React from 'react';
+
+export default function Combate() {
+    return (
+        <section id="sec-combate" className="content-section">
+            <h2 className="text-3xl border-b-2 border-magic-100 pb-2 mb-4">3. Combate e Recursos</h2>
+            <p className="mb-4">O combate é estruturado através de testes de atributos, comparando o ataque contra uma Defesa padrão.</p>
+
+            <h3 className="text-2xl mt-6 mb-2">Atributos de Combate</h3>
+            <ul>
+                <li><strong>Defesa Padrão</strong><br />Calculada como <code>8 + Atributo Físico</code>.</li>
+                <li><strong>Pontos de Vitalidade (PV)</strong><br />Medem a saúde física. Calculado como <code> 15 + (Atributo Físico x 3)</code>. Ao chegar a 0 PV, o personagem fica Esgotado e precisa passar em testes de Mental + Vontade (DT 12) a cada rodada para evitar desmaios ou sequelas.
+                </li>
+                <li><strong>Pontos de Mana (PM)</strong><br />Reservatório mágico para feitiços. Calculado como <code>12 + (Atributo Magia x 3)</code>.</li>
+                <li><strong>Proteção (PRO)</strong><br />Absorve o dano recebido antes que atinja os PV. É totalmente restaurada no início do turno do personagem. Se a PRO for zerada, todos os itens de proteção recebem 1 ponto de Danificado e, ao atingir seu Limite de Quebra, deixam de fornecer PRO até serem consertados. cada item tem um Limite de Quebra, o Limite de Quebra do seu aluno é a soma dos Limites de Quebra dos itens que ele equipar. </li>
+                <li><strong>Cobertura</strong><br />Cobertura Leve impõe 1 Desvantagem ao ataque inimigo, enquanto Cobertura Pesada impõe 2 Desvantagens.</li>
+            </ul>
+
+            <h3 className="text-2xl mt-8 mb-3 font-serif text-magic-900 flex items-center">Cálculo de Danos & Sistema de Armas
+            </h3>
+            {/* Fórmulas Básicas */}
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-4 mb-6">
+                <div className="bg-indigo-50/50 border border-indigo-100 p-4 rounded-xl shadow-sm">
+                    <span
+                        className="text-[10px] font-bold text-indigo-600 uppercase tracking-wider font-sans block mb-1">Dano Físico Básico</span>
+                    <div className="font-serif text-xl font-bold text-magic-900 mb-1">3 + 1d6 + Físico</div>
+                    <p className="text-[11px] text-gray-500 font-sans leading-tight">Utilizado por armas físicas como espadas, machados, lanças e arcos.</p>
+                </div>
+                <div className="bg-cyan-50/50 border border-cyan-100 p-4 rounded-xl shadow-sm">
+                    <span
+                        className="text-[10px] font-bold text-cyan-600 uppercase tracking-wider font-sans block mb-1">Dano Mágico Básico</span>
+                    <div className="font-serif text-xl font-bold text-magic-900 mb-1">3 + 1d6 + Magia</div>
+                    <p className="text-[11px] text-gray-500 font-sans leading-tight">Utilizado por varinhas, cajados, orbes e canalizadores de Arcana.</p>
+                </div>
+                <div className="bg-amber-50/50 border border-amber-100 p-4 rounded-xl shadow-sm">
+                    <span
+                        className="text-[10px] font-bold text-amber-700 uppercase tracking-wider font-sans block mb-1">Dano Crítico</span>
+                    <div className="font-serif text-lg font-bold text-amber-900 mb-1">Máximo + 1d6 Extra</div>
+                    <p className="text-[11px] text-gray-500 font-sans leading-tight">Maximiza o valor base dos dados de dano e adiciona +1d6 extra.</p>
+                </div>
+            </div>
+
+            <div className="grid grid-cols-1 gap-6 mt-6">
+                {/* FÍSICOS */}
+                <div className="space-y-4">
+                    <div
+                        className="bg-slate-900 text-white px-4 py-3 rounded-xl flex items-center justify-between shadow-md">
+                        <span className="font-serif font-bold text-base flex items-center gap-2">Danos Físicos <span
+                            className="text-[10px] text-slate-300 font-sans font-normal">(Custo: +1 PA)</span>
+                        </span>
+                        <span
+                            className="bg-orange-500 text-white text-[9px] font-bold px-2 py-0.5 rounded uppercase tracking-wider font-sans">Físico
+                            Ativo</span>
+                    </div>
+                    <p className="text-xs text-gray-500 italic font-sans px-1">Ao acertar um ataque físico, o atacante pode gastar <strong>1 PA adicional</strong>no mesmo turno para ativar o efeito especial da sua arma.
+                    </p>
+
+                    {/* Cortante */}
+                    <div
+                        className="bg-white border border-slate-200/80 rounded-xl p-4 hover:border-indigo-300 hover:shadow-md transition-all duration-200 shadow-sm">
+                        <div className="flex items-center justify-between mb-2">
+                            <span className="font-serif font-bold text-base text-magic-900">1. Cortante <span
+                                className="font-sans font-normal text-xs text-gray-500 block md:inline md:ml-1">(Espadas, Machados, Foices)</span></span>
+                            <span
+                                className="bg-red-50 text-red-800 text-[10px] font-bold px-2 py-0.5 rounded font-sans border border-red-100 uppercase tracking-wider">Sangramento</span>
+                        </div>
+                        <p className="text-xs text-gray-700 leading-relaxed font-sans mb-3">
+                            <em>O corte limpo que rompe a carne.</em>
+                        </p>
+                        <div className="space-y-2 text-xs text-gray-600 font-sans">
+                            <p><strong>Efeito:</strong><br></br>O alvo recebe 1 Ponto de Sangramento. No início de cada um dos turnos dele, ele sofre <strong>2 de dano direto nos PV</strong> (ignora PRO) para cada Ponto de Sangramento ativo.</p>
+                            <p
+                                className="bg-red-50/50 text-red-950 px-2.5 py-1.5 rounded border border-red-100/60 text-[11px] flex items-start gap-1.5 leading-normal">
+
+                                <span><strong>Salvamento:</strong><br></br>Após sofrer o dano no seu turno, o alvo testa <strong>Físico + Vigor (DT 12 + Pontos de Sangramento)</strong>. Sucesso zera os Pontos de Sangramentos; falha mantém o efeito ativo para a próxima rodada.</span>
+                            </p>
+                        </div>
+                    </div>
+
+                    {/* Perfurante */}
+                    <div
+                        className="bg-white border border-slate-200/80 rounded-xl p-4 hover:border-indigo-300 hover:shadow-md transition-all duration-200 shadow-sm">
+                        <div className="flex items-center justify-between mb-2">
+                            <span className="font-serif font-bold text-base text-magic-900">2. Perfurante <span
+                                className="font-sans font-normal text-xs text-gray-500 block md:inline md:ml-1">(Adagas, Lanças, Flechas)</span></span>
+                            <span
+                                className="bg-amber-50 text-amber-800 text-[10px] font-bold px-2 py-0.5 rounded font-sans border border-amber-100 uppercase tracking-wider">Perfuração</span>
+                        </div>
+                        <p className="text-xs text-gray-700 leading-relaxed font-sans mb-3">
+                            <em>O ataque preciso que busca as frestas das armaduras e pontos vitais.</em>
+                        </p>
+                        <div className="space-y-2 text-xs text-gray-600 font-sans leading-normal">
+                            <p><strong>Efeito:</strong><br></br>Você foca o impacto em um ponto vulnerável. O dano deste ataque <strong>ignora até 3 pontos de Proteção (PRO)</strong>do alvo, atingindo os PVs com mais facilidade.</p>
+                        </div>
+                    </div>
+
+                    {/* Contusão */}
+                    <div
+                        className="bg-white border border-slate-200/80 rounded-xl p-4 hover:border-indigo-300 hover:shadow-md transition-all duration-200 shadow-sm">
+                        <div className="flex items-center justify-between mb-2">
+                            <span className="font-serif font-bold text-base text-magic-900">3. Contusão <span
+                                className="font-sans font-normal text-xs text-gray-500 block md:inline md:ml-1">(Martelos, Maças, Bastões Pesados, Punhos)</span></span>
+                            <span
+                                className="bg-indigo-50 text-indigo-800 text-[10px] font-bold px-2 py-0.5 rounded font-sans border border-indigo-100 uppercase tracking-wider">Quebra de Armadura</span>
+                        </div>
+                        <p className="text-xs text-gray-700 leading-relaxed font-sans mb-3">
+                            <em>O impacto bruto projetado para esmagar couraças, amassar escudos e estilhaçar barreiras mágicas.</em>
+                        </p>
+                        <div className="space-y-2 text-xs text-gray-600 font-sans leading-normal">
+                            <p><strong>Efeito:</strong><br></br>Você foca toda a energia cinética na estrutura defensiva do alvo. Ao acertar o ataque e gastar 1 PA, o dano direcionado à <strong>Proteção (PRO)</strong>do oponente é <strong>dobrado</strong>.<em>(Nota: O dano extra atua apenas contra a PRO; qualquer dano que ultrapasse o escudo e atinja a Vitalidade (PV) volta ao valor normal ou seja o dano restante ao pv é dividido por 2) .</em>
+                            </p>
+                            <p
+                                className="bg-red-50/50 text-red-950 px-2.5 py-1.5 rounded border border-red-100/60 text-[11px] flex items-start gap-1.5 mt-2">
+
+                                <span><strong>Destruição de Item:</strong><br></br>Caso a Proteção zerada por este golpe seja proveniente de um equipamento (armadura física, amuleto ou item mágico de defesa), o estresse mecânico é avassalador. O item recebe imediatamente <strong>2 pontos de Danificado (Quebra).</strong></span>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <hr />
+
+            <h3 className="text-2xl mt-6 mb-2">Economia de Ações (PA)</h3>
+            <p className="mb-2">Todo personagem recebe <strong>3 Pontos de Ação (PA) e 1 Ponto de Reação (PRO)</strong>no início de seu turno.</p>
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mt-4">
+                <div className="bg-gray-50 p-4 rounded border border-gray-200">
+                    <span className="font-bold text-magic-800 text-lg block border-b mb-2">Ações Comuns (1 PA)</span>
+                    <ul className="mb-0">
+                        <li><strong>Mover-se</strong><br />Até 6 espaços.</li>
+                        <li><strong>Atacar</strong><br />Armas e ataques básicos.</li>
+                        <li><strong>Testes Resistidos</strong><br />Agarrar, Empurrar, Derrubar.</li>
+                    </ul>
+                </div>
+                <div className="bg-gray-50 p-4 rounded border border-gray-200">
+                    <span className="font-bold text-magic-800 text-lg block border-b mb-2">Reações</span>
+                    <ul className="mb-0">
+                        <li><strong>Defender</strong><br />Dobra a PROTEÇÃO até o início do seu turno.</li>
+                        <li><strong>Esquivar</strong><br />Teste de Físico (Destreza) contra o acerto inimigo
+                            para anular o ataque.</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+    );
+}
