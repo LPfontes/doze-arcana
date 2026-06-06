@@ -13,7 +13,7 @@ export default function Introduction() {
  <li><strong>Teste Especializado</strong><br />Utilizado quando o personagem possui treinamento na Perícia exigida. Adiciona-se 1d12 extra para cada ponto (P) na Perícia, mantendo apenas os dois maiores valores rolados. O resultado final é a soma desses <code
  className="bg-gray-100 px-1 rounded text-magic-800 font-semibold"><br />2 maiores d12 + Atributo</code>.
  </li>
- <li><strong>Vantagens e Desvantagens</strong><br />São modificadores situacionais que se anulam entre si. Uma Vantagem adiciona <strong>1d6</strong>à rolagem. Uma Desvantagem subtrai <strong>1d6</strong>da rolagem. Em caso de acúmulo de Vantagens, rola-se a quantidade total de d6s e aplica-se apenas o maior resultado.</li>
+ <li><strong>Vantagens e Desvantagens</strong><br />São modificadores situacionais que se anulam entre si. Uma Vantagem adiciona <strong>1d6</strong> à rolagem. Uma Desvantagem subtrai <strong>1d6</strong> da rolagem. Em caso de acúmulo de Vantagens, rola-se a quantidade total de d6s e aplica-se apenas o maior resultado.</li>
  <li style={{ backgroundColor: "rgba(220, 20, 60, 0.5)" }}><strong>Falha Crítica (1 e 1)</strong><br />Representa uma falha garantida com consequências negativas e circunstâncias desfavoráveis.</li>
  <li style={{ backgroundColor: "rgba(126, 252, 0, 0.5)" }}><strong>Acerto Crítico (12 e 12)</strong><br />Representa um sucesso garantido, gerando bônus e vantagens adicionais para a cena.</li>
  </ul>

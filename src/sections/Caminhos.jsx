@@ -397,7 +397,7 @@ export default function Caminhos() {
                                 <div className="flex gap-2">
                                     <span
                                         className="bg-orange-50 border border-orange-200/60 text-orange-800 text-xs font-semibold px-2.5 py-0.5 rounded flex items-center gap-1.5 shadow-sm">
-                                        <span className="w-1.5 h-1.5 rounded-full bg-orange-500"></span> 2 PA
+                                        <span className="w-1.5 h-1.5 rounded-full bg-orange-500"></span> 2 Ações Padrões
                                     </span>
                                     <span
                                         className="bg-blue-50 border border-blue-200/60 text-blue-800 text-xs font-semibold px-2.5 py-0.5 rounded flex items-center gap-1.5 shadow-sm">
@@ -406,11 +406,11 @@ export default function Caminhos() {
                                 </div>
                             </div>
                             <div className="space-y-3 text-sm text-gray-700 font-sans">
-                                <p><strong className="text-magic-900 font-semibold">Efeito:</strong><br></br>Você consegue encantar uma arma com um toque. Ela causa <strong>+1d6</strong>de dano Elemental até o final do seu turno.</p>
+                                <p><strong className="text-magic-900 font-semibold">Efeito:</strong><br></br>Você consegue encantar uma arma com um toque. Ela causa <strong>+1d6</strong> de dano Elemental até o final do seu turno.</p>
                                 <p
                                     className="bg-blue-50/50 text-blue-900 px-3.5 py-2 rounded-lg border border-blue-100 text-xs flex items-center gap-2">
 
-                                    <span><strong>Manutenção:</strong><br></br>Para manter o efeito, gaste <strong>+1 PM</strong>por turno adicional.</span>
+                                    <span><strong>Manutenção:</strong><br></br>Para manter o efeito, gaste <strong>+1 PM</strong> por turno adicional.</span>
                                 </p>
                             </div>
                         </div>
@@ -427,7 +427,7 @@ export default function Caminhos() {
                                 <div className="flex gap-2">
                                     <span
                                         className="bg-orange-50 border border-orange-200/60 text-orange-800 text-xs font-semibold px-2.5 py-0.5 rounded flex items-center gap-1.5 shadow-sm">
-                                        <span className="w-1.5 h-1.5 rounded-full bg-orange-500"></span> 1 PA
+                                        <span className="w-1.5 h-1.5 rounded-full bg-orange-500"></span> 1 Ação Padrão
                                     </span>
                                     <span
                                         className="bg-blue-50 border border-blue-200/60 text-blue-800 text-xs font-semibold px-2.5 py-0.5 rounded flex items-center gap-1.5 shadow-sm">
@@ -458,7 +458,7 @@ export default function Caminhos() {
                                 <div className="flex gap-2">
                                     <span
                                         className="bg-orange-50 border border-orange-200/60 text-orange-800 text-xs font-semibold px-2.5 py-0.5 rounded flex items-center gap-1.5 shadow-sm">
-                                        <span className="w-1.5 h-1.5 rounded-full bg-orange-500"></span> 3 PA
+                                        <span className="w-1.5 h-1.5 rounded-full bg-orange-500"></span> 1 Ação Complexa
                                     </span>
                                     <span
                                         className="bg-blue-50 border border-blue-200/60 text-blue-800 text-xs font-semibold px-2.5 py-0.5 rounded flex items-center gap-1.5 shadow-sm">
@@ -494,7 +494,7 @@ export default function Caminhos() {
                                 <div className="flex gap-2">
                                     <span
                                         className="bg-orange-50 border border-orange-200/60 text-orange-800 text-xs font-semibold px-2.5 py-0.5 rounded flex items-center gap-1.5 shadow-sm">
-                                        <span className="w-1.5 h-1.5 rounded-full bg-orange-500"></span> 2 PA
+                                        <span className="w-1.5 h-1.5 rounded-full bg-orange-500"></span> 2 Ações Padrões
                                     </span>
                                     <span
                                         className="bg-blue-50 border border-blue-200/60 text-blue-800 text-xs font-semibold px-2.5 py-0.5 rounded flex items-center gap-1.5 shadow-sm">
@@ -528,7 +528,7 @@ export default function Caminhos() {
                                 </div>
                                 <div className="flex gap-2">
                                     <span
-                                        className="bg-purple-50 border border-purple-200/60 text-purple-800 text-xs font-semibold px-2.5 py-0.5 rounded flex items-center gap-1.5 shadow-sm">Reação (1 PA)
+                                        className="bg-purple-50 border border-purple-200/60 text-purple-800 text-xs font-semibold px-2.5 py-0.5 rounded flex items-center gap-1.5 shadow-sm">Reação
                                     </span>
                                     <span
                                         className="bg-blue-50 border border-blue-200/60 text-blue-800 text-xs font-semibold px-2.5 py-0.5 rounded flex items-center gap-1.5 shadow-sm">
@@ -542,7 +542,7 @@ export default function Caminhos() {
 
                                     <span><strong>Gatilho:</strong><br></br>Quando um inimigo atingir você com um ataque corpo a corpo e o dano for absorvido pela sua Proteção (PR) ou pelo seu Escudo Arcano.</span>
                                 </p>
-                                <p><strong className="text-magic-900 font-semibold">Efeito:</strong><br></br>As runas da sua defesa explodem em resposta ao impacto. O atacante sofre automaticamente <strong>1d6 + seu Atributo de Magia</strong>de dano mágico e é empurrado para o alcance <strong>Curto</strong>, sem necessidade de teste de ataque da sua parte.</p>
+                                <p><strong className="text-magic-900 font-semibold">Efeito:</strong><br></br>As runas da sua defesa explodem em resposta ao impacto. O atacante sofre automaticamente <strong>1d6 + seu Atributo de Magia</strong> de dano mágico e é empurrado para o alcance <strong>Curto</strong>, sem necessidade de teste de ataque da sua parte.</p>
                             </div>
                         </div>
 
@@ -558,7 +558,7 @@ export default function Caminhos() {
                                 <div className="flex gap-2">
                                     <span
                                         className="bg-orange-50 border border-orange-200/60 text-orange-800 text-xs font-semibold px-2.5 py-0.5 rounded flex items-center gap-1.5 shadow-sm">
-                                        <span className="w-1.5 h-1.5 rounded-full bg-orange-500"></span> 2 PA
+                                        <span className="w-1.5 h-1.5 rounded-full bg-orange-500"></span> 2 Ações Padrões
                                     </span>
                                     <span
                                         className="bg-blue-50 border border-blue-200/60 text-blue-800 text-xs font-semibold px-2.5 py-0.5 rounded flex items-center gap-1.5 shadow-sm">
@@ -571,7 +571,7 @@ export default function Caminhos() {
                                 <p
                                     className="bg-red-50 text-red-950 px-3.5 py-2.5 rounded-lg border border-red-100 text-xs flex items-start gap-2.5">
 
-                                    <span><strong>Ancoragem:</strong><br></br>Enquanto esta Proteção bônus existir, nenhum de vocês pode ser empurrado, derrubado ou movido contra a própria vontade por habilidades físicas ou mágicas. O efeito de ancoragem exige concentração, você gasta <strong>2 PA</strong>para manter, e quebra se você realizar uma ação de movimento voluntária.</span>
+                                    <span><strong>Ancoragem:</strong><br></br>Enquanto esta Proteção bônus existir, nenhum de vocês pode ser empurrado, derrubado ou movido contra a própria vontade por habilidades físicas ou mágicas. O efeito de ancoragem exige concentração, você gasta <strong>2 Ações Padrões</strong> para manter, e quebra se você realizar uma ação de movimento voluntária.</span>
                                 </p>
                                 <p
                                     className="bg-amber-50 text-amber-950 px-3.5 py-2.5 rounded-lg border border-amber-100 text-xs flex items-start gap-2.5">
@@ -581,7 +581,7 @@ export default function Caminhos() {
                                 <p
                                     className="bg-emerald-50 text-emerald-950 px-3.5 py-2.5 rounded-lg border border-emerald-100 text-xs flex items-start gap-2.5">
 
-                                    <span><strong>Restaurar:</strong><br></br>No seu turno você pode gastar <strong>1 PA</strong>e <strong>1 PM</strong>para adicionar +</span>
+                                    <span><strong>Restaurar:</strong><br></br>No seu turno você pode gastar <strong>1 Ação Padrão</strong> e <strong>1 PM</strong> para adicionar +</span>
                                 </p>
                             </div>
                         </div>
@@ -608,21 +608,17 @@ export default function Caminhos() {
                                 <div className="flex gap-2">
                                     <span
                                         className="bg-orange-50 border border-orange-200/60 text-orange-800 text-xs font-semibold px-2.5 py-0.5 rounded flex items-center gap-1.5 shadow-sm">
-                                        <span className="w-1.5 h-1.5 rounded-full bg-orange-500"></span> 2 PA
+                                        <span className="w-1.5 h-1.5 rounded-full bg-orange-500"></span> 2 Ações Padrões
                                     </span>
                                     <span
                                         className="bg-blue-50 border border-blue-200/60 text-blue-800 text-xs font-semibold px-2.5 py-0.5 rounded flex items-center gap-1.5 shadow-sm">
-                                        <span className="w-1.5 h-1.5 rounded-full bg-blue-500"></span> 4 PM
+                                        <span className="w-1.5 h-1.5 rounded-full bg-blue-500"></span> 3 PM
                                     </span>
                                 </div>
                             </div>
                             <div className="space-y-3 text-sm text-gray-700 font-sans">
-                                <p><strong className="text-magic-900 font-semibold">Efeito:</strong><br></br>Você usa sua mana para ampliar sua capacidade física. Você ganha <strong>1 PA adicional</strong> por 3 turnos.</p>
-                                <p
-                                    className="bg-blue-50/50 text-blue-900 px-3.5 py-2 rounded-lg border border-blue-100 text-xs flex items-center gap-2">
-
-                                    <span><strong>Manutenção:</strong><br></br>Após os 3 turnos iniciais, custa <strong>+1 PM</strong>por turno adicional para manter o efeito.</span>
-                                </p>
+                                <p><strong className="text-magic-900 font-semibold">Efeito:</strong><br></br>Você usa sua mana para ampliar sua capacidade física. Você ganha <strong>1 Ação Padrão adicional</strong> por 2 Rodadas.</p>
+                                
                             </div>
                         </div>
 
@@ -638,7 +634,7 @@ export default function Caminhos() {
                                 <div className="flex gap-2">
                                     <span
                                         className="bg-orange-50 border border-orange-200/60 text-orange-800 text-xs font-semibold px-2.5 py-0.5 rounded flex items-center gap-1.5 shadow-sm">
-                                        <span className="w-1.5 h-1.5 rounded-full bg-orange-500"></span> 2 PA
+                                        <span className="w-1.5 h-1.5 rounded-full bg-orange-500"></span> 2 Ações Padrões
                                     </span>
                                     <span
                                         className="bg-blue-50 border border-blue-200/60 text-blue-800 text-xs font-semibold px-2.5 py-0.5 rounded flex items-center gap-1.5 shadow-sm">
@@ -647,11 +643,11 @@ export default function Caminhos() {
                                 </div>
                             </div>
                             <div className="space-y-3 text-sm text-gray-700 font-sans">
-                                <p><strong className="text-magic-900 font-semibold">Efeito:</strong><br></br>Você usa a gravidade e a magia a seu favor. Você salta magicamente para qualquer ponto até o alcance <strong>Médio</strong> e aterrissa com uma explosão cinética. Todos os inimigos adjacentes ao ponto de aterrissagem devem fazer um teste de Físico ou Destreza (<strong>DT igual a 12 + seu Atributo de Magia</strong>).</p>
+                                <p><strong className="text-magic-900 font-semibold">Efeito:</strong><br></br>Você usa a gravidade e a magia a seu favor. Você salta magicamente para qualquer ponto até o alcance <strong>Médio</strong> e aterrissa com uma explosão cinética. Todos os inimigos adjacentes ao ponto de aterrissagem devem fazer um teste de <strong>Físico + Destreza (DT 12 + Magia)</strong>.</p>
                                 <p
                                     className="bg-red-50 text-red-950 px-3.5 py-2.5 rounded-lg border border-red-100 text-xs flex items-start gap-2.5">
 
-                                    <span><strong>Consequência:</strong><br></br>Inimigos que falharem recebem<strong>3 + 1d6 + seu Atributo Físico</strong>de dano físico e ficam com a condição <strong>Caído</strong>. Inimigos que passarem sofrem apenas metade do dano e continuam de pé.</span>
+                                    <span><strong>Consequência:</strong><br></br>Inimigos que falharem recebem <strong>3 + 1d6 + Físico</strong> de dano físico e ficam com a condição <strong>Caído</strong>. Inimigos que passarem sofrem apenas metade do dano e continuam de pé.</span>
                                 </p>
                             </div>
                         </div>
@@ -667,7 +663,7 @@ export default function Caminhos() {
                                 </div>
                                 <div className="flex gap-2">
                                     <span
-                                        className="bg-purple-50 border border-purple-200/60 text-purple-800 text-xs font-semibold px-2.5 py-0.5 rounded flex items-center gap-1.5 shadow-sm">Reação (1 PA)
+                                        className="bg-purple-50 border border-purple-200/60 text-purple-800 text-xs font-semibold px-2.5 py-0.5 rounded flex items-center gap-1.5 shadow-sm">Reação
                                     </span>
                                     <span
                                         className="bg-blue-50 border border-blue-200/60 text-blue-800 text-xs font-semibold px-2.5 py-0.5 rounded flex items-center gap-1.5 shadow-sm">
@@ -685,7 +681,7 @@ export default function Caminhos() {
                                 <p
                                     className="bg-purple-50 text-purple-950 px-3.5 py-2.5 rounded-lg border border-purple-100 text-xs flex items-start gap-2.5">
 
-                                    <span><strong>Vantagem Tática:</strong>O seu próximo ataque contra este inimigo no seu turno recebe <strong>1 Vantagem (+1d6)</strong>devido ao elemento surpresa.</span>
+                                    <span><strong>Vantagem Tática:</strong> O seu próximo ataque contra este inimigo no seu turno recebe <strong>1 Vantagem (+1d6)</strong> devido ao elemento surpresa.</span>
                                 </p>
                             </div>
                         </div>
@@ -711,7 +707,7 @@ export default function Caminhos() {
                                 <div className="flex gap-2">
                                     <span
                                         className="bg-orange-50 border border-orange-200/60 text-orange-800 text-xs font-semibold px-2.5 py-0.5 rounded flex items-center gap-1.5 shadow-sm">
-                                        <span className="w-1.5 h-1.5 rounded-full bg-orange-500"></span> 2 PA
+                                        <span className="w-1.5 h-1.5 rounded-full bg-orange-500"></span> 2 Ações Padrões
                                     </span>
                                     <span
                                         className="bg-blue-50 border border-blue-200/60 text-blue-800 text-xs font-semibold px-2.5 py-0.5 rounded flex items-center gap-1.5 shadow-sm">
@@ -737,7 +733,7 @@ export default function Caminhos() {
                                 <div className="flex gap-2">
                                     <span
                                         className="bg-orange-50 border border-orange-200/60 text-orange-800 text-xs font-semibold px-2.5 py-0.5 rounded flex items-center gap-1.5 shadow-sm">
-                                        <span className="w-1.5 h-1.5 rounded-full bg-orange-500"></span> 1 PA
+                                        <span className="w-1.5 h-1.5 rounded-full bg-orange-500"></span> 1 Ação Padrão
                                     </span>
                                     <span
                                         className="bg-blue-50 border border-blue-200/60 text-blue-800 text-xs font-semibold px-2.5 py-0.5 rounded flex items-center gap-1.5 shadow-sm">
@@ -746,7 +742,7 @@ export default function Caminhos() {
                                 </div>
                             </div>
                             <div className="space-y-3 text-sm text-gray-700 font-sans">
-                                <p><strong className="text-magic-900 font-semibold">Efeito:</strong><br></br>Você gasta um tempo precioso lendo o padrão de movimento do alvo e as frestas de sua armadura. O seu próximo ataque à distância contra esse alvo recebe <strong>1 Vantagem (+1d6)</strong>e ignora passivamente até <strong>3 Pontos de Proteção (PR)</strong>.
+                                <p><strong className="text-magic-900 font-semibold">Efeito:</strong><br></br>Você gasta um tempo precioso lendo o padrão de movimento do alvo e as frestas de sua armadura. O seu próximo ataque à distância contra esse alvo recebe <strong>1 Vantagem (+1d6)</strong> e ignora passivamente até <strong>3 Pontos de Proteção (PR)</strong>.
                                 </p>
                             </div>
                         </div>
@@ -763,7 +759,7 @@ export default function Caminhos() {
                                 <div className="flex gap-2">
                                     <span
                                         className="bg-orange-50 border border-orange-200/60 text-orange-800 text-xs font-semibold px-2.5 py-0.5 rounded flex items-center gap-1.5 shadow-sm">
-                                        <span className="w-1.5 h-1.5 rounded-full bg-orange-500"></span> 3 PA
+                                        <span className="w-1.5 h-1.5 rounded-full bg-orange-500"></span> 1 Ação Complexa
                                     </span>
                                     <span
                                         className="bg-blue-50 border border-blue-200/60 text-blue-800 text-xs font-semibold px-2.5 py-0.5 rounded flex items-center gap-1.5 shadow-sm">
@@ -772,7 +768,7 @@ export default function Caminhos() {
                                 </div>
                             </div>
                             <div className="space-y-3 text-sm text-gray-700 font-sans">
-                                <p><strong className="text-magic-900 font-semibold">Efeito:</strong><br></br>O disparo perfeito, calibrado com a respiração e a pulsação do universo. Você realiza um ataque à distância. Se o alvo não estiver adjacente a nenhum aliado dele (isolado), este ataque causa <strong>dano máximo automático</strong>nos dados base, e o alvo perde a capacidade de usar Reações até o fim do próximo turno dele.</p>
+                                <p><strong className="text-magic-900 font-semibold">Efeito:</strong><br></br>O disparo perfeito, calibrado com a respiração e a pulsação do universo. Você realiza um ataque à distância. Se o alvo não estiver adjacente a nenhum aliado dele (isolado), este ataque causa <strong>dano máximo automático</strong> nos dados base, e o alvo perde a capacidade de usar Reações até o fim do próximo turno dele.</p>
                             </div>
                         </div>
                     </div>
@@ -799,7 +795,7 @@ export default function Caminhos() {
                                 <div className="flex gap-2">
                                     <span
                                         className="bg-orange-50 border border-orange-200/60 text-orange-800 text-xs font-semibold px-2.5 py-0.5 rounded flex items-center gap-1.5 shadow-sm">
-                                        <span className="w-1.5 h-1.5 rounded-full bg-orange-500"></span> 2 PA
+                                        <span className="w-1.5 h-1.5 rounded-full bg-orange-500"></span> 2 Ações Padrões
                                     </span>
                                     <span
                                         className="bg-blue-50 border border-blue-200/60 text-blue-800 text-xs font-semibold px-2.5 py-0.5 rounded flex items-center gap-1.5 shadow-sm">
@@ -808,7 +804,7 @@ export default function Caminhos() {
                                 </div>
                             </div>
                             <div className="space-y-3 text-sm text-gray-700 font-sans">
-                                <p><strong className="text-magic-900 font-semibold">Efeito:</strong><br></br>Você canaliza as forças brutas da natureza, conjurando uma explosão (fogo, gelo, raio ou vento) em um ponto até o alcance <strong>Médio</strong>. Todos os inimigos em um raio <strong>Curto</strong>a partir desse ponto devem fazer um teste de Físico + Destreza (<strong>DT 12 + seu Atributo de Magia</strong>).</p>
+                                <p><strong className="text-magic-900 font-semibold">Efeito:</strong><br></br>Você canaliza as forças brutas da natureza, conjurando uma explosão (fogo, gelo, raio ou vento) em um ponto até o alcance <strong>Médio</strong>. Todos os inimigos em um raio <strong>Curto</strong> a partir desse ponto devem fazer um teste de Físico + Destreza (<strong>DT 12 + seu Atributo de Magia</strong>).</p>
                                 <p
                                     className="bg-red-50 text-red-950 px-3.5 py-2.5 rounded-lg border border-red-100 text-xs flex items-start gap-2.5">
 
@@ -829,7 +825,7 @@ export default function Caminhos() {
                                 <div className="flex gap-2">
                                     <span
                                         className="bg-orange-50 border border-orange-200/60 text-orange-800 text-xs font-semibold px-2.5 py-0.5 rounded flex items-center gap-1.5 shadow-sm">
-                                        <span className="w-1.5 h-1.5 rounded-full bg-orange-500"></span> 1 PA
+                                        <span className="w-1.5 h-1.5 rounded-full bg-orange-500"></span> 1 Ação Padrão
                                     </span>
                                     <span
                                         className="bg-blue-50 border border-blue-200/60 text-blue-800 text-xs font-semibold px-2.5 py-0.5 rounded flex items-center gap-1.5 shadow-sm">
@@ -838,16 +834,16 @@ export default function Caminhos() {
                                 </div>
                             </div>
                             <div className="space-y-3 text-sm text-gray-700 font-sans">
-                                <p><strong className="text-magic-900 font-semibold">Efeito:</strong><br></br>Quando você conjura a <em>Erupção Elemental</em>, você pode usar este talento em conjunto para ancorar a magia no ambiente. A área da explosão se torna uma zona de risco elemental contínua (ex: chão em chamas, névoa congelante) por <strong>3 turnos</strong>.</p>
+                                <p><strong className="text-magic-900 font-semibold">Efeito:</strong><br></br>Quando você conjura a <em>Erupção Elemental</em>, você pode usar este talento em conjunto para ancorar a magia no ambiente. A área da explosão se torna uma zona de risco elemental contínua (ex: chão em chamas, névoa congelante) por <strong>1 Rodada</strong>.</p>
                                 <p
                                     className="bg-red-50 text-red-950 px-3.5 py-2.5 rounded-lg border border-red-100 text-xs flex items-start gap-2.5">
 
-                                    <span><strong>Dano Contínuo:</strong><br></br>Qualquer criatura que iniciar o turno dentro dessa área, ou atravessá-la, sofre <strong>3 + 1d6</strong>de dano elemental automaticamente.</span>
+                                    <span><strong>Dano Contínuo:</strong><br></br>Qualquer criatura que iniciar o turno dentro dessa área, ou atravessá-la, sofre <strong>3 + 1d6</strong> de dano elemental automaticamente.</span>
                                 </p>
                                 <p
                                     className="bg-blue-50 text-blue-900 px-3.5 py-2 rounded-lg border border-blue-100 text-xs flex items-center gap-2">
 
-                                    <span><strong>Renovar:</strong><br></br>Você pode renovar a magia por <strong>2 PM</strong>.</span>
+                                    <span><strong>Renovar:</strong><br></br>Você pode renovar a magia no inicio do seu turno por <strong>1 PM</strong>.</span>
                                 </p>
                             </div>
                         </div>
@@ -864,7 +860,7 @@ export default function Caminhos() {
                                 <div className="flex gap-2">
                                     <span
                                         className="bg-orange-50 border border-orange-200/60 text-orange-800 text-xs font-semibold px-2.5 py-0.5 rounded flex items-center gap-1.5 shadow-sm">
-                                        <span className="w-1.5 h-1.5 rounded-full bg-orange-500"></span> 3 PA
+                                        <span className="w-1.5 h-1.5 rounded-full bg-orange-500"></span> 1 Ação Complexa
                                     </span>
                                     <span
                                         className="bg-blue-50 border border-blue-200/60 text-blue-800 text-xs font-semibold px-2.5 py-0.5 rounded flex items-center gap-1.5 shadow-sm">
@@ -873,7 +869,7 @@ export default function Caminhos() {
                                 </div>
                             </div>
                             <div className="space-y-3 text-sm text-gray-700 font-sans">
-                                <p><strong className="text-magic-900 font-semibold">Efeito:</strong><br></br>A destruição absoluta. Você lança um feitiço de devastação em uma área de alcance <strong>Médio</strong>. Os inimigos na área rolam a defesa (<strong>DT 14 + Magia</strong>).</p>
+                                <p><strong className="text-magic-900 font-semibold">Efeito:</strong><br></br>A destruição. Você lança um feitiço de devastação em uma área de alcance <strong>Médio</strong>. Os inimigos na área realizam um teste de <strong>Físico + Destreza (DT 14 + Magia)</strong>.</p>
                                 <p
                                     className="bg-red-50 text-red-950 px-3.5 py-2.5 rounded-lg border border-red-100 text-xs flex items-start gap-2.5">
 
@@ -903,7 +899,7 @@ export default function Caminhos() {
                                 <div className="flex gap-2">
                                     <span
                                         className="bg-orange-50 border border-orange-200/60 text-orange-800 text-xs font-semibold px-2.5 py-0.5 rounded flex items-center gap-1.5 shadow-sm">
-                                        <span className="w-1.5 h-1.5 rounded-full bg-orange-500"></span> 2 PA
+                                        <span className="w-1.5 h-1.5 rounded-full bg-orange-500"></span> 2 Ações Padrões
                                     </span>
                                     <span
                                         className="bg-blue-50 border border-blue-200/60 text-blue-800 text-xs font-semibold px-2.5 py-0.5 rounded flex items-center gap-1.5 shadow-sm">
@@ -921,7 +917,7 @@ export default function Caminhos() {
                                     <ul className="list-disc pl-4 space-y-1 mb-0 mt-0">
                                         <li><strong>PV:</strong><br></br> 10 + (sua Magia x 2)</li>
                                         <li><strong>Dano:</strong><br></br>Ataque corpo a corpo ou à distância causando <strong>1d6 + sua Magia</strong>.</li>
-                                        <li><strong>Ações:</strong><br></br>O Servil age logo após o seu turno e possui <strong>2 PA próprios</strong>. Ele obedece aos seus comandos mentais de forma livre (não gasta seus PA para comandá-lo). Permanece na cena até seus PVs chegarem a 0 ou o combate acabar.</li>
+                                        <li><strong>Ações:</strong><br></br>O Servil age logo após o seu turno e possui <strong>2 Ações Padrões próprias</strong>. Ele obedece aos seus comandos mentais de forma livre (não gasta suas ações para comandá-lo). Permanece na cena até seus PVs chegarem a 0 ou o combate acabar.</li>
                                     </ul>
                                 </div>
                             </div>
@@ -938,7 +934,7 @@ export default function Caminhos() {
                                 </div>
                                 <div className="flex gap-2">
                                     <span
-                                        className="bg-purple-50 border border-purple-200/60 text-purple-800 text-xs font-semibold px-2.5 py-0.5 rounded flex items-center gap-1.5 shadow-sm">Reação (1 PA)
+                                        className="bg-purple-50 border border-purple-200/60 text-purple-800 text-xs font-semibold px-2.5 py-0.5 rounded flex items-center gap-1.5 shadow-sm">Reação
                                     </span>
                                     <span
                                         className="bg-blue-50 border border-blue-200/60 text-blue-800 text-xs font-semibold px-2.5 py-0.5 rounded flex items-center gap-1.5 shadow-sm">
@@ -956,7 +952,7 @@ export default function Caminhos() {
                                 <p
                                     className="bg-red-50 text-red-950 px-3.5 py-2.5 rounded-lg border border-red-100 text-xs flex items-start gap-2.5">
 
-                                    <span><strong>Retaliação:</strong><br></br>Se o Servil for destruído usando esta reação, ele explode, causando <strong>1d6 + Magia</strong>de dano em quem desferiu o golpe fatal.</span>
+                                    <span><strong>Retaliação:</strong><br></br>Se o Servil for destruído usando esta reação, ele explode, causando <strong>1d6 + Magia</strong> de dano em quem desferiu o golpe fatal.</span>
                                 </p>
                             </div>
                         </div>
@@ -973,7 +969,7 @@ export default function Caminhos() {
                                 <div className="flex gap-2">
                                     <span
                                         className="bg-orange-50 border border-orange-200/60 text-orange-800 text-xs font-semibold px-2.5 py-0.5 rounded flex items-center gap-1.5 shadow-sm">
-                                        <span className="w-1.5 h-1.5 rounded-full bg-orange-500"></span> 3 PA
+                                        <span className="w-1.5 h-1.5 rounded-full bg-orange-500"></span> 1 Ação Complexa
                                     </span>
                                     <span
                                         className="bg-blue-50 border border-blue-200/60 text-blue-800 text-xs font-semibold px-2.5 py-0.5 rounded flex items-center gap-1.5 shadow-sm">
@@ -982,11 +978,11 @@ export default function Caminhos() {
                                 </div>
                             </div>
                             <div className="space-y-3 text-sm text-gray-700 font-sans">
-                                <p><strong className="text-magic-900 font-semibold">Efeito:</strong><br></br>Você conjura uma entidade primordial de grande porte (ocupa espaço 3). Ela possui <strong>PV igual a 20 + (sua Magia x 3)</strong>, <strong>3 PA</strong> e seus ataques físicos causam <strong>3 + 2d6 + Magia</strong>.</p>
+                                <p><strong className="text-magic-900 font-semibold">Efeito:</strong><br></br>Você conjura uma entidade primordial de grande porte (ocupa espaço 3). Ela possui <strong>PV igual a 20 + (sua Magia x 3)</strong>, <strong>1 Ação de Movimento e 2 Ações Padrões</strong> e seus ataques físicos causam <strong>3 + 2d6 + Magia</strong>.</p>
                                 <p
                                     className="bg-amber-50 text-amber-950 px-3.5 py-2.5 rounded-lg border border-amber-100 text-xs flex items-start gap-2.5">
 
-                                    <span><strong>Concentração:</strong><br></br>Exige a concentração do invocador (custa <strong>1 PM por turno</strong>para ser mantido).</span>
+                                    <span><strong>Concentração:</strong><br></br>Exige a concentração do invocador (custa <strong>1 PM por turno</strong> para ser mantido).</span>
                                 </p>
                             </div>
                         </div>
@@ -1015,7 +1011,7 @@ export default function Caminhos() {
                                 <div className="flex gap-2">
                                     <span
                                         className="bg-orange-50 border border-orange-200/60 text-orange-800 text-xs font-semibold px-2.5 py-0.5 rounded flex items-center gap-1.5 shadow-sm">
-                                        <span className="w-1.5 h-1.5 rounded-full bg-orange-500"></span> 2 PA
+                                        <span className="w-1.5 h-1.5 rounded-full bg-orange-500"></span> 2 Ações Padrões
                                     </span>
                                     <span
                                         className="bg-blue-50 border border-blue-200/60 text-blue-800 text-xs font-semibold px-2.5 py-0.5 rounded flex items-center gap-1.5 shadow-sm">
@@ -1034,7 +1030,7 @@ export default function Caminhos() {
                                             strokeWidth="2"
                                             d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path>
                                     </svg>
-                                    <span><strong>Integridade:</strong><br></br>A muralha possui <strong>Proteção (PR) igual à sua Magia</strong>e <strong>15 PV.</strong> Você pode desfazê-la a qualquer momento (ação livre).</span>
+                                    <span><strong>Integridade:</strong><br></br>A muralha possui <strong>Proteção (PR) igual à sua Magia</strong> e <strong>15 PV.</strong> Você pode desfazê-la a qualquer momento (ação livre).</span>
                                 </p>
                             </div>
                         </div>
@@ -1054,7 +1050,7 @@ export default function Caminhos() {
                                 <div className="flex gap-2">
                                     <span
                                         className="bg-orange-50 border border-orange-200/60 text-orange-800 text-xs font-semibold px-2.5 py-0.5 rounded flex items-center gap-1.5 shadow-sm">
-                                        <span className="w-1.5 h-1.5 rounded-full bg-orange-500"></span> 2 PA
+                                        <span className="w-1.5 h-1.5 rounded-full bg-orange-500"></span> 2 Ações Padrões
                                     </span>
                                     <span
                                         className="bg-blue-50 border border-blue-200/60 text-blue-800 text-xs font-semibold px-2.5 py-0.5 rounded flex items-center gap-1.5 shadow-sm">
@@ -1064,7 +1060,7 @@ export default function Caminhos() {
                             </div>
                             <div className="space-y-3 text-sm text-gray-700 font-sans">
                                 <p><strong className="text-magic-900 font-semibold">Efeito:</strong><br></br>Você
-                                    transfigura uma área de até alcance <strong>Médio</strong>em um terreno
+                                    transfigura uma área de até alcance <strong>Médio</strong> em um terreno
                                     hostil (lama movediça, gravidade alterada, gelo ou espinhos).</p>
                                 <p
                                     className="bg-amber-50 text-amber-950 px-3.5 py-2.5 rounded-lg border border-amber-100 text-xs flex items-start gap-2.5">
@@ -1088,7 +1084,7 @@ export default function Caminhos() {
                                 <div className="flex gap-2">
                                     <span
                                         className="bg-orange-50 border border-orange-200/60 text-orange-800 text-xs font-semibold px-2.5 py-0.5 rounded flex items-center gap-1.5 shadow-sm">
-                                        <span className="w-1.5 h-1.5 rounded-full bg-orange-500"></span> 3 PA
+                                        <span className="w-1.5 h-1.5 rounded-full bg-orange-500"></span> 1 Ação Complexa
                                     </span>
                                     <span
                                         className="bg-blue-50 border border-blue-200/60 text-blue-800 text-xs font-semibold px-2.5 py-0.5 rounded flex items-center gap-1.5 shadow-sm">
@@ -1109,9 +1105,9 @@ export default function Caminhos() {
                                             strokeWidth="2"
                                             d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path>
                                     </svg>
-                                    <span><strong>Regras da Casa:</strong>Dentro deste domínio, a realidade
+                                    <span><strong>Regras da Casa:</strong> Dentro deste domínio, a realidade
                                         favorece você. Você e seus aliados ganham <strong>+1 de Vantagem
-                                            (+1d6)</strong>em um teste por Rodada. Os ataques contra você
+                                            (+1d6)</strong> em um teste por Rodada. Os ataques contra você
                                         recebem <strong>+1 de Desvantagem (-1d6)</strong>.</span>
                                 </p>
                             </div>
@@ -1140,7 +1136,7 @@ export default function Caminhos() {
                                 <div className="flex gap-2">
                                     <span
                                         className="bg-orange-50 border border-orange-200/60 text-orange-800 text-xs font-semibold px-2.5 py-0.5 rounded flex items-center gap-1.5 shadow-sm">
-                                        <span className="w-1.5 h-1.5 rounded-full bg-orange-500"></span> 2 PA
+                                        <span className="w-1.5 h-1.5 rounded-full bg-orange-500"></span> 2 Ações Padrões
                                     </span>
                                     <span
                                         className="bg-blue-50 border border-blue-200/60 text-blue-800 text-xs font-semibold px-2.5 py-0.5 rounded flex items-center gap-1.5 shadow-sm">
@@ -1152,10 +1148,10 @@ export default function Caminhos() {
                                 <p><strong className="text-magic-900 font-semibold">Efeito:</strong><br></br>Você
                                     conjura um cristal flutuante ou um totem mecânico em um espaço vazio até
                                     o alcance <strong>Médio</strong>. A Sentinela possui <strong>10
-                                        PV</strong>e PR igual à sua Magia. No início de cada um de seus
+                                        PV</strong> e PR igual à sua Magia. No início de cada um de seus
                                     turnos, a Sentinela ataca automaticamente um inimigo em alcance
-                                    <strong>Curto</strong>dela (rolando seu teste de Magia) e causando
-                                    <strong>1d6 + Magia</strong>de dano (não gasta seus PA). Você pode
+                                    <strong>Curto</strong> dela (rolando seu teste de Magia) e causando
+                                    <strong>1d6 + Magia</strong> de dano (não gasta suas ações). Você pode
                                     manter até 2 Sentinelas ativas simultaneamente.
                                 </p>
                             </div>
@@ -1174,7 +1170,7 @@ export default function Caminhos() {
                                 <div className="flex gap-2">
                                     <span
                                         className="bg-orange-50 border border-orange-200/60 text-orange-800 text-xs font-semibold px-2.5 py-0.5 rounded flex items-center gap-1.5 shadow-sm">
-                                        <span className="w-1.5 h-1.5 rounded-full bg-orange-500"></span> 1 PA
+                                        <span className="w-1.5 h-1.5 rounded-full bg-orange-500"></span> 1 Ação Padrão
                                     </span>
                                     <span
                                         className="bg-blue-50 border border-blue-200/60 text-blue-800 text-xs font-semibold px-2.5 py-0.5 rounded flex items-center gap-1.5 shadow-sm">
@@ -1200,7 +1196,7 @@ export default function Caminhos() {
                                 <div className="flex gap-2">
                                     <span
                                         className="bg-orange-50 border border-orange-200/60 text-orange-800 text-xs font-semibold px-2.5 py-0.5 rounded flex items-center gap-1.5 shadow-sm">
-                                        <span className="w-1.5 h-1.5 rounded-full bg-orange-500"></span> 3 PA
+                                        <span className="w-1.5 h-1.5 rounded-full bg-orange-500"></span> 1 Ação Complexa
                                     </span>
                                     <span
                                         className="bg-blue-50 border border-blue-200/60 text-blue-800 text-xs font-semibold px-2.5 py-0.5 rounded flex items-center gap-1.5 shadow-sm">
@@ -1213,7 +1209,7 @@ export default function Caminhos() {
                                     os núcleos de energia de todas as suas Sentinelas ativas
                                     simultaneamente. Cada Sentinela explode, forçando inimigos próximos a
                                     testarem <strong>Físico + Destreza (DT 14 + sua Magia)</strong>. Em caso
-                                    de falha, sofrem <strong>3d6 + Magia</strong>de dano de força (metade
+                                    de falha, sofrem <strong>3d6 + Magia</strong> de dano de força (metade
                                     no sucesso). Inimigos pegos na explosão de mais de uma Sentinela rolam o
                                     teste com <strong>1 Desvantagem (-1d6)</strong>.</p>
                             </div>
@@ -1242,7 +1238,7 @@ export default function Caminhos() {
                                 <div className="flex gap-2">
                                     <span
                                         className="bg-orange-50 border border-orange-200/60 text-orange-800 text-xs font-semibold px-2.5 py-0.5 rounded flex items-center gap-1.5 shadow-sm">
-                                        <span className="w-1.5 h-1.5 rounded-full bg-orange-500"></span> 2 PA
+                                        <span className="w-1.5 h-1.5 rounded-full bg-orange-500"></span> 2 Ações Padrões
                                     </span>
                                     <span
                                         className="bg-blue-50 border border-blue-200/60 text-blue-800 text-xs font-semibold px-2.5 py-0.5 rounded flex items-center gap-1.5 shadow-sm">
@@ -1254,9 +1250,9 @@ export default function Caminhos() {
                                 <p><strong className="text-magic-900 font-semibold">Efeito:</strong><br></br>Você altera
                                     temporariamente a própria anatomia para o combate (crescendo garras
                                     afiadas, escamas endurecidas ou presas). Seus ataques desarmados passam
-                                    a causar <strong>3 + 1d6 + Físico</strong>de dano letal. Além disso, a
+                                    a causar <strong>3 + 1d6 + Físico</strong> de dano letal. Além disso, a
                                     densidade da sua pele concede <strong>+2 Pontos de Proteção
-                                        (PR)</strong>natural enquanto a mutação durar.</p>
+                                        (PR)</strong> natural enquanto a mutação durar.</p>
                                 <p
                                     className="bg-blue-50/50 text-blue-900 px-3.5 py-2 rounded-lg border border-blue-100 text-xs flex items-center gap-2">
 
@@ -1278,7 +1274,7 @@ export default function Caminhos() {
                                 </div>
                                 <div className="flex gap-2">
                                     <span
-                                        className="bg-purple-50 border border-purple-200/60 text-purple-800 text-xs font-semibold px-2.5 py-0.5 rounded flex items-center gap-1.5 shadow-sm">Reação (1 PA)
+                                        className="bg-purple-50 border border-purple-200/60 text-purple-800 text-xs font-semibold px-2.5 py-0.5 rounded flex items-center gap-1.5 shadow-sm">Reação
                                     </span>
                                     <span
                                         className="bg-blue-50 border border-blue-200/60 text-blue-800 text-xs font-semibold px-2.5 py-0.5 rounded flex items-center gap-1.5 shadow-sm">
@@ -1290,13 +1286,13 @@ export default function Caminhos() {
                                 <p
                                     className="bg-indigo-50/50 text-indigo-950 px-3.5 py-2.5 rounded-lg border border-indigo-100 text-xs flex items-start gap-2.5">
 
-                                    <span><strong>Gatilho:</strong>Quando você for atingido por um ataque
+                                    <span><strong>Gatilho:</strong> Quando você for atingido por um ataque
                                         físico ou agarrado.</span>
                                 </p>
                                 <p><strong className="text-magic-900 font-semibold">Efeito:</strong><br></br>Você
                                     transforma a área atingida do seu corpo em um estado maleável (como
                                     água, fumaça densa ou borracha). Você sofre apenas <strong>metade do
-                                        dano</strong>do ataque (após reduzir pela sua PR) e escapa
+                                        dano</strong> do ataque (após reduzir pela sua PR) e escapa
                                     automaticamente de qualquer imobilização ou agarramento físico,
                                     deslizando para um espaço adjacente.</p>
                             </div>
@@ -1315,7 +1311,7 @@ export default function Caminhos() {
                                 <div className="flex gap-2">
                                     <span
                                         className="bg-orange-50 border border-orange-200/60 text-orange-800 text-xs font-semibold px-2.5 py-0.5 rounded flex items-center gap-1.5 shadow-sm">
-                                        <span className="w-1.5 h-1.5 rounded-full bg-orange-500"></span> 3 PA
+                                        <span className="w-1.5 h-1.5 rounded-full bg-orange-500"></span> 1 Ação Complexa
                                     </span>
                                     <span
                                         className="bg-blue-50 border border-blue-200/60 text-blue-800 text-xs font-semibold px-2.5 py-0.5 rounded flex items-center gap-1.5 shadow-sm">
@@ -1338,9 +1334,9 @@ export default function Caminhos() {
                                     </svg>
                                     <span><strong>Atributos de Monstro:</strong><br></br>Seu atributo Físico recebe
                                         <strong>+2</strong> (podendo ultrapassar o limite normal de +3
-                                        temporariamente). Você ganha <strong>1 Vantagem (+1d6)</strong>contínua em testes de Físico, e seu metabolismo acelerado regenera
-                                        <strong>1d6 PV</strong>no início de cada um de seus turnos. No
-                                        final do efeito, você perde <strong>2 PA</strong>no turno seguinte
+                                        temporariamente). Você ganha <strong>1 Vantagem (+1d6)</strong> contínua em testes de Físico, e seu metabolismo acelerado regenera
+                                        <strong>1d6 PV</strong> no início de cada um de seus turnos. No
+                                        final do efeito, você perde <strong>2 Ações Padrões</strong> no turno seguinte
                                         devido à exaustão.</span>
                                 </p>
                                 <p
@@ -1375,7 +1371,7 @@ export default function Caminhos() {
                                 <div className="flex gap-2">
                                     <span
                                         className="bg-orange-50 border border-orange-200/60 text-orange-800 text-xs font-semibold px-2.5 py-0.5 rounded flex items-center gap-1.5 shadow-sm">
-                                        <span className="w-1.5 h-1.5 rounded-full bg-orange-500"></span> 2 PA
+                                        <span className="w-1.5 h-1.5 rounded-full bg-orange-500"></span> 2 Ações Padrões
                                     </span>
                                     <span
                                         className="bg-blue-50 border border-blue-200/60 text-blue-800 text-xs font-semibold px-2.5 py-0.5 rounded flex items-center gap-1.5 shadow-sm">
@@ -1394,7 +1390,7 @@ export default function Caminhos() {
                                     className="bg-emerald-50 text-emerald-950 px-3.5 py-2.5 rounded-lg border border-emerald-100 text-xs flex items-start gap-2.5">
 
                                     <span><strong>Criação de Estruturas:</strong><br></br>Você pode criar
-                                        <strong>zonas de Terreno Difícil</strong>em uma área de até 4
+                                        <strong>zonas de Terreno Difícil</strong> em uma área de até 4
                                         espaços, ou erguer estruturas temporárias (como paredes, bolas de
                                         fogo/água, ou nuvens de neblina) de até 4 espaços de volume.</span>
                                 </p>
@@ -1414,7 +1410,7 @@ export default function Caminhos() {
                                 <div className="flex gap-2">
                                     <span
                                         className="bg-orange-50 border border-orange-200/60 text-orange-800 text-xs font-semibold px-2.5 py-0.5 rounded flex items-center gap-1.5 shadow-sm">
-                                        <span className="w-1.5 h-1.5 rounded-full bg-orange-500"></span> 2 PA
+                                        <span className="w-1.5 h-1.5 rounded-full bg-orange-500"></span> 2 Ações Padrões
                                     </span>
                                     <span
                                         className="bg-blue-50 border border-blue-200/60 text-blue-800 text-xs font-semibold px-2.5 py-0.5 rounded flex items-center gap-1.5 shadow-sm">
@@ -1424,9 +1420,7 @@ export default function Caminhos() {
                             </div>
                             <div className="space-y-3 text-sm text-gray-700 font-sans">
                                 <p><strong className="text-magic-900 font-semibold">Efeito:</strong><br></br>Você foca
-                                    sua magia diretamente na estrutura molecular da proteção inimiga. Faça
-                                    um ataque de feitiço corpo a corpo (<strong>Magia +
-                                        Ofício/Controle</strong>).</p>
+                                    sua magia diretamente na estrutura molecular da proteção inimiga. Faça um ataque mágico corpo a corpo (teste de <strong>Magia + Controle</strong> ou <strong>Magia + Ofício</strong> contra a Defesa do alvo).</p>
                                 <p
                                     className="bg-red-50 text-red-950 px-3.5 py-2.5 rounded-lg border border-red-100 text-xs flex items-start gap-2.5">
 
@@ -1453,7 +1447,7 @@ export default function Caminhos() {
                                 <div className="flex gap-2">
                                     <span
                                         className="bg-orange-50 border border-orange-200/60 text-orange-800 text-xs font-semibold px-2.5 py-0.5 rounded flex items-center gap-1.5 shadow-sm">
-                                        <span className="w-1.5 h-1.5 rounded-full bg-orange-500"></span> 3 PA
+                                        <span className="w-1.5 h-1.5 rounded-full bg-orange-500"></span> 1 Ação Complexa
                                     </span>
                                     <span
                                         className="bg-blue-50 border border-blue-200/60 text-blue-800 text-xs font-semibold px-2.5 py-0.5 rounded flex items-center gap-1.5 shadow-sm">
@@ -1473,40 +1467,40 @@ export default function Caminhos() {
                                         <strong className="text-blue-900 font-semibold block mb-0.5">Gelo</strong>
                                         <span>O chão congela instantaneamente, virando Terreno Difícil.
                                             Todos dentro devem fazer um teste de <strong>Físico + Destreza
-                                                (DT 12 + Magia)</strong>ou sofrem <strong>3 + 1d6 de dano
-                                                    de gelo</strong>e ganham a condição
+                                                (DT 12 + Magia)</strong> ou sofrem <strong>3 + 1d6 de dano
+                                                    de gelo</strong> e ganham a condição
                                             <strong>Imobilizado</strong>.</span>
                                     </div>
                                     <div className="bg-emerald-50/70 p-3 rounded-lg border border-emerald-100">
                                         <strong className="text-emerald-900 font-semibold block mb-0.5">Nuvem
                                             de Veneno</strong>
                                         <span>O ar se transforma em gás opressor. Todos na área devem fazer
-                                            um teste de <strong>Físico + Vigor (DT 12 + Magia)</strong>ou
+                                            um teste de <strong>Físico + Vigor (DT 12 + Magia)</strong> ou
                                             sofrem <strong>6 + 1d6 de dano de veneno</strong>.</span>
                                     </div>
                                     <div className="bg-orange-50/70 p-3 rounded-lg border border-orange-100">
                                         <strong className="text-orange-900 font-semibold block mb-0.5">Magma</strong>
                                         <span>O solo derrete em lava. Todos devem fazer um teste de
-                                            <strong>Físico + Destreza (DT 12 + Magia)</strong>ou sofrem
-                                            <strong>3 + 1d6 de dano de fogo</strong>e seu item de Proteção
+                                            <strong>Físico + Destreza (DT 12 + Magia)</strong> ou sofrem
+                                            <strong>3 + 1d6 de dano de fogo</strong> e seu item de Proteção
                                             (PR) acumula 1 ponto de <strong>Danificado</strong>.</span>
                                     </div>
                                     <div className="bg-purple-50/70 p-3 rounded-lg border border-purple-100">
                                         <strong className="text-purple-900 font-semibold block mb-0.5">Espinhos de Cristal</strong>
                                         <span>Chão se torna lâminas de vidro. Teste de <strong>Físico +
-                                            Destreza (DT 12 + Magia)</strong>ou sofrem <strong>3 + 1d6
-                                                de dano de corte</strong>e sofrem <strong>1d6 de dano de
-                                                    sangramento</strong>sempre que gastarem PA para se
+                                            Destreza (DT 12 + Magia)</strong> ou sofrem <strong>3 + 1d6
+                                                de dano de corte</strong> e sofrem <strong>1d6 de dano de
+                                                    sangramento</strong> sempre que gastarem ações para se
                                             mover.</span>
                                     </div>
                                     <div className="bg-slate-100 p-3 rounded-lg border border-slate-200">
                                         <strong className="text-slate-900 font-semibold block mb-0.5">Lodo
                                             Gravitacional</strong>
                                         <span>Lama que puxa as vítimas com força gravitacional extrema.
-                                            Teste de <strong>Físico + Força (DT 12 + Magia)</strong>ou
+                                            Teste de <strong>Físico + Força (DT 12 + Magia)</strong> ou
                                             sofrem <strong>1d6 de dano de esmagamento</strong>, caem
                                             (<strong>Caído</strong>), e ações de mover/levantar passam a
-                                            custar <strong>2 PA</strong>.</span>
+                                            custar <strong>2 Ações Padrões</strong>.</span>
                                     </div>
                                 </div>
                                 <p
@@ -1514,7 +1508,7 @@ export default function Caminhos() {
 
                                     <span><strong>Nota:</strong><br></br>Criaturas que passarem no teste de
                                         resistência (sucesso) de qualquer uma dessas manifestações sofrem
-                                        apenas <strong>metade do dano</strong>e evitam totalmente as
+                                        apenas <strong>metade do dano</strong> e evitam totalmente as
                                         condições ou efeitos secundários.</span>
                                 </p>
                             </div>
@@ -1543,7 +1537,7 @@ export default function Caminhos() {
                                 <div className="flex gap-2">
                                     <span
                                         className="bg-orange-50 border border-orange-200/60 text-orange-800 text-xs font-semibold px-2.5 py-0.5 rounded flex items-center gap-1.5 shadow-sm">
-                                        <span className="w-1.5 h-1.5 rounded-full bg-orange-500"></span> 2 PA
+                                        <span className="w-1.5 h-1.5 rounded-full bg-orange-500"></span> 2 Ações Padrões
                                     </span>
                                     <span
                                         className="bg-blue-50 border border-blue-200/60 text-blue-800 text-xs font-semibold px-2.5 py-0.5 rounded flex items-center gap-1.5 shadow-sm">
@@ -1555,7 +1549,7 @@ export default function Caminhos() {
                                 <p><strong className="text-magic-900 font-semibold">Efeito:</strong><br></br>Você
                                     acelera drasticamente o metabolismo de um alvo aliado tocado, costurando
                                     ferimentos e revigorando o corpo. O alvo recupera <strong>1d6 + seu
-                                        Atributo de Magia</strong>em PV.</p>
+                                        Atributo de Magia</strong> em PV.</p>
                                 <p
                                     className="bg-emerald-50 text-emerald-950 px-3.5 py-2.5 rounded-lg border border-emerald-100 text-xs flex items-start gap-2.5">
                                     <svg className="w-4 h-4 flex-shrink-0 mt-0.5 text-emerald-600" fill="none"
@@ -1573,8 +1567,8 @@ export default function Caminhos() {
                                 <p
                                     className="bg-blue-50 text-blue-900 px-3.5 py-2 rounded-lg border border-blue-100 text-xs flex items-center gap-2">
 
-                                    <span><strong>Bônus:</strong>Pode-se gastar <strong>+2 PM</strong>para
-                                        adicionar <strong>+1d6</strong>à cura.</span>
+                                    <span><strong>Bônus:</strong> Pode-se gastar <strong>+2 PM</strong> para
+                                        adicionar <strong>+1d6</strong> à cura.</span>
                                 </p>
                             </div>
                         </div>
@@ -1592,7 +1586,7 @@ export default function Caminhos() {
                                 <div className="flex gap-2">
                                     <span
                                         className="bg-orange-50 border border-orange-200/60 text-orange-800 text-xs font-semibold px-2.5 py-0.5 rounded flex items-center gap-1.5 shadow-sm">
-                                        <span className="w-1.5 h-1.5 rounded-full bg-orange-500"></span> 2 PA
+                                        <span className="w-1.5 h-1.5 rounded-full bg-orange-500"></span> 2 Ações Padrões
                                     </span>
                                     <span
                                         className="bg-blue-50 border border-blue-200/60 text-blue-800 text-xs font-semibold px-2.5 py-0.5 rounded flex items-center gap-1.5 shadow-sm">
@@ -1603,8 +1597,7 @@ export default function Caminhos() {
                             <div className="space-y-3 text-sm text-gray-700 font-sans">
                                 <p><strong className="text-magic-900 font-semibold">Efeito:</strong><br></br>Você
                                     inverte a lógica da cura, usando magia para enfraquecer músculos e
-                                    travar as sinapses nervosas. Faça um teste de ataque mágico corpo a
-                                    corpo.</p>
+                                    travar as sinapses nervosas. Faça um ataque mágico corpo a corpo (teste de <strong>Magia + Controle</strong> contra a Defesa do alvo).</p>
                                 <p
                                     className="bg-red-50 text-red-950 px-3.5 py-2.5 rounded-lg border border-red-100 text-xs flex items-start gap-2.5">
 
@@ -1629,7 +1622,7 @@ export default function Caminhos() {
                                 <div className="flex gap-2">
                                     <span
                                         className="bg-orange-50 border border-orange-200/60 text-orange-800 text-xs font-semibold px-2.5 py-0.5 rounded flex items-center gap-1.5 shadow-sm">
-                                        <span className="w-1.5 h-1.5 rounded-full bg-orange-500"></span> 3 PA
+                                        <span className="w-1.5 h-1.5 rounded-full bg-orange-500"></span> 1 Ação Complexa
                                     </span>
                                     <span
                                         className="bg-blue-50 border border-blue-200/60 text-blue-800 text-xs font-semibold px-2.5 py-0.5 rounded flex items-center gap-1.5 shadow-sm">
@@ -1645,16 +1638,16 @@ export default function Caminhos() {
                                     className="bg-emerald-50 text-emerald-950 px-3.5 py-2.5 rounded-lg border border-emerald-100 text-xs flex items-start gap-2.5">
 
                                     <span><strong>Limite Quebrado:</strong><br></br>Por <strong>3 turnos</strong>, o
-                                        alvo ganha <strong>2 PA adicionais</strong>por rodada, e recebe
-                                        <strong>1 Vantagem (+1d6)</strong>em TODAS as suas rolagens.</span>
+                                        alvo ganha <strong>2 Ações Padrões adicionais</strong> por rodada, e recebe
+                                        <strong>1 Vantagem (+1d6)</strong> em TODAS as suas rolagens.</span>
                                 </p>
                                 <p
                                     className="bg-red-50 text-red-950 px-3.5 py-2.5 rounded-lg border border-red-100 text-xs flex items-start gap-2.5">
 
                                     <span><strong>O Preço:</strong><br></br>Ao final dos 3 turnos, o corpo cobra o
                                         pedágio do estresse biológico extremo. O alvo perde instantaneamente
-                                        <strong>metade de seus PV atuais</strong>e ganha a condição
-                                        <strong>Esgotado</strong>por 1 rodada completa.</span>
+                                        <strong>metade de seus PV atuais</strong> e ganha a condição
+                                        <strong>Esgotado</strong> por 1 rodada completa.</span>
                                 </p>
                             </div>
                         </div>
@@ -1683,7 +1676,7 @@ export default function Caminhos() {
                                 <div className="flex gap-2">
                                     <span
                                         className="bg-orange-50 border border-orange-200/60 text-orange-800 text-xs font-semibold px-2.5 py-0.5 rounded flex items-center gap-1.5 shadow-sm">
-                                        <span className="w-1.5 h-1.5 rounded-full bg-orange-500"></span> 1 PA
+                                        <span className="w-1.5 h-1.5 rounded-full bg-orange-500"></span> 1 Ação Padrão
                                     </span>
                                     <span
                                         className="bg-blue-50 border border-blue-200/60 text-blue-800 text-xs font-semibold px-2.5 py-0.5 rounded flex items-center gap-1.5 shadow-sm">
@@ -1696,7 +1689,7 @@ export default function Caminhos() {
                                     ação rápida, você transmuta os elements em um frasco explosivo e o
                                     arremessa. Escolha um elemento (Fogo, Gelo, Veneno). O frasco atinge uma
                                     pequena área (alcance <strong>Curto</strong>). Inimigos atingidos sofrem
-                                    <strong>1d6 + seu Atributo de Magia</strong>do elemento escolhido. A
+                                    <strong>1d6 + seu Atributo de Magia</strong> do elemento escolhido. A
                                     área afetada fica coberta pelo elemento por 1 turno (ex: chão
                                     escorregadio, chamas).
                                 </p>
@@ -1715,7 +1708,7 @@ export default function Caminhos() {
                                 </div>
                                 <div className="flex gap-2">
                                     <span
-                                        className="bg-purple-50 border border-purple-200/60 text-purple-800 text-xs font-semibold px-2.5 py-0.5 rounded flex items-center gap-1.5 shadow-sm">Reação (1 PA)
+                                        className="bg-purple-50 border border-purple-200/60 text-purple-800 text-xs font-semibold px-2.5 py-0.5 rounded flex items-center gap-1.5 shadow-sm">Reação
                                     </span>
                                     <span
                                         className="bg-blue-50 border border-blue-200/60 text-blue-800 text-xs font-semibold px-2.5 py-0.5 rounded flex items-center gap-1.5 shadow-sm">
@@ -1733,7 +1726,7 @@ export default function Caminhos() {
                                 <p><strong className="text-magic-900 font-semibold">Efeito:</strong><br></br>Você usa
                                     magia para acelerar drasticamente a reação molecular no corpo do
                                     inimigo. O dano elemental que ele acabou de sofrer é <strong>maximizado
-                                        automaticamente</strong>nos dados. Além disso, o alvo sofre a
+                                        automaticamente</strong> nos dados. Além disso, o alvo sofre a
                                     condição <em>Cego</em>ou <em>Surdo</em>por 1 turno devido à explosão
                                     química repentina.</p>
                             </div>
@@ -1752,7 +1745,7 @@ export default function Caminhos() {
                                 <div className="flex gap-2">
                                     <span
                                         className="bg-orange-50 border border-orange-200/60 text-orange-800 text-xs font-semibold px-2.5 py-0.5 rounded flex items-center gap-1.5 shadow-sm">
-                                        <span className="w-1.5 h-1.5 rounded-full bg-orange-500"></span> 3 PA
+                                        <span className="w-1.5 h-1.5 rounded-full bg-orange-500"></span> 1 Ação Complexa
                                     </span>
                                     <span
                                         className="bg-blue-50 border border-blue-200/60 text-blue-800 text-xs font-semibold px-2.5 py-0.5 rounded flex items-center gap-1.5 shadow-sm">
@@ -1766,7 +1759,7 @@ export default function Caminhos() {
                                     alcance <strong>Curto</strong> (ex: transformando-o em chumbo pesado ou
                                     ácido fervente). O alvo testa <strong>Físico + Vigor (DT 14 + sua
                                         Magia)</strong>. Se falhar, sofre <strong>2d6 de dano contínuo
-                                            (ignora PR)</strong>no início de seus próximos 3 turnos, e todos os
+                                            (ignora PR)</strong> no início de seus próximos 3 turnos, e todos os
                                     seus Atributos Físicos contam como -2 enquanto o efeito durar.</p>
                             </div>
                         </div>
@@ -1794,7 +1787,7 @@ export default function Caminhos() {
                                 <div className="flex gap-2">
                                     <span
                                         className="bg-orange-50 border border-orange-200/60 text-orange-800 text-xs font-semibold px-2.5 py-0.5 rounded flex items-center gap-1.5 shadow-sm">
-                                        <span className="w-1.5 h-1.5 rounded-full bg-orange-500"></span> 1 PA
+                                        <span className="w-1.5 h-1.5 rounded-full bg-orange-500"></span> 1 Ação Padrão
                                     </span>
                                     <span
                                         className="bg-blue-50 border border-blue-200/60 text-blue-800 text-xs font-semibold px-2.5 py-0.5 rounded flex items-center gap-1.5 shadow-sm">
@@ -1833,7 +1826,7 @@ export default function Caminhos() {
                                 <div className="flex gap-2">
                                     <span
                                         className="bg-orange-50 border border-orange-200/60 text-orange-800 text-xs font-semibold px-2.5 py-0.5 rounded flex items-center gap-1.5 shadow-sm">
-                                        <span className="w-1.5 h-1.5 rounded-full bg-orange-500"></span> 2 PA
+                                        <span className="w-1.5 h-1.5 rounded-full bg-orange-500"></span> 2 Ações Padrões
                                     </span>
                                     <span
                                         className="bg-blue-50 border border-blue-200/60 text-blue-800 text-xs font-semibold px-2.5 py-0.5 rounded flex items-center gap-1.5 shadow-sm">
@@ -1850,7 +1843,7 @@ export default function Caminhos() {
 
                                     <span><strong>Vantagem Invisível:</strong><br></br>Enquanto invisível, inimigos
                                         não podem alvejá-lo diretamente com feitiços de alvo único, e
-                                        recebem <strong>1 Desvantagem (-1d6)</strong>em ataques em área que
+                                        recebem <strong>1 Desvantagem (-1d6)</strong> em ataques em área que
                                         o atinjam. O seu próximo ataque feito a partir da invisibilidade
                                         recebe <strong>1 Vantagem (+1d6)</strong>. A invisibilidade quebra
                                         imediatamente após você realizar um ataque ou conjurar um feitiço
@@ -1859,7 +1852,7 @@ export default function Caminhos() {
                                 <p
                                     className="bg-blue-50 text-blue-900 px-3.5 py-2 rounded-lg border border-blue-100 text-xs flex items-center gap-2">
 
-                                    <span><strong>Bônus:</strong>Um alvo adicional custa <strong>+3
+                                    <span><strong>Bônus:</strong> Um alvo adicional custa <strong>+3
                                         PM</strong>.</span>
                                 </p>
                             </div>
@@ -1877,7 +1870,7 @@ export default function Caminhos() {
                                 <div className="flex gap-2">
                                     <span
                                         className="bg-orange-50 border border-orange-200/60 text-orange-800 text-xs font-semibold px-2.5 py-0.5 rounded flex items-center gap-1.5 shadow-sm">
-                                        <span className="w-1.5 h-1.5 rounded-full bg-orange-500"></span> 3 PA
+                                        <span className="w-1.5 h-1.5 rounded-full bg-orange-500"></span> 1 Ação Complexa
                                     </span>
                                     <span
                                         className="bg-blue-50 border border-blue-200/60 text-blue-800 text-xs font-semibold px-2.5 py-0.5 rounded flex items-center gap-1.5 shadow-sm">
@@ -1895,11 +1888,11 @@ export default function Caminhos() {
                                     className="bg-red-50 text-red-950 px-3.5 py-2.5 rounded-lg border border-red-100 text-xs flex items-start gap-2.5">
 
                                     <span><strong>Trauma Psicológico:</strong><br></br>Em caso de falha, o alvo
-                                        sofre <strong>3 + 2d6 + Mental</strong>de dano puramente psíquico
+                                        sofre <strong>3 + 2d6 + Mental</strong> de dano puramente psíquico
                                         (que ignora qualquer PR de armaduras físicas) e ganha a condição
                                         <strong>Atordoado</strong> (ele perde seu próximo turno em estado de
                                         choque). Em caso de sucesso, sofre metade do dano e não perde
-                                        PA.</span>
+                                        ações.</span>
                                 </p>
                             </div>
                         </div>
@@ -1927,7 +1920,7 @@ export default function Caminhos() {
                                 <div className="flex gap-2">
                                     <span
                                         className="bg-orange-50 border border-orange-200/60 text-orange-800 text-xs font-semibold px-2.5 py-0.5 rounded flex items-center gap-1.5 shadow-sm">
-                                        <span className="w-1.5 h-1.5 rounded-full bg-orange-500"></span> 2 PA
+                                        <span className="w-1.5 h-1.5 rounded-full bg-orange-500"></span> 2 Ações Padrões
                                     </span>
                                     <span
                                         className="bg-blue-50 border border-blue-200/60 text-blue-800 text-xs font-semibold px-2.5 py-0.5 rounded flex items-center gap-1.5 shadow-sm">
@@ -1937,13 +1930,12 @@ export default function Caminhos() {
                             </div>
                             <div className="space-y-3 text-sm text-gray-700 font-sans">
                                 <p><strong className="text-magic-900 font-semibold">Efeito:</strong><br></br>Você atinge
-                                    a mente do inimigo com uma descarga pura de dor telepática. Faça um
-                                    ataque usando <strong>Magia ou Mental + Controle</strong>.</p>
+                                    a mente do inimigo com uma descarga pura de dor telepática. Faça um ataque psíquico (teste de <strong>Mental + Vontade</strong> ou <strong>Magia + Controle</strong> contra a Defesa do alvo).</p>
                                 <p
                                     className="bg-red-50 text-red-950 px-3.5 py-2.5 rounded-lg border border-red-100 text-xs flex items-start gap-2.5">
 
                                     <span><strong>Dano Penetrante:</strong><br></br>Se acertar, o feitiço causa
-                                        <strong>3 + 1d6 + Mental</strong>de dano. Diferente de magias
+                                        <strong>3 + 1d6 + Mental</strong> de dano. Diferente de magias
                                         convencionais, este dano <strong>ignora completamente Pontos de
                                             Proteção (PR)</strong> de escudos físicos ou tecidos, afetando
                                         diretamente a Vitalidade (PV) do alvo. (Escudos Arcanos mágicos
@@ -1965,7 +1957,7 @@ export default function Caminhos() {
                                 <div className="flex gap-2">
                                     <span
                                         className="bg-orange-50 border border-orange-200/60 text-orange-800 text-xs font-semibold px-2.5 py-0.5 rounded flex items-center gap-1.5 shadow-sm">
-                                        <span className="w-1.5 h-1.5 rounded-full bg-orange-500"></span> 2 PA
+                                        <span className="w-1.5 h-1.5 rounded-full bg-orange-500"></span> 2 Ações Padrões
                                     </span>
                                     <span
                                         className="bg-blue-50 border border-blue-200/60 text-blue-800 text-xs font-semibold px-2.5 py-0.5 rounded flex items-center gap-1.5 shadow-sm">
@@ -1988,16 +1980,15 @@ export default function Caminhos() {
                                             d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path>
                                     </svg>
                                     <span><strong>Obediência Cega:</strong><br></br>Em caso de falha, no próximo
-                                        turno do alvo, o primeiro Ponto de Ação (PA) dele será
-                                        <strong>obrigatoriamente gasto</strong>para cumprir a sua ordem da
+                                        turno do alvo, a primeira Ação Padrão dele será
+                                        <strong>obrigatoriamente gasto</strong> para cumprir a sua ordem da
                                         maneira mais literal possível (como atacar um aliado próprio ou
                                         largar a arma no chão).</span>
                                 </p>
                                 <p
                                     className="bg-blue-50 text-blue-900 px-3.5 py-2.5 rounded-lg border border-blue-100 text-xs flex items-center gap-2">
 
-                                    <span><strong>Bônus:</strong>Você pode gastar <strong>+2 PM</strong>para adicionar mais um comando. Cada comando gasta <strong>1
-                                        PA</strong>do alvo.</span>
+                                    <span><strong>Bônus:</strong> Você pode gastar <strong>+2 PM</strong> para adicionar mais um comando. Cada comando gasta <strong>1 Ação Padrão</strong> do alvo.</span>
                                 </p>
                             </div>
                         </div>
@@ -2014,7 +2005,7 @@ export default function Caminhos() {
                                 <div className="flex gap-2">
                                     <span
                                         className="bg-orange-50 border border-orange-200/60 text-orange-800 text-xs font-semibold px-2.5 py-0.5 rounded flex items-center gap-1.5 shadow-sm">
-                                        <span className="w-1.5 h-1.5 rounded-full bg-orange-500"></span> 3 PA
+                                        <span className="w-1.5 h-1.5 rounded-full bg-orange-500"></span> 1 Ação Complexa
                                     </span>
                                     <span
                                         className="bg-blue-50 border border-blue-200/60 text-blue-800 text-xs font-semibold px-2.5 py-0.5 rounded flex items-center gap-1.5 shadow-sm">
@@ -2031,8 +2022,7 @@ export default function Caminhos() {
                                     className="bg-red-50 text-red-950 px-3.5 py-2.5 rounded-lg border border-red-100 text-xs flex items-start gap-2.5">
 
                                     <span><strong>Posse:</strong><br></br>Em caso de falha, durante o próximo turno
-                                        inteiro do inimigo, <strong>VOCÊ decide como ele gasta os 3 PA
-                                            dele</strong>, podendo movê-lo, atacar inimigos dele (seus
+                                        inteiro do inimigo, <strong>VOCÊ decide como ele gasta todas as ações (1 Ação de Movimento e 2 Ações Padrões) dele</strong>, podendo movê-lo, atacar inimigos dele (seus
                                         aliados), ou forçá-lo. O feitiço dura 1 turno completo.</span>
                                 </p>
                                 <p
@@ -2067,12 +2057,7 @@ export default function Caminhos() {
                                         Causalidade</h5>
                                 </div>
                                 <div className="flex gap-2">
-                                    <span
-                                        className="bg-orange-50 border border-orange-200/60 text-orange-800 text-xs font-semibold px-2.5 py-0.5 rounded flex items-center gap-1.5 shadow-sm">
-                                        <span className="w-1.5 h-1.5 rounded-full bg-orange-500"></span> 1 PA
-                                        <span
-                                            className="text-[9px] uppercase text-orange-600 font-normal">(Reação)</span>
-                                    </span>
+                                    <span className="bg-purple-50 border border-purple-200/60 text-purple-800 text-xs font-semibold px-2.5 py-0.5 rounded flex items-center gap-1.5 shadow-sm">Reação</span>
                                     <span
                                         className="bg-blue-50 border border-blue-200/60 text-blue-800 text-xs font-semibold px-2.5 py-0.5 rounded flex items-center gap-1.5 shadow-sm">
                                         <span className="w-1.5 h-1.5 rounded-full bg-blue-500"></span> 2 PM
@@ -2083,13 +2068,13 @@ export default function Caminhos() {
                                 <p
                                     className="bg-purple-50 text-purple-900 px-3.5 py-2.5 rounded-lg border border-purple-100 text-xs flex items-start gap-2.5">
 
-                                    <span><strong>Gatilho:</strong>Quando um aliado errar um ataque, ou
+                                    <span><strong>Gatilho:</strong> Quando um aliado errar um ataque, ou
                                         quando um inimigo acertar um ataque contra vocês (antes do dano ser
                                         rolado).</span>
                                 </p>
                                 <p><strong className="text-magic-900 font-semibold">Efeito:</strong><br></br>Você
-                                    manipula a "sorte". Você impõe <strong>1 Desvantagem (-1d6)</strong>retroativa no teste do inimigo (subtraindo o d6 do resultado que ele já
-                                    havia rolado) ou concede <strong>1 Vantagem (+1d6)</strong>ao aliado
+                                    manipula a "sorte". Você impõe <strong>1 Desvantagem (-1d6)</strong> retroativa no teste do inimigo (subtraindo o d6 do resultado que ele já
+                                    havia rolado) ou concede <strong>1 Vantagem (+1d6)</strong> ao aliado
                                     que acabou de errar, podendo transformar a falha em sucesso, ou o
                                     sucesso em falha.</p>
                             </div>
@@ -2108,7 +2093,7 @@ export default function Caminhos() {
                                 <div className="flex gap-2">
                                     <span
                                         className="bg-orange-50 border border-orange-200/60 text-orange-800 text-xs font-semibold px-2.5 py-0.5 rounded flex items-center gap-1.5 shadow-sm">
-                                        <span className="w-1.5 h-1.5 rounded-full bg-orange-500"></span> 2 PA
+                                        <span className="w-1.5 h-1.5 rounded-full bg-orange-500"></span> 2 Ações Padrões
                                     </span>
                                     <span
                                         className="bg-blue-50 border border-blue-200/60 text-blue-800 text-xs font-semibold px-2.5 py-0.5 rounded flex items-center gap-1.5 shadow-sm">
@@ -2119,7 +2104,7 @@ export default function Caminhos() {
                             <div className="space-y-3 text-sm text-gray-700 font-sans">
                                 <p><strong className="text-magic-900 font-semibold">Efeito:</strong><br></br>Você drena
                                     a probabilidade positiva de um inimigo para fortalecer o seu time. Um
-                                    alvo em alcance <strong>Médio</strong>testa <strong>Mental + Vontade
+                                    alvo em alcance <strong>Médio</strong> testa <strong>Mental + Vontade
                                         (DT 12 + seu Atributo Mental)</strong>.</p>
                                 <p
                                     className="bg-emerald-50 text-emerald-950 px-3.5 py-2.5 rounded-lg border border-emerald-100 text-xs flex items-start gap-2.5">
@@ -2127,7 +2112,7 @@ export default function Caminhos() {
                                     <span><strong>Transferência:</strong><br></br>Se ele falhar, pelas próximas
                                         <strong>2 rodadas</strong>, todas as rolagens daquele inimigo sofrem
                                         <strong>1 Desvantagem (-1d6)</strong>. Simultaneamente, um aliado à
-                                        sua escolha (pode ser você) ganha <strong>1 Vantagem (+1d6)</strong>em todas as rolagens pelo mesmo período.</span>
+                                        sua escolha (pode ser você) ganha <strong>1 Vantagem (+1d6)</strong> em todas as rolagens pelo mesmo período.</span>
                                 </p>
                             </div>
                         </div>
@@ -2144,7 +2129,7 @@ export default function Caminhos() {
                                 <div className="flex gap-2">
                                     <span
                                         className="bg-orange-50 border border-orange-200/60 text-orange-800 text-xs font-semibold px-2.5 py-0.5 rounded flex items-center gap-1.5 shadow-sm">
-                                        <span className="w-1.5 h-1.5 rounded-full bg-orange-500"></span> 3 PA
+                                        <span className="w-1.5 h-1.5 rounded-full bg-orange-500"></span> 1 Ação Complexa
                                         <span
                                             className="text-[9px] uppercase text-orange-600 font-normal">(Reação)</span>
                                     </span>
@@ -2179,8 +2164,8 @@ export default function Caminhos() {
                                     <span><strong>A Nova Realidade:</strong><br></br>A ação do alvo é apagada da
                                         existência e ele é forçado a realizar toda a rolagem novamente do
                                         zero. Como o evento agora ocorre sob a sua vontade imponente, a nova
-                                        rolagem recebe <strong>1 Vantagem (+1d6)</strong>se for de um
-                                        aliado, ou <strong>1 Desvantagem (-1d6)</strong>se for de um
+                                        rolagem recebe <strong>1 Vantagem (+1d6)</strong> se for de um
+                                        aliado, ou <strong>1 Desvantagem (-1d6)</strong> se for de um
                                         inimigo. O segundo resultado passa a ser o definitivo na linha do
                                         tempo.</span>
                                 </p>
@@ -2188,8 +2173,7 @@ export default function Caminhos() {
                                     className="bg-red-50 text-red-950 px-3.5 py-2.5 rounded-lg border border-red-100 text-xs flex items-start gap-2.5 font-sans">
 
                                     <span><strong>Fadiga Temporal:</strong><br></br>Se você usar este talento fora
-                                        do seu turno, ele consome antecipadamente todos os <strong>3
-                                            PA</strong>do seu turno seguinte (você fica paralisado se
+                                        do seu turno, ele consome antecipadamente todas as ações do seu turno seguinte (você fica paralisado se
                                         recuperando da distorção temporal).</span>
                                 </p>
                             </div>
@@ -2217,7 +2201,7 @@ export default function Caminhos() {
                                 </div>
                                 <div className="flex gap-2">
                                     <span
-                                        className="bg-purple-50 border border-purple-200/60 text-purple-800 text-xs font-semibold px-2.5 py-0.5 rounded flex items-center gap-1.5 shadow-sm">Reação (1 PA)
+                                        className="bg-purple-50 border border-purple-200/60 text-purple-800 text-xs font-semibold px-2.5 py-0.5 rounded flex items-center gap-1.5 shadow-sm">Reação
                                     </span>
                                     <span
                                         className="bg-blue-50 border border-blue-200/60 text-blue-800 text-xs font-semibold px-2.5 py-0.5 rounded flex items-center gap-1.5 shadow-sm">
@@ -2229,14 +2213,14 @@ export default function Caminhos() {
                                 <p
                                     className="bg-indigo-50/50 text-indigo-950 px-3.5 py-2.5 rounded-lg border border-indigo-100 text-xs flex items-start gap-2.5">
 
-                                    <span><strong>Gatilho:</strong>Quando você ou um aliado em alcance
-                                        <strong>Curto</strong>for alvo de um ataque (antes da
+                                    <span><strong>Gatilho:</strong> Quando você ou um aliado em alcance
+                                        <strong>Curto</strong> for alvo de um ataque (antes da
                                         rolagem).</span>
                                 </p>
                                 <p><strong className="text-magic-900 font-semibold">Efeito:</strong><br></br>Você tem um
                                     vislumbre do futuro imediato e grita um aviso. O alvo do ataque ganha
-                                    <strong>+3 na Defesa</strong>contra aquele golpe específico. Se o
-                                    ataque errar por causa desse bônus, o inimigo fica confuso e perde 1 PA
+                                    <strong>+3 na Defesa</strong> contra aquele golpe específico. Se o
+                                    ataque errar por causa desse bônus, o inimigo fica confuso e perde 1 Ação Padrão
                                     no turno dele.
                                 </p>
                             </div>
@@ -2254,7 +2238,7 @@ export default function Caminhos() {
                                 </div>
                                 <div className="flex gap-2">
                                     <span
-                                        className="bg-purple-50 border border-purple-200/60 text-purple-800 text-xs font-semibold px-2.5 py-0.5 rounded flex items-center gap-1.5 shadow-sm">Reação (2 PA)
+                                        className="bg-purple-50 border border-purple-200/60 text-purple-800 text-xs font-semibold px-2.5 py-0.5 rounded flex items-center gap-1.5 shadow-sm">Reação (consome 1 Ação Padrão do seu próximo turno)
                                     </span>
                                     <span
                                         className="bg-blue-50 border border-blue-200/60 text-blue-800 text-xs font-semibold px-2.5 py-0.5 rounded flex items-center gap-1.5 shadow-sm">
@@ -2266,9 +2250,9 @@ export default function Caminhos() {
                                 <p
                                     className="bg-indigo-50/50 text-indigo-950 px-3.5 py-2.5 rounded-lg border border-indigo-100 text-xs flex items-start gap-2.5">
 
-                                    <span><strong>Gatilho:</strong>Quando um inimigo começar a conjurar uma magia ou habilidade.</span>
+                                    <span><strong>Gatilho:</strong> Quando um inimigo começar a conjurar uma magia ou habilidade.</span>
                                 </p>
-                                <p><strong className="text-magic-900 font-semibold">Efeito:</strong><br></br>Você invade a mente do conjurador com um grito psíquico para quebrar sua concentração. Faça uma rolagem disputada de <strong>Mental + Magia</strong>contra o inimigo. Se você vencer, a magia do inimigo falha miseravelmente. Ele gasta os PMs da habilidade, mas o efeito não acontece (os PAs dele também são consumidos).</p>
+                                <p><strong className="text-magic-900 font-semibold">Efeito:</strong><br></br>Você invade a mente do conjurador com um grito psíquico para quebrar sua concentração. Faça um teste resistido (disputado) de <strong>Magia + Controle</strong> ou <strong>Mental + Vontade</strong> contra o teste de conjuração do inimigo. Se você vencer, a magia do inimigo falha miseravelmente. Ele gasta os PMs da habilidade, mas o efeito não acontece (a ação correspondente dele também é consumida).</p>
                             </div>
                         </div>
 
@@ -2284,7 +2268,7 @@ export default function Caminhos() {
                                 <div className="flex gap-2">
                                     <span
                                         className="bg-orange-50 border border-orange-200/60 text-orange-800 text-xs font-semibold px-2.5 py-0.5 rounded flex items-center gap-1.5 shadow-sm">
-                                        <span className="w-1.5 h-1.5 rounded-full bg-orange-500"></span> 3 PA
+                                        <span className="w-1.5 h-1.5 rounded-full bg-orange-500"></span> 1 Ação Complexa
                                     </span>
                                     <span
                                         className="bg-blue-50 border border-blue-200/60 text-blue-800 text-xs font-semibold px-2.5 py-0.5 rounded flex items-center gap-1.5 shadow-sm">
@@ -2293,7 +2277,7 @@ export default function Caminhos() {
                                 </div>
                             </div>
                             <div className="space-y-3 text-sm text-gray-700 font-sans">
-                                <p><strong className="text-magic-900 font-semibold">Efeito:</strong><br></br>Você conecta temporariamente a mente de todos os seus aliados, compartilhando sua precognição com eles. Durante a próxima rodada inteira de combate, o seu grupo age como uma mente coletiva: <strong>todos os seus aliados</strong> (incluindo você) recebem <strong>1 Vantagem (+1d6)</strong>em todas as rolagens de ataque e defesa. Além disso, aliados não podem ser flanqueados ou pegos de surpresa sob este efeito.
+                                <p><strong className="text-magic-900 font-semibold">Efeito:</strong><br></br>Você conecta temporariamente a mente de todos os seus aliados, compartilhando sua precognição com eles. Durante a próxima rodada inteira de combate, o seu grupo age como uma mente coletiva: <strong>todos os seus aliados</strong> (incluindo você) recebem <strong>1 Vantagem (+1d6)</strong> em todas as rolagens de ataque e defesa. Além disso, aliados não podem ser flanqueados ou pegos de surpresa sob este efeito.
                                 </p>
                             </div>
                         </div>
@@ -2358,6 +2342,26 @@ export default function Caminhos() {
                                 <li>Aprender Runa de Arcana afiliada ao seu Caminho: Teste de Magia(Controle) ou Mental (Conhecimento) contra <strong>DT 8 + Custo de PM da Runa</strong>.</li>
                                 <li>Aprender Runa de Arcana estranha ao seu Caminho: Teste de Magia(Controle) ou Mental (Conhecimento) contra <strong>DT 10 + Custo de PM da Runa</strong>.</li>
                             </ul>
+                        </li>
+                    </ul>
+                </div>
+
+                {/* Sinergia Operacional com Conjurações */}
+                <div className="mt-6 bg-white/5 border border-white/10 rounded-xl p-5">
+                    <h4 className="font-serif font-bold text-base text-amber-300 mb-2 flex items-center gap-2">Sinergia Operacional com Conjurações
+                    </h4>
+                    <p className="text-xs text-gray-300 leading-relaxed font-sans mb-3">
+                        A economia de ações e os talentos de Caminho possuem sinergia direta com a conjuração de magias do seu Grimório:
+                    </p>
+                    <ul className="text-xs space-y-2.5 text-gray-300 font-sans list-disc pl-4">
+                        <li>
+                            <strong>Ações Padrões Dobradas:</strong> Como um personagem possui <strong>2 Ações Padrões</strong> por turno, ele pode conjurar até <strong>2 Feitiços Consolidados</strong> (que custam 1 Ação Padrão cada) em um único turno, maximizando seu potencial mágico.
+                        </li>
+                        <li>
+                            <strong>Multiplicadores de Ação:</strong> Talentos que concedem Ações Padrões adicionais (como <em>Acelerar</em> de Vanguarda ou <em>Sobrecarga Vital</em> de Biomante) ampliam exponencialmente essa capacidade, permitindo conjurações consecutivas de magias complexas ou a mescla de ataques e feitiços no mesmo turno.
+                        </li>
+                        <li>
+                            <strong>Interrupção e Controle de Iniciativa:</strong> Reações baseadas em contra-feitiço (como <em>Ruído de Pensamento</em> do Oráculo) permitem anular feitiços inteiros inimigos, forçando-os a gastar PM e consumir suas ações correspondentes, controlando a dinâmica do combate.
                         </li>
                     </ul>
                 </div>

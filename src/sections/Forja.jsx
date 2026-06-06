@@ -37,7 +37,7 @@ const TAGS_DATA = {
  caos: { id: 'caos', name: 'Runa de Caos (kat) (Desorientação Mágica)', type: 'efeito', house: 'engrenagem', cost: 0, slot: true, test: 'Magia Controle', desc: 'Magia em curto-circuito. No próximo turno dele, o original feitiço custa o dobro de PM. Se não tiver PM suficiente, falha. Sucesso: O alvo tem +1 de desvantagem neste turno.' },
 
  // Efeitos - Noite
- agua: { id: 'agua', name: 'Runa de Água (flu) (Hipotermia / Lerdeza)', type: 'efeito', house: 'noite', cost: 0, slot: true, test: 'Físico Vigor', desc: 'Frio nos ossos. O limite de ações do inimigo cai de 3 PA para 2 PA até o final do seu próximo turno.' },
+ agua: { id: 'agua', name: 'Runa de Água (flu) (Hipotermia / Lerdeza)', type: 'efeito', house: 'noite', cost: 0, slot: true, test: 'Físico Vigor', desc: 'Frio nos ossos. O inimigo perde 1 de suas Ações Padrões no seu próximo turno (recebendo apenas 1 Ação de Movimento e 1 Ação Padrão).' },
  escuridao: { id: 'escuridao', name: 'Runa de Escuridão (Ru) (Terror Sombrio)', type: 'efeito', house: 'noite', cost: 0, slot: true, test: 'Mental Vontade', desc: 'Alvo fica cego e surdo, recebe desvantagem em ataques e fica impedido de conjurar magias até o final do seu próximo turno. Sucesso: +1 desvantagem neste turno.' },
  vazio: { id: 'vazio', name: 'Runa de Vazio (vat) (Exaustão)', type: 'efeito', house: 'noite', cost: 0, slot: true, test: 'Mental Vontade', desc: 'Drena a energia do alvo para o vazio. Ele fica Debilitado até o final do seu próximo turno. Sucesso: sofre apenas 3 de dano.' }
 };
@@ -58,7 +58,8 @@ export default function Forja({ showToast }) {
  sobrecarga: 0,
  guiada: false,
  acelerada: false,
- ricochete: false
+ ricochete: false,
+ ataque: false
  });
  const [savedSpells, setSavedSpells] = useState([]);
 
@@ -100,6 +101,7 @@ export default function Forja({ showToast }) {
  if (potencia.guiada) slots++;
  if (potencia.acelerada) slots++;
  if (potencia.ricochete) slots++;
+ if (potencia.ataque) slots++;
  return slots;
  };
 
@@ -126,16 +128,18 @@ export default function Forja({ showToast }) {
  if (tempPotencia.guiada) slots++;
  if (tempPotencia.acelerada) slots++;
  if (tempPotencia.ricochete) slots++;
+ if (tempPotencia.ataque) slots++;
  return slots;
  };
 
- while (getTempSlots() >limit) {
+ while (getTempSlots() > limit) {
  if (tempPotencia.ricochete) { tempPotencia.ricochete = false; continue; }
  if (tempPotencia.acelerada) { tempPotencia.acelerada = false; continue; }
  if (tempPotencia.guiada) { tempPotencia.guiada = false; continue; }
  if (tempPotencia.quebra) { tempPotencia.quebra = false; continue; }
  if (tempPotencia.sobrecarga > 0) { tempPotencia.sobrecarga--; continue; }
  if (tempPotencia.foco > 0) { tempPotencia.foco--; continue; }
+ if (tempPotencia.ataque) { tempPotencia.ataque = false; continue; }
  if (tempEfetivos.length > 0) { tempEfetivos.pop(); continue; }
  if (tempAlvo !== 'unico') { tempAlvo = 'unico'; continue; }
  if (tempArea !== 'nenhuma') { tempArea = 'nenhuma'; continue; }
@@ -258,6 +262,7 @@ export default function Forja({ showToast }) {
  if (potencia.guiada) pm += 2;
  if (potencia.acelerada) pm += 3;
  if (potencia.ricochete) pm += 3;
+ if (potencia.ataque) pm += 1;
  return pm;
  };
 
@@ -336,48 +341,54 @@ export default function Forja({ showToast }) {
  };
 
  const copySpellText = () => {
- const catName = category === 'simple' ? 'Magia Simples (Feitiço de Batalha)' : 'Magia Complexa (Ritual Maior)';
- let damage = "3 + 1d6 + Magia";
- if (potencia.sobrecarga > 0) damage += ` + ${potencia.sobrecarga}d6`;
+  const catName = category === 'simple' ? 'Magia Simples (Feitiço de Batalha)' : 'Magia Complexa (Ritual Maior)';
+  let damage = "Nenhum (Magia Utilitária/Defensiva)";
+  if (potencia.ataque) {
+    damage = "3 + 1d6 + Magia";
+    if (potencia.sobrecarga > 0) damage += ` + ${potencia.sobrecarga}d6`;
+  }
 
- let text = ` FEITIÇO: ${name.toUpperCase()} \n`;
- text += `• Categoria: ${catName}\n`;
- text += `• Formato Místico: ${formato || 'Nenhum'}\n`;
- text += `• Custo de Energia: ${pmCost} PM\n`;
- text += `• Tempo de Conjuração: ${potencia.acelerada ? '1 PA (Reduzido)' : '1 PA'}\n`;
- text += `• Slots de Runas Ocupados: ${slotsUsed} / ${maxSlots}\n`;
- text += `• Alcance: ${TAGS_DATA[alcance].name} (${alcance === 'toque' ? '0m' : alcance === 'curto' ? '6m' : alcance === 'medio' ? '12m' : '24m'})\n`;
- text += `• Área: ${TAGS_DATA[area].name}\n`;
- text += `• Seleção de Alvos: ${TAGS_DATA[alvo].name}\n`;
- text += `• Fórmula de Dano: ${damage}\n\n`;
+  let text = ` FEITIÇO: ${name.toUpperCase()} \n`;
+  text += `• Categoria: ${catName}\n`;
+  text += `• Formato Místico: ${formato || 'Nenhum'}\n`;
+  text += `• Custo de Energia: ${pmCost} PM\n`;
+  text += `• Tempo de Conjuração: ${potencia.acelerada ? 'Ação de Movimento (Acelerado)' : 'Ação Padrão'}\n`;
+  text += `• Slots de Runas Ocupados: ${slotsUsed} / ${maxSlots}\n`;
+  text += `• Alcance: ${TAGS_DATA[alcance].name} (${alcance === 'toque' ? '0m' : alcance === 'curto' ? '6m' : alcance === 'medio' ? '12m' : '24m'})\n`;
+  text += `• Área: ${TAGS_DATA[area].name}\n`;
+  text += `• Seleção de Alvos: ${TAGS_DATA[alvo].name}\n`;
+  text += `• Fórmula de Dano: ${damage}\n\n`;
 
- text += `--- EFEITOS DA MATRIZ MÁGICA ---\n`;
- if (efetivos.length === 0 && slotsUsed === 0) {
- text += `• Efeito Base: Nenhum efeito adicional selecionado.\n`;
- } else {
- efetivos.forEach(effId => {
- const eff = TAGS_DATA[effId];
- text += `• ${eff.name} [Teste: ${eff.test}]: ${eff.desc}\n`;
- });
- }
+  text += `--- EFEITOS DA MATRIZ MÁGICA ---\n`;
+  if (efetivos.length === 0 && slotsUsed === 0) {
+  text += `• Efeito Base: Nenhum efeito adicional selecionado.\n`;
+  } else {
+  efetivos.forEach(effId => {
+  const eff = TAGS_DATA[effId];
+  text += `• ${eff.name} [Teste: ${eff.test}]: ${eff.desc}\n`;
+  });
+  }
 
- if (potencia.foco > 0) {
- text += `• Foco Perfurante (Nív ${potencia.foco}): Ignora passivamente ${potencia.foco * 3} PR do alvo.\n`;
- }
- if (potencia.quebra) {
- text += `• Quebra-Escudos: Dano causado à Proteção (PR) é dobrado.\n`;
- }
- if (potencia.sobrecarga > 0) {
- text += `• Sobrecarga Arcana (Nív ${potencia.sobrecarga}): +${potencia.sobrecarga}d6 dano bruto.\n`;
- }
- if (potencia.guiada) {
- text += `• Precisão Guiada: +1 Vantagem na rolagem de ataque OU impõe -1 Desvantagem na resistência do inimigo.\n`;
- }
- if (potencia.ricochete) {
- text += `• Ricochete: A magia salta para um alvo secundário a até alcance Curto (6m) causando metade do dano e sem debuffs.\n`;
- }
+  if (potencia.ataque) {
+  text += `• Runa de Ataque (Ofensiva): Habilita o dano base da magia.\n`;
+  }
+  if (potencia.foco > 0) {
+  text += `• Foco Perfurante (Nív ${potencia.foco}): Ignora passivamente ${potencia.foco * 3} PR do alvo.\n`;
+  }
+  if (potencia.quebra) {
+  text += `• Quebra-Escudos: Dano causado à Proteção (PR) é dobrado.\n`;
+  }
+  if (potencia.sobrecarga > 0) {
+  text += `• Sobrecarga Arcana (Nív ${potencia.sobrecarga}): +${potencia.sobrecarga}d6 dano bruto.\n`;
+  }
+  if (potencia.guiada) {
+  text += `• Precisão Guiada: +1 Vantagem na rolagem de ataque OU impõe -1 Desvantagem na resistência do inimigo.\n`;
+  }
+  if (potencia.ricochete) {
+  text += `• Ricochete: A magia salta para um alvo secundário a até alcance Curto (6m) causando metade do dano e sem debuffs.\n`;
+  }
 
- text += `\nGerado automaticamente pela Forja Arcana de Doze Arcanas.`;
+  text += `\nGerado automaticamente pela Forja Arcana de Doze Arcanas.`;
 
  navigator.clipboard.writeText(text).then(() => {
  showToast("Copiado com sucesso para a Área de Transferência!");
@@ -389,30 +400,31 @@ export default function Forja({ showToast }) {
 
  // Build Slots circles to render React-side
  const renderSlotsList = () => {
- let list = [];
- if (TAGS_DATA[alcance] && TAGS_DATA[alcance].slot) {
- list.push({ name: 'Alcance', bg: 'bg-cyan-600 border-cyan-500 shadow-cyan-500/20' });
- }
- if (TAGS_DATA[area] && TAGS_DATA[area].slot) {
- list.push({ name: 'Área', bg: 'bg-teal-600 border-teal-500 shadow-teal-500/20' });
- }
- if (TAGS_DATA[alvo] && TAGS_DATA[alvo].slot) {
- list.push({ name: 'Alvo', bg: 'bg-purple-600 border-purple-500 shadow-purple-500/20' });
- }
- efetivos.forEach(eff => {
- list.push({ name: TAGS_DATA[eff].name.split(' (')[0], bg: 'bg-orange-600 border-orange-500 shadow-orange-500/20' });
- });
- for (let i = 0; i < potencia.foco; i++) {
- list.push({ name: 'Foco Perf.', bg: 'bg-red-700 border-red-600 shadow-red-600/20' });
- }
- for (let i = 0; i < potencia.sobrecarga; i++) {
- list.push({ name: 'Sobrecarga', bg: 'bg-red-700 border-red-600 shadow-red-600/20' });
- }
- if (potencia.quebra) list.push({ name: 'Q. Escudo', bg: 'bg-red-700 border-red-600 shadow-red-600/20' });
- if (potencia.guiada) list.push({ name: 'Guiada', bg: 'bg-red-700 border-red-600 shadow-red-600/20' });
- if (potencia.acelerada) list.push({ name: 'Acelerada', bg: 'bg-red-700 border-red-600 shadow-red-600/20' });
- if (potencia.ricochete) list.push({ name: 'Ricochete', bg: 'bg-red-700 border-red-600 shadow-red-600/20' });
- return list;
+  let list = [];
+  if (TAGS_DATA[alcance] && TAGS_DATA[alcance].slot) {
+  list.push({ name: 'Alcance', bg: 'bg-cyan-600 border-cyan-500 shadow-cyan-500/20' });
+  }
+  if (TAGS_DATA[area] && TAGS_DATA[area].slot) {
+  list.push({ name: 'Área', bg: 'bg-teal-600 border-teal-500 shadow-teal-500/20' });
+  }
+  if (TAGS_DATA[alvo] && TAGS_DATA[alvo].slot) {
+  list.push({ name: 'Alvo', bg: 'bg-purple-600 border-purple-500 shadow-purple-500/20' });
+  }
+  efetivos.forEach(eff => {
+  list.push({ name: TAGS_DATA[eff].name.split(' (')[0], bg: 'bg-orange-600 border-orange-500 shadow-orange-500/20' });
+  });
+  if (potencia.ataque) list.push({ name: 'Ataque', bg: 'bg-red-700 border-red-600 shadow-red-600/20' });
+  for (let i = 0; i < potencia.foco; i++) {
+  list.push({ name: 'Foco Perf.', bg: 'bg-red-700 border-red-600 shadow-red-600/20' });
+  }
+  for (let i = 0; i < potencia.sobrecarga; i++) {
+  list.push({ name: 'Sobrecarga', bg: 'bg-red-700 border-red-600 shadow-red-600/20' });
+  }
+  if (potencia.quebra) list.push({ name: 'Q. Escudo', bg: 'bg-red-700 border-red-600 shadow-red-600/20' });
+  if (potencia.guiada) list.push({ name: 'Guiada', bg: 'bg-red-700 border-red-600 shadow-red-600/20' });
+  if (potencia.acelerada) list.push({ name: 'Acelerada', bg: 'bg-red-700 border-red-600 shadow-red-600/20' });
+  if (potencia.ricochete) list.push({ name: 'Ricochete', bg: 'bg-red-700 border-red-600 shadow-red-600/20' });
+  return list;
  };
 
  const activeSlots = renderSlotsList();
@@ -426,7 +438,7 @@ export default function Forja({ showToast }) {
  <section id="sec-forja" className="content-section">
  <h2 className="text-3xl border-b-2 border-magic-100 pb-2 mb-4">10. A Forja Arcana: Simulador de Runas e Feitiços</h2>
  <p className="mb-6 font-sans text-gray-700 leading-relaxed">Bem-vindo à <strong>Forja Arcana</strong>. Use este simulador interativo para estruturar, balancear e testar equações de magias.
- Escolha o formato místico, adicione as Runas desejadas de acordo com as Casas Acadêmicas e aplique Modificadores de Potência para ver o custo final em <strong>Pontos de Mana (PM)</strong>e conferir a viabilidade rúnica da sua criação.
+ Escolha o formato místico, adicione as Runas desejadas de acordo com as Casas Acadêmicas e aplique Modificadores de Potência para ver o custo final em <strong>Pontos de Mana (PM)</strong> e conferir a viabilidade rúnica da sua criação.
  </p>
 
  <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 mt-6 font-sans">
@@ -712,9 +724,10 @@ export default function Forja({ showToast }) {
 
  {/* Checkbox-based Power Modifiers */}
  {[
+ { id: 'ataque', name: 'Runa de Ataque', desc: 'Define a magia como ofensiva, habilitando a rolagem de dano', pm: '+1 PM | 1 Slot' },
  { id: 'quebra', name: 'Quebra-Escudos', desc: 'Dano causado à Proteção (PR) é dobrado', pm: '+2 PM | 1 Slot' },
  { id: 'guiada', name: 'Precisão Guiada', desc: '+1 Vantagem ou -1 Resis. no inimigo', pm: '+2 PM | 1 Slot' },
- { id: 'acelerada', name: 'Conjuração Acelerada', desc: 'Reduz o custo em -1 PA (mínimo 1 PA)', pm: '+3 PM | 1 Slot' },
+ { id: 'acelerada', name: 'Conjuração Acelerada', desc: 'Reduz o tempo de conjuração de Ação Padrão para Ação de Movimento', pm: '+3 PM | 1 Slot' },
  { id: 'ricochete', name: 'Ricochete', desc: 'Salto a outro alvo em Alcance Curto', pm: '+3 PM | 1 Slot' }
  ].map(item => {
  const isSelected = potencia[item.id];
@@ -836,7 +849,7 @@ export default function Forja({ showToast }) {
  <div>
  <span className="text-slate-500 block uppercase tracking-wider text-[9px] mb-0.5">Conjuração</span>
  <span className={`font-bold ${potencia.acelerada ? 'text-green-400' : 'text-amber-400'}`}>
- {potencia.acelerada ? '1 PA (Acelerado)' : '1 PA'}
+ {potencia.acelerada ? 'Ação de Movimento' : 'Ação Padrão'}
  </span>
  </div>
  </div>
@@ -845,7 +858,7 @@ export default function Forja({ showToast }) {
  <div className="mb-4 bg-indigo-950/20 border border-indigo-900/35 rounded-xl p-3 text-center">
  <span className="text-[9px] uppercase tracking-widest text-indigo-400 block font-semibold">Fórmula de Dano Estimada</span>
  <div className="font-serif text-lg text-indigo-200 font-bold mt-0.5">
- 3 + 1d6 + Magia {potencia.sobrecarga > 0 && `+ ${potencia.sobrecarga}d6`}
+ {potencia.ataque ? `3 + 1d6 + Magia ${potencia.sobrecarga > 0 ? `+ ${potencia.sobrecarga}d6` : ''}` : 'Nenhuma (Magia Utilitária/Defensiva)'}
  </div>
  </div>
 
@@ -926,9 +939,14 @@ export default function Forja({ showToast }) {
  <strong>Precisão Guiada</strong>: Concede +1 Vantagem (+1d6) no ataque OU impõe -1 Desvantagem (-1d6) no teste de resistência do alvo.
  </li>
  )}
+ {potencia.ataque && (
+ <li>
+ <strong>Runa de Ataque</strong>: Habilita a fórmula de dano base da magia.
+ </li>
+ )}
  {potencia.acelerada && (
  <li>
- <strong>Conjuração Acelerada</strong>: O custo de ativação é reduzido para 1 PA.
+ <strong>Conjuração Acelerada</strong>: O tempo de conjuração é reduzido para Ação de Movimento.
  </li>
  )}
  {potencia.ricochete && (

@@ -5,7 +5,7 @@ export default function Condicoes() {
  <section id="sec-condicoes" className="content-section">
  <h2 className="text-3xl border-b-2 border-magic-100 pb-2 mb-4">5. Condições de Combate</h2>
  <p className="mb-6 text-gray-700 leading-relaxed font-sans">No campo de batalha mágico, controlar o posicionamento, os sentidos e o fluxo arcano dos
- adversários é tão vital quanto desferir golpes mortais. As <strong>Condições</strong>alteram drasticamente as capacidades físicas, sensoriais e místicas de alvos aliados ou
+ adversários é tão vital quanto desferir golpes mortais. As <strong>Condições</strong> alteram drasticamente as capacidades físicas, sensoriais e místicas de alvos aliados ou
  inimigos.
  </p>
 
@@ -38,9 +38,9 @@ export default function Condicoes() {
  <p className="text-xs text-gray-700 leading-relaxed font-sans mb-3">O alvo está no chão, seja por ter sido derrubado, tropeçado ou por escolha própria.
  </p>
  <div className="space-y-2 text-xs text-gray-650 font-sans leading-normal">
- <p><strong>Mobilidade:</strong><br></br>Seu deslocamento cai para<strong> 0</strong>. Ele deve gastar <strong>1 PA</strong>no seu turno exclusivamente para se levantar.
+ <p><strong>Mobilidade:</strong><br></br>Seu deslocamento cai para<strong> 0</strong>. Ele deve gastar uma <strong>Ação de Movimento</strong> no seu turno exclusivamente para se levantar.
  </p>
- <p><strong>Ataques de Perto:</strong><br></br>Enquanto estiver Caído, ataques corpo a corpo contra ele recebem <strong>1 Vantagem (+1d6)</strong>.</p>
+ <p><strong>Ataques de Perto:</strong><br></br>Enquanto estiver Caído, ataques corpo a corpo contra ele recebe <strong>1 Vantagem (+1d6)</strong>.</p>
  <p><strong>Ataques à Distância:</strong><br></br>Ataques à distância sofrem <strong>+1 Desvantagem (-1d6)</strong>.</p>
  </div>
  </div>
@@ -56,7 +56,7 @@ export default function Condicoes() {
  <p className="text-xs text-gray-700 leading-relaxed font-sans mb-3">O alvo está preso (por raízes, gelo, estase ou agarrado).
  </p>
  <div className="space-y-2 text-xs text-gray-655 font-sans leading-normal">
- <p><strong>Mobilidade:</strong><br></br>Seu deslocamento torna-se <strong>0</strong>e ele não pode sofrer efeitos que o empurrem ou puxem.</p>
+ <p><strong>Mobilidade:</strong><br></br>Seu deslocamento torna-se <strong>0</strong> e ele não pode sofrer efeitos que o empurrem ou puxem.</p>
  <p><strong>Restrição:</strong><br></br>Não pode usar nenhuma ação que exija as pernas.</p>
  <p><strong>Penalidade:</strong><br></br>Sofre <strong>+1 Desvantagem (-1d6)</strong> em testes de <strong>Físico (Destreza)</strong>.</p>
  </div>
@@ -74,7 +74,7 @@ export default function Condicoes() {
  </p>
  <div className="space-y-2 text-xs text-gray-655 font-sans leading-normal">
  <p><strong>Bloqueio:</strong><br></br>Ele não pode realizar ataques marciais com a arma ou conjurar feitiços que exijam aquele foco específico.</p>
- <p><strong>Recuperação:</strong><br></br>Recolher o item do chão custa <strong>1 PA</strong>.</p>
+ <p><strong>Recuperação:</strong><br></br>Recolher o item do chão custa <strong>1 Ação de Movimento</strong>.</p>
  </div>
  </div>
  </div>
@@ -142,7 +142,7 @@ export default function Condicoes() {
  <div className="space-y-2 text-xs text-gray-655 font-sans leading-normal">
  <p><strong>Foco:</strong><br></br>O alvo não consegue se focar. Sofre <strong>+1 Desvantagem (-1d6)</strong> em ataques corpo a corpo, ataques a distância e magias.</p>
  <p><strong>Reações:</strong><br></br>Não pode usar Reações.</p>
- <p><strong>Economia:</strong><br></br>Só recarrega <strong>1 PA</strong> no início do seu turno, em vez do padrão de 3 PA.</p>
+ <p><strong>Economia:</strong><br></br>Só recebe <strong>1 Ação (Padrão ou de Movimento)</strong> no início do seu turno, em vez do conjunto normal de ações.</p>
  </div>
  </div>
 
@@ -251,7 +251,7 @@ export default function Condicoes() {
  <h4
  className="font-serif font-bold text-sm text-white mb-2 flex items-center gap-1.5 font-bold">Fim do Efeito
  </h4>
- <p>Salvo exceções de magias muito poderosas, a maioria das condições temporárias dura "até o final do próximo turno de quem as causou" ou exige que o alvo gaste Pontos de Ação (PA) para se livrar delas (como gastar 1 PA para se levantar ou apagar chamas).
+ <p>Salvo exceções de magias muito poderosas, a maioria das condições temporárias dura "até o final do próximo turno de quem as causou" ou exige que o alvo gaste ações para se livrar delas (como gastar uma Ação de Movimento para se levantar ou uma Ação Padrão para apagar chamas).
  </p>
  </div>
  </div>

@@ -46,13 +46,13 @@ export default function Combate() {
                     <div
                         className="bg-slate-900 text-white px-4 py-3 rounded-xl flex items-center justify-between shadow-md">
                         <span className="font-serif font-bold text-base flex items-center gap-2">Danos Físicos <span
-                            className="text-[10px] text-slate-300 font-sans font-normal">(Custo: +1 PA)</span>
+                            className="text-[10px] text-slate-300 font-sans font-normal">(Custo: +1 Ação Padrão)</span>
                         </span>
                         <span
                             className="bg-orange-500 text-white text-[9px] font-bold px-2 py-0.5 rounded uppercase tracking-wider font-sans">Físico
                             Ativo</span>
                     </div>
-                    <p className="text-xs text-gray-500 italic font-sans px-1">Ao acertar um ataque físico, o atacante pode gastar <strong>1 PA adicional</strong>no mesmo turno para ativar o efeito especial da sua arma.
+                    <p className="text-xs text-gray-500 italic font-sans px-1">Ao acertar um ataque físico, o atacante pode gastar <strong>1 Ação Padrão adicional</strong> no mesmo turno para ativar o efeito especial da sua arma.
                     </p>
 
                     {/* Cortante */}
@@ -90,7 +90,7 @@ export default function Combate() {
                             <em>O ataque preciso que busca as frestas das armaduras e pontos vitais.</em>
                         </p>
                         <div className="space-y-2 text-xs text-gray-600 font-sans leading-normal">
-                            <p><strong>Efeito:</strong><br></br>Você foca o impacto em um ponto vulnerável. O dano deste ataque <strong>ignora até 3 pontos de Proteção (PRO)</strong>do alvo, atingindo os PVs com mais facilidade.</p>
+                            <p><strong>Efeito:</strong><br></br>Você foca o impacto em um ponto vulnerável. O dano deste ataque <strong>ignora até 3 pontos de Proteção (PRO)</strong> do alvo, atingindo os PVs com mais facilidade.</p>
                         </div>
                     </div>
 
@@ -107,7 +107,7 @@ export default function Combate() {
                             <em>O impacto bruto projetado para esmagar couraças, amassar escudos e estilhaçar barreiras mágicas.</em>
                         </p>
                         <div className="space-y-2 text-xs text-gray-600 font-sans leading-normal">
-                            <p><strong>Efeito:</strong><br></br>Você foca toda a energia cinética na estrutura defensiva do alvo. Ao acertar o ataque e gastar 1 PA, o dano direcionado à <strong>Proteção (PRO)</strong>do oponente é <strong>dobrado</strong>.<em>(Nota: O dano extra atua apenas contra a PRO; qualquer dano que ultrapasse o escudo e atinja a Vitalidade (PV) volta ao valor normal ou seja o dano restante ao pv é dividido por 2) .</em>
+                            <p><strong>Efeito:</strong><br></br>Você foca toda a energia cinética na estrutura defensiva do alvo. Ao acertar o ataque e gastar 1 Ação Padrão, o dano direcionado à <strong>Proteção (PRO)</strong> do oponente é <strong>dobrado</strong>. <em>(Nota: O dano extra atua apenas contra a PRO; qualquer dano que ultrapasse o escudo e atinja a Vitalidade (PV) volta ao valor normal ou seja o dano restante ao pv é dividido por 2).</em>
                             </p>
                             <p
                                 className="bg-red-50/50 text-red-950 px-2.5 py-1.5 rounded border border-red-100/60 text-[11px] flex items-start gap-1.5 mt-2">
@@ -121,23 +121,26 @@ export default function Combate() {
 
             <hr />
 
-            <h3 className="text-2xl mt-6 mb-2">Economia de Ações (PA)</h3>
-            <p className="mb-2">Todo personagem recebe <strong>3 Pontos de Ação (PA) e 1 Ponto de Reação (PRO)</strong>no início de seu turno.</p>
+            <h3 className="text-2xl mt-6 mb-2">Economia de Ações</h3>
+            <p className="mb-2">Todo personagem recebe <strong>(1 Ação de Movimento + 2 Ações Padrões) ou (1 Ação de Movimento + 1 Ação Complexa) ou 1 Ação Completa</strong> no início de seu turno. Além disso, todos têm direito a <strong>1 Reação por rodada</strong>.</p>
+            <p className="mb-2"><strong>Exemplo:</strong></p>
+            <p>Um aluno pode fazer um ataque basico usando uma <strong>Ação Padrão</strong> e em seguida fazer outra <strong>Ação Padrão</strong> para conjurar uma magia. Ou ele pode fazer um ataque basico usando uma <strong>Ação Padrão</strong> e em seguida fazer uma <strong>Ação de Movimento</strong> e atacar novamente usando outra <strong>Ação Padrão</strong> Entretando a ação de movimento tem que ser resolvida antes de outras ações, não é possivel se mover parte do movimento fazer outra ação e depois mover o restante.</p>
+            <p className="mb-2">Se um personagem decide realizar uma Conjuração Improvisada (que exige uma <strong>Ação Complexa</strong>), ele ainda pode se mover (<strong>Ação de Movimento</strong>) antes ou depois da conjuração.</p>
+            <p className="mb-2">Já a <strong>Ação Completa</strong> consome todo o tempo do turno, não sendo possível realizar nenhuma outra ação além da <strong>Ação Completa</strong>.</p>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mt-4">
                 <div className="bg-gray-50 p-4 rounded border border-gray-200">
-                    <span className="font-bold text-magic-800 text-lg block border-b mb-2">Ações Comuns (1 PA)</span>
-                    <ul className="mb-0">
-                        <li><strong>Mover-se</strong><br />Até 6 espaços.</li>
-                        <li><strong>Atacar</strong><br />Armas e ataques básicos.</li>
-                        <li><strong>Testes Resistidos</strong><br />Agarrar, Empurrar, Derrubar.</li>
+                    <span className="font-bold text-magic-800 text-lg block border-b mb-2">Ações do Turno</span>
+                    <ul className="mb-0 space-y-2">
+                        <li><strong>Ação de Movimento:</strong><br />Mover-se até 6 espaços, levantar-se (Caído), recolher um item do chão, etc.</li>
+                        <li><strong>Ações Padrões (2 por turno):</strong><br />Realizar um ataque, conjurar um feitiço padrão ou realizar Testes Resistidos (Agarrar, Empurrar, Derrubar).</li>
+                        <li><strong>Ação Complexa:</strong><br />Conjuração Improvisada, rituais complexos ou habilidades especiais que consomem todo o seu tempo de ação do turno.</li>
                     </ul>
                 </div>
                 <div className="bg-gray-50 p-4 rounded border border-gray-200">
-                    <span className="font-bold text-magic-800 text-lg block border-b mb-2">Reações</span>
-                    <ul className="mb-0">
-                        <li><strong>Defender</strong><br />Dobra a PROTEÇÃO até o início do seu turno.</li>
-                        <li><strong>Esquivar</strong><br />Teste de Físico (Destreza) contra o acerto inimigo
-                            para anular o ataque.</li>
+                    <span className="font-bold text-magic-800 text-lg block border-b mb-2">Reações (1 por rodada)</span>
+                    <ul className="mb-0 space-y-2">
+                        <li><strong>Defender:</strong><br />Dobra a PROTEÇÃO até o início do seu próximo turno.</li>
+                        <li><strong>Esquivar:</strong><br />Realiza um teste de Físico (Destreza) contra o acerto inimigo para tentar anular o ataque completamente.</li>
                     </ul>
                 </div>
             </div>

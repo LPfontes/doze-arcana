@@ -114,7 +114,7 @@ export default function Economia() {
  <span className="font-serif font-bold text-base text-magic-900">Impacto Mecânico no Jogo</span>
  </div>
  <ul className="text-xs text-gray-600 font-sans space-y-2 pl-4 list-disc mb-0">
- <li><strong>Bônus Sociais:</strong><br></br>Ter um Prestígio alinhado com o NPC com quem você está interagindo pode conceder <strong>1 Vantagem (+1d6)</strong>em testes do atributo <strong>Social</strong> ( <em>Persuadir</em> ou <em>Intimidar</em> ). Por exemplo, um aluno com a reputação de "Encrenqueiro Perigoso" tem facilidade para intimidar calouros.</li>
+ <li><strong>Bônus Sociais:</strong><br></br>Ter um Prestígio alinhado com o NPC com quem você está interagindo pode conceder <strong>1 Vantagem (+1d6)</strong> em testes do atributo <strong>Social</strong> ( <em>Persuadir</em> ou <em>Intimidar</em> ). Por exemplo, um aluno com a reputação de "Encrenqueiro Perigoso" tem facilidade para intimidar calouros.</li>
  <li><strong>Abertura de Portas (Sem gastar Créditos):</strong><br></br>Certos NPCs (como o capitão do time esportivo ou o líder do grêmio estudantil) só aceitam conversar ou passar missões exclusivas para alunos que possuam um nível mínimo de Prestígio.</li>
  <li><strong>O Peso da Fama:</strong><br></br>Ter Prestígio muito alto torna quase impossível realizar ações Furtivas ou passar despercebido. Se você é a estrela da escola, sempre haverá alguém prestando atenção no que você está fazendo.</li>
  </ul>
