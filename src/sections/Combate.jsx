@@ -11,7 +11,7 @@ export default function Combate() {
                 <li><strong>Defesa Padrão</strong><br />Calculada como <code>8 + Atributo Físico</code>.</li>
                 <li><strong>Pontos de Vitalidade (PV)</strong><br />Medem a saúde física. Calculado como <code> 15 + (Atributo Físico x 3)</code>. Ao chegar a 0 PV, o personagem fica Esgotado e precisa passar em testes de Mental + Vontade (DT 12) a cada rodada para evitar desmaios ou sequelas.
                 </li>
-                <li><strong>Pontos de Mana (PM)</strong><br />Reservatório mágico para feitiços. Calculado como <code>12 + (Atributo Magia x 3)</code>.</li>
+                <li><strong>Pontos de Mana (PM)</strong><br />Reservatório mágico para feitiços. Calculado como <code>12 + (seu atributo de Magia x 3)</code>.</li>
                 <li><strong>Proteção (PRO)</strong><br />Absorve o dano recebido antes que atinja os PV. É totalmente restaurada no início do turno do personagem. Se a PRO for zerada, todos os itens de proteção recebem 1 ponto de Danificado e, ao atingir seu Limite de Quebra, deixam de fornecer PRO até serem consertados. cada item tem um Limite de Quebra, o Limite de Quebra do seu aluno é a soma dos Limites de Quebra dos itens que ele equipar. </li>
                 <li><strong>Cobertura</strong><br />Cobertura Leve impõe 1 Desvantagem ao ataque inimigo, enquanto Cobertura Pesada impõe 2 Desvantagens.</li>
             </ul>
@@ -29,7 +29,7 @@ export default function Combate() {
                 <div className="bg-cyan-50/50 border border-cyan-100 p-4 rounded-xl shadow-sm">
                     <span
                         className="text-[10px] font-bold text-cyan-600 uppercase tracking-wider font-sans block mb-1">Dano Mágico Básico</span>
-                    <div className="font-serif text-xl font-bold text-magic-900 mb-1">3 + 1d6 + Magia</div>
+                    <div className="font-serif text-xl font-bold text-magic-900 mb-1">3 + 1d6 + seu atributo de Magia</div>
                     <p className="text-[11px] text-gray-500 font-sans leading-tight">Utilizado por varinhas, cajados, orbes e canalizadores de Arcana.</p>
                 </div>
                 <div className="bg-amber-50/50 border border-amber-100 p-4 rounded-xl shadow-sm">

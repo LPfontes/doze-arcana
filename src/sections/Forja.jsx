@@ -344,7 +344,7 @@ export default function Forja({ showToast }) {
   const catName = category === 'simple' ? 'Magia Simples (Feitiço de Batalha)' : 'Magia Complexa (Ritual Maior)';
   let damage = "Nenhum (Magia Utilitária/Defensiva)";
   if (potencia.ataque) {
-    damage = "3 + 1d6 + Magia";
+    damage = "3 + 1d6 + seu atributo de Magia";
     if (potencia.sobrecarga > 0) damage += ` + ${potencia.sobrecarga}d6`;
   }
 
@@ -858,7 +858,7 @@ export default function Forja({ showToast }) {
  <div className="mb-4 bg-indigo-950/20 border border-indigo-900/35 rounded-xl p-3 text-center">
  <span className="text-[9px] uppercase tracking-widest text-indigo-400 block font-semibold">Fórmula de Dano Estimada</span>
  <div className="font-serif text-lg text-indigo-200 font-bold mt-0.5">
- {potencia.ataque ? `3 + 1d6 + Magia ${potencia.sobrecarga > 0 ? `+ ${potencia.sobrecarga}d6` : ''}` : 'Nenhuma (Magia Utilitária/Defensiva)'}
+ {potencia.ataque ? `3 + 1d6 + seu atributo de Magia ${potencia.sobrecarga > 0 ? `+ ${potencia.sobrecarga}d6` : ''}` : 'Nenhuma (Magia Utilitária/Defensiva)'}
  </div>
  </div>
 

@@ -13,7 +13,7 @@ export const RUNES_BY_GRAU = {
             { id: 'vento', name: 'Lufada', cost: '2 PM', type: 'Movimento', test: 'Físico Agilidade', succ: 'Fica Derrubado.', desc: 'Uma lufada empurra o alvo em até 4 Espaços em qualquer direção. Sofre 3 de dano extra se colidir com obstáculos/inimigos.' }
         ],
         modifiers: [
-            { id: 'ataque', name: 'Runa de Ataque', cost: '+1 PM', desc: 'Define a magia como ofensiva, canalizando energia para causar dano direto (Base: 3 + 1d6 + Magia).' },
+            { id: 'ataque', name: 'Runa de Ataque', cost: '+1 PM', desc: 'Define a magia como ofensiva, canalizando energia para causar dano direto (Base: 3 + 1d6 + seu atributo de Magia).' },
             { id: 'toque', name: 'Toque (Alcance)', cost: '0 PM', desc: 'Alcance Toque ou Pessoal.' },
             { id: 'unico_alvo', name: 'Alvo Único (Alvo)', cost: '0 PM', desc: 'Atinge uma criatura ou ponto específico dentro do alcance.' },
             { id: 'sem_area', name: 'Alvo Único (Área)', cost: '0 PM', desc: 'A magia afeta apenas o alvo primário selecionado, sem dispersão de área.' }
@@ -160,7 +160,7 @@ export const RUNES_BY_GRAU = {
                 element: ' Vida',
                 colorClass: 'from-emerald-500/10 to-emerald-600/5 border-emerald-200 text-emerald-900 bg-emerald-50/20',
                 runes: [
-                    { name: 'Esporos Revitalizantes', cost: '+2 PM', type: 'Buff', time: 'Imediato', desc: ' Libera esporos curativos. Aliados adjacentes ao alvo recuperam (4 + Magia) Pontos de Vida e limpam instantaneamente todos os seus Sangramentos.' },
+                    { name: 'Esporos Revitalizantes', cost: '+2 PM', type: 'Buff', time: 'Imediato', desc: ' Libera esporos curativos. Aliados adjacentes ao alvo recuperam (4 + seu atributo de Magia) Pontos de Vida e limpam instantaneamente todos os seus Sangramentos.' },
                     { name: 'Parasita de Mana', cost: '+3 PM', type: 'Debuff', time: '1 Rodada', desc: ' Fixa uma trepadeira parasita no alvo. Se ele gastar qualquer PM no próximo turno, sofre 6 de dano de espinhos(ignora PR) e você recupera 2 PM.' },
                     { name: 'Distrofia', cost: '+2 PM', type: 'Debuff', test: 'Fisico (Vigor)', time: '2 Rodadas', desc: ' Falha: O organismo do inimigo entra em colapso temporário, aplicando imediatamente a condição Enfraquecido.' },
                     { name: 'Florescer Cadavérico', cost: '+4 PM', type: 'Área de Efeito', time: 'Gatilho de Morte', desc: ' Se o alvo morrer nesta rodada, seu corpo floresce em uma Lótus de Seiva. Aliados que passarem por ali curam 4 PV.' }
