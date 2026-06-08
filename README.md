@@ -1,16 +1,61 @@
-# React + Vite
+# 🔮 Doze Arcanas — Grimório & Guia de Regras Oficial
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+O **Doze Arcanas** é uma aplicação web interativa e companion app oficial para o sistema de RPG de mesa focado em aventuras, mistérios e estudos dentro de escolas de magia. Esta plataforma reúne todo o livro de regras, grimório de feitiços e simuladores úteis para os jogadores e mestres.
 
-Currently, two official plugins are available:
+O núcleo mecânico do sistema baseia-se em rolagens de **2d12+** combinando quatro atributos principais e doze perícias para definir o sucesso das ações mágicas e mundanas.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+---
 
-## React Compiler
+## 🚀 Funcionalidades
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- **📖 Livro de Regras Completo**: Seções organizadas para Introdução, Atributos, Combate, Economia, Condições, Casas e Arcanas.
+- **✨ A Forja Arcana**: Um simulador interativo completo para a criação e customização de magias personalizadas, calculando custos de mana e efeitos sob as regras do sistema.
+- **🧭 Navegação Inteligente**:
+  - *Sidebar* fixa (em telas maiores) com *Scrollspy* de precisão absoluta (detecta a seção ativa baseando-se no viewport atual).
+  - Menu de navegação móvel dedicado para smartphones.
+- **🎨 Visual Premium Moderno**:
+  - Interface com tema escuro (dark mode padrão).
+  - Efeitos visuais de blur e gradientes mágicos neon no background.
+  - Alertas interativos (toasts) para feedback rápido das ações.
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🛠️ Tecnologias Utilizadas
+
+- **React 19** — Biblioteca frontend para interfaces declarativas.
+- **Vite 8** — Build tool ultra-rápida.
+- **TailwindCSS 4** — Framework CSS moderno para design e transições limpas.
+- **GitHub Actions** — Workflow integrado para Continuous Deployment automático no GitHub Pages.
+
+---
+
+## 💻 Como Rodar Localmente
+
+Para rodar este projeto na sua máquina de desenvolvimento:
+
+1. **Clonar o Repositório**:
+   ```bash
+   git clone https://github.com/LPfontes/doze-arcana.git
+   cd doze-arcana
+   ```
+
+2. **Instalar Dependências**:
+   ```bash
+   npm install
+   ```
+
+3. **Iniciar o Servidor de Desenvolvimento**:
+   ```bash
+   npm run dev
+   ```
+
+4. **Acessar**:
+   Abra o link exibido no terminal (geralmente [http://localhost:5173](http://localhost:5173)).
+
+---
+
+## 🌐 Deploy (GitHub Pages)
+
+O projeto está configurado para deploy automático através de **GitHub Actions**. Qualquer nova alteração enviada à branch `main` disparará uma action de compilação automática que atualizará o site hospedado em:
+
+👉 **[https://lpfontes.github.io/doze-arcana/](https://lpfontes.github.io/doze-arcana/)**
