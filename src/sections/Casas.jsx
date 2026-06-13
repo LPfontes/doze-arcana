@@ -24,7 +24,7 @@ export default function Casas() {
 
  return (
  <section id="sec-casas" className="content-section">
- <h2 className="text-3xl border-b-2 border-magic-100 pb-2 mb-4">8. O Sistema de Casas Acadêmicas</h2>
+ <h2 className="text-3xl border-b-2 border-magic-100 pb-2 mb-4">10. O Sistema de Casas Acadêmicas</h2>
 
  <p className="mb-6 text-gray-700 leading-relaxed font-sans">As Casas não são meros alojamentos; são instituições de poder político e mágico dentro da
  academia. Ser aceito em uma delas é a garantia de que você terá uma rede de apoio poderosa,
@@ -264,7 +264,7 @@ export default function Casas() {
  {/* Arcanas */}
  <div className="flex flex-wrap gap-2 mt-4">
  <span className="bg-blue-50 border border-blue-200/60 text-blue-800 text-[11px] font-bold px-3 py-1 rounded-full flex items-center gap-1.5 shadow-sm font-sans">
- <span className="w-2 h-2 rounded-full bg-blue-500"></span>ÁGUA (GELO)
+ <span className="w-2 h-2 rounded-full bg-blue-500"></span>ÁGUA
  </span>
  <span className="bg-slate-700 border border-slate-650 text-slate-105 text-[11px] font-bold px-3 py-1 rounded-full flex items-center gap-1.5 shadow-sm font-sans">
  <span className="w-2 h-2 rounded-full bg-slate-400"></span>ESCURIDÃO

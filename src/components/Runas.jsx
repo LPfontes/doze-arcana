@@ -93,6 +93,11 @@ export function BaseRuneCard({ rune, variant = 'grimorio', grauBadge }) {
             <p className={descClass}>
                 <DescWithHighlights text={rune.desc} />
             </p>
+            {rune.scale && (
+                <div className="mt-2 text-[11px] font-sans text-indigo-900 bg-indigo-50/60 p-2 rounded-lg border border-indigo-100/50 shadow-sm">
+                    <strong className="font-bold flex items-center gap-1"><span className="text-indigo-600">↑</span> Evolução:</strong> {rune.scale}
+                </div>
+            )}
             {rune.succ && (
                 isGrimorio ? (
                     <div className="mt-2 flex items-center gap-1.5 bg-emerald-50 border border-emerald-200/60 rounded-lg px-2.5 py-1.5">
@@ -100,7 +105,9 @@ export function BaseRuneCard({ rune, variant = 'grimorio', grauBadge }) {
                         <span className="text-[11px] text-emerald-900 leading-snug font-sans">{rune.succ}</span>
                     </div>
                 ) : (
-                    <p className="text-slate-500 mt-1 italic text-xs">Sucesso: {rune.succ}</p>
+                    <>
+                        <p className="text-slate-500 mt-1 italic text-xs">Sucesso: {rune.succ}</p>
+                    </>
                 )
             )}
         </div>
@@ -189,6 +196,11 @@ export function CustomRuneGroup({ group, badgeText = '', variant = 'grimorio' })
                                 {cr.time && <span className="inline-flex items-center gap-0.5 bg-sky-50 text-sky-700 text-[9px] font-bold px-1.5 py-0.5 rounded uppercase tracking-wider font-sans border border-sky-200 shadow-sm"><span className="text-sky-400">⏱</span> {cr.time}</span>}
                             </div>
                             <p className="text-[11px] text-gray-655 leading-relaxed font-sans mt-1"><DescWithHighlights text={cr.desc} /></p>
+                            {cr.scale && (
+                                <div className="mt-2 text-[10px] font-sans text-indigo-900 bg-indigo-50/60 p-1.5 rounded-lg border border-indigo-100/50">
+                                    <strong className="font-bold">↑ Escala:</strong> {cr.scale}
+                                </div>
+                            )}
                             {cr.succ && (
                                 <div className="mt-2 flex items-start gap-1.5 bg-emerald-50 border border-emerald-200/60 rounded-lg px-2.5 py-1.5">
                                     <span className="shrink-0 font-bold text-[9px] text-emerald-700 uppercase tracking-wider bg-emerald-100 border border-emerald-300/50 px-1.5 py-0.5 rounded mt-0.5">Sucesso</span>
@@ -219,6 +231,7 @@ export function CustomRuneGroup({ group, badgeText = '', variant = 'grimorio' })
                             <p className="text-slate-700 text-xs leading-relaxed">
                                 <DescWithHighlights text={rune.desc} />
                             </p>
+                            {rune.scale && <p className="text-indigo-700 mt-1.5 font-semibold text-[10px] bg-indigo-50/50 p-1 rounded">↑ Escala: {rune.scale}</p>}
                         </div>
                     ))}
                 </div>

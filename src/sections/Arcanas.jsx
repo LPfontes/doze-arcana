@@ -1,12 +1,12 @@
 import React from 'react';
 
-import { RUNES_BY_GRAU } from '../data/runas';
+import { RUNES_BY_GRAU, FORMATOS_MISTICOS } from '../data/runas';
 import { BaseRuneCard, ModifierCard, CustomRuneGroup } from '../components/Runas';
 
 export default function Arcanas() {
     return (
         <section id="sec-filosofia" className="content-section">
-            <h2 className="text-3xl border-b-2 border-magic-100 pb-2 mb-4">9. A Filosofia da Magia e As Doze Arcanas</h2>
+            <h2 className="text-3xl border-b-2 border-magic-100 pb-2 mb-4">6. A Filosofia da Magia e As Doze Arcanas</h2>
 
             {/* A Filosofia da Magia */}
             <div className="mb-8">
@@ -74,6 +74,9 @@ export default function Arcanas() {
                     a matéria e a energia palpável) e as <strong>Arcanas Espirituais</strong> (que regem os
                     conceitos, a mente e o tecido da realidade). Todo feitiço, poção ou encantamento
                     obrigatoriamente se baseia em uma (ou na mistura) dessas Arcanas.
+                    Arcanas não são regras estabeleicdas mas sim abstrações criadas pelos magos mestres para 
+                    facilitar o entendimento da magia, portanto novas runas podem ser criadas assim como novas arcanas
+                    podem ser descobertas pelos alunos.
                 </p>
 
                 {/* Tabela de Radicais Arcanos */}
@@ -154,8 +157,25 @@ export default function Arcanas() {
                     </div>
                 </div>
 
+                {/* Formatos Místicos */}
+                <h3 className="text-2xl font-serif text-magic-900 flex items-center mb-4">FORMATOS MÍSTICOS (A BASE DO FEITIÇO)</h3>
+                <p className="mb-6 text-gray-700 leading-relaxed font-sans">
+                    Todo feitiço começa definindo como a magia será projetada no espaço físico. Isso define o alcance e o custo base em Pontos de Mana (PM).
+                </p>
+                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 mb-12">
+                    {FORMATOS_MISTICOS.map((formato, idx) => (
+                        <div key={idx} className="bg-indigo-50/50 border border-indigo-100 rounded-xl p-4 shadow-sm hover:shadow-md transition-all">
+                            <div className="flex justify-between items-start mb-2">
+                                <h4 className="font-serif font-bold text-indigo-900">{formato.name}</h4>
+                                <span className="bg-indigo-600 text-white text-xs font-bold px-2 py-0.5 rounded shadow-sm">{formato.cost}</span>
+                            </div>
+                            <p className="text-xs text-indigo-950/80 leading-relaxed">{formato.desc}</p>
+                        </div>
+                    ))}
+                </div>
+
                 {/* Catálogo de Runas por Grau */}
-                <h3 className="text-2xl font-serif text-magic-900 flex items-center mb-6">CATÁLOGO DE RUNAS</h3>
+                <h3 className="text-2xl font-serif text-magic-900 flex items-center mb-6">CATÁLOGO DE RUNAS (ESSÊNCIA E MODIFICADORES)</h3>
                 <div className="space-y-12">
                     {Object.entries(RUNES_BY_GRAU).map(([key, grau]) => (
                         <div key={key} className="bg-white border border-slate-200 rounded-2xl p-6 shadow-sm">
@@ -180,12 +200,12 @@ export default function Arcanas() {
                                 </div>
                             </div>
 
-                            {/* Base Runes */}
-                            {grau.baseRunes && grau.baseRunes.length > 0 && (
+                            {/* Condition Runes */}
+                            {grau.conditionRunes && grau.conditionRunes.length > 0 && (
                                 <div className="mb-8">
-                                    <h5 className="font-serif font-bold text-slate-700 mb-4 border-b border-slate-100 pb-2">Runas Base</h5>
+                                    <h5 className="font-serif font-bold text-slate-700 mb-4 border-b border-slate-100 pb-2">Runas de Condição</h5>
                                     <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-                                        {grau.baseRunes.map((rune, idx) => (
+                                        {grau.conditionRunes.map((rune, idx) => (
                                             <BaseRuneCard key={idx} rune={rune} variant="arcanas" />
                                         ))}
                                     </div>

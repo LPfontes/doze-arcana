@@ -3,7 +3,10 @@ import React from 'react';
 export default function Attributes() {
  return (
  <section id="sec-atributos" className="content-section">
- <h2 className="text-3xl border-b-2 border-magic-100 pb-2 mb-4">2. Atributos e Perícias</h2>
+      <h2 className="text-3xl font-serif font-black text-magic-900 mb-6 pb-2 border-b-2 border-indigo-100 flex items-center gap-3">
+        <span className="bg-indigo-100 text-indigo-800 px-3 py-1 rounded-lg text-2xl">2</span>
+        Atributos e Perícias
+      </h2>
  <p className="mb-4">O sistema divide as capacidades dos personagens em quatro pilares fundamentais,
  cada um com três perícias associadas.</p>
 

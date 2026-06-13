@@ -3,7 +3,7 @@ import React from 'react';
 export default function Condicoes() {
  return (
  <section id="sec-condicoes" className="content-section">
- <h2 className="text-3xl border-b-2 border-magic-100 pb-2 mb-4">5. Condições de Combate</h2>
+ <h2 className="text-3xl border-b-2 border-magic-100 pb-2 mb-4">7. Condições de Combate</h2>
  <p className="mb-6 text-gray-700 leading-relaxed font-sans">No campo de batalha mágico, controlar o posicionamento, os sentidos e o fluxo arcano dos
  adversários é tão vital quanto desferir golpes mortais. As <strong>Condições</strong> alteram drasticamente as capacidades físicas, sensoriais e místicas de alvos aliados ou
  inimigos.
@@ -207,7 +207,7 @@ export default function Condicoes() {
  <p className="text-xs text-gray-700 leading-relaxed font-sans mb-3">O alvo está perdendo PV lentamente por degradação ativa.
  </p>
  <div className="space-y-2 text-xs text-gray-655 font-sans leading-normal">
- <p><strong>Efeito Direto:</strong><br></br>No início de cada um dos turnos do alvo, ele sofre uma quantidade fixa de dano. Esse dano <strong>ignora Proteção (PR)</strong>.
+ <p><strong>Efeito Direto:</strong><br></br>No início de cada um dos turnos do alvo, ele sofre uma quantidade fixa de dano. Esse dano <strong>ignora Redução de Dano (RD)</strong>.
  </p>
  <p><strong>Resolução:</strong><br></br>A condição dura o tempo especificado pelo feitiço, ou até que o alvo (ou um aliado adjacente) gaste <strong>1 turno</strong> para estancar o ferimento/apagar o fogo.</p>
  </div>

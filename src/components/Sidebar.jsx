@@ -3,14 +3,14 @@ import React from 'react';
 const NAV_ITEMS = [
   { id: 'sec-mecanicas', label: '1. Testes', icon: '🎲' },
   { id: 'sec-atributos', label: '2. Atributos', icon: '📊' },
-  { id: 'sec-combate', label: '3. Combate', icon: '⚔️' },
-  { id: 'sec-grimorio', label: '4. O Grimório', icon: '📖' },
-  { id: 'sec-condicoes', label: '5. Condições', icon: '⚠️' },
-  { id: 'sec-economia', label: '6. Economia', icon: '🎓' },
-  { id: 'sec-caminhos', label: '7. Caminhos', icon: '📜' },
-  { id: 'sec-casas', label: '8. Casas Acadêmicas', icon: '🏛️' },
-  { id: 'sec-filosofia', label: '9. Arcanas', icon: '🔮' },
-  { id: 'sec-forja', label: '10. A Forja Arcana', icon: '🔨' }
+  { id: 'sec-criacao', label: '3. Criando Aluno', icon: '📝' },
+  { id: 'sec-combate', label: '4. Combate', icon: '⚔️' },
+  { id: 'sec-grimorio', label: '5. O Grimório', icon: '📖' },
+  { id: 'sec-filosofia', label: '6. Arcanas', icon: '🔮' },
+  { id: 'sec-condicoes', label: '7. Condições', icon: '⚠️' },
+  { id: 'sec-economia', label: '8. Economia', icon: '🎓' },
+  { id: 'sec-caminhos', label: '9. Caminhos', icon: '📜' },
+  { id: 'sec-casas', label: '10. Casas Acadêmicas', icon: '🏛️' }
 ];
 
 export default function Sidebar({ activeSection }) {

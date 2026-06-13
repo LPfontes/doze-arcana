@@ -3,7 +3,7 @@ import React from 'react';
 export default function Grimorio() {
     return (
         <section id="sec-grimorio" className="content-section">
-            <h2 className="text-3xl border-b-2 border-magic-100 pb-2 mb-4">4. O Grimório e a Jornada do Conhecimento</h2>
+            <h2 className="text-3xl border-b-2 border-magic-100 pb-2 mb-4">5. O Grimório e a Jornada do Conhecimento</h2>
 
             <div className="italic text-gray-655 bg-indigo-50/40 border-l-4 border-indigo-600 p-4 rounded-r-xl mb-6 font-serif">
                 <p className="mb-1 text-base">“A magia não é um dom divino que jorra sem controle; é uma ciência matemática rigorosa. Seu grimório é a única diferença entre um arquimago formidável e um tolo que incendeia a própria túnica por acidente.”</p>
@@ -51,7 +51,54 @@ export default function Grimorio() {
                 </div>
             </div>
 
-            <hr className="my-6 border-slate-200" />
+            <hr className="my-8 border-slate-200" />
+
+            <h3 className="text-2xl mt-6 mb-3 flex items-center gap-2">
+                <span>A Matemática da Magia: Criando um Feitiço</span>
+            </h3>
+            <p className="mb-4 text-gray-700 leading-relaxed font-sans">
+                Seja para transcrever no seu grimório ou improvisar no meio do perigo, a construção de todo feitiço obedece a uma equação exata de três passos fundamentais. A soma de todos os passos ditará o custo total em Pontos de Mana (PM).
+            </p>
+
+            <div className="space-y-4 mb-8">
+                {/* Passo 1 */}
+                <div className="bg-white border border-slate-200 rounded-xl p-5 shadow-sm">
+                    <h4 className="font-serif font-bold text-lg text-magic-900 mb-2 flex items-center gap-2">
+                        <span className="bg-indigo-100 text-indigo-800 w-6 h-6 flex items-center justify-center rounded-full text-sm">1</span>
+                        O Formato Místico
+                    </h4>
+                    <p className="text-sm text-gray-655 font-sans leading-relaxed">
+                        A base do feitiço define como ele se projeta no espaço físico e o seu custo âncora.
+                        Você pode escolher entre <strong>Toque/Aura (0 PM)</strong>, <strong>Projétil (1 PM)</strong>, <strong>Raio (2 PM)</strong> ou <strong>Explosão em Área (3 PM)</strong>.
+                    </p>
+                </div>
+
+                {/* Passo 2 */}
+                <div className="bg-white border border-slate-200 rounded-xl p-5 shadow-sm">
+                    <h4 className="font-serif font-bold text-lg text-magic-900 mb-2 flex items-center gap-2">
+                        <span className="bg-indigo-100 text-indigo-800 w-6 h-6 flex items-center justify-center rounded-full text-sm">2</span>
+                        A Essência (Arcana)
+                    </h4>
+                    <p className="text-sm text-gray-655 font-sans leading-relaxed">
+                        Aqui você insere o elemento base. Uma <em>Runa de Ataque (+1 PM)</em>, por exemplo, causará <strong>3 + 1d6 + Atributo Magia</strong>. Escolher a Essência de "Fogo" transformará esse dano matemático em dano de Fogo, possibilitando interações com o cenário.
+                    </p>
+                </div>
+
+                {/* Passo 3 */}
+                <div className="bg-white border border-slate-200 rounded-xl p-5 shadow-sm">
+                    <h4 className="font-serif font-bold text-lg text-magic-900 mb-2 flex items-center gap-2">
+                        <span className="bg-indigo-100 text-indigo-800 w-6 h-6 flex items-center justify-center rounded-full text-sm">3</span>
+                        Runas de Condição e Modificadores
+                    </h4>
+                    <p className="text-sm text-gray-655 font-sans leading-relaxed">
+                        A etapa de customização final. Você pode gastar PM extra para adicionar Runas de Condição (ex: aplicar Queimadura por +2 PM), ou escalar poder bruto gastando múltiplos de <strong>+3 PM para adicionar +1d6 extra de dano</strong> e +1 na Dificuldade (DT) do alvo resistir.
+                        <br/><br/>
+                        <strong>Importante:</strong> Você não pode aplicar efeitos arbitrariamente. Para que você possa atrelar um Modificador ou uma Runa de Condição ao seu feitiço, você precisa <strong>conhecer (ter transcrito ou estudado)</strong> a runa correspondente no seu grimório ou nas suas anotações de estudo.
+                    </p>
+                </div>
+            </div>
+
+            <hr className="my-8 border-slate-200" />
 
             <h3 className="text-2xl mt-6 mb-3 flex items-center gap-2">
                 <span>A Aquisição de Conhecimento: Os Graus Rúnicos</span>

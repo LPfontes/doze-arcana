@@ -3,16 +3,16 @@ import React from 'react';
 export default function Combate() {
     return (
         <section id="sec-combate" className="content-section">
-            <h2 className="text-3xl border-b-2 border-magic-100 pb-2 mb-4">3. Combate e Recursos</h2>
+            <h2 className="text-3xl border-b-2 border-magic-100 pb-2 mb-4">4. Combate e Recursos</h2>
             <p className="mb-4">O combate é estruturado através de testes de atributos, comparando o ataque contra uma Defesa padrão.</p>
 
             <h3 className="text-2xl mt-6 mb-2">Atributos de Combate</h3>
             <ul>
-                <li><strong>Defesa Padrão</strong><br />Calculada como <code>8 + Atributo Físico</code>.</li>
+                <li><strong>Defesa Padrão</strong><br />Calculada como <code>Atributo Físico x 2 + 10</code>.</li>
                 <li><strong>Pontos de Vitalidade (PV)</strong><br />Medem a saúde física. Calculado como <code> 15 + (Atributo Físico x 3)</code>. Ao chegar a 0 PV, o personagem fica Esgotado e precisa passar em testes de Mental + Vontade (DT 12) a cada rodada para evitar desmaios ou sequelas.
                 </li>
                 <li><strong>Pontos de Mana (PM)</strong><br />Reservatório mágico para feitiços. Calculado como <code>12 + (seu atributo de Magia x 3)</code>.</li>
-                <li><strong>Proteção (PRO)</strong><br />Absorve o dano recebido antes que atinja os PV. É totalmente restaurada no início do turno do personagem. Se a PRO for zerada, todos os itens de proteção recebem 1 ponto de Danificado e, ao atingir seu Limite de Quebra, deixam de fornecer PRO até serem consertados. cada item tem um Limite de Quebra, o Limite de Quebra do seu aluno é a soma dos Limites de Quebra dos itens que ele equipar. </li>
+                <li><strong>Redução de Dano (RD)</strong><br />Reduz uma quantidade fixa do dano recebido de cada ataque. Sempre que o dano total recebido em um único ataque ultrapassar o <strong>Limite de Quebra</strong> de um item defensivo, esse item recebe 1 ponto de <strong>Quebra</strong>. Itens que atingem seu limite de Quebras deixam de fornecer RD até serem consertados. O Limite de Quebra não se acumula entre itens, aplica-se a cada item individualmente.</li>
                 <li><strong>Cobertura</strong><br />Cobertura Leve impõe 1 Desvantagem ao ataque inimigo, enquanto Cobertura Pesada impõe 2 Desvantagens.</li>
             </ul>
 
@@ -90,7 +90,7 @@ export default function Combate() {
                             <em>O ataque preciso que busca as frestas das armaduras e pontos vitais.</em>
                         </p>
                         <div className="space-y-2 text-xs text-gray-600 font-sans leading-normal">
-                            <p><strong>Efeito:</strong><br></br>Você foca o impacto em um ponto vulnerável. O dano deste ataque <strong>ignora até 3 pontos de Proteção (PRO)</strong> do alvo, atingindo os PVs com mais facilidade.</p>
+                            <p><strong>Efeito:</strong><br></br>Você foca o impacto em um ponto vulnerável. O dano deste ataque <strong>ignora até 2 pontos de Redução de Dano (RD)</strong> do alvo, atingindo os PVs com mais facilidade.</p>
                         </div>
                     </div>
 
@@ -107,12 +107,12 @@ export default function Combate() {
                             <em>O impacto bruto projetado para esmagar couraças, amassar escudos e estilhaçar barreiras mágicas.</em>
                         </p>
                         <div className="space-y-2 text-xs text-gray-600 font-sans leading-normal">
-                            <p><strong>Efeito:</strong><br></br>Você foca toda a energia cinética na estrutura defensiva do alvo. Ao acertar o ataque e gastar 1 Ação Padrão, o dano direcionado à <strong>Proteção (PRO)</strong> do oponente é <strong>dobrado</strong>. <em>(Nota: O dano extra atua apenas contra a PRO; qualquer dano que ultrapasse o escudo e atinja a Vitalidade (PV) volta ao valor normal ou seja o dano restante ao pv é dividido por 2).</em>
+                            <p><strong>Efeito:</strong><br></br>Você foca toda a energia cinética na estrutura defensiva do alvo. Ao acertar o ataque e gastar 1 Ação Padrão, o dano é <strong>dobrado exclusivamente para verificar se ultrapassa o Limite de Quebra</strong> dos itens do oponente. <em>(Nota: O dano extra não é aplicado contra a Vitalidade (PV), ele serve apenas para testar a durabilidade dos itens).</em>
                             </p>
                             <p
                                 className="bg-red-50/50 text-red-950 px-2.5 py-1.5 rounded border border-red-100/60 text-[11px] flex items-start gap-1.5 mt-2">
 
-                                <span><strong>Destruição de Item:</strong><br></br>Caso a Proteção zerada por este golpe seja proveniente de um equipamento (armadura física, amuleto ou item mágico de defesa), o estresse mecânico é avassalador. O item recebe imediatamente <strong>2 pontos de Danificado (Quebra).</strong></span>
+                                <span><strong>Destruição de Item:</strong><br></br>Caso o dano total deste golpe ultrapasse o Limite de Quebra de um equipamento defensivo (armadura física, amuleto ou item mágico), o estresse mecânico é avassalador. O item recebe imediatamente <strong>2 pontos de Quebra (ao invés de 1).</strong></span>
                             </p>
                         </div>
                     </div>
@@ -139,7 +139,7 @@ export default function Combate() {
                 <div className="bg-gray-50 p-4 rounded border border-gray-200">
                     <span className="font-bold text-magic-800 text-lg block border-b mb-2">Reações (1 por rodada)</span>
                     <ul className="mb-0 space-y-2">
-                        <li><strong>Defender:</strong><br />Dobra a PROTEÇÃO até o início do seu próximo turno.</li>
+                        <li><strong>Defender:</strong><br />Dobra a sua Redução de Dano (RD) até o início do seu próximo turno.</li>
                         <li><strong>Esquivar:</strong><br />Realiza um teste de Físico (Destreza) contra o acerto inimigo para tentar anular o ataque completamente.</li>
                     </ul>
                 </div>

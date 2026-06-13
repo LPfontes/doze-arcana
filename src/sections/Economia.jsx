@@ -3,8 +3,7 @@ import React from 'react';
 export default function Economia() {
  return (
  <section id="sec-economia" className="content-section">
- <h2 className="text-3xl border-b-2 border-magic-100 pb-2 mb-4">6. Economia Escolar: Créditos &
- Prestígio</h2>
+ <h2 className="text-3xl border-b-2 border-magic-100 pb-2 mb-4">8. Economia Escolar: Créditos &amp; Prestígio</h2>
  
  {/* Dual Currency Container */}
  <div className="grid grid-cols-1 gap-8 mt-6">
@@ -53,7 +52,7 @@ export default function Economia() {
  Gastar</span>
  </div>
  <ul className="text-xs text-gray-600 font-sans space-y-2 pl-4 list-disc mb-0">
- <li><strong>Equipamentos:</strong><br></br>Adquirir novos itens de Proteção (PR), varinhas catalisadoras, ingredientes raros de Ofício ou poções na intendência da escola.</li>
+ <li><strong>Equipamentos:</strong><br></br>Adquirir novos itens com Redução de Dano (RD), varinhas catalisadoras, ingredientes raros de Ofício ou poções na intendência da escola.</li>
  <li><strong>Informação e Acesso:</strong><br></br>Pagar o passe para acessar a Seção Restrita da biblioteca, comprar chaves de laboratórios avançados para usar à noite ou solicitar permissões de saída para vilas vizinhas.</li>
  </ul>
  </div>

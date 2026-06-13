@@ -13,7 +13,7 @@ import Economia from './sections/Economia';
 import Caminhos from './sections/Caminhos';
 import Casas from './sections/Casas';
 import Arcanas from './sections/Arcanas';
-import Forja from './sections/Forja';
+import CriacaoAluno from './sections/CriacaoAluno';
 
 function App() {
   const [activeSection, setActiveSection] = useState('sec-mecanicas');
@@ -106,14 +106,14 @@ function App() {
           
           <Introduction />
           <Attributes />
+          <CriacaoAluno />
           <Combate />
           <Grimorio />
+          <Arcanas />
           <Condicoes />
           <Economia />
           <Caminhos />
           <Casas />
-          <Arcanas />
-          <Forja showToast={showToast} />
 
         </main>
       </div>

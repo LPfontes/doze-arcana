@@ -17,7 +17,7 @@ export default function Caminhos() {
     };
     return (
         <section id="sec-caminhos" className="content-section">
-            <h2 className="text-3xl border-b-2 border-magic-100 pb-2 mb-4">7. Os Caminhos e Talentos</h2>
+            <h2 className="text-3xl border-b-2 border-magic-100 pb-2 mb-4">9. Os Caminhos e Talentos</h2>
             <p className="mb-4">O desenvolvimento dos personagens é feito através de Caminhos, divididos em
                 especializações que fornecem talentos escalonáveis (Níveis 1 a 3).</p>
 
@@ -398,11 +398,11 @@ export default function Caminhos() {
                                 <div className="flex gap-2">
                                     <span
                                         className="bg-orange-50 border border-orange-200/60 text-orange-800 text-xs font-semibold px-2.5 py-0.5 rounded flex items-center gap-1.5 shadow-sm">
-                                        <span className="w-1.5 h-1.5 rounded-full bg-orange-500"></span> 2 Ações Padrões
+                                        <span className="w-1.5 h-1.5 rounded-full bg-orange-500"></span> 1 Ação Padrão
                                     </span>
                                     <span
                                         className="bg-blue-50 border border-blue-200/60 text-blue-800 text-xs font-semibold px-2.5 py-0.5 rounded flex items-center gap-1.5 shadow-sm">
-                                        <span className="w-1.5 h-1.5 rounded-full bg-blue-500"></span> 3 PM
+                                        <span className="w-1.5 h-1.5 rounded-full bg-blue-500"></span> 2 PM
                                     </span>
                                 </div>
                             </div>
@@ -412,15 +412,15 @@ export default function Caminhos() {
                                 <div className="mt-3 space-y-2 border-t border-slate-200/60 pt-3 text-xs leading-relaxed">
                                     <div className="bg-indigo-50/30 border border-indigo-100/40 rounded-lg p-2.5">
                                         <span className="font-bold text-indigo-950 block mb-0.5">Grau I (Base):</span>
-                                        <p className="text-gray-600">A arma causa <strong>+1d6</strong> de dano Elemental até o final do seu turno. (Custo: 2 Ações Padrões, 3 PM. Manutenção: +1 PM por turno adicional).</p>
+                                        <p className="text-gray-600">A arma causa <strong>+1d6</strong> de dano Elemental até o final do seu turno. (Custo: 1 Ação Padrão, 2 PM. Manutenção: +1 PM por turno adicional).</p>
                                     </div>
                                     <div className="bg-indigo-50/50 border border-indigo-100/60 rounded-lg p-2.5">
                                         <span className="font-bold text-indigo-950 block mb-0.5">Grau II (Avançado):</span>
-                                        <p className="text-gray-600">O custo de ativação é reduzido para <strong>1 Ação Padrão</strong> (mantendo 3 PM). O dano elemental extra aumenta para <strong>1d6 + seu atributo de Magia</strong>.</p>
+                                        <p className="text-gray-600">O custo de ativação é reduzido para <strong>1 Ação de Movimento</strong> (mantendo 2 PM). O dano elemental extra aumenta para <strong>1d6 + seu atributo de Magia</strong>.</p>
                                     </div>
                                     <div className="bg-indigo-50/70 border border-indigo-200/50 rounded-lg p-2.5 shadow-xs">
                                         <span className="font-bold text-indigo-950 block mb-0.5">Grau III (Mestre):</span>
-                                        <p className="text-gray-600">Pode ser ativado como <strong>Ação de Movimento</strong> ou como <strong>Reação</strong> ao desembainhar a arma (custo de 4 PM). Além disso, o primeiro ataque bem-sucedido de cada turno aplica a Condição rúnica correspondente ao elemento (ex: Fogo aplica Queimadura, Água aplica Hipotermia).</p>
+                                        <p className="text-gray-600">Pode ser ativado como <strong>Ação Livre</strong> ou como <strong>Reação</strong> ao desembainhar a arma (custo de 4 PM). Além disso, o primeiro ataque bem-sucedido de cada turno aplica a Condição rúnica correspondente ao elemento (ex: Fogo aplica Queimadura, Água aplica Hipotermia).</p>
                                     </div>
                                 </div>
                             </div>
@@ -494,7 +494,7 @@ export default function Caminhos() {
                                 <div className="mt-3 space-y-2 border-t border-slate-200/60 pt-3 text-xs leading-relaxed">
                                     <div className="bg-indigo-50/30 border border-indigo-100/40 rounded-lg p-2.5">
                                         <span className="font-bold text-indigo-950 block mb-0.5">Grau I (Base):</span>
-                                        <p className="text-gray-600">O ataque físico ignora completamente a Proteção (PR) do alvo. O acerto é considerado automaticamente como <strong>Acerto Crítico</strong> e causa +6 de dano adicional.</p>
+                                        <p className="text-gray-600">O ataque físico ignora completamente a Redução de Dano (RD) do alvo. O acerto é considerado automaticamente como <strong>Acerto Crítico</strong> e causa +6 de dano adicional.</p>
                                     </div>
                                     <div className="bg-indigo-50/50 border border-indigo-100/60 rounded-lg p-2.5">
                                         <span className="font-bold text-indigo-950 block mb-0.5">Grau II (Avançado):</span>
@@ -545,11 +545,11 @@ export default function Caminhos() {
                                 <div className="mt-3 space-y-2 border-t border-slate-200/60 pt-3 text-xs leading-relaxed">
                                     <div className="bg-indigo-50/30 border border-indigo-100/40 rounded-lg p-2.5">
                                         <span className="font-bold text-indigo-950 block mb-0.5">Grau I (Base):</span>
-                                        <p className="text-gray-600">Você conjura um escudo mágico unilateral. Ele fornece <strong>6 pontos de Proteção (PR)</strong> para ataques vindos de fora até o início do seu próximo turno. Ataques/pessoas de dentro conseguem sair, mas os de fora não entram.</p>
+                                        <p className="text-gray-600">Você conjura um escudo mágico unilateral. Ele fornece <strong>3 pontos de Redução de Dano (RD)</strong> para ataques vindos de fora até o início do seu próximo turno. Ataques/pessoas de dentro conseguem sair, mas os de fora não entram.</p>
                                     </div>
                                     <div className="bg-indigo-50/50 border border-indigo-100/60 rounded-lg p-2.5">
                                         <span className="font-bold text-indigo-950 block mb-0.5">Grau II (Avançado):</span>
-                                        <p className="text-gray-600">A barreira é reforçada e se torna mais flexível. A Proteção (PR) fornecida aumenta para <strong>8 pontos</strong> e voce consegue estender o escudo em um circulo emanando de você com 2 quadrados de raio ou um cone emanando de você com até 4,5 quadrados de comprimento.</p>
+                                        <p className="text-gray-600">A barreira é reforçada e se torna mais flexível. A Redução de Dano (RD) fornecida aumenta para <strong>4 pontos</strong> e voce consegue estender o escudo em um circulo emanando de você com 2 quadrados de raio ou um cone emanando de você com até 4,5 quadrados de comprimento.</p>
                                     </div>
                                     <div className="bg-indigo-50/70 border border-indigo-200/50 rounded-lg p-2.5 shadow-xs">
                                         <span className="font-bold text-indigo-950 block mb-0.5">Grau III (Mestre):</span>
@@ -585,7 +585,7 @@ export default function Caminhos() {
                                 <div className="mt-3 space-y-2 border-t border-slate-200/60 pt-3 text-xs leading-relaxed">
                                     <div className="bg-indigo-50/30 border border-indigo-100/40 rounded-lg p-2.5">
                                         <span className="font-bold text-indigo-950 block mb-0.5">Grau I (Base):</span>
-                                        <p className="text-gray-600"><strong>Gatilho:</strong> Quando um inimigo atinge você com um ataque corpo a corpo e o dano é absorvido por sua Proteção (PR) ou Escudo Arcano.<br></br>O atacante sofre automaticamente <strong>3 + seu atributo de Magia</strong> de dano mágico e é empurrado para alcance Curto.</p>
+                                        <p className="text-gray-600"><strong>Gatilho:</strong> Quando um inimigo atinge você com um ataque corpo a corpo e o dano é reduzido por sua Redução de Dano (RD) ou Escudo Arcano.<br></br>O atacante sofre automaticamente <strong>3 + seu atributo de Magia</strong> de dano mágico e é empurrado para alcance Curto.</p>
                                     </div>
                                     <div className="bg-indigo-50/50 border border-indigo-100/60 rounded-lg p-2.5">
                                         <span className="font-bold text-indigo-950 block mb-0.5">Grau II (Avançado):</span>
@@ -858,11 +858,11 @@ export default function Caminhos() {
                                 <div className="mt-3 space-y-2 border-t border-slate-200/60 pt-3 text-xs leading-relaxed">
                                     <div className="bg-indigo-50/30 border border-indigo-100/40 rounded-lg p-2.5">
                                         <span className="font-bold text-indigo-950 block mb-0.5">Grau I (Base):</span>
-                                        <p className="text-gray-600">Você lê as defesas do inimigo.O alvo tem a condição <strong>Vigiado</strong> e seu próximo ataque à distância contra o alvo cosnome a condição <strong>Vigiado</strong>, recebe <strong>1 Vantagem (+1d6)</strong> e ignora passivamente até <strong>3 Pontos de Proteção (PR)</strong>.</p>
+                                        <p className="text-gray-600">Você lê as defesas do inimigo.O alvo tem a condição <strong>Vigiado</strong> e seu próximo ataque à distância contra o alvo cosnome a condição <strong>Vigiado</strong>, recebe <strong>1 Vantagem (+1d6)</strong> e ignora passivamente até <strong>2 Pontos de Redução de Dano (RD)</strong>.</p>
                                     </div>
                                     <div className="bg-indigo-50/50 border border-indigo-100/60 rounded-lg p-2.5">
                                         <span className="font-bold text-indigo-950 block mb-0.5">Grau II (Avançado):</span>
-                                        <p className="text-gray-600">A mira se torna letal. A Proteção (PR) ignorada aumenta para <strong>6 pontos</strong>,alem disso voce pode usar Mira Perfurante gastando 1 ação padrão + 1 ação de movimento.</p>
+                                        <p className="text-gray-600">A mira se torna letal. A Redução de Dano (RD) ignorada aumenta para <strong>3 pontos</strong>,alem disso voce pode usar Mira Perfurante gastando 1 ação padrão + 1 ação de movimento.</p>
                                     </div>
                                     <div className="bg-indigo-50/70 border border-indigo-200/50 rounded-lg p-2.5 shadow-xs">
                                         <span className="font-bold text-indigo-950 block mb-0.5">Grau III (Mestre):</span>
@@ -903,11 +903,11 @@ export default function Caminhos() {
                                     </div>
                                     <div className="bg-indigo-50/50 border border-indigo-100/60 rounded-lg p-2.5">
                                         <span className="font-bold text-indigo-950 block mb-0.5">Grau II (Avançado):</span>
-                                        <p className="text-gray-600">O tiro ignora 5 pontos de Proteção (PR) e causa <strong>dano máximo</strong> mesmo que o alvo não esteja isolado.</p>
+                                        <p className="text-gray-600">O tiro ignora 3 pontos de Redução de Dano (RD) e causa <strong>dano máximo</strong> mesmo que o alvo não esteja isolado.</p>
                                     </div>
                                     <div className="bg-indigo-50/70 border border-indigo-200/50 rounded-lg p-2.5 shadow-xs">
                                         <span className="font-bold text-indigo-950 block mb-0.5">Grau III (Mestre):</span>
-                                        <p className="text-gray-600">O tiro ignora completamente qualquer Proteção (PR). Se o alvo for derrotado por este ataque, você recupera 3 PM.</p>
+                                        <p className="text-gray-600">O tiro ignora completamente qualquer Redução de Dano (RD). Se o alvo for derrotado por este ataque, você recupera 3 PM.</p>
                                     </div>
                                 </div>
                             </div>
@@ -1151,7 +1151,7 @@ export default function Caminhos() {
                                     </div>
                                     <div className="bg-cyan-50/50 border border-cyan-100/60 rounded-lg p-2.5">
                                         <span className="font-bold text-cyan-950 block mb-0.5">Grau II (Avançado):</span>
-                                        <p className="text-gray-600">Enquanto o Servil estiver ativo, você recebe <strong>+2 de Proteção (PR)</strong> passiva. A explosão de destruição do Servil aumenta para <strong>2d6 + seu atributo de Magia</strong> de dano.</p>
+                                        <p className="text-gray-600">Enquanto o Servil estiver ativo, você recebe <strong>+1 de Redução de Dano (RD)</strong> passiva. A explosão de destruição do Servil aumenta para <strong>2d6 + seu atributo de Magia</strong> de dano.</p>
                                     </div>
                                     <div className="bg-cyan-50/70 border border-cyan-200/50 rounded-lg p-2.5 shadow-xs">
                                         <span className="font-bold text-cyan-950 block mb-0.5">Grau III (Mestre):</span>
@@ -1236,7 +1236,7 @@ export default function Caminhos() {
                             <div className="bg-white/60 border border-cyan-100/40 rounded-lg p-2.5 text-xs leading-relaxed text-gray-655">
                                 <strong>Integridade:</strong>
                                 <ul className="list-disc pl-4 space-y-0.5 mt-0.5">
-                                    <li>A muralha possui <strong>Proteção (PR) igual ao seu atributo de Magia</strong> e <strong>15 PV.</strong></li>
+                                    <li>A muralha possui <strong>Redução de Dano (RD) igual à metade do seu atributo de Magia (arredondado para cima)</strong> e <strong>15 PV.</strong></li>
                                     <li>Você pode desfazê-la a qualquer momento (ação livre).</li>
                                 </ul>
                             </div>
@@ -1464,7 +1464,7 @@ export default function Caminhos() {
                                 <div className="mt-3 space-y-2 border-t border-slate-200/60 pt-3 text-xs leading-relaxed">
                                     <div className="bg-cyan-50/30 border border-cyan-100/40 rounded-lg p-2.5">
                                         <span className="font-bold text-cyan-950 block mb-0.5">Grau I (Base):</span>
-                                        <p className="text-gray-600">Ressonância de Proteção. A área ao redor (alcance <strong>Curto</strong>) de cada Sentinela sua se torna uma zona de buff. Aliados dentro dessa área ganham <strong>+2 de Proteção (PR) passiva</strong> e regeneram <strong>1 PV por rodada</strong> enquanto permanecerem lá.</p>
+                                        <p className="text-gray-600">Ressonância de Defesa. A área ao redor (alcance <strong>Curto</strong>) de cada Sentinela sua se torna uma zona de buff. Aliados dentro dessa área ganham <strong>+1 de Redução de Dano (RD) passiva</strong> e regeneram <strong>1 PV por rodada</strong> enquanto permanecerem lá.</p>
                                     </div>
                                     <div className="bg-cyan-50/50 border border-cyan-100/60 rounded-lg p-2.5">
                                         <span className="font-bold text-cyan-950 block mb-0.5">Grau II (Avançado):</span>
@@ -1552,7 +1552,7 @@ export default function Caminhos() {
                                 <p><strong>Opções de Adaptação:</strong></p>
                                 <ul className="list-disc pl-4 space-y-0.5">
                                     <li><strong>Garras de Fera:</strong> Seus ataques desarmados passam a causar <strong>3 + 1d3 + seu atributo de Físico</strong>. Elas são armas Cortantes.</li>
-                                    <li><strong>Escamas Espessas:</strong> Sua pele enrijece, concedendo-lhe <strong>+2 Pontos de Proteção (PR)</strong>.</li>
+                                    <li><strong>Escamas Espessas:</strong> Sua pele enrijece, concedendo-lhe <strong>+1 Ponto de Redução de Dano (RD)</strong>.</li>
                                 </ul>
                                 <p className="text-[10px] text-gray-500 pt-1">Duração: Até o final da cena ou até decidir reverter (Ação Livre).</p>
                             </div>
@@ -1911,7 +1911,7 @@ export default function Caminhos() {
                                     </div>
                                     <div className="bg-emerald-50/50 border border-emerald-100/60 rounded-lg p-2.5">
                                         <span className="font-bold text-emerald-950 block mb-0.5">Grau II (Avançado):</span>
-                                        <p className="text-gray-600"><strong>Metabolismo de Aço:</strong> Durante os 3 turnos de sobrecarga, o alvo protegido torna-se completamente <strong>imune a todas as condições físicas e mentais</strong>, e ganha um bônus de <strong>+4 de Proteção (PR)</strong>.</p>
+                                        <p className="text-gray-600"><strong>Metabolismo de Aço:</strong> Durante os 3 turnos de sobrecarga, o alvo protegido torna-se completamente <strong>imune a todas as condições físicas e mentais</strong>, e ganha um bônus de <strong>+2 de Redução de Dano (RD)</strong>.</p>
                                     </div>
                                     <div className="bg-emerald-50/70 border border-emerald-200/50 rounded-lg p-2.5 shadow-xs">
                                         <span className="font-bold text-emerald-950 block mb-0.5">Grau III (Mestre):</span>
@@ -2223,7 +2223,7 @@ export default function Caminhos() {
                                 <div className="mt-3 space-y-2 border-t border-slate-200/60 pt-3 text-xs leading-relaxed">
                                     <div className="bg-purple-50/30 border border-purple-100/40 rounded-lg p-2.5">
                                         <span className="font-bold text-purple-950 block mb-0.5">Grau I (Base):</span>
-                                        <p className="text-gray-600"><strong>Chicote Mental:</strong> Como 2 Ações Padrões (3 PM), faça um ataque psíquico (teste de Mental + Vontade contra a Defesa do alvo). Se acertar, causa <strong>3 + 1d6 + seu atributo de Mental</strong> de dano mental direto (que **ignora completamente a Proteção (PR) física** do alvo).</p>
+                                        <p className="text-gray-600"><strong>Chicote Mental:</strong> Como 2 Ações Padrões (3 PM), faça um ataque psíquico (teste de Mental + Vontade contra a Defesa do alvo). Se acertar, causa <strong>3 + 1d6 + seu atributo de Mental</strong> de dano mental direto (que **ignora completamente a Redução de Dano (RD) física** do alvo).</p>
                                     </div>
                                     <div className="bg-purple-50/50 border border-purple-100/60 rounded-lg p-2.5">
                                         <span className="font-bold text-purple-950 block mb-0.5">Grau II (Avançado):</span>
