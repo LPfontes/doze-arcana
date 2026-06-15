@@ -8,11 +8,12 @@ export default function Combate() {
 
             <h3 className="text-2xl mt-6 mb-2">Atributos de Combate</h3>
             <ul>
-                <li><strong>Defesa Padrão</strong><br />Calculada como <code>Atributo Físico x 2 + 10</code>.</li>
+                <li><strong>Defesa Padrão</strong><br />A capacidade de desviar e resistir a ataques. Representa a dificuldade para que um ataque te acerte de modo a causar dano. Calculada como <code>10 + Destreza</code> (sem somar equipamentos).</li>
                 <li><strong>Pontos de Vitalidade (PV)</strong><br />Medem a saúde física. Calculado como <code> 15 + (Atributo Físico x 3)</code>. Ao chegar a 0 PV, o personagem fica Esgotado e precisa passar em testes de Mental + Vontade (DT 12) a cada rodada para evitar desmaios ou sequelas.
                 </li>
                 <li><strong>Pontos de Mana (PM)</strong><br />Reservatório mágico para feitiços. Calculado como <code>12 + (seu atributo de Magia x 3)</code>.</li>
-                <li><strong>Redução de Dano (RD)</strong><br />Reduz uma quantidade fixa do dano recebido de cada ataque. Sempre que o dano total recebido em um único ataque ultrapassar o <strong>Limite de Quebra</strong> de um item defensivo, esse item recebe 1 ponto de <strong>Quebra</strong>. Itens que atingem seu limite de Quebras deixam de fornecer RD até serem consertados. O Limite de Quebra não se acumula entre itens, aplica-se a cada item individualmente.</li>
+                <li><strong>Redução de Dano (RD)</strong><br />Um atributo contínuo proveniente de equipamentos (como armaduras) que reduz uma quantidade fixa do dano recebido de cada ataque. Sempre que o dano total recebido em um único ataque ultrapassar o <strong>Limite de Quebra</strong> de um item defensivo, esse item recebe 1 ponto de <strong>Quebra</strong>. Itens que atingem seu limite de Quebras deixam de fornecer RD até serem consertados. O Limite de Quebra não se acumula entre itens, aplica-se a cada item individualmente.</li>
+                <li><strong>Proteção (PR)</strong><br />Um valor extra de vida temporário (concedido por magias e habilidades temporárias) que absorve o dano sofrido antes de atingir seus Pontos de Vitalidade (PV). É consumido e destruído ao chegar a 0.</li>
                 <li><strong>Cobertura</strong><br />Cobertura Leve impõe 1 Desvantagem ao ataque inimigo, enquanto Cobertura Pesada impõe 2 Desvantagens.</li>
             </ul>
 
@@ -68,7 +69,7 @@ export default function Combate() {
                             <em>O corte limpo que rompe a carne.</em>
                         </p>
                         <div className="space-y-2 text-xs text-gray-600 font-sans">
-                            <p><strong>Efeito:</strong><br></br>O alvo recebe 1 Ponto de Sangramento. No início de cada um dos turnos dele, ele sofre <strong>2 de dano direto nos PV</strong> (ignora PRO) para cada Ponto de Sangramento ativo.</p>
+                            <p><strong>Efeito:</strong><br></br>O alvo recebe 1 Ponto de Sangramento. No início de cada um dos turnos dele, ele sofre <strong>2 de dano direto nos PV (ignora Proteção (PR) e Redução de Dano (RD))</strong> para cada Ponto de Sangramento ativo.</p>
                             <p
                                 className="bg-red-50/50 text-red-950 px-2.5 py-1.5 rounded border border-red-100/60 text-[11px] flex items-start gap-1.5 leading-normal">
 
@@ -125,7 +126,7 @@ export default function Combate() {
             <p className="mb-2">Todo personagem recebe <strong>(1 Ação de Movimento + 2 Ações Padrões) ou (1 Ação de Movimento + 1 Ação Complexa) ou 1 Ação Completa</strong> no início de seu turno. Além disso, todos têm direito a <strong>1 Reação por rodada</strong>.</p>
             <p className="mb-2"><strong>Exemplo:</strong></p>
             <p>Um aluno pode fazer um ataque basico usando uma <strong>Ação Padrão</strong> e em seguida fazer outra <strong>Ação Padrão</strong> para conjurar uma magia. Ou ele pode fazer um ataque basico usando uma <strong>Ação Padrão</strong> e em seguida fazer uma <strong>Ação de Movimento</strong> e atacar novamente usando outra <strong>Ação Padrão</strong> Entretando a ação de movimento tem que ser resolvida antes de outras ações, não é possivel se mover parte do movimento fazer outra ação e depois mover o restante.</p>
-            <p className="mb-2">Se um personagem decide realizar uma Conjuração Improvisada (que exige uma <strong>Ação Complexa</strong>), ele ainda pode se mover (<strong>Ação de Movimento</strong>) antes ou depois da conjuração.</p>
+            <p className="mb-2">Se um personagem decide realizar uma <strong>Ação Complexa</strong> (como rituais ou habilidades especiais), ele ainda pode se mover (<strong>Ação de Movimento</strong>) antes ou depois de realizá-la.</p>
             <p className="mb-2">Já a <strong>Ação Completa</strong> consome todo o tempo do turno, não sendo possível realizar nenhuma outra ação além da <strong>Ação Completa</strong>.</p>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mt-4">
                 <div className="bg-gray-50 p-4 rounded border border-gray-200">
@@ -133,7 +134,7 @@ export default function Combate() {
                     <ul className="mb-0 space-y-2">
                         <li><strong>Ação de Movimento:</strong><br />Mover-se até 6 espaços, levantar-se (Caído), recolher um item do chão, etc.</li>
                         <li><strong>Ações Padrões (2 por turno):</strong><br />Realizar um ataque, conjurar um feitiço padrão ou realizar Testes Resistidos (Agarrar, Empurrar, Derrubar).</li>
-                        <li><strong>Ação Complexa:</strong><br />Conjuração Improvisada, rituais complexos ou habilidades especiais que consomem todo o seu tempo de ação do turno.</li>
+                        <li><strong>Ação Complexa:</strong><br />Rituais complexos ou habilidades especiais que consomem todo o seu tempo de ação do turno.</li>
                     </ul>
                 </div>
                 <div className="bg-gray-50 p-4 rounded border border-gray-200">

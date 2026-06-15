@@ -8,8 +8,7 @@ O núcleo mecânico do sistema baseia-se em rolagens de **2d12+** combinando qua
 
 ## 🚀 Funcionalidades
 
-- **📖 Livro de Regras Completo**: Seções organizadas para Introdução, Atributos, Combate, Economia, Condições, Casas e Arcanas.
-- **✨ A Forja Arcana**: Um simulador interativo completo para a criação e customização de magias personalizadas, calculando custos de mana e efeitos sob as regras do sistema.
+- **📖 Livro de Regras Completo**: Seções organizadas para Introdução, Atributos, Combate, Economia, Condições, Casas e Arcanas..
 - **🧭 Navegação Inteligente**:
   - *Sidebar* fixa (em telas maiores) com *Scrollspy* de precisão absoluta (detecta a seção ativa baseando-se no viewport atual).
   - Menu de navegação móvel dedicado para smartphones.

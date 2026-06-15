@@ -9,7 +9,7 @@ const NAV_ITEMS = [
   { id: 'sec-filosofia', label: '6. Arcanas', icon: '🔮' },
   { id: 'sec-condicoes', label: '7. Condições', icon: '⚠️' },
   { id: 'sec-economia', label: '8. Economia', icon: '🎓' },
-  { id: 'sec-caminhos', label: '9. Caminhos', icon: '📜' },
+  { id: 'sec-caminhos', label: '9. Escolas', icon: '📜' },
   { id: 'sec-casas', label: '10. Casas Acadêmicas', icon: '🏛️' }
 ];
 

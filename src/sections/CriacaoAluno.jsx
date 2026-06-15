@@ -87,7 +87,7 @@ export default function CriacaoAluno() {
           <div className="bg-white border border-emerald-100 p-3.5 rounded-xl text-sm shadow-inner">
             <strong className="text-emerald-800 block mb-1.5 uppercase text-[10px] tracking-wider font-bold">Conexão Inata</strong>
             <span className="text-gray-700">
-              Inicia com <strong>uma Runa de Grau 1</strong> das Arcanas:<br/>
+              Inicia com <strong>um Feitiço de Grau I</strong> das Arcanas:<br/>
               <span className="inline-block mt-1 font-medium text-emerald-900">Fogo, Vento, Vida ou Vazio.</span>
             </span>
           </div>
@@ -104,7 +104,7 @@ export default function CriacaoAluno() {
           <div className="bg-white border border-blue-100 p-3.5 rounded-xl text-sm shadow-inner">
             <strong className="text-blue-800 block mb-1.5 uppercase text-[10px] tracking-wider font-bold">Conexão Inata</strong>
             <span className="text-gray-700">
-              Inicia com <strong>uma Runa de Grau 1</strong> das Arcanas:<br/>
+              Inicia com <strong>um Feitiço de Grau I</strong> das Arcanas:<br/>
               <span className="inline-block mt-1 font-medium text-blue-900">Luz, Água, Ordem ou Caos.</span>
             </span>
           </div>
@@ -121,7 +121,7 @@ export default function CriacaoAluno() {
           <div className="bg-white border border-amber-100 p-3.5 rounded-xl text-sm shadow-inner">
             <strong className="text-amber-800 block mb-1.5 uppercase text-[10px] tracking-wider font-bold">Conexão Inata</strong>
             <span className="text-gray-700">
-              Inicia com <strong>uma Runa de Grau 1</strong> das Arcanas:<br/>
+              Inicia com <strong>um Feitiço de Grau I</strong> das Arcanas:<br/>
               <span className="inline-block mt-1 font-medium text-amber-900">Terra, Escuridão, Vínculo ou Isolamento.</span>
             </span>
           </div>
@@ -138,7 +138,7 @@ export default function CriacaoAluno() {
           <div className="bg-white border border-fuchsia-100 p-3.5 rounded-xl text-sm shadow-inner">
             <strong className="text-fuchsia-800 block mb-1.5 uppercase text-[10px] tracking-wider font-bold">Conexão Inata</strong>
             <span className="text-gray-700">
-              Inicia com <strong>uma Runa de Grau 1</strong> de livre escolha entre qualquer uma das <br/>
+              Inicia com <strong>um Feitiço de Grau I</strong> de livre escolha entre qualquer uma das <br/>
               <span className="inline-block mt-1 font-medium text-fuchsia-900">Seis Arcanas Espirituais.</span>
             </span>
           </div>
@@ -155,7 +155,7 @@ export default function CriacaoAluno() {
           <div className="bg-white border border-rose-100 p-3.5 rounded-xl text-sm shadow-inner">
             <strong className="text-rose-800 block mb-1.5 uppercase text-[10px] tracking-wider font-bold">Conexão Inata</strong>
             <span className="text-gray-700">
-              Inicia com <strong>uma Runa de Grau 1</strong> de livre escolha entre qualquer uma das <br/>
+              Inicia com <strong>um Feitiço de Grau I</strong> de livre escolha entre qualquer uma das <br/>
               <span className="inline-block mt-1 font-medium text-rose-900">Seis Arcanas Elementais.</span>
             </span>
           </div>
@@ -172,7 +172,7 @@ export default function CriacaoAluno() {
           <div className="bg-white border border-violet-100 p-3.5 rounded-xl text-sm shadow-inner">
             <strong className="text-violet-800 block mb-1.5 uppercase text-[10px] tracking-wider font-bold">Conexão Inata</strong>
             <span className="text-gray-700">
-              Inicia com <strong>uma Runa de Grau 1</strong> de <br/>
+              Inicia com <strong>um Feitiço de Grau I</strong> de <br/>
               <span className="inline-block mt-1 font-medium text-violet-900">Qualquer Arcana (Livre Escolha).</span>
               <br/><span className="text-[10px] uppercase tracking-wider text-violet-600 mt-1 block">Requer aprovação narrativa.</span>
             </span>
