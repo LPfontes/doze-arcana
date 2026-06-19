@@ -1,0 +1,341 @@
+--- PAGE 142 ---
+W
+140
+W
+DANÇA DURAÇÃO
+Dança do Anjo Até o início do seu próximo turno
+Escolha um: você se torna Resistente a dano de luz; ou todos os danos causados 
+por seus ataques e magias se tornam dano de luz.
+Dança da Banshee Instantânea
+Escolha uma criatura que possa ver você. Se ela já estiver lenta, imediatamente 
+fica abalada.
+Dança da Fênix Até o início do seu próximo turno
+Escolha um: você se torna Resistente a dano de fogo; ou todos os danos causados 
+por seus ataques e magias se tornam dano de fogo.
+Dança do Golem Até o início do seu próximo turno
+Escolha um: você se torna Resistente a dano de raio; ou todos os danos causados 
+por seus ataques e magias se tornam dano de raio.
+Dança do Grifo Até o início do seu próximo turno
+Escolha um: você se torna Resistente a dano de ar; ou todos os danos causados 
+por seus ataques e magias se tornam dano de ar.
+Dança da Hidra Até o início do seu próximo turno
+Após sofrer dano, escolha um: você recupera 5 PV; ou você recupera 5 PM.
+Dança do Ieti Até o início do seu próximo turno
+Escolha um: você se torna Resistente a dano de gelo; ou todos os danos causados 
+por seus ataques e magias se tornam do tipo gelo.
+Dança do Kraken Instantânea
+Escolha uma criatura que possa ver você. Se ela já estiver atordoada, imediatamente 
+fica lenta.
+Dança do Leão Instantânea
+Você se recupera imediatamente de uma única condição a sua escolha.
+DANÇAS
+
+--- PAGE 143 ---
+33PROTAGONISTAS
+  CAPÍTULO  CAPÍTULO
+141
+W
+DANÇA DURAÇÃO
+Dança da Mênade Instantânea
+Escolha uma criatura que possa ver você. Essa criatura perde uma quantidade 
+de PM igual ao seu dado atual de Destreza.
+Dança do Mirmidão Até o início do seu próximo turno
+Escolha um: você se torna Resistente a dano de terra; ou todos os danos causados 
+por seus ataques e magias se tornam dano de terra.
+Dança do Morcego Até o início do seu próximo turno
+Escolha um: você se torna Resistente a dano de trevas; ou todos os danos causados 
+por seus ataques e magias se tornam dano de trevas.
+Dança do Ouroboros Instantânea
+Escolha um aliado que você possa ver e ainda não teve seu turno nesta rodada.  
+O turno desse aliado acontece imediatamente após o seu nesta rodada.
+Dança do Pavão Instantânea
+Escolha uma criatura que possa ver você. Da próxima vez nesta cena que ela 
+fizer um ataque ou lançar um feitiço ofensivo (O), esse ataque ou feitiço deve 
+ter você entre os alvos, se possível.
+Dança do Pesadelo Instantânea
+Escolha uma criatura que possa ver você. Se ela já estiver abalada, imediatamente 
+fica fraca.
+Dança do Sátiro Instantânea
+Escolha uma criatura que possa ver você. Se ela já estiver fraca, imediatamente 
+fica atordoada.
+Dança do Unicórnio Instantânea
+Escolha um aliado que possa vê-lo e que tenha um Laço com você: vocês dois 
+recuperam uma quantidade de PV igual ao seu dado atual de Destreza.
+Se você estiver no 20° nível ou acima, essa quantidade aumenta em 5 PV; se 
+estiver no 40° nível ou acima, essa quantidade aumenta em 10 PV.
+
+--- PAGE 144 ---
+WSimbolista
+142
+W
+OUTROS NOMES: Calígrafo, Pintor, Runomante
+Para que serve um pincel
+    se o seu coração é guiado
+           pela motivação errada?
+SIMBOLISTA
+Símbolos e imagens portam 
+imenso poder. Ninguém está 
+tão ciente disso quanto um  
+simbolista. Em vez de uma  
+disciplina mágica, o simbo-  
+lismo é mais como um estu- 
+do da forma de tecer ener-  
+gias sobrenaturais em sigi-  
+los e ícones: podem ser runas  
+pinturas, talismãs etc.
+A maior parte dos simbolis- 
+tas desenvolve as suas habi- 
+lidades com prática constan- 
+te e intensiva e um estudo 
+meticuloso. Muitos, contudo, 
+veem essa disciplina mági-  
+ca como uma forma de ex-  
+pressar a sua visão artística 
+sem restrições.
+n
+n
+
+--- PAGE 145 ---
+33PROTAGONISTAS
+  CAPÍTULO  CAPÍTULO
+143
+W
+BENEFÍCIOS INICIAIS DE SIMBOLISTA
+ w Aumente permanentemente seus PI máximos em 2.
+PODERES DE SIMBOLISTA
+CONEXÃO SIMBÓLICA
+Você sempre sabe a direção exata de qualquer criatura que esteja com um de seus 
+símbolos, desde que ela esteja a até 2 dias de viagem de sua posição.
+MIRAGEM
+Você pode fazer rituais da disciplina ritualismo; além disso, também pode usar 
+ritualismo para criar ilusões visuais.
+SIMBOLISMO (çç5)
+Sempre que adquirir este poder, aprenda dois símbolos (pp. 144-147).
+Você pode ter até (NP + 1) símbolos ativos ao mesmo tempo; se criar mais símbolos 
+além desse limite, antes deve escolher um de seus símbolos ativos para destruir.
+Você pode fazer a ação Inventário e gastar 2 PI para criar um dos símbolos que 
+aprendeu e escolher um: aplicar esse símbolo em si mesmo; ou aplicar esse 
+símbolo num aliado que você consegue ver; ou fazer um ataque livre usando 
+uma arma equipada. Esse ataque não causa dano, mas você aplica uma cópia do 
+símbolo escolhido a cada inimigo que atingir (cada cópia conta como um símbolo 
+individual para seu limite de (NP + 1) símbolos ativos).
+SÍMBOLOS MÁGICOS (çç3)
+Se um aliado estiver com um de seus símbolos, ele pode fazer a ação Feitiço para 
+destruir o símbolo e lançar um único feitiço entre aqueles que você conhece. 
+Para isso, o custo total em PM do feitiço deve ser igual ou menor a (NP × 10) 
+(e o aliado ainda deve pagar o custo de PM).
+TOQUE PESSOAL (çç5)
+Quando uma criatura que você possa ver e que esteja com um de seus símbolos 
+sofrer dano ou recuperar PV e/ou PM, você pode fazer a criatura sofrer (NP) de 
+dando adicional ou recuperar (NP) PV e/ou PM, respectivamente.
+O
+ w Quem ou o quê lhe ensinou a tecer a magia em símbolos?
+ w Você se vê mais como um conjurador ou como um artista?
+ w Muitas pessoas praticam sua arte, ou você é uma exceção?
+ w Qual é a aparência de seus símbolos e como você os usa nas criaturas?
+
+--- PAGE 146 ---
+W
+144
+W
+Símbolos seguem algumas regras especiais.
+ w Uma criatura só pode estar com um símbolo por vez — se receber um novo 
+símbolo, independentemente da fonte, o símbolo anterior é destruído.
+ w Símbolos têm efeito e duração ilimitadas até que sejam destruídos.
+ w Se um simbolista morrer, cada símbolo que ele criou é destruído automática 
+e imediatamente.
+ w Se uma criatura que está com um símbolo morrer, o símbolo também é destruído.
+Mas, se a cratura for um NPC que apenas mudou de forma ou estatísticas ao ficar 
+com 0 PV, isso não remove um símbolo. Em resumo: símbolos são vinculados 
+“narrativamente” ao personagem, não a seus parâmetros e manifestação atual.
+ w Durante uma cena do mestre, um vilão pode gastar 1 Ponto de Ultima para 
+destruir qualquer quantidade de símbolos vinculados a ele e aos seus aliados 
+presentes na cena.
+Essa é a única maneira possível de remover um símbolo contra a vontade do 
+simbolista que o criou, exceto pelo gasto de uma oportunidade apropriada à 
+cena ou com um poder de NPC criado pelo mestre (mas isso não deve ser feito 
+mais de duas ou três vezes por campanha).
+ w Um simbolista pode destruir quantos símbolos quiser a qualquer momento, sem 
+precisar usar qualquer tipo de ação.
+ w Se um símbolo exigir que você faça uma escolha ao ser criado, a escolha se 
+aplica a todas as cópias do símbolo criadas por meio da mesma ação (mas não 
+afeta qualquer cópia do símbolo criada usando outras ações).
+Por exemplo, se um Simbolista aplicar dois símbolos de fraqueza (fogo) ao usar 
+o poder Simbolismo ao combiná-los com um ataque com a propriedade multi 
+(2), as criaturas que receberão estes símbolos sofrerão dano adicional de fogo. 
+Se, logo em seguida, o simbolista aplicar um símbolo de fraqueza (raio) numa 
+terceira criatura, as duas criaturas anteriores ainda sofrerão dano adicional de 
+fogo, não de raio.
+Lembre-se: o número máximo de símbolos que você puder ter ativos ao mesmo 
+tempo é definido pelo seu Nível de Poder em Simbolismo.
+SÍMBOLOS
+
+--- PAGE 147 ---
+33PROTAGONISTAS
+  CAPÍTULO  CAPÍTULO
+145
+W
+SÍMBOLO
+Símbolo das Amarras
+O dado atual dos Atributos da criatura com este símbolo nunca pode ser maior 
+que os respectivos dados básicos (isso não encerra qualquer efeito ou feitiço, 
+mas impede sua influência sobre os Atributos da criatura).
+Símbolo do Crescimento
+Magias com “até três criaturas” como alvo que forem lançadas pela criatura com 
+este símbolo passam a ter “até quatro criaturas” como alvo. A criatura ainda deve 
+gastar a quantidade de PM necessária para atingir um quarto alvo.
+Símbolo da Criação
+Quando a criatura com este símbolo precisar gastar Pontos de Inventário em um 
+conflito, ela pode destruir este símbolo para não precisar gastar PI.
+Símbolo do Desespero
+Quando a criatura com este símbolo recuperar PV e/ou PM durante conflitos, 
+ela recupera apenas a metade da quantidade normal de PV e/ou PM.
+Símbolo do Destino
+Depois que a criatura com este símbolo rolar dados para fazer um teste, se você 
+puder vê-la, pode gastar 1 Ponto de Fabula para forçá-la a rolar novamente am-
+bos os dados. Isso só pode ser feito uma vez por teste e apenas se o resultado 
+não for um sucesso crítico ou uma falha crítica.
+Símbolo dos Elementos
+Ao criar este símbolo, escolha um tipo de dano: ar, fogo, gelo, luz, raio, terra, 
+trevas ou veneno. Se puder ver a criatura com este símbolo quando ela causar 
+dano a uma ou mais criaturas, você pode gastar um número de PM igual a um 
+terço do total de dano causado (incluindo quaisquer fontes de dano adicional). 
+Se fizer isso, todo dano causado dessa forma se transforma em dano do tipo 
+escolhido na criação deste símbolo.
+Símbolo da Feitiçaria
+O custo total em PM de magias que têm a criatura com este símbolo como alvo 
+é reduzido em 5 PM (até o custo mínimo de 5 PM). Se o feitiço tiver mais de 
+uma criatura com esse símbolo como alvo, o efeito é cumulativo.
+
+--- PAGE 148 ---
+W
+146
+W
+SÍMBOLO
+Símbolo do Fluxo
+Ao criar este símbolo, escolha uma condição: abalado, atordoado, lento ou fraco. 
+Então, escolha um: a criatura com este símbolo torna-se Imune à condição escolhi-
+da; ou a criatura com este símbolo perde sua Imunidade à condição escolhida e 
+não pode recuperá-la.
+Símbolo da Fraqueza
+Ao criar esse símbolo, escolha um tipo de dano: ar, fogo, gelo, luz, raio, terra, 
+trevas ou veneno. A criatura com este símbolo sofre 5 pontos de dano adicional 
+de fontes causando dano do tipo escolhido.
+Símbolo da Inimizade
+Enquanto a criatura com este símbolo estiver em crise, qualquer inimigo da 
+criatura que possa vê-la deve incluí-la entre os alvos de seus ataques e magias 
+ofensivas (O), se possível.
+Símbolo da Metamorfose
+Ao criar esse símbolo, escolha uma espécie: fera, construto, demônio, elemental, 
+monstro, planta ou morto-vivo. A criatura com este símbolo é considerada como 
+pertencente à espécie escolhida para efeitos e poderes, em vez da sua espécie 
+original (o símbolo não altera mais nada na ficha da criatura, como Afinidades ou 
+quaisquer regras especiais). Esse símbolo não pode ser aplicado a PJs.
+Símbolo da Proibição
+Ao criar esse símbolo, escolha uma ação: Ataque, Guarda, Feitiço, Objetivo ou 
+Poder. Quando a criatura com este símbolo fizer a ação escolhida, ela perde 
+5 PV e 5 PM (antes de fazer a ação). Se você estiver no 20° nível ou acima, 
+ambos os valores aumentam em 10; se estiver no 40° nível ou acima, ambos 
+os valores aumentam em 20.
+Símbolo da Prosperidade
+Quando a criatura com este símbolo gastar 1 Ponto de Fabula para invocar um 
+Traço ou Laço, ela também recebe 100 zênites.
+
+--- PAGE 149 ---
+33PROTAGONISTAS
+  CAPÍTULO  CAPÍTULO
+147
+W
+SÍMBOLO
+Símbolo da Proteção
+Ao criar este símbolo, escolha um tipo de dano: ar, fogo, gelo, luz, raio, terra, 
+trevas ou veneno. A criatura com este símbolo se torna Resistente ao tipo de 
+dano escolhido.
+Símbolo da Rebelião
+Se um vilão estiver na cena, quaisquer testes opostos feitos pela criatura com 
+este símbolo têm sucesso crítico quando ambos os dados exibirem o mesmo 
+número (desde que o resultado do teste não seja uma falha crítica).
+Símbolo do Renascimento
+Se a criatura com este símbolo estiver prestes a chegar a 0 PV, ela pode destruir 
+este símbolo: se fizer isso, seus PV são reduzidos exatamente para 1 em vez disso.
+Símbolo do Sacrifício
+Quando uma criatura com este símbolo sofrer dano, se puder vê-la, você pode 
+destruir este símbolo: se o fizer, em vez da criatura, você sofre a mesma quan-
+tidade de dano que ela receberia.
+Símbolo da Verdade
+T estes feitos para examinar ou localizar a criatura com este símbolo, bem como 
+testes de Precisão e testes de Magia para ataques e feitiços ofensivos (O) que 
+a tiverem entre seus alvos, recebem um bônus de +2. Se um ataque ou feitiço 
+tiver mais de uma criatura com este símbolo como alvo, o efeito é cumulativo.
+Símbolo da Vingança
+Quando uma criatura em crise atingir a criatura com este símbolo com um ataque 
+ou um feitiço ofensivo (O), a criatura em crise recupera 5 PV e 5 PM.
+
+--- PAGE 150 ---
+WVirtuoso
+148
+W
+OUTROS NOMES: Bardo, Idol, Trovador
+O show mal 
+      começou e sua cortina 
+              já está abaixando!
+VIRTUOSO
+Seja dedilhando uma harpa 
+delicada, encantando o pú-  
+blico com sua potência vo-  
+cal ou se jogando de um pal- 
+co sobre uma multidão de  
+fãs enlouquecidos, virtuosos 
+podem ser descritos como 
+orquestras mágicas de uma 
+pessoa só!
+Habilidades do virtuoso vão 
+além dos limites comuns da  
+música e do canto: eles con- 
+tam com a força de suas al- 
+mas e tecem a energia má-  
+gica em suas canções, dando 
+suporte a seus aliados em si- 
+tuações tensas.
+n
+n
+
+--- PAGE 151 ---
+33PROTAGONISTAS
+  CAPÍTULO  CAPÍTULO
+149
+W
+BENEFÍCIOS INICIAIS DE VIRTUOSO
+ w Aumente permanentemente seus PM máximos em 5.
+PODERES DE VIRTUOSO
+BARREIRA SONORA (çç5)
+Após cantar um verso em um volume médio ou forte, qualquer quantidade de 
+dano físico que você sofrer até o início do seu próximo turno é reduzido em (NP) 
+(antes de aplicar quaisquer Afinidades a dano).
+CANTO DA SEREIA
+Você pode fazer rituais da disciplina ritualismo; além disso, também pode usar 
+ritualismo para criar ilusões sonoras.
+HARMONIA (çç3)
+Após afetar um ou mais inimigos com um verso, se tiver uma arma arcana equipada, 
+você pode escolher um: até o início do seu próximo turno, seus aliados causam 
+(NP) de dano adicional a estes inimigos; ou até o início de seu próximo turno, 
+você recupera (NP) Pontos de Mana cada vez que estes inimigos sofrerem dano 
+(se a mesma fonte causar dano a dois ou mais inimigos ao mesmo tempo, você 
+recupera (NP) PM para cada inimigo que sofreu esse dano).
+MAGICANTO (çç10)
+Em seu turno durante uma cena de conflito, você pode usar uma ação e gastar 
+uma quantidade variável de PM para tecer sua voz e música num efeito mágico 
+conhecido como verso.
+Você só pode cantar um verso por turno, mesmo se puder fazer mais de uma 
+ação. Regras detalhadas para versos estão descritas nas pp. 150-151.
+Quando você adquire esse poder, você aprende todos os três volumes, além de 
+uma escala e um tom. Sempre que adquiri-lo novamente, você pode aprender 
+mais uma escala ou um tom (a sua escolha).
+VIBRATO
+Após cantar um verso em volume fraco ou médio, você pode fazer um ataque 
+livre com uma arma equipada, considerando sua RA como 0 ao calcular o dano.
+O
+ w Quem te ensinou a combinar magia e música? É um talento natural?
+ w Você é uma celebridade ou um músico viajante?
+ w Quem é seu maior rival na música? Quem te inspira a ser quem é?
+ w Como são seus instrumentos e estilo de canto?

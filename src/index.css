@@ -3,7 +3,7 @@
 @theme {
   --font-sans: "Inter", sans-serif;
   --font-serif: "Cinzel", serif;
-  
+
   --color-magic-900: #1e1b4b;
   --color-magic-800: #312e81;
   --color-magic-100: #e0e7ff;
@@ -11,12 +11,12 @@
   --text-xs: 1.0rem;
   --text-sm: 1.15rem;
   --text-base: 1.25rem;
-  --text-lg: 1.4rem;
-  --text-xl: 1.6rem;
-  --text-2xl: 1.9rem;
-  --text-3xl: 2.4rem;
-  --text-4xl: 3.0rem;
-  --text-5xl: 4.0rem;
+  --text-lg: 1.2rem;
+  --text-xl: 1.5rem;
+  --text-2xl: 1.6rem;
+  --text-3xl: 1.9rem;
+  --text-4xl: 2.4rem;
+  --text-5xl: 3.0rem;
 }
 
 @layer base {
@@ -26,7 +26,9 @@
     overflow-x: hidden;
   }
 
-  h1, h2, h3 {
+  h1,
+  h2,
+  h3 {
     @apply font-serif text-magic-900;
   }
 
@@ -34,7 +36,8 @@
     @apply w-full border-collapse mt-4 mb-6;
   }
 
-  th, td {
+  th,
+  td {
     @apply border border-gray-200 p-3.5 text-left text-sm font-sans;
   }
 
@@ -86,4 +89,3 @@ html {
 .chapter-number {
   @apply bg-indigo-50 text-indigo-500 border border-indigo-100 px-3 py-1 rounded-lg text-lg md:text-xl font-sans font-bold flex items-center justify-center min-w-[2.5rem] md:min-w-[3.5rem] shrink-0;
 }
-

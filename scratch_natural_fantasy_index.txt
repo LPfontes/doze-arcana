@@ -1,0 +1,480 @@
+--- PAGE 1 ---
+ATLASATLAS
+NATURAL FANTASYNATURAL FANTASY
+
+--- PAGE 2 ---
+z
+
+--- PAGE 3 ---
+z
+O mundo lá fora é imenso O mundo lá fora é imenso 
+e os pecados do passado, incontáveis.e os pecados do passado, incontáveis.
+Confiem sempre uns nos outrosConfiem sempre uns nos outros
+e não deixem de sonhar!e não deixem de sonhar!
+j
+
+--- PAGE 4 ---
+Game Design, Criação e Desenvolvimento  Emanuele Galletto
+Criação Adicional  Selene Dal Borgo e Chris Pagliari
+Direção de Arte  Emanuele Galletto
+Arte da Capa  Moryo
+Artes Internas  Michele Bellamoli, Tuomas Korpi, Lorenzo Magalotti, Moryo,
+Julian Seifert-Olszewski e Catthy Trinh
+Pixel Art  Emanuele Galletto, Ben Henry e Sascha Naderer
+Arte dos Ícones de Dano  Lorc 
+Produção Editorial  Nicola Degobbis
+Chefe de Operações  Marco Munari
+Produção  Alberto Orlandini
+Tradução  Francesco Castelli
+Edição  Emanuele Galletto e Neil Kingham
+Leitura Sensível  Marta Palvarini
+Design Gráfico  Emanuele Galletto e Erica Viotto
+Revisão  Giovanni Di Pietro, Emanuele Galletto, Marco Munari, Alberto Orlandini e Erica Viotto
+CRÉDITOS DA EDIÇÃO BRASILEIRA
+Título Original  Fabula Ultima TTJRPG: Atlas Natural Fantasy
+Tradução  Carine Ribeiro
+Edição  José Cerqueira
+Preparação  Jaime de Andruart e Kali de Los Santos
+Revisão  Vitória Vozniak e Rafael Dei Svaldi
+Diagramação  José Cerqueira, Jacqueline Dal Bosco e Tiago Orib
+Assistente de Produção  Laura Reginin
+Editor de Aquisições  Thiago Rosa
+Editora-Chefe  Karen Soarele
+Diretor-Geral  Guilherme Dei Svaldi
+Equipe da Jambô  Guilherme Dei Svaldi, Rafael Dei Svaldi, Leonel Caldela, Akila Gabriel, Ana Júlia Gamla, Anderson 
+Dornelles, André Schwertz, Bruno Piñeiro, Dan Ramos, Dani Marques, Davide Di Benedetto, Elisa Guimarães, Gabriel 
+Adam, Gabriel Menezes, Isabelle Gomes, Jacqueline Dal Bosco, Jaime de Andruart, José Cerqueira, J. M. Trevisan, Karen 
+Soarele, Laura Reginin, Laura Souza, Leticia Mendes, Marcelo Cassaro, Marcus Vinícius, Marina Alvarez, Marlon Vernes, 
+Matheus Rocha, Maurício Feijó, Miguel Souza, Priscilla Souza, Richelly Kotik, Samuel Anklam, Simone Rocha, Tatiana 
+Gomes, Thaynara Melchior, Thiago Rosa, Tiago Guimarães, Tiago Orib, Vic T erra, Victória Cernicchiaro e Yasmim Borges.
+Fabula Ultima © 2022-2025 Need Games e Rooster Games. T odos os direitos desta edição reservados 
+à Jambô Editora. É proibida a reprodução total ou parcial, por quaisquer meios existentes ou que venham a 
+ser criados, sem autorização prévia, por escrito, da editora. Este é um produto de ficção. Qualquer referência a 
+pessoas e eventos do presente, passado ou futuro é coincidência não intencional.
+Novidades, erratas e FAQ em fabulaultima.com.br
+G167f    Galletto, Emanuele
+Fabula ultima TTJRPG: atlas natural 
+fantasy / Emanuele Galletto; tradução de 
+Carine Ribeiro. — Porto Alegre: Jambô, 2025.
+208p. il.
+1. Jogos eletrônicos - RPG. I. Galletto, 
+Emanuele. II. Fabula Ultima. III. Título.
+CDU 794.021
+CRÉDITOS
+Rua Coronel Genuíno, 209 • Porto Alegre, RS
+contato@jamboeditora.com.br
+www.jamboeditora.com.br
+  
+@jamboeditora
+1ª edição: novembro de 2025 | v.1 | ISBN 978858365164-2
+Dados Internacionais de Catalogação na Publicação
+2
+W
+
+--- PAGE 5 ---
+w 3. PROTAGONISTAS
+Heróis Natural Fantasy ...................... 96
+Coragem e Introspecção ................96
+Equilíbrio Dinâmico .........................97
+Amigos e Família ..............................97
+Exemplos de Personagens
+de Fantasia Bucólica .....................97
+Novas Opções .....................................108
+Armas Personalizadas ......................112
+Novas Peculiaridades .......................120
+Atividades de Acampamento .........130
+Novos Personagens Clássicos........134
+Floralista..............................................138
+Gourmet ...............................................148
+Invocador .............................................154
+Mercador..............................................158
+Novos Poderes Heroicos .................160
+w 4. ANTAGONISTAS 
+Vilões Natural Fantasy ....................172
+Antagonistas Ambientais .............174
+T onitranea Rex  ...............................176
+Node e Dilon ...................................182
+Lumivale ...........................................186
+Titânia, a Rainha das Fadas ........192
+Eldgren..............................................198
+w  1. INTRODUÇÃO
+Pilares Natural Fantasy ........................8
+Antes de Começar ............................... 12
+w 2. O MUNDO
+Locais Natural Fantasy ...................... 16
+Mundos Verticais ..............................18
+T emplo dos T exugos — 
+O Santuário Antigo .......................22
+Brisaburgo —
+O Povoado Pacato ........................26
+Enseada das Velas —
+A Ilha Assombrada ........................30
+Selva Cerúlea —
+O Floresta Eterna ..........................34
+Sombravale — A Vila Sinistra ....... 38
+Eisenstadt — A Cidade Central ..... 42
+Cidade Dourada —
+As Ruínas Isoladas........................ 46
+Maré Baixa —
+A Baía Ensolarada .........................50
+Deserto Rochoso —
+Os Ermos Estéreis .........................54
+Pico Vertigem —
+A Montanha Gélida .......................58
+Conflitos ................................................. 62
+Magia e Rituais .................................... 68
+T ecnologia .............................................72
+Materiais e Fabricação ...................74
+Gerador de Materiais ...................... 78
+Itens Raros ............................................82
+Artefatos ................................................88
+SUMÁRIO
+3
+W
+
+--- PAGE 6 ---
+4
+W
+W
+
+--- PAGE 7 ---
+Mistérios do passado aguardam neste Atlas de Fabula Ultima!
+Esta expansão do Livro Básico foca num gênero de segredos antigos, territórios 
+vastos e intocados, heróis humildes e persistentes, vilões guiados por curiosida-
+de desenfreada (assim como pelo medo da morte e do desconhecido) e manifes-
+tações poderosas de forças elementais: Natural Fantasy (ou fantasia bucólica).
+Este Atlas é difere ligeiramente do Livro Básico e dos outros Atlas porque suas 
+histórias são mais delicadas e menos espalhafatosas, mas não menos heroicas 
+— pelo contrário, faz questão de explorar os conceitos fundamentais por trás de 
+conflitos nos outros gêneros: comunidade, harmonia e coexistência.
+Além de apresentar uma introdução básica às nossa visão da fantasia bucólica, 
+este livro também contém dicas e materiais de jogo para Mestres e regras 
+adicionais para os Jogadores. Tudo isso em três capítulos simples:
+ w O capítulo de Mundo traz informações valiosas para criar cenários de fantasia 
+bucólica, 10 locais arquetípicos que podem ser usados tanto como inspiração 
+para sua campanha, além de novos itens raros e artefatos inspirados em tra-
+dições e histórias folclóricas.
+ w O capítulo dos Protagonistas apresenta 4 novas classes (floralista, gourmet, 
+invocador e mercador) e várias regras opcionais (como atividades de acam-
+pamento) para destacar momentos em que os PJs descansam e criam laços.
+ w O capítulo dos Antagonistas traz 5 Vilões — chefes prontos, um mais perigoso 
+que o outro — que encarnam os desafios e obstáculos desta jornada.
+Comparado aos gêneros apresentados no Atlas: High Fantasy e Atlas: T echno 
+Fantasy, este atlas não costuma ser o foco de produtos no estilo dos JRPGs, e 
+este livro não pretende ser um guia completo do gênero. Algumas seções são 
+mais conectadas à visão criativa e filosófica de quem escreveu. Seu objetivo é 
+dar sugestões e exemplos dos trabalhos que nos inspiraram (página 215), úteis 
+para quem já conhece bem o gênero, mas também para quem descobriu Fabula 
+Ultima (e JRPGs em geral) mais recentemente.
+Basta virar a página para aprender mais!
+INTRODUÇÃOINTRODUÇÃO
+5
+W
+11  CAPÍTULO  CAPÍTULO
+INTRODUÇÃO
+
+--- PAGE 8 ---
+O QUE DEFINE A FANTASIA BUCÓLICA DE FABULA ULTIMA?
+Neste livro, e em Fabula Ultima de forma geral, os termos “natural fantasy” e 
+“fantasia bucólica” indicam um conjunto de elementos específicos que conside-
+ramos típicos de certo estilo de narrativa e cenário.
+Resumindo, vamos apresentar a visão pessoal do autor, que não pretende ser 
+uma verdade absoluta. Gêneros narrativos têm fronteiras nebulosas e seria im-
+possível — até mesmo irresponsável — querer limitá-los demais.
+Os textos a seguir vão ajudar a entender melhor as raízes criativas deste livro!
+ 9 PESSOAS COMUNS
+PJs em campanhas de fantasia bucólica costumam ser pessoas comuns, embo-
+ra possuam habilidades incomuns: príncipes, arquimagos, cavaleiros sombrios 
+e piratas celestes dão lugar a exploradores, alquimistas, estudiosos e guerrei-
+ros errantes. Esses protagonistas costumam ser jovens e ainda não conhecem 
+tão bem os grandes mistérios do mundo, exceto por alguns fragmentos de len-
+das que podem ser intepretados de dezenas de formas diferentes. Os pontos 
+centrais da fantasia bucólica são redescoberta, compreensão, empatia, respeito 
+e amor ao mundo em que vivemos e do qual fazemos parte, assim como pelo 
+seu passado. Ao buscar respostas com curiosidade e humildade, chegaremos a 
+coexistir em harmonia conosco e com o mundo como um todo.
+ 9 O MENTOR
+Apesar do que foi dito, é possível jogar com um PJ que “sabe muito”, mas, em 
+histórias de fantasia bucólica, personagens desse tipo costumam ter dois tra-
+ços principais: o primeiro é que eles hesitam em dividir seu conhecimento, 
+frequentemente revelando informações importantes apenas quando isso é ab-
+solutamente necessário (em uma forma excelente de gastar Pontos de Fabula); 
+além disso, eles não são capazes de resolver os problemas do mundo sem o 
+resto do grupo. Um exemplo clássico é o velho estudioso que descobre um 
+poder antigo, tal poder é capaz de ajudar a proteger a região… mas também é 
+exclusivo de uma linhagem da qual não ele não faz parte.
+Assim, o papel de mentor deve ser limitado a um personagem por grupo, nor-
+malmente o mais velho. É comum que esse tipo de protagonista precise rea-
+valiar o quanto realmente sabe, podendo até passar por uma crise pessoal até 
+encontrar as respostas de que precisa em seus companheiros mais jovens.
+6
+W
+W
+
+--- PAGE 9 ---
+ 9 DESENVOL VIMENTO VERTICAL
+Campanhas de fantasia bucólica costumam acontecer em aldeias ou regiões me-
+nores, em vez de grandes cidades ou continentes, mas compensam essa “perspec-
+tiva limitada” com desenvolvimento vertical: o mundo atual foi erguido sobre inú-
+meras camadas de história, nas quais poderes terríveis e elementos mágicos foram 
+enterrados — são mundos muito antigos, cujo passado remonta milênios, em vez 
+de séculos. Por isso, os infortúnios do presente costumam ser incompreensíveis.
+ 9 VIDA, MORTE E TRANSFORMAÇÃO
+Histórias de fantasia bucólica abrem mão do épico e espetacular; em vez disso, 
+apresentam os fundamentos temáticos de Fabula Ultima de forma visceral e 
+sincera, envolvendo os protagonistas em nível íntimo e pessoal. São histórias 
+sobre o ambiente, a vida e a morte. Como nos contos de fadas e nas filosofias 
+e tradições que inspiraram o gênero, essas histórias veem a morte como uma 
+etapa necessária para a regeneração do mundo — é terrivelmente dolorosa, mas 
+também uma oportunidade de apreciar a vida. Tirar uma vida é algo bastante 
+significativo e que não deve ser feito de forma leviana ou sem sua solenidade.
+ 9 REFERÊNCIAS PRINCIPAIS
+A seguir, estão alguns títulos que formaram a visão artística deste livro.
+ w A Trilogia Dusk (Ayesha, Escha & Logi, Shallie), dá série Atelier, é uma de 
+nossas maiores influências. Ela se passa num mundo que foi vítima das mani-
+pulações de humanos eras antes, que só pode ser revivido graças à resiliência 
+da geração mais jovem. A trilogia Ryza e a duologia Sophie também influen-
+ciaram a estética deste livro.
+ w A série Monster Hunter Stories se compartilha o cenário com a famosa saga 
+Monster Hunter, mas enfatiza a necessidade da cooperação entre humanos e 
+monstros e a importância de preservar mesmo as espécies mais perigosas.
+ w Jade Cocoon: Story of the Tamamayu é um bom exemplo de uma campanha 
+que se passa num intervalo de tempo curto e num lugar relativamente peque-
+no: uma única aldeia e as florestas ao retor, afetadas por uma terrível maldição.
+ w Etrian Odyssey Untold: The Millennium Girl tem um elenco de personagens 
+altamente motivado e um enredo centrado ao redor da descoberta progressiva 
+de mistérios do passado. Também reinventa o conceito de mundo pós-apoca-
+líptico mostrando uma paisagem verdejante e exuberante.
+“Antes de decidir como enfrentar esta calamidade,
+primeiro é preciso entender aquilo que a criou.”
+7
+W
+11  CAPÍTULO  CAPÍTULO
+INTRODUÇÃO
+
+--- PAGE 10 ---
+O Livro Básico de Fabula Ultima (p. 14) apresenta Oito Pilares que sustentam 
+a experiência do jogo. Este Atlas se baseia nesses elementos à própria maneira.
+RUÍNAS ANTIGAS E TERRAS INÓSPITAS
+Este pilar tem papel importante na fantasia bucólica: com frequência os pro-
+tagonistas precisarão atravessar amplas regiões desabitadas, onde o chão de 
+terra e raízes se misturam a ruínas milenares.
+Uma forte ventania sopra pelas cavidades das árvores na selva. Dizem boatos 
+que, no passado, um navegador habilidoso usou correntes térmicas para voar 
+sobre o território de caça dos onçassauros e chegar à Cidade Despedaçada.
+A nascente do rio Orwie se esconde em meio à névoa e às fissuras da Geleira 
+Leste. Suas várias cachoeiras correm entre restos colossais dos Guardiões de 
+Pedra que, segundo as lendas, sustentam o céu e evitam que as estrelas caiam.
+Um pequeno Estreito conecta a Costa do Papagaio ao arquipélago e pode ser 
+atravessado apenas na maré baixa, quando esqueletos de metal do cemitério 
+de aeronaves emergem das águas e máquinas dos antepassados despertam.
+MUNDO EM PERIGO
+Em mundos de fantasia bucólica, a humanidade é definida por sua relação com 
+criaturas silvestres: algumas pessoas coexistem com elas; outras as caçam para 
+obter alimento ou proteção. Ainda mais perigosas são criaturas nascidas de an-
+tigas maldições e experimentos, sem contar os vários antagonistas que querem 
+usar a magia e tecnologia do passado de maneiras impróprias ou egoístas.
+Ávido pela aprovação da cidade e de seu Conselho, um jovem inventor decide 
+descobrir e reativar uma antiga máquina alquímica, sem saber que suas vibra-
+ções mágicas atrairão mais uma vez a Serpente da Calamidade. 
+Uma a cada sete crianças nasce com um chifre vermelho na testa, flores desa-
+brocham sem cor, água ferve espontaneamente e fogo fere quem tenta usá-lo. 
+Dizem os oráculos que o gigante de cinzas — desmembrado e aprisionado no 
+templo do Vale Proibido para que a humanidade domasse o fogo e construísse 
+forjas — finalmente está se vingando.
+PILARES NATURAL FANTASY
+8
+W
+W
+
+--- PAGE 11 ---
+COMUNIDADES EM CONFLITO
+Em histórias de fantasia bucólica, conflitos entre grupos diferentes costumam ter 
+escala muito menor: tensões entre aldeias ou clãs vizinhos, embates entre huma-
+nos e animais ou espíritos, ou entre facções opostas do mesmo povo. Na forma 
+mais sombria, tais conflitos levam à violência, expropriação e até genocídio.
+Perturbado por sua caravana ter visto um gato selvagem espinhoso durante a 
+jornada, um nobre recém-chegado na aldeia ordenou que a guilda de caçado-
+res local exterminasse todos os predadores na região. Quando eles se recusam 
+a matar qualquer criatura que não tenha atacado o assentamento, o nobre con-
+trata mercenários da Cidadela que fica em meio às planícies.
+Apenas os Inara conhecem os procedimentos necessários para ativar os artefatos 
+de metal dos progenitores, que estão espalhados pelo arquipélago. Movidos pela 
+ganância, xerifes da capital se infiltram em assentamentos inara para extorquir in-
+formações; uma dessas operações levou a um massacre terrível de nativos.
+TUDO TEM ALMA
+Este pilar é tão explícito quanto central na fantasia bucólica: o rio das almas se 
+manifesta por meio de entidades elementais, animais ou plantas, verdadeiros 
+símbolos sagrados que encarnam o ciclo vital de regeneração e transformação. 
+O rio das almas também é uma das principais vítimas das ações dos vilões.
+Determinada a reunir os fragmentos da alma de sua esposa, espalhados pelo 
+mundo espiritual, a bruxa Ihimi uniu seu espírito à Árvore das Chuvas. Dois mil 
+anos depois, o rio das almas estagnou: ecos dos mortos vagueiam pela terra, se 
+prendendo aos vivos e transformando-os em monstros terríveis.
+Assim como os Progenitores verteram lágrimas para formar o oceano e deram 
+sua carne para formar a terra, habitantes das Ilhas de Vidro aceitaram que os 
+mensageiros noturnos devoram os corpos daqueles que partiram, se banque-
+teando no luto dos vivos, levando ambos ao pós-vida como alimento e conforto 
+para os espíritos ancestrais.
+As quatro árvores primordiais da região, conhecidas como Vei Arbru, guardam 
+a essência elemental das quatro estações: cada uma protegida por uma fada 
+guardiã que a nutre e acolhe tanto ao florescer quanto ao definhar e renascer.
+9
+W
+11  CAPÍTULO  CAPÍTULO
+INTRODUÇÃO
+
+--- PAGE 12 ---
+MAGIA E TECNOLOGIA
+A justaposição de magia e tecnologia é um poderoso elemento em histórias de 
+fantasia bucólica. Ambas têm um lado de luz e outro de sombras: a magia é li-
+gada aos elementos naturais, mas também pode desestabilizá-los e causar ca-
+tástrofes terríveis; a tecnologia — lembrete de guerras e destruição do passado 
+— pode ser recuperada e adaptada, mas traz o risco de repetir os mesmos erros.
+Necrópole é um abismo de uma região inteira que desce até as profundezas da 
+terra. No fundo, a energia mágica — normalmente rarefeita demais para susten-
+tar rituais — pode ser usada sem dificuldades. Estudiosos chamam tal fenômeno 
+de radiação tumular, e sua intensidade é proporcional à profundidade alcançada.
+Movido pela fornalha triplo-alquímica a vapor e armado com grandes espinhos 
+de metal, bestas automáticas e morteiros, o trem encouraçado atravessa florestas 
+cobertas por árvores mágicas — é a única conexão entre os assentamentos locais.
+HERÓIS DE TODOS OS TIPOS
+A fantasia bucólica foca na jornada tempestuosa em direção à coexistência e à 
+harmonia. Sendo assim, o grupo simboliza uma oportunidade de mostrar como 
+representantes de povos e culturas diferentes podem aprender uns com os 
+outros e, numa atmosfera de respeito mútuo, lutar juntos pelo futuro.
+Bomiri é uma moça-mariposa da Aldeia Mangrove. Após a morte de sua mento-
+ra idosa, a jovem se dedicou completamente a estudar herbalismo e medicina 
+numa tentativa de encontrar uma cura para a doença que levou sua mestra.
+Com 12 anos, Lovisa se perdeu entre as fendas da geleira de Mora e quase foi 
+devorada por um nagadonte filhote que ficou preso com ela numa caverna. 
+Apesar do medo, ela ainda conseguiu comida para si e para o filhote. Logo 
+depois, evitou que seus salvadores o matassem. Hoje em dia, são inseparáveis 
+e transportam cartas, remédios e informações por todo o vale.
+Famoso entre os nômades do Mar Interior pelo caráter generoso e ligeiramente 
+espalhafatoso, Yalsi, o ladrão, é procurado pela marinha imperial por ter rou-
+bado um oficial de alto escalão: escondido entre as moedas de ouro havia um 
+colar estranho, terrivelmente semelhante às cabeças metálicas enterradas sob 
+as colinas da aldeia natal de Yalsi.
+10
+W
+W
+
+--- PAGE 13 ---
+TUDO GIRA EM TORNO DOS HERÓIS
+Protagonistas de fantasia bucólica podem não parecer tão extraordinários 
+quanto outros heróis, mas, na verdade, eles encarnam o cerne do heroísmo: 
+humildade, respeitar a vida, buscar pelo diálogo, escolher o caminho mais di-
+fícil e lutar contra crueldade e ignorância com uma compaixão ardente. Por 
+esse ponto de vista, o mundo precisa desesperadamente de pessoas como eles.
+Durante a caçada às feras do miasma, quando sua aldeia foi destruída pelo clã 
+das colinas, uma velha bruxa e um jovem ferreiro se aliaram a uma desertora 
+e um espadachim errante. Seu objetivo era chegar antes do exército em uma 
+estrela de pedra que, de acordo com a tradição seidr, confere acesso ao poder 
+do Deus Triclope.
+Um vírus misterioso e terrível, chamado morte escarlate, está infectando os 
+predadores da região, fazendo-os agredir cruelmente as criaturas mais fracas e 
+atacar assentamentos. Catha, uma guerreira-poetisa rasna, acredita que a epi-
+demia se originou nas fronteiras do continente, no cemitério dracônico, onde 
+ficam os ossos de criaturas outrora majestosas exterminadas pelos Antigos.
+DESCOBERTA, MISTÉRIO E CRESCIMENTO
+Mistérios e crescimento são dois elementos-chave da fantasia bucólica, isso 
+se deve ao seu foco em histórias sobre viagem, exploração, encontros entre 
+povos diferentes e descobertas sobre um passado antigo. Esse gênero também 
+questiona as consequências da aplicação do conhecimento e como ele pode 
+ser usado tanto para o bem quanto para o mal.
+Após chegar em ruínas mecânicas enterradas entre as dunas, os heróis desco-
+brem que a grande floresta é parte de um projeto antigo, iniciado por um povo 
+extinto há milênios, com objetivo de limpar o meio ambiente. Sua guardiã é 
+uma inteligência artificial cuja missão era guiar a humanidade para sua re-
+construção, mas que se tornou fria e apática por conta da solidão.
+Criada na cidade-torre de Ur, Kalia, a inspetora do conselho, nota a corrupção 
+dos colegas, que tiram vantagem de seus postos para extorquir dinheiro das 
+aldeias em troca de “proteção”. Seus princípios serão postos à prova ao longo 
+da campanha, culminando num combate contra seu superior, Corax, o que fará 
+ela abrir mão de seu distintivo de uma vez por todas e se dedicar integralmen-
+te a ajudar os outros sem a necessidade do apoio de uma falsa autoridade.
+“Este mundo é antigo e não tem pressa.
+Ele reserva sua afeição maior e mais sincera a quem  
+leva o tempo necessário para entender e evoluir.”
+11
+W
+11  CAPÍTULO  CAPÍTULO
+INTRODUÇÃO
+
+--- PAGE 14 ---
+Nas páginas seguintes, discutiremos alguns dos elementos cruciais para uma 
+campanha de fantasia bucólica em Fabula Ultima.
+BELEZA BRUTA
+A fantasia bucólica depende de um equilíbrio cuidadoso entre momentos de 
+calmaria, serenidade e beleza com momentos de contato direto e bruto frente 
+aos fatos inevitáveis da vida. Nenhum desses momentos pode ser sacrificado: 
+focar apenas nos primeiros significa apresentar uma versão falsa e higienizada 
+da natureza; focar apenas nos segundos leva à morbidez autoindulgente.
+Isso não significa que você precisa incluir cenas explícitas ou sanguinolentas. 
+Pelo contrário: discutir como lidar com cenas de violência e morte é essencial, 
+especialmente quando envolvem pessoas ou animais (Livro Básico, p. 147).
+A CAÇADA
+Matar criaturas vivas para proteger sua comunidade ou obter recursos impor-
+tantes é um tema comum neste gênero, e deve ser tratado com muito cuidado.
+ w Jamais banalize. Quer envolva um animal, planta, pessoa ou espírito, a morte 
+é um evento marcante e que deve ser tratado com dignidade. Nunca deve ser 
+fria ou sistemática, especialmente num jogo de fantasia bucólica, onde con-
+sequências ecológicas, emocionais ou espirituais são necessárias. Conforme o 
+Livro Básico (página 86), não existe a obrigação de matar um inimigo que foi 
+reduzido a 0 Ponto de Vida. Matar é uma escolha.
+ w Jamais demonize. Se for necessário e houver apropriado respeito pelas con-
+sequências, matar outra criatura para salvar vidas, proteger o ecossistema ou 
+transformar seu corpo em alimento, ferramentas ou instrumentos, é uma parte 
+integral do ciclo da vida, não uma violação dele.
+TODA VIDA IMPORTA
+Mesmo quando o mundo foca no retorno cíclico de todas as formas de vida ao 
+rio das almas (um dos Oito Pilares de Fabula Ultima, página 9), nunca ignore o 
+valor de uma vida. Embora seja verdade que vida (como forma de energia) per-
+dura eternamente ao longo de incontáveis encarnações, esta vida (as memórias, 
+personalidade e sentimentos de um indivíduo específico) é única e insubstituí-
+vel, e o momento quando nos deixa jamais deve ser visto como uma tragédia.
+ANTES DE COMEÇAR
+12
+W
+W
+
+--- PAGE 15 ---
+COEXISTIR NÃO É PERDER A PRÓPRIA IDENTIDADE
+Em algumas histórias, temas ecológicos são apresentados de forma bastante 
+superficial: a humanidade é mostrada como um parasita, a tecnologia como 
+fonte de corrupção, estilos de vida antigos são romantizados e estereotipados, 
+em geral sem uma sólida base histórica ou antropológica. Embora tal conceito 
+ofereça excelente material para a criação de vilões, perspectivas tão simplistas 
+representam uma forma covarde de niilismo.
+A proposta da fantasia bucólica é, como alternativa, fazer uma escolha humilde 
+e corajosa: heróis devem parar de se ver como mestres ou algozes da natureza 
+e lembrar que são apenas uma de suas expressões, abraçando as responsabili-
+dades que surgem a partir da habilidade de criar, inventar e transformar.
+Em resumo: é possível coexistir com o planeta em que vivemos exatamente 
+por sermos humanos, não apesar de sermos humanos.
+INFLUÊNCIAS CULTURAIS E COLONIALISMO
+Ao imaginar uma história centrada em partilha e coexistência, é comum ser-
+mos influenciados por culturas que já existem, cujos princípios são a base de 
+sua civilização, tradição e filosofia. Historicamente, tais culturas sofreram polí-
+ticas colonialistas violentas e opressoras, e suas vozes são silenciadas mesmo 
+hoje em dia. Seus elementos culturais mais marcantes foram levianamente re-
+duzidos à mera aparência, extirpados de seu significado e adaptados à lógica 
+de consumo, numa representação superficial que remove toda a carga intros-
+pectiva ou revolucionária. Caso queira se inspirar nessas culturas ao criar novas 
+histórias e personagens, se esforce para não repetir essa retórica nociva:
+ w Busque fontes detalhadas, não instrumentalizadas e que apresentem a infor-
+mação com integridade e respeito, sem banalizar complexidades culturais ou 
+reduzi-las a estereótipos.
+ w Se seu cenário incluir culturas tribais ou inspiradas em populações nativas do 
+mundo real, não as limite ao papel de estranhos enigmáticos, a guardiões de 
+riquezas, a ameaças ou a vítimas indefesas; faça com que sejam protagonistas 
+por inteiro, evitando estereótipos comuns como batedor, invasor ou místico.
+ w Por fim, garanta que não associará a busca por harmonia e espiritualidade com 
+um estilo de vida forçadamente abstêmio, passivo ou pouco prático; seguindo 
+a mesma linha, não associe isso à falta de interesse em ciência e tecnologia.
+ANTES DE COMEÇAR
+13
+W
+11  CAPÍTULO  CAPÍTULO
+INTRODUÇÃO

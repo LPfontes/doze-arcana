@@ -1,0 +1,1809 @@
+--- PAGE 178 ---
+Capítulo Quatro
+Características  de magias
+Escolas
+Todas as magias, sejam arcanas ou divinas, per -
+tencem a uma escola. A escolha de uma magia indica 
+como ela utiliza e manipula energia.
+Escolas de magia contam como tipos de efeitos 
+(veja a página 228), o que indica sua relação com 
+outros efeitos. Por exemplo, um bônus em testes de 
+resistência contra ilusões se aplica contra quaisquer 
+magias de ilusão.
+Abjuração (Abjur). Magias de proteção, que 
+anulam outras magias ou expulsam criaturas invoca-
+das de volta a seus planos de existência nativos.
+Adivinhação (Adiv). Magias de detecção ou 
+que vasculham passado e futuro.
+Convocação (Conv).  Magias que transpor -
+tam matéria. Esse transporte é realizado através do 
+Éter Entre Mundos; por isso, qualquer efeito que 
+bloqueia viagens etéreas também impede convoca -
+ções. Criaturas convocadas surgem em uma superfí -
+cie desocupada e, quando destruídas, desaparecem 
+e são devolvidas a seus mundos nativos.
+Encantamento (Encan).  Magias que afe -
+tam a mente. Todas as magias de encantamento são 
+efeitos mentais.
+Evocação (Evoc).  Magias que manipulam 
+ou geram energia pura. Ácido, eletricidade, fogo e frio 
+são as energias geradas pelos quatro elementos, 
+respectivamente terra, ar, fogo e água. Magias de 
+fogo funcionam sob a água, mas criam vapor quente 
+em vez de chamas abertas. Luz é energia positiva, 
+cuja manifestação é capaz de iluminar, curar e causar 
+dano de luz. Por fim, essência é energia mágica pura.
+Ilusão. Essas magias fazem outros perceberem 
+algo que não existe ou ignorarem algo real. Todas as 
+magias de ilusão são efeitos mentais.
+Necromancia (Necro).  Magias que canali -
+zam energia negativa, criando escuridão, drenando a 
+força vital de criaturas vivas e criando mortos-vivos. 
+Magias de necromancia são efeitos de trevas.
+Transmutação (Trans). Magias que alteram 
+as propriedades físicas de uma criatura ou objeto.
+Uma magia será Uma magia será 
+tão poderosa quanto tão poderosa quanto 
+seu conjuradorseu conjurador
+172  
+--- PAGE 179 ---
+Magia  
+Execução
+A ação necessária para lançar a magia.
+Ação Livre.  Você só pode lançar uma 
+magia com execução de ação livre por 
+rodada. Isso inclui magias afetadas por 
+habilidades como Magia Acelerada.
+Reação. Magias com execução de reação 
+só podem ser lançadas em reação àquilo 
+contra o qual se aplicam (por exemplo, 
+uma magia que fornece bônus na Defesa 
+pode ser lançada em reação a um ataque).
+Ação Completa. No caso de magias com 
+execução maior do que uma ação comple -
+ta, você fica desprevenido enquanto estiver 
+lançando a magia.
+Alcance
+Indica a distância máxima a partir do 
+conjurador que a magia alcança. Veja a 
+página 224 para detalhes.
+Efeito
+Determina se a magia afeta um alvo, 
+uma área ou cria algo. Veja as páginas 224 
+e 225 para detalhes.
+Duração
+A duração indica por quanto tempo a 
+magia mantém seu efeito. Quando ela ter-
+mina, a energia mágica se dissipa e a magia 
+acaba. Veja a página 227 para detalhes.
+Uma magia permanente ainda pode 
+ser dissipada para encerrar sua duração.
+Resistência
+Magias prejudiciais normalmente 
+permitem que seus alvos façam um teste 
+de resistência para evitar ou reduzir seus 
+efeitos. Veja a página 227 para detalhes.
+Dificuldade. A CD do teste de re -
+sistência contra uma magia é 10 + metade 
+do nível do personagem + atributo-chave 
+da magia.
+Samira é uma qareen feiticeira de 8º nível 
+com Carisma 5. A CD para resistir a suas magias 
+é 19 (10 +4 +5 = 19).
+Sucesso em Testes de Resis -
+tência. Uma criatura que passe em 
+seu teste contra uma magia sem efeitos 
+óbvios sente um tipo de formigamento 
+ou força hostil, mas não pode deduzir a 
+natureza exata do ataque. O conjurador 
+também sente que a magia falhou — não 
+é possível fingir ter sido enfeitiçado por 
+Enfeitiçar, pois o conjurador saberá. No 
+entanto, você não sabe se um alvo passou 
+em um teste de resistência contra magias 
+de área ou efeito.
+Custos Especiais
+Algumas magias poderosas exigem 
+outros custos além de pontos de mana. 
+Veja a página 224 para detalhes. Se uma 
+magia possuir custo especial, isso estará 
+indicado no fim do texto descritivo dela.
+Anulando Magias
+Você pode anular uma magia conju -
+rada por outra pessoa, fazendo uma con-
+tramágica. Para isso, use a ação preparar 
+(veja a página 234) para agir quando uma 
+criatura lançar uma magia. Nesse instan -
+te, você deve lançar uma magia que possa 
+anular a magia original.
+Normalmente, uma magia só pode ser 
+anulada por outra igual — se um inimigo 
+lança Bola de Fogo , você deve lançar outra 
+Bola de Fogo  para anulá-la. Mas algumas 
+magias podem anular outras: por exem -
+plo, Luz anula Escuridão (e vice-versa). Em 
+caso de dúvida, cabe ao mestre julgar se 
+uma magia anula outra. Como regra geral, 
+uma magia nunca pode anular outra de 
+círculo maior.
+Dissipar Magia  é uma exceção — pode 
+ser usada para anular qualquer magia 
+(mesmo de círculos maiores), mas você 
+deve fazer um teste de Misticismo oposto 
+por Misticismo ou Vontade de quem está 
+lançando a magia (o que for maior). Se 
+você vencer, seu Dissipar Magia  funciona 
+como contramágica.
+Tanto a magia anulada quanto a usada 
+como con tramágica desfazem-se instanta -
+neamente.
+Os símbolos das Os símbolos das 
+oito escolas de magiaoito escolas de magia
+173
+--- PAGE 180 ---
+Capítulo Quatro
+1º Círculo
+Abjur Alarme. Avisa quando alguém invadir uma área 
+protegida.
+ Armadura Arcana. Aumenta sua Defesa.
+ Resistência a Energia.  Fornece resistência 
+contra um tipo de dano a sua escolha.
+ Tranca Arcana. Tranca um item que possa ser 
+aberto ou fechado.
+Adiv Aviso. Envia um alerta telepático para uma criatura.
+ Compreensão. Você entende qualquer coisa 
+escrita ou falada e pode ouvir pensamentos.
+ Concentração de Combate.  Ao atacar, você 
+pode rolar dois dados e ficar com o melhor.
+ Visão Mística. Você pode ver auras mágicas.
+Conv Área Escorregadia. Criaturas na área podem 
+cair ou objeto afetado pode ser derrubado.
+ Conjurar Monstro. Convoca um monstro sob 
+seu comando.
+ Névoa. Cria uma névoa que oferece camuflagem.
+ Teia. Criaturas na área ficam enredadas.
+Encan Adaga Mental. Alvo sofre dano psíquico e pode 
+ficar atordoado.
+ Enfeitiçar. Alvo se torna prestativo e pode 
+realizar um pedido seu.
+ Hipnotismo. Alvos ficam fascinados.
+ Sono. Alvo cai em um sono profundo ou fica 
+exausto.
+Evoc Explosão de Chamas. Cone causa dano de fogo.
+ Luz. Objeto ilumina como uma tocha.
+ Seta Infalível de Talude.  Dispara setas de 
+energia que acertam automaticamente.
+ Toque Chocante. Toque causa dano de eletrici-
+dade.
+Ilusão Criar Ilusão. Cria uma ilusão visual ou sonora.
+ Disfarce Ilusório. Muda a aparência de uma 
+ou mais criaturas.
+ Imagem Espelhada.  Cria duplicatas para con -
+fundir os inimigos, oferecendo bônus na Defesa.
+ Leque Cromático.  Criaturas na área ficam 
+ofuscadas ou atordoadas.
+Necro Amedrontar. O alvo fica abalado ou apavorado.
+ Escuridão. Objeto emana uma área de escuridão.
+ Raio do Enfraquecimento. O alvo fica fatigado 
+ou vulnerável.
+ Vitalidade Fantasma. Você recebe pontos de 
+vida temporários.
+Trans Arma Mágica.  Arma recebe bônus ou poderes 
+mágicos.
+ Primor Atlético. Alvo recebe bônus no deslo -
+camento e em testes de Atletismo.
+ Queda Suave. Alvo cai lentamente.
+ Transmutar Objetos. Pode consertar ou fabri-
+car um objeto temporário.
+2º Círculo
+Abjur Campo de Força.  Cria uma película protetora 
+que absorve dano.
+ Dissipar Magia.  Encerra os efeitos de magias 
+ativas em um alvo ou área.
+ Refúgio. Cria um domo para abrigar o conjurador 
+e seus aliados.
+ Runa de Proteção. Runa protege passagem ou 
+objeto.
+Adiv Ligação Telepática.  Estabelece um vínculo 
+telepático entre duas ou mais criaturas.
+ Localização. Determina em que direção está 
+um objeto ou criatura a sua escolha.
+ Mapear. Traça um esboço de mapa dos arredores.
+Conv Amarras Etéreas. Laços de energia prendem o 
+alvo.
+ Montaria Arcana.  Convoca um cavalo que 
+serve como montaria.
+ Salto Dimensional.  Teletransporta você e 
+outras criaturas para um ponto dentro do alcance.
+ Servos Invisíveis.  Seres invisíveis realizam 
+tarefas para você.
+Encan Desespero Esmagador.  Criaturas na área 
+perdem a vontade de lutar.
+ Marca da Obediência. Símbolo mágico obriga 
+o alvo a cumprir uma ordem.
+ Sussurros Insanos. Deixa o alvo confuso.
+Evoc Bola de Fogo.  Esfera incandescente explode, 
+causando dano em todas as criaturas na área.
+ Flecha Ácida. Dispara um projétil de ácido que 
+corrói armaduras e outros objetos.
+ Relâmpago. Causa dano de eletricidade em cria -
+turas numa linha.
+ Sopro das Uivantes.  Explosão em cone causa 
+dano de frio e empurra alvos.
+Ilusão  Aparência Perfeita.  Aumenta o Carisma e 
+concede bônus em perícias sociais.
+ Camuflagem Ilusória. A imagem do alvo fica 
+distorcida, concedendo camuflagem.
+ Esculpir Sons.  Altera os sons emitidos pelos 
+alvos.
+ Invisibilidade. Você se torna invisível por um 
+curto período.
+Necro Conjurar Mortos-Vivos. Ergue mortos-vivos 
+para lutar por você.
+ Crânio Voador de Vladislav.  Crânio flutu-
+ante causa dano em um alvo.
+ Toque Vampírico. Toque causa dano e absorve 
+pontos de vida.
+Trans  Alterar Tamanho.  Aumenta ou diminui o 
+tamanho de objetos e criaturas.
+ Metamorfose. Transforma o corpo do alvo.
+ Velocidade. Alvo pode fazer ações adicionais.
+Lista de Magias Arcanas
+174  
+--- PAGE 181 ---
+Magia  
+3º Círculo
+Abjur Âncora Dimensional.  Impede o alvo de se 
+afastar de um ponto, mesmo com teletransporte.
+ Dificultar Detecção. Protege uma criatura ou 
+objeto contra detecção e vidência.
+ Globo de Invulnerabilidade. Esfera protege 
+contra magias de 1º e 2º círculos.
+Adiv Contato Extraplanar.  Você barganha com 
+criaturas de outros planos para obter ajuda.
+ Lendas e Histórias.  Descobre detalhes sobre 
+criaturas, objetos e lugares.
+ Vidência. Pode ver e ouvir os arredores de uma 
+criatura.
+Conv  Convocação Instantânea. Teletransporta um 
+objeto marcado para suas mãos.
+ Enxame Rubro de Ichabod. Invoca uma massa 
+rastejante de demônios da Tormenta.
+ Teletransporte. Transporta você e outras 
+criaturas e objetos para um local instantaneamente.
+Encan Imobilizar. Alvo fica lento ou paralisado.
+ Selo de Mana. Você sela a energia de uma criatura, 
+impedindo que use pontos de mana.
+Evoc Erupção Glacial. Estacas de gelo explodem do 
+chão, ferindo e derrubando os alvos.
+ Lança Ígnea de Aleph.  Projétil de magma 
+explode no alvo, causando dano por rodada.
+ Muralha Elemental. Evoca um muro feito de 
+fogo ou gelo.
+Ilusão Ilusão Lacerante.  Cria uma ilusão perigosa 
+que pode causar dano real.
+ Manto de Sombras.  Conjurador se cobre de 
+sombras mágicas para vários efeitos.
+ Miragem. Altera uma área de forma ilusória.
+Necro Ferver Sangue. Criatura tem seu sangue aqueci-
+do até borbulhar, causando dano.
+ Servo Morto-Vivo. Cria um parceiro morto-vi -
+vo sob seu comando.
+ Tentáculos de Trevas. Tentáculos de energia 
+negativa atacam e agarram criaturas na área.
+Trans Pele de Pedra.  Endurece sua pele, fornecendo 
+redução de dano.
+ Telecinesia. Move e arremessa criaturas e obje -
+tos com a mente.
+ Transformação de Guerra.  Você recebe 
+habilidades superiores de combate, mas perde a 
+habilidade de lançar magias.
+ Voo. Você recebe deslocamento voo 12m.
+4º Círculo
+Abjur Campo Antimagia.  Barreira suprime todos os 
+efeitos mágicos.
+ Libertação. O alvo fica imune a efeitos que 
+impeçam ou restrinjam movimentação.
+Adiv Sonho. Você entra nos sonhos de uma criatura e 
+pode interagir com ela lá.
+ Visão da Verdade.  Você enxerga através de 
+camuflagem, escuridão, ilusão e transmutação.
+Conv Conjurar Elemental. Convoca um elemental 
+como parceiro.
+ Mão Poderosa de Talude.  Mão gigante feita 
+de energia pode realizar várias ações.
+ Viagem Planar. Viaja até outro plano de existência.
+Encan Alterar Memória. Pode apagar ou modificar a 
+memória recente do alvo.
+ Marionete. Controla o corpo do alvo.
+Evoc Raio Polar. Causa dano de frio e congela alvo.
+ Relâmpago Flamejante de Reynard. Dispara 
+rajadas de fogo e relâmpago.
+ Talho Invisível de Edauros.  Lâmina de ar 
+em alta velocidade corta os alvos.
+Ilusão Duplicata Ilusória.  Imagem projetada copia 
+seus movimentos e ações.
+ Explosão Caleidoscópica. Explosão de luzes 
+e sons desabilita os alvos.
+Necro Assassino Fantasmagórico.  Conjura um 
+fantasma que persegue e tenta matar o alvo.
+ Muralha de Ossos.  Barreira de ossos afiados 
+impede o avanço dos inimigos.
+Trans Animar Objetos. Objetos comuns ganham vida 
+e obedecem a seus comandos.
+ Controlar a Gravidade. Manipula os efeitos 
+da gravidade em uma área.
+ Desintegrar. Raio transforma um alvo em pó.
+ Forma Etérea. Você pode se tornar etéreo en -
+quanto a magia durar.
+5º Círculo
+Abjur Aprisionamento. Prende o alvo de diversas 
+formas poderosas.
+ Engenho de Mana. Disco de energia flutuante é 
+capaz de absorver magias e gerar PM.
+ Invulnerabilidade. Recebe uma série de imu -
+nidades físicas ou mentais a sua escolha.
+Adiv Alterar Destino.  Enxerga o futuro, podendo 
+alterar o resultado de um teste.
+ Projetar Consciência.  Pode observar qual -
+quer local ou criatura.
+Conv Buraco Negro. Abre uma ruptura no espaço que 
+suga tudo ao redor.
+ Chuva de Meteoros.  Convoca um enorme 
+meteorito incandescente.
+ Semiplano. Cria uma pequena dimensão.
+Encan Legião. Você pode dominar a mente de vários 
+alvos ao mesmo tempo e comandar suas vontades.
+ Palavra Primordial. Palavras mágicas podem 
+atordoar, cegar e até matar uma criatura.
+ Possessão. Transfere sua consciência para o 
+corpo do alvo, tomando controle total.
+Evoc Barragem Elemental de Vectorius.  Lança 
+esferas elementais explosivas.
+ Deflagração de Mana.  Explosão de energia 
+bruta causa dano e afeta magias e itens mágicos.
+ Mata-Dragão. Dispara uma rajada de energia 
+destruidora.
+Ilusão Réquiem. Prende os alvos em uma realidade 
+ilusória que se repete infinitamente.
+ Sombra Assassina. Manifesta uma cópia ilusó -
+ria do alvo, que luta contra ele.
+Necro Roubar a Alma.  Arranca a alma do alvo e a 
+prende em um objeto.
+ Toque da Morte.  Pode matar uma criatura 
+instantaneamente.
+Trans Controlar o Tempo. Acelera, avança ou para o 
+tempo.
+ Desejo. Modifica a realidade a seu bel-prazer.
+175
+--- PAGE 182 ---
+Capítulo Quatro
+1º Círculo
+Abjur Escudo da Fé. Protege uma criatura.
+ Proteção Divina. Alvo recebe bônus em testes 
+de resistência.
+ Resistência a Energia.  Fornece resistência 
+contra um tipo de dano a sua escolha.
+ Santuário. Inimigos devem passar num teste de 
+Vontade para atacá-lo.
+ Suporte Ambiental. Ignora efeitos de calor e 
+frio e pode respirar na água.
+Adiv Aviso. Envia um alerta telepático para uma criatura.
+ Compreensão. Você entende qualquer coisa 
+escrita ou falada e pode ouvir pensamentos.
+ Detectar Ameaças.  Detecta perigos ao seu 
+redor.
+ Orientação. Alvo recebe bônus nos testes de 
+perícia.
+ Visão Mística. Você pode ver auras mágicas.
+Conv Arma Espiritual. Cria uma arma de energia que 
+ataca seus inimigos.
+ Caminhos da Natureza. Convoca um espírito 
+que guia você e seus aliados em terreno selvagem.
+ Criar Elementos. Cria uma quantidade Minús-
+cula de água, ar, fogo ou terra.
+ Névoa. Cria uma névoa que oferece camuflagem.
+Encan Acalmar Animal. Um animal fica prestativo.
+ Bênção. Fornece bônus em ataques e dano.
+ Comando. Força o alvo a obedecer a uma ordem.
+ Tranquilidade. Acalma criaturas na área.
+Evoc  Consagrar. Abençoa a área, maximizando PV 
+curados por luz.
+ Curar Ferimentos. Seu toque recupera pontos 
+de vida.
+ Despedaçar. Som alto e agudo causa atordoa -
+mento e dano de impacto.
+ Luz. Objeto ilumina como uma tocha.
+Necro Escuridão. Objeto emana uma área de escuridão.
+ Infligir Ferimentos. Seu toque causa dano de 
+trevas e pode deixar fraco.
+ Perdição. Inimigos sofrem penalidade nos ata -
+ques e danos.
+ Profanar. Conspurca a área, maximizando dano 
+de trevas.
+Trans Abençoar Alimentos.  Purifica refeição, que 
+também fornece bônus temporários.
+ Arma Mágica.  Arma recebe bônus ou poderes 
+mágicos.
+ Armamento da Natureza.  Arma natural ou 
+primitiva causa dano como se fosse maior.
+ Controlar Plantas. Vegetação enreda criaturas.
+2º Círculo
+Abjur Círculo da Justiça.  Causa penalidades em 
+Enganação, Furtividade e Ladinagem.
+ Dissipar Magia.  Encerra os efeitos de uma 
+magia ativa em um alvo ou área.
+ Runa de Proteção. Runa protege passagem ou 
+objeto.
+ Vestimenta da Fé.  Traje, armadura ou escudo 
+recebe bônus na Defesa.
+Adiv Augúrio. Diz se uma ação trará resultados bons, 
+ruins ou ambos.
+ Condição. Monitora a condição (PV , condições, 
+magias afetando) de criaturas tocadas.
+ Globo da Verdade de Gwen.  Globo revela 
+cena vista pelo conjurador.
+ Mente Divina. Fornece bônus em um ou mais 
+atributos mentais.
+ Voz Divina.  Converse com criaturas variadas, 
+plantas, rochas e cadáveres.
+Conv Enxame de Pestes.  Convoca um enxame que 
+causa dano toda rodada.
+ Soco de Arsenal. Alvo sofre dano de impacto e 
+é empurrado.
+Encan Aliado Animal. Um animal prestativo se torna 
+um parceiro.
+ Marca da Obediência. Símbolo mágico obriga 
+o alvo a cumprir uma ordem.
+ Oração. Aliados recebem bônus e inimigos so -
+frem penalidades em testes e rolagens.
+Evoc  Controlar Fogo. Move ou apaga uma chama, 
+esquenta um objeto ou cria armas flamejantes.
+ Purificação. Toque remove condições prejudiciais.
+ Raio Solar.  Linha causa dano de luz e deixa 
+criaturas ofuscadas.
+ Tempestade Divina. Causa penalidades e per -
+mite fazer relâmpagos caírem.
+Ilusão  Silêncio. Cria uma área em que é impossível 
+ouvir sons ou lançar magias.
+Necro Conjurar Mortos-Vivos. Ergue mortos-vivos 
+para lutar por você.
+ Miasma Mefítico. Nuvem causa dano de ácido e 
+enjoo.
+ Rogar Maldição. O alvo sofre efeitos prejudi -
+ciais variados.
+Trans Controlar Madeira. Fortalece, molda, repele 
+ou deforma um objeto de madeira.
+ Físico Divino. Fornece bônus em um ou mais 
+atributos físicos.
+3º Círculo
+Abjur Banimento. Expulsa criaturas de outros planos e 
+destrói mortos-vivos.
+ Proteção contra Magia.  Concede bônus em 
+testes de resistência contra magias.
+Adiv Comunhão com a Natureza.  Você recebe 
+dados para usar como bônus em testes de perícias.
+ Lendas e Histórias.  Descobre detalhes sobre 
+criaturas, objetos e magias.
+Lista de Magias Divinas
+176  
+--- PAGE 183 ---
+Magia  
+ Vidência. Pode ver e ouvir os arredores de uma 
+criatura.
+Conv  Servo Divino. Invoca um espírito para realizar 
+uma tarefa, por um preço.
+ Viagem Arbórea.  Você pode usar árvores e 
+plantas para se teletransportar.
+Encan Despertar Consciência.  Plantas e animais 
+ganham consciência e se tornam parceiros.
+ Heroísmo. Alvo fica imune a medo e ganha bônus 
+contra inimigos mais poderosos do que ele.
+ Imobilizar. Alvo fica lento ou paralisado.
+ Missão Divina. Alvo deve cumprir uma tarefa, 
+ou sofrer penalidades em testes.
+ Selo de Mana.  Você sela a energia de uma cria -
+tura, impedindo que use Pontos de Mana.
+Evoc Coluna de Chamas.  Os céus despejam luz e 
+fogo sobre seus inimigos.
+ Dispersar as Trevas. Dispersão anula magias, 
+protege aliados e cega inimigos.
+ Sopro da Salvação. Cone cura aliados e remove 
+condições prejudiciais.
+Ilusão Manto de Sombras.  Conjurador se cobre de 
+sombras mágicas para vários efeitos.
+Necro Anular a Luz.  Explosão anula magias, protege 
+aliados e enjoa inimigos.
+ Poeira da Podridão.  Nuvem causa dano de 
+trevas e impede magia de cura.
+ Servo Morto-Vivo. Cria um parceiro mor -
+to-vivo sob seu comando.
+Trans  Controlar Água.  Congela, derrete, eva -
+pora, aumenta ou reduz o nível de um corpo 
+d’água.
+ Controlar Terra.  Amolece, molda ou 
+solidifica uma área de terra, pedra ou similar.
+ Pele de Pedra. Endurece sua pele, fornecendo 
+redução de dano.
+ Potência Divina.  Você aumenta de tamanho 
+e recebe bônus de Força e redução de dano, mas 
+perde habilidade de lançar magias.
+4º Círculo
+Abjur Cúpula de Repulsão. Campo de força invisível 
+impede a aproximação de um tipo de criatura.
+ Libertação. O alvo fica imune a efeitos que 
+impeçam ou restrinjam movimentação.
+Adiv Premonição. Você vislumbra o futuro e pode 
+refazer testes.
+ Visão da Verdade.  Você enxerga através de 
+camuflagem, escuridão, ilusão e transmutação.
+Conv Guardião Divino. Elemental de luz cura aliados.
+ Viagem Planar. Viaja até outro plano de exis -
+tência.
+Encan Conceder Milagre.  Alvo pode lançar uma de 
+suas magias de 2º círculo ou menor.
+Evoc Círculo da Restauração. Círculo de energia 
+luminosa restaura PV e PM.
+ Cólera de Azgher.  Explosão solar cega, 
+incendeia e causa dano.
+ Manto do Cruzado. Invoca um manto 
+de energia que concede poderes a quem o 
+vestir.
+ Terremoto. Tremor de terra causa dano 
+de impacto.
+Necro Ligação Sombria. Alvo sofre todo dano e efeitos 
+negativos que você sofrer.
+ Muralha de Ossos.  Barreira de ossos afiados 
+impede o avanço dos inimigos.
+Trans Controlar o Clima. Muda o clima de uma área.
+5º Círculo
+Abjur Aura Divina. Emana poder divino bruto, afetando 
+as criaturas na área.
+ Invulnerabilidade. Recebe uma série de imu -
+nidades físicas ou mentais a sua escolha.
+ Lágrimas de Wynna.  Alvo perde a capacidade 
+de lançar magias arcanas.
+Adiv Projetar Consciência.  Pode observar qual -
+quer local ou criatura.
+Conv Buraco Negro. Abre uma ruptura no espaço que 
+suga tudo ao redor.
+ Intervenção Divina.  Convoca sua divindade 
+para que realize um milagre.
+Encan Palavra Primordial. Palavras mágicas podem 
+atordoar, cegar e até matar uma criatura.
+Evoc Fúria do Panteão. Nuvem gera efeitos destrutivos.
+ Segunda Chance. Cura e ressuscita aliados.
+Necro Reanimação Impura.  Ressuscita uma criatura 
+morta, mas como um zumbi sob seu controle.
+ Roubar a Alma.  Arranca a alma do alvo e a 
+prende em um objeto.
+ Toque da Morte.  Pode matar uma criatura 
+instantaneamente.
+Gradda, a Pútrida. Gradda, a Pútrida. 
+Conjurações e Conjurações e 
+palavrõespalavrões
+177
+--- PAGE 184 ---
+Capítulo Quatro
+Abençoar  Alimentos
+Divina 1 (Transmutação)
+Execução: padrão; Alcance: curto; 
+Alvo: alimento para 1 criatura; Dura-
+ção: cena. 
+Você purifica e abençoa uma porção de 
+comida ou dose de bebida. Isso torna 
+um alimento sujo, estragado ou enve -
+nenado próprio para consumo. Além 
+disso, se for consumido até o final da 
+duração, o alimento oferece 5 PV tem-
+porários ou 1 PM temporário (além de 
+quaisquer bônus que já oferecesse). 
+Bônus de alimentação duram um dia e 
+cada personagem só pode receber um 
+bônus de alimentação por dia. 
+Truque: o alimento é purificado (não 
+causa nenhum efeito nocivo se estava 
+estragado ou envenenado), mas não 
+fornece bônus ao ser consumido. 
++1 PM:  aumenta o número de alvos 
+em +1.
++1 PM: muda a duração para perma -
+nente, o alvo para 1 frasco com água e 
+adiciona componente material (pó de 
+prata no valor de T$ 5). Em vez do nor-
+mal, cria um frasco de água benta.
+Acalmar Animal
+Divina 1 (Encantamento)
+Execução: padrão; Alcance: curto; 
+Alvo: 1 animal; Duração: cena; Resis-
+tência: Vontade anula.
+O animal fica prestativo em relação a 
+você.  Ele não fica sob seu controle, mas 
+percebe suas palavras e ações da manei-
+ra mais favorável possível. Você recebe 
++10 nos testes de Adestramento e Di-
+plomacia que fizer contra o animal.
+Um alvo hostil ou que esteja envolvido 
+em um combate recebe +5 em seu teste 
+de resistência. Se você ou seus aliados 
+tomarem qualquer ação hostil contra o 
+alvo, a magia é dissipada e ele retorna à 
+atitude que tinha antes (ou piorada, de 
+acordo com o mestre). Se tratar bem o 
+alvo, a atitude pode permanecer mesmo 
+após o término da magia.
++1 PM: muda o alcance para médio.
++1 PM: muda o alvo para 1 monstro ou 
+espírito com Inteligência –5 ou –4.
+Descrição das magias
++2 PM:  aumenta o número de alvos 
+em +1.
++5 PM: muda o alvo para 1 monstro 
+ou espírito. Requer 3º círculo.
+Adaga Mental
+Arcana 1 (Encantamento)
+Execução: padrão; Alcance: curto; 
+Alvo: 1 criatura; Duração: instantâ-
+nea; Resistência: Vontade parcial. 
+Você manifesta e dispara uma adaga 
+imaterial contra a mente do alvo, que 
+sofre 2d6 pontos de dano psíquico e 
+fica atordoado por uma rodada. Se pas-
+sar no teste de resistência, sofre ape -
+nas metade do dano e evita a condição. 
+Uma criatura só pode ficar atordoada 
+por esta magia uma vez por cena.
++1 PM: você lança a magia sem gesticu-
+lar ou pronunciar palavras (o que per -
+mite lançar esta magia de armadura) e 
+a adaga se torna invisível. Se o alvo fa-
+lhar no teste de resistência, não percebe 
+que você lançou uma magia contra ele. 
++2 PM: muda a duração para um dia. 
+Além do normal, você “finca” a adaga 
+na mente do alvo. Enquanto a magia 
+durar, você sabe a direção e localização 
+do alvo, desde que ele esteja no mes -
+mo mundo. 
++2 PM: aumenta o dano em +1d6. 
+Alarme
+Arcana 1 (Abjuração)
+Execução: padrão; Alcance: curto; 
+Área: esfera com 9m de raio; Dura-
+ção: 1 dia. 
+Você cria uma barreira protetora in -
+visível que detecta qualquer criatura 
+que tocar ou entrar na área protegida. 
+Ao lançar a magia, você pode escolher 
+quais criaturas podem entrar na área 
+sem ativar seus efeitos. Alarme pode 
+emitir um aviso telepático ou sono -
+ro, decidido quando a magia é lança -
+da. Um aviso telepático alerta apenas 
+você, inclusive acordando-o se estiver 
+dormindo, mas apenas se estiver a até 
+1km da área protegida. Um aviso so -
+noro alerta todas as criaturas em al -
+cance longo. 
++2 PM: muda o alcance para pessoal. 
+A área é emanada a partir de você. 
++5 PM: além do normal, você também 
+percebe qualquer efeito de adivinhação 
+que seja usado dentro da área ou atra -
+vesse a área. Você pode fazer um tes -
+te oposto de Misticismo contra quem 
+usou o efeito; se passar, tem um vis -
+lumbre de seu rosto e uma ideia apro -
+ximada de sua localização (“três dias 
+de viagem ao norte”, por exemplo). 
++9 PM: muda a duração para um dia 
+ou até ser descarregada e a resistência 
+para Vontade anula. Quando um intru-
+so entra na área, você pode descarregar 
+a magia. Se o intruso falhar na resis -
+tência, ficará paralisado por 1d4 ro-
+dadas. Além disso, pelas próximas 24 
+horas você e as criaturas escolhidas ga-
+nham +10 em testes de Sobrevivência 
+para rastrear o intruso.
+Aliado Animal
+Divina 2 (Encantamento)
+Execução: padrão; Alcance: curto; 
+Alvo: 1 animal prestativo; Duração: 
+1 dia. 
+Você cria um vínculo mental com um 
+animal prestativo em relação a você. 
+O Aliado Animal obedece a você no 
+melhor de suas capacidades, mesmo 
+que isso arrisque a vida dele. Ele fun -
+ciona como um parceiro veterano, de 
+um tipo a sua escolha entre ajudante, 
+combatente, fortão, guardião, monta -
+ria ou perseguidor.
++1 PM: muda o alvo para 1 animal Mi-
+núsculo e a duração para 1 semana. Em 
+vez do normal, o animal se desloca no 
+melhor de suas capacidades até um lo-
+cal designado por você — em geral, para 
+levar um item, carta ou similar. Quando 
+o animal chega ao destino, fica esperan-
+do até o fim da magia, permitindo ape-
+nas que uma ou mais criaturas escolhi-
+das por você se aproximem e peguem o 
+que ele estiver carregando.
++7 PM: muda o parceiro para mestre. 
+Requer 3º círculo. 
++12 PM: muda o alvo para 2 animais 
+prestativos. Cada animal funciona 
+como um parceiro de um tipo diferen -
+te, e você pode receber a ajuda de am -
+bos (mas ainda precisa seguir o limite 
+de parceiros de acordo com o seu ní -
+vel de personagem). Requer 4º círculo.
+178  
+--- PAGE 185 ---
+Magia  
+Alterar Destino
+Arcana 5 (Adivinhação)
+Execução: reação; Alcance: pessoal; 
+Alvo: você; Duração: instantânea.
+Sua mente visualiza todas as possi -
+bilidades de um evento, permitindo 
+a você escolher o melhor curso de 
+ação. Você pode rolar novamente um 
+teste de resistência com um bônus 
+de +10 ou um inimigo deve rolar no-
+vamente um ataque contra você com 
+uma penalidade de –10.
+Alterar Memória
+Arcana 4 (Encantamento)
+Execução: padrão; Alcance: toque; 
+Alvo: 1 criatura; Duração: instantânea; 
+Resistência: Vontade anula. 
+Você invade a mente do alvo e altera ou 
+apaga suas memórias da última hora.
++2 PM: muda o alcance para pessoal e 
+o alvo para área cone de 4,5m.
++5 PM: você pode alterar ou apagar as 
+memórias das últimas 24 horas.
+Alterar Tamanho
+Arcana 2 (Transmutação)
+Execução: padrão; Alcance: curto; 
+Alvo: 1 objeto; Duração: 1 dia. 
+Esta magia aumenta ou diminui o 
+tamanho de um item mundano em 
+até três categorias (um objeto Enor -
+me vira Pequeno, por exemplo). Você 
+também pode mudar a consistência 
+do item, deixando-o rígido como pe -
+dra ou flexível como seda (isso não al-
+tera sua RD ou PV , apenas suas pro -
+priedades físicas). Se lançar a magia 
+num objeto de uma criatura involun -
+tária, ela pode fazer um teste de Von -
+tade para anulá-la.
++1 PM:  aumenta o número de alvos 
+em +1.
++2 PM: muda o alcance para toque e 
+o alvo para 1 criatura. Em vez do nor -
+mal, o alvo aumenta uma categoria de 
+tamanho (seu equipamento se ajusta 
+ao novo tamanho). O alvo também re-
+cebe Força +2. Um alvo involuntário 
+pode fazer um teste de Fortitude para 
+negar o efeito.
++3 PM: muda o alcance para toque e 
+o alvo para 1 criatura. Em vez do nor -
+mal, o alvo diminui uma categoria de 
+tamanho (seu equipamento se ajus -
+ta ao novo tamanho). O alvo também 
+recebe Destreza +2. Um alvo involun-
+tário pode fazer um teste de Fortitude 
+para negar o efeito. Requer 3º círculo.
++7 PM: muda o alcance para toque, o 
+alvo para 1 criatura, a duração para per-
+manente e a resistência para Fortitude 
+anula. Em vez do normal, se falhar na 
+resistência o alvo e seu equipamento 
+têm seu tamanho mudado para Minús-
+culo. O alvo tem seu valor de Força re-
+duzido a –5 e seus deslocamentos redu-
+zidos a 3m. Requer 4º círculo.
+Amarras Etéreas
+Arcana 2 (Convocação)
+Execução: padrão; Alcance: médio; 
+Alvo: 1 criatura; Duração: cena; Re-
+sistência: Reflexos anula. 
+Três laços de energia surgem e se en -
+roscam no alvo, deixando-o agarra -
+do. A vítima pode tentar se livrar, gas-
+tando uma ação padrão para fazer um 
+teste de Atletismo. Se passar, destrói 
+um laço, mais um laço adicional para 
+cada 5 pontos pelos quais superou a 
+CD. Os laços também podem ser ata -
+cados e destruídos: cada um tem De -
+fesa 10, 10 PV , RD 5 e imunidade a 
+dano mágico. Se todos os laços forem 
+destruídos, a magia é dissipada. Por 
+serem feitos de energia, os laços afe -
+tam criaturas incorpóreas.
++2 PM:  aumenta o número de alvos 
+em +1.
++2 PM: aumenta o número de laços em 
+um alvo a sua escolha em +1 (bônus 
+máximo limitado pelo círculo máximo 
+de magia que você pode lançar).
++3 PM: em vez do normal, cada laço 
+é destruído automaticamente com um 
+único ataque bem-sucedido; porém, 
+cada laço destruído libera um choque 
+de energia que causa 1d8+1 pontos de 
+dano de essência na criatura amarrada. 
+Requer 3º círculo.
+Ame drontar
+Arcana 1 (Necromancia)
+Execução: padrão; Alcance: curto; 
+Alvo: 1 animal ou humanoide; Du-
+ração: cena; Resistência: Vontade 
+parcial.
+O alvo é envolvido por energias som -
+brias e assustadoras. Se falhar na re -
+sistência, fica apavorado por 1 rodada, 
+depois abalado. Se passar, fica abalado 
+por 1d4 rodadas.
++2 PM:  alvos que falhem na resis -
+tência ficam apavorados por 1d4+1 
+rodadas, em vez de apenas 1.
++2 PM: muda o alvo para 1 criatura.
++5 PM: afeta todos os alvos válidos a 
+sua escolha dentro do alcance.
+Âncora Dimensional
+Arcana 3 (Abjuração)
+Execução: padrão; Alcance: curto; 
+Alvo: 1 criatura ou objeto; Duração: 
+cena.
+O alvo é envolvido por um campo de 
+força cor de esmeralda que impede 
+qualquer movimento planar. Isso in -
+clui magias de convocação (como Sal-
+to Dimensional e Teletransporte), viagens 
+astrais e a habilidade incorpóreo.
++2 PM:  muda o alcance para médio, 
+a área para esfera com 3m de raio e o 
+alvo para criaturas escolhidas.
++2 PM: muda o efeito para criar um 
+fio de energia cor de esmeralda que 
+prende o alvo a um ponto no espaço 
+dentro do alcance. O ponto precisa ser 
+fixo, mas não precisa de nenhum apoio 
+ou superfície (pode simplesmente flu-
+tuar no ar). O alvo não pode se afas-
+tar mais de 3m do ponto, nem fisica-
+mente, nem com movimento planar. 
+O fio possui 20 PV e redução de dano 
+20 (mas pode ser dissipado por efei -
+tos que libertam criaturas, como o Jul-
+gamento Divino: Libertação do paladino).
++4 PM: como acima, mas em vez de 
+um fio, cria uma corrente de energia, 
+com 20 PV e redução de dano 40.
++4 PM: muda o alvo para área de cubo 
+de 9m, a duração para permanente e 
+adiciona componente material (chave 
+de esmeralda no valor de T$ 2.000). 
+Em vez do normal, nenhum tipo de 
+movimento planar pode ser feito para 
+entrar ou sair da área.
++9 PM:  muda o alcance para médio, 
+a área para esfera com 3m de raio e o 
+alvo para criaturas escolhidas. Cria um 
+fio de energia (veja acima) que prende 
+todos os alvos ao centro da área.
+Animar Objetos
+Arcana 4 (Transmutação)
+Execução: padrão; Alcance: médio; 
+Alvo: até 8 objetos Minúsculos ou Pe-
+quenos, 4 objetos Médios, 2 objetos 
+Grandes ou 1 objeto Enorme; Dura-
+ção: cena.
+Você concede vida a objetos inanima -
+dos. Cada objeto se torna um parceiro 
+sob seu controle. O tipo dele é escolhi-
+do da lista de tamanho e ele não conta 
+em seu limite de parceiros. Com uma 
+ação de movimento, você pode coman-
+dar mentalmente qualquer objeto ani -
+mado dentro do alcance para que au -
+xilie você ou outra criatura. Outros 
+usos criativos para os objetos ficam 
+a cargo do mestre. Objetos animados 
+179
+--- PAGE 186 ---
+Capítulo Quatro
+são construtos com valores de Força, 
+Destreza e PV de acordo com seu ta -
+manho. Todos os outros atributos são 
+nulos, eles não têm valor de Defesa ou 
+testes de resistência e falham automati-
+camente em qualquer teste oposto. Di-
+ferente de parceiros comuns, um obje-
+to pode ser alvo de ações hostis.
+Esta magia não afeta itens mágicos, 
+nem objetos que estejam sendo carre -
+gados por outra criatura.
++5 PM: muda a duração para perma -
+nente e adiciona componente material 
+(prataria no valor de T$ 1.000). Você 
+pode ter um máximo de objetos ani -
+mados igual à metade do seu nível.
+Estatísticas de objetos animados
+Minúsculo: For –3, Des 4, 5 PV; Assas -
+sino ou Combatente Iniciante.
+Pequeno: For –2, Des 2, 10 PV; Comba-
+tente ou Guardião Iniciante.
+Médio: For 0, Des 1, 20 PV; Combaten-
+te ou Guardião Veterano.
+Grande: For 2, Des 0, 40 PV; Fortão, 
+Guardião ou Montaria (cavalo) Veterano.
+Enorme: For 4, Des –2, 80 PV; Fortão, 
+Guardião ou Montaria (cavalo) Mestre.
+Anular a Luz
+Divina 3 (Necromancia)
+Execução: padrão; Alcance: pessoal; 
+Área: esfera com 6m de raio; Dura-
+ção: ver texto.
+Esta magia cria uma onda de escuridão 
+que causa diversos efeitos. Magias de 
+até 3º círculo na área são dissipadas se 
+você passar num teste de Religião contra 
+a CD de cada uma. Seus aliados na área 
+são protegidos por uma aura sombria e 
+recebem +4 na Defesa até o fim da cena. 
+Inimigos na área ficam enjoados por 
+1d4 rodadas (apenas uma vez por cena). 
+Anular a Luz anula Dispersar as Trevas (este 
+efeito tem duração instantânea).
++2 PM:  aumenta o bônus na Defesa 
+em +1.
++4 PM:  muda as magias dissipadas 
+para até 4º círculo. Requer 4º círculo.
++9 PM:  muda as magias dissipadas 
+para até 5º círculo. Requer 5º círculo.
+Aparência Perfeit a
+Arcana 2 (Ilusão)
+Execução: padrão; Alcance: pessoal; 
+Alvo: você; Duração: cena. 
+Esta magia lhe concede um rosto idea-
+lizado, porte físico garboso, voz me -
+lodiosa e olhar sedutor. Caso seu Ca -
+risma seja 5 ou mais, você recebe +2 
+neste atributo. Do contrário, ele se tor-
+na 5 (isso conta como um bônus). Além 
+disso, você recebe +5 em Diploma-
+cia e Enganação. Quando a magia aca -
+ba, quaisquer observadores percebem a 
+mudança e tendem a suspeitar de você. 
+Da mesma maneira, pessoas que o vi -
+ram sob o efeito da magia sentirão que 
+“algo está errado” ao vê-lo em condi-
+ções normais. Quando a cena acabar, 
+você pode gastar os PM da magia nova-
+mente como uma ação livre para man -
+tê-la ativa. Este efeito não fornece PV 
+ou PM adicionais.
++1 PM: muda o alcance para toque e o 
+alvo para 1 humanoide.
+Aprisionamento
+Arcana 5 (Abjuração)
+Execução: completa; Alcance: curto; 
+Alvo: 1 criatura; Duração: permanente; 
+Resistência: Vontade anula.
+Você cria uma prisão mágica para apri-
+sionar uma criatura. Se falhar no teste 
+de resistência, o alvo sofre o efeito da 
+magia; se passar, fica imune a esta ma-
+gia por uma semana. Enquanto estiver 
+aprisionada, a criatura não precisa res-
+pirar e alimentar-se, e não envelhece. 
+Magias de adivinhação não conseguem 
+localizar ou perceber o alvo. Ao lançar a 
+magia, você escolhe uma das seguintes 
+formas de prisão. O componente mate-
+rial varia, mas todos custam T$ 1.000.
+Acorrentamento: o alvo é preso por cor -
+rentes firmemente enraizadas no chão, 
+que o mantém no lugar. O alvo fica pa-
+ralisado e não pode se mover ou ser 
+movido por qualquer meio. Componente 
+Material: uma fina corrente de mitral.
+Contenção Mínima: o alvo diminui para 
+2 cm de altura e é preso dentro de uma 
+pedra preciosa ou objeto semelhante. 
+Luz passa através da pedra, permitin -
+do que o alvo veja o lado de fora e seja 
+visto, mas nada mais pode passar, nem 
+por meio de teletransporte ou viagem 
+planar. A pedra não pode ser quebrada 
+enquanto o alvo estiver dentro. Com-
+ponente Material:  uma pedra preciosa, 
+como um diamante ou rubi.
+Prisão Dimensional: o alvo é transporta -
+do para um semiplano protegido contra 
+teletransporte e viagens planares. Pode 
+ser um labirinto, uma gaiola, uma torre 
+ou qualquer estrutura ou área confina-
+da e pequena a sua escolha. Componente 
+Material: uma representação em minia-
+tura da prisão, feita de jade.
+Sepultamento: o alvo é sepultado nas 
+profundezas da terra, em uma esfera 
+mágica. Nada pode destruir ou atraves-
+sar a esfera, nem mesmo teletranspor-
+te ou viagens planares. Componente Ma-
+terial: um pequeno orbe de adamante.
+Sono Eterno: o alvo adormece e não pode 
+ser acordado. Componente Material: fruta 
+preparada com ervas soníferas raras.
+Quando a magia é lançada, você deve 
+especificar uma condição que fará com 
+que ela termine e solte o alvo. A con -
+dição pode ser tão específica ou ela-
+borada quanto você quiser, mas deve 
+ser possível de acontecer. As condições 
+podem se basear no nome, identidade 
+ou divindade padroeira de uma criatu -
+ra, ou em ações ou qualidades observá-
+veis, mas nunca em estatísticas intan -
+gíveis, como nível, classe ou pontos de 
+vida. O mestre tem a palavra final so-
+bre se uma condição é válida ou não.
+Área Escorregadia
+Arcana 1 (Convocação)
+Execução: padrão; Alcance: curto; 
+Alvo ou Área: quadrado de 3m ou 1 
+objeto; Duração: cena; Resistência: 
+Reflexos (veja texto).
+Esta magia recobre uma superfície com 
+uma substância gordurosa e escorrega-
+dia. Criaturas na área devem passar na 
+resistência para não cair. Nas rodadas 
+seguintes, criaturas que tentem movi -
+mentar-se pela área devem fazer testes 
+de Acrobacia para equilíbrio (CD 10).
+Área Escorregadia pode tornar um item 
+escorregadio. Uma criatura seguran -
+do um objeto afetado deve passar na 
+resistência para não deixar o item cair 
+cada vez que usá-lo.
++1 PM: aumenta a área em +1 quadra-
+do de 1,5m.
++2 PM:  muda a CD dos testes de 
+Acrobacia para 15.
++5 PM: muda a CD dos testes de Acro-
+bacia para 20.
+Arma Espiritual
+Divina 1 (Convocação)
+Execução: padrão; Alcance: pessoal; 
+Alvo: você; Duração: cena. 
+Você invoca a arma preferida de sua 
+divindade (caso sua divindade possua 
+uma), que surge flutuando a seu lado. 
+Uma vez por rodada, quando você so -
+fre um ataque corpo a corpo, pode 
+usar uma reação para que a arma cau -
+se automaticamente 2d6 pontos de 
+dano do tipo da arma — por exemplo, 
+uma espada longa causa dano de corte 
+— no oponente que fez o ataque. Esta 
+magia se dissipa se você morrer.
++1 PM: além do normal, a arma o pro-
+tege. Você recebe +1 na Defesa.
+180  
+--- PAGE 187 ---
+Magia  
++2 PM:  aumenta o bônus na Defesa 
+em +1. 
++2 PM: muda a duração para susten -
+tada. Além do normal, uma vez por ro-
+dada, você pode gastar uma ação livre 
+para fazer a arma acertar automatica -
+mente um alvo adjacente. Se a arma 
+atacar, não poderá contra-atacar até 
+seu próximo turno. Requer 2º círculo.
++2 PM: muda o tipo do dano para es -
+sência. Requer 2º círculo.
++2 PM: aumenta o dano causado pela 
+arma em +1d6 (bônus máximo limita-
+do pelo círculo máximo de magia que 
+você pode lançar).
++5 PM: invoca duas armas, permitin -
+do que você contra-ataque (ou ataque, 
+se usar o aprimoramento acima) duas 
+vezes por rodada. Requer 3º círculo.
+Arma Mágica
+Universal 1 (Transmutação)
+Execução: padrão; Alcance: toque; Alvo: 
+1 arma empunhada; Duração: cena. 
+A arma é considerada mágica e fornece 
++1 nos testes de ataque e rolagens de 
+dano (isso conta como um bônus de en-
+canto). Caso você esteja empunhando a 
+arma, pode usar seu atributo-chave de 
+magias em vez do atributo original nos 
+testes de ataque (não cumulativo com 
+efeitos que somam este atributo).
++2 PM:  aumenta o bônus em +1 
+(bônus máximo limitado pelo círculo 
+máximo de magia que você pode lançar).
++2 PM: a arma causa +1d6 de dano de 
+ácido, eletricidade, fogo ou frio, escolhi-
+do quando a magia é lançada. Este apri-
+moramento só pode ser usado uma vez.
++3 PM:  muda o bônus de dano do 
+aprimoramento acima para +2d6.
+Armadura Arcana
+Arcana 1 (Abjuração)
+Execução: padrão; Alcance: pessoal; 
+Alvo: você; Duração: cena. 
+Esta magia cria uma película proteto -
+ra invisível, mas tangível, fornecendo 
++5 na Defesa. Esse bônus é cumula-
+tivo com outras magias, mas não com 
+bônus fornecido por armaduras.
++1 PM: muda a execução para reação. 
+Em vez do normal, quando sofre um 
+ataque, você cria um escudo mágico que 
+fornece +5 na Defesa contra esse ata-
+que (cumulativo com o bônus do efei -
+to básico desta magia e de armaduras).
++2 PM:  aumenta o bônus na Defesa 
+em +1. 
++2 PM: muda a duração para um dia.
+Armamento da Natureza
+Divina 1 (Transmutação)
+Execução: padrão; Alcance: toque; 
+Alvo: 1 arma (veja texto); Duração: 
+cena.
+Você fortalece uma arma mundana pri-
+mitiva (sem custo em T$, como bor -
+dão, clava, funda ou tacape), uma arma 
+natural ou um ataque desarmado. O 
+dano da arma aumenta em um passo 
+e ela é considerada mágica. Ao lançar a 
+magia, você pode mudar o tipo de dano 
+da arma (escolhendo entre corte, im -
+pacto ou perfuração).
++1 PM: fornece +1 nos testes de ata-
+que com a arma.
++2 PM: muda a execução para ação de 
+movimento.
++3 PM: aumenta o bônus nos testes de 
+ataque em +1.
++5 PM: aumenta o dano da arma em 
+mais um passo.
+Assassino Fantasmagórico
+Arcana 4 (Necromancia)
+Execução: padrão; Alcance: longo; 
+Alvo: 1 criatura; Duração: cena, até 
+ser descarregada; Resistência: Vonta-
+de anula, Fortitude parcial.
+Usando os medos subconscientes do 
+alvo, você cria uma imagem daquilo 
+que ele mais teme. Apenas a própria 
+vítima pode ver o Assassino Fantasmagó-
+rico com nitidez; outras criaturas pre -
+sentes (incluindo o conjurador) enxer-
+gam apenas um espectro sombrio. 
+Quando você lança a magia, o espec -
+tro surge adjacente a você e a vítima 
+faz um teste de Vontade. Se ela passar, 
+percebe que o espectro é uma ilusão e 
+a magia é dissipada. Se falhar, acredi -
+ta na existência do espectro, que então 
+flutua 18m por rodada em direção à ví-
+tima, sempre no fim do seu turno. Ele 
+é incorpóreo e imune a magias (exceto 
+magias que dissipam outras).
+Se o espectro terminar seu turno adja-
+cente à vítima, ela deve fazer um teste 
+de Fortitude. Se passar, sofre 6d6 pon-
+tos de dano de trevas (este dano não 
+pode reduzir o alvo a menos de 0 PV e 
+não o deixa sangrando). Se falhar, so-
+fre um colapso, ficando imediatamente 
+com –1 PV e sangrando.
+O espectro persegue o alvo implacavel-
+mente. Ele desaparece se o alvo ficar 
+inconsciente ou se afastar além de al -
+cance longo dele, ou se for dissipado.
+Augúrio
+Divina 2 (Adivinhação)
+Execução: completa; Alcance: pessoal; 
+Alvo: você; Duração: instantânea.
+Esta magia diz se uma ação que você 
+tomará em breve — no máximo uma 
+hora no futuro — trará resultados bons 
+ou ruins. O mestre rola 1d6 em segre -
+do; com um resultado de 2 a 6, a ma -
+gia funciona e você recebe uma das se-
+guintes respostas: “felicidade” (a ação 
+trará bons resultados); “miséria” (a 
+ação trará maus resultados); “felicida-
+de e miséria” (para ambos) ou “nada” 
+(para ações que não trarão resultados 
+bons ou ruins).
+Com um resultado 1, a magia falha 
+e oferece o resultado “nada”. Não há 
+como saber se esse resultado foi dado 
+porque a magia falhou ou não. Lan -
+çar esta magia múltiplas vezes sobre 
+o mesmo assunto gera sempre o pri -
+meiro resultado.
+Por exemplo, se o grupo está prestes 
+a entrar em uma câmara, o augúrio 
+dirá “felicidade” se a câmara contém 
+um tesouro desprotegido, “miséria” 
+se contém um monstro, “felicidade e 
+miséria” se houver um tesouro e um 
+monstro ou “nada” se a câmara esti-
+ver vazia.
++3 PM: muda a execução para 1 minu-
+to. Em vez do normal, você pode con -
+sultar uma divindade, fazendo uma 
+pergunta sobre um evento que acon -
+tecerá até um dia no futuro. O mestre 
+rola a chance de falha; com um resul -
+tado de 2 a 6, você recebe uma respos-
+ta, desde uma simples frase até uma 
+profecia ou enigma. Em geral, este 
+uso sempre oferece pistas, indicando 
+um caminho a tomar para descobrir a 
+resposta que se procura. Numa falha 
+você não recebe resposta alguma. Re -
+quer 3º círculo.
++7 PM: muda a execução para 10 mi -
+nutos e a duração para 1 minuto. Em 
+vez do normal, você consulta uma di -
+vindade, podendo fazer uma pergun -
+ta por rodada, desde que ela possa ser 
+respondida com “sim”, “não” ou “não 
+sei” (embora poderosos, os deuses 
+não são oniscientes). O mestre rola 
+a chance de falha para cada pergunta. 
+Em caso de falha, a resposta também 
+é “não sei”. Requer 4º círculo.
++7 PM: o mestre rola 1d12; a magia só 
+falha em um resultado 1. 
++12 PM: o mestre rola 1d20; a magia 
+só falha em um resultado 1.
+181
+--- PAGE 188 ---
+Capítulo Quatro
+Aura Divina
+Divina 5 (Abjuração)
+Execução: padrão; Alcance: pessoal; 
+Área: esfera com 9m de raio; Duração: 
+cena; Resistência: Vontade parcial.
+Você se torna um conduíte da energia 
+de sua divindade, emanando uma aura 
+brilhante. Você e aliados devotos da 
+mesma divindade ficam imunes a en-
+cantamento e recebem +10 na Defesa 
+e em testes de resistência. Aliados não 
+devotos da mesma divindade recebem 
++5 na Defesa e em testes de resistên-
+cia. Além disso, inimigos que entrem 
+na área devem fazer um teste de Vonta-
+de; em caso de falha, recebem uma con-
+dição a sua escolha entre esmorecido, 
+debilitado ou lento até o fim da cena. 
+O teste deve ser refeito cada vez que a 
+criatura entrar novamente na área.
++2 PM: aumenta os bônus na Defesa e 
+em testes de resistência em +1.
+Aviso
+Universal 1 (Adivinhação)
+Execução: movimento; Alcance: longo; 
+Alvo: 1 criatura; Duração: instantânea.
+Envia um aviso telepático para uma 
+criatura, mesmo que não possa vê-la 
+nem tenha linha de efeito. Escolha um:
+Alerta: o alvo recebe +5 em seu próxi-
+mo teste de Iniciativa e de Percepção 
+dentro da cena.
+Mensagem: o alvo recebe uma mensa -
+gem sua de até 25 palavras. Vocês de -
+vem ter um idioma em comum para o 
+alvo poder entendê-lo.
+Localização: o alvo sabe onde você está 
+naquele momento. Se você mudar de 
+posição, ele não saberá.
++1 PM: aumenta o alcance em um fa -
+tor de 10 (90m para 900m, 900m para 
+9km e assim por diante).
++1 PM: se escolher mensagem, o alvo 
+pode enviar uma resposta de até 25 pa-
+lavras para você até o fim de seu pró-
+ximo turno.
++2 PM: se escolher localização, muda 
+a duração para cena. O alvo sabe onde 
+você está mesmo que você mude de 
+posição.
++3 PM:  aumenta o número de alvos 
+em +1.
+Banimento
+Divina 3 (Abjuração)
+Execução: 1d3+1 rodadas; Alcance: 
+curto; Alvo: 1 criatura; Duração: ins-
+tantânea; Resistência: Vontade parcial. 
+Você expulsa uma criatura não nati -
+va de Arton. Um alvo nativo de outro 
+mundo (como muitos espíritos), é te-
+letransportado de volta para um lugar 
+aleatório de seu mundo de origem. Já 
+um alvo morto-vivo tem sua conexão 
+com as energias negativas rompidas, 
+sendo reduzido a 0 PV . Se passar na re-
+sistência, em vez dos efeitos acima, o 
+alvo fica enjoado por 1d4 rodadas.
+Se você tiver um ou mais itens que se 
+oponham ao alvo de alguma maneira, a 
+CD do teste de resistência aumenta em 
++2 por item. Por exemplo, se lançar a 
+magia contra demônios do frio (vul -
+neráveis a água benta e que odeiam 
+luz e calor) enquanto segura um fras-
+co de água benta e uma tocha acesa, a 
+CD aumenta em +4. O mestre decide 
+se determinado item é forte o bastante 
+contra a criatura para isso.
++0 PM:  muda a resistência para ne -
+nhum. Em vez do normal, devolve au -
+tomaticamente uma criatura conjurada 
+(como por uma magia de convocação) 
+para seu plano de origem. 
+Barragem elemental de Vectorius
+Arcana 5 (Evocação)
+Execução: padrão; Alcance: longo; 
+Efeito: 4 esferas elementais; Dura-
+ção: instantânea; Resistência: Refle-
+xos parcial.
+Criada pelo arquimago Vectorius, esta 
+magia produz quatro esferas, de áci -
+do, eletricidade, fogo e frio, que voam 
+até um ponto a sua escolha. Quando 
+atingem o ponto escolhido, explodem 
+causando 6d6 pontos de dano de seu 
+respectivo tipo numa área com 12m 
+de raio. Um teste de Reflexos reduz o 
+dano à metade. Você pode mirar cada 
+esfera em uma criatura ou ponto dife -
+rente. Uma criatura ao alcance da ex -
+plosão de mais de uma esfera deve fa -
+zer um teste de resistência para cada 
+uma. Além disso, as esferas causam os 
+seguintes efeitos em criaturas que fa -
+lharem em seus testes de resistência:
+• Ácido: vulnerável até o fim da cena.
+• Elétrica: atordoado por 1 rodada 
+(apenas uma vez por cena).
+• Fogo: em chamas.
+• Frio: lento até o fim da cena.
++5 PM: aumenta o dano de cada esfe -
+ra em +2d6.
++5 PM: muda o tipo de dano de todas 
+as esferas para essência (mas elas ain -
+da causam os outros efeitos como se 
+seu tipo de dano não mudasse).
+Bênção
+Divina 1 (Encantamento)
+Execução: padrão; Alcance: curto; 
+Alvos: aliados; Duração: cena.
+Abençoa seus aliados, que recebem 
++1 em testes de ataque e rolagens de 
+dano. Bênção anula Perdição.
++1 PM: muda o alvo para 1 cadáver e a 
+duração para 1 semana. O cadáver não 
+se decompõe nem pode ser transfor -
+mado em morto-vivo.
++2 PM:  aumenta os bônus em +1 
+(bônus máximo limitado pelo círculo 
+máximo de magia que você pode lançar).
+Bola de Fogo
+Arcana 2 (Evocação)
+Execução: padrão; Alcance: médio; 
+Área: esfera com 6m de raio; Dura-
+ção: instantânea; Resistência: Refle-
+xos reduz à metade. 
+Esta famosa magia de ataque cria uma 
+poderosa explosão, causando 6d6 pon-
+tos de dano de fogo em todas as criatu-
+ras e objetos livres na área. 
++2 PM: aumenta o dano em +2d6.
++2 PM: muda a área para efeito de es-
+fera flamejante com tamanho Médio e 
+a duração para cena. Em vez do nor -
+mal, cria uma esfera flamejante com 
+1,5m de diâmetro que causa 3d6 pon -
+tos de dano a qualquer criatura no 
+mesmo espaço. Você pode gastar uma 
+ação de movimento para fazer a esfe -
+ra voar 9m em qualquer direção. Ela é 
+imune a dano, mas pode ser apagada 
+com água. Uma criatura só pode sofrer 
+dano da esfera uma vez por rodada.
++3 PM: muda a duração para um dia 
+ou até ser descarregada. Em vez do 
+normal, você cria uma pequena pedra 
+flamejante, que pode detonar como 
+uma reação, descarregando a magia. A 
+pedra pode ser usada como uma arma 
+de arremesso com alcance curto. Uma 
+vez detonada, causa o dano da magia 
+numa área de esfera com 6m de raio.
+Buraco Negro
+Universal 5 (Convocação)
+Execução: completa; Alcance: longo; 
+Efeito: buraco negro; Duração: 3 ro -
+dadas; Resistência: Fortitude parcial.
+Esta magia cria um vácuo capaz de su-
+gar tudo nas proximidades. Escolha 
+um espaço desocupado para o buraco 
+negro. No início de cada um de seus 
+três turnos seguintes, todas as criatu -
+ras a até alcance longo do buraco ne -
+gro, incluindo você, devem fazer um 
+182  
+--- PAGE 189 ---
+Magia  
+teste de Fortitude. Em caso de falha, 
+ficam caídas e são puxadas 30m na di-
+reção do buraco. Objetos soltos tam -
+bém são puxados. Criaturas podem 
+gastar uma ação de movimento para se 
+segurar em algum objeto fixo, receben-
+do +2 em seus testes de resistência. 
+Criaturas e objetos que iniciem seu 
+turno no espaço do buraco negro de -
+vem gastar uma ação de movimento 
+e fazer um teste de Fortitude. Se pas -
+sarem, podem escapar se arrastando 
+(deslocamento de 1,5m) para longe 
+dele. Se falharem, perdem a ação (mas 
+podem gastar outra para tentar nova -
+mente). Se terminarem seu turno no 
+espaço do buraco negro, são sugadas, 
+desaparecendo para sempre.
+Não se conhece o destino das coisas 
+sugadas pelo buraco negro. Alguns es-
+tudiosos sugerem que são enviadas 
+para outros mundos — provavelmente 
+Sombria, reino da deusa Tenebra.
++5 PM: muda o efeito para que você 
+não seja afetado.
+Caminhos da Natureza
+Divina 1 (Convocação)
+Execução: padrão; Alcance: curto; Área: 
+criaturas escolhidas; Duração: 1 dia.
+Você invoca espíritos da natureza, pe -
+dindo que eles abram seu caminho. As 
+criaturas afetadas recebem deslocamen-
+to +3m e ignoram penalidades por ter-
+reno difícil em terrenos naturais.
+Truque: muda o alcance para pessoal 
+e o alvo para você. Em vez do normal, 
+você recebe +5 em testes de Sobrevi-
+vência para se orientar.
++1 PM:  além do normal, a CD para 
+rastrear os alvos em terreno natural 
+aumenta em +10. 
++2 PM: aumenta o bônus de desloca -
+mento em +3m. 
+Campo Antimagia
+Arcana 4 (Abjuração)
+Execução: padrão; Alcance: pessoal; 
+Alvo: você; Duração: sustentada. 
+Você é cercado por uma barreira invisí-
+vel com 3m de raio que o acompanha. 
+Qualquer habilidade mágica ou item 
+mágico que entre na área da barreira é 
+suprimida enquanto estiver lá.
+Criaturas convocadas que entrem em 
+um Campo Antimagia desaparecem. Elas 
+reaparecem na mesma posição quando 
+a duração do Campo termina — supon -
+do que a duração da magia que as con-
+vocou ainda não tenha terminado.
+Criaturas mágicas ou imbuídas com 
+magia durante sua criação não são di -
+retamente afetadas pelo Campo An -
+timagia. Entretanto, como qualquer 
+criatura, não poderão usar magias ou 
+habilidades mágicas dentro dele.
+Uma magia que dissipa outras não dis-
+sipa um Campo Anti magia, e dois Cam-
+pos na mesma área não se neutralizam. 
+Artefatos e deuses maiores não são 
+afetados por um Campo Antimagia.
+Campo de Força
+Arcana 2 (Abjuração)
+Execução: padrão; Alcance: pessoal; 
+Alvo: você; Duração: cena. 
+Esta magia cria uma película protetora 
+sobre você. Você recebe 30 pontos de 
+vida temporários.
++1 PM: muda a execução para reação 
+e a duração para instantânea. Em vez 
+do normal, você recebe RD 30 contra o 
+próximo dano que sofrer.
++3 PM: muda os PV temporários ou a 
+RD para 50. Requer 3º círculo.
++7 PM: muda os PV temporários ou a 
+RD para 70. Requer 4º círculo.
++7 PM: muda o alcance para curto, o 
+alvo para outra criatura ou objeto solto 
+Enorme ou menor e a duração para sus-
+tentada. Em vez do normal, cria uma 
+esfera imóvel e tremeluzente ao redor 
+do alvo. Nenhuma criatura, objeto ou 
+efeito de dano pode passar pela esfera, 
+embora criaturas possam respirar nor-
+malmente. Criaturas na área podem fa-
+zer um teste de Reflexos para evitar se-
+rem aprisionadas e sempre que você se 
+concentrar. Requer 4º círculo.
++9 PM:  como o aprimoramento aci -
+ma, mas tudo dentro da esfera fica pra-
+ticamente sem peso. Uma vez por ro -
+dada, você pode gastar uma ação livre 
+para flutuar a esfera e seu conteúdo 
+9m em uma direção. Requer 4º círculo.
+Camuflagem ilusória
+Arcana 2 (Ilusão)
+Execução: padrão; Alcance: toque; 
+Alvo: 1 criatura; Duração: cena. 
+O alvo fica com sua imagem nublada, 
+como se vista através de um líquido, re-
+cebendo os efeitos de camuflagem leve.
++3 PM: muda a duração para sustenta-
+da. A imagem do alvo fica mais distor-
+cida, aumentando a chance de falha da 
+camuflagem leve para 50%.
++7 PM: muda o alcance para curto e o 
+alvo para criaturas escolhidas. Requer 
+4º círculo.
+Chuva de Meteoros
+Arcana 5 (Convocação)
+Execução: completa; Alcance: longo; 
+Área: quadrado com 18m de lado; Du-
+ração: instantânea; Resistência: Re -
+flexos parcial.
+Meteoros caem dos céus, devastando 
+a área afetada. Criaturas na área so -
+frem 15d6 pontos de dano de impac -
+to, 15d6 pontos de dano de fogo e fi-
+cam caídas e presas sob os escombros 
+(agarradas). Uma criatura que passe 
+no teste de resistência sofre metade 
+do dano total e não fica caída e agarra-
+da. Uma criatura agarrada pode esca -
+par gastando uma ação padrão e pas -
+sando em um teste de Atletismo. Toda 
+a área afetada fica coberta de escom-
+bros, sendo considerada terreno di -
+fícil, e imersa numa nuvem de poei -
+ra (camuflagem leve). Esta magia só 
+pode ser utilizada a céu aberto.
++2 PM: aumenta o número de meteo-
+ros que atingem a área, o que aumen -
+ta o dano em +2d6 de impacto e +2d6 
+de fogo.
+Círculo da Justiça
+Divina 2 (Abjuração)
+Execução: completa; Alcance: curto; 
+Área: esfera com 9m de raio; Duração: 
+1 dia; Resistência: Vontade parcial.
+Também conhecida como Lágrimas de 
+Hyninn, esta magia é usada em tribu -
+nais e para proteger áreas sensíveis. 
+Criaturas na área sofrem –10 em tes -
+tes de Acrobacia, Enganação, Furtivi -
+dade e Ladinagem e não podem mentir 
+deliberadamente — mas podem tentar 
+evitar perguntas que normalmente res-
+ponderiam com uma mentira (sendo 
+evasivas ou cometendo omissões, por 
+exemplo). Uma criatura que passe na 
+resistência tem as penalidades reduzi -
+das para –5 e pode mentir.
++1 PM:  muda a execução para ação 
+padrão, o alcance para pessoal, o alvo 
+para você, a duração para cena e a re -
+sistência para nenhuma. Em vez do 
+normal, qualquer criatura ou objeto 
+invisível em alcance curto se torna vi -
+sível. Isso não dissipa o efeito mágico; 
+se sair do seu alcance, a criatura ou ob-
+jeto voltam a ficar invisíveis.
++3 PM:  muda a penalidade nas perí -
+cias para –10 (se passar na resistência) 
+e –20 (se falhar). Requer 4º círculo.
++7 PM: muda a duração para perma -
+nente e adiciona componente material 
+(balança de prata no valor de T$ 5.000).
+183
+--- PAGE 190 ---
+Capítulo Quatro
+Círculo da Restauração
+Divina 4 (Evocação)
+Execução: padrão; Alcance: curto; 
+Área: esfera com 3m de raio; Dura-
+ção: 5 rodadas. 
+Você evoca um círculo de luz que 
+emana uma energia poderosa. Qual -
+quer criatura viva que termine o tur -
+no dentro do círculo recupera 3d8+3 
+PV e 1 PM. Mortos-vivos e criaturas 
+que sofrem dano por luz perdem PV e 
+PM na mesma quantidade. Uma cria -
+tura pode recuperar no máximo 5 PM 
+por dia com esta magia.
++2 PM: aumenta a regeneração de PV 
+em 1d8+1.
+cólera de azgher
+Divina 4 (evocação)
+Execução: padrão; Alcance: médio; 
+Área: esfera com 6m de raio; Duração: 
+instantânea. Resistência: Reflexos par-
+cial.
+Você cria um fulgor dourado e intenso. 
+Criaturas na área ficam cegas por 1d4 
+rodadas e em chamas, e sofrem 10d6 
+pontos de dano de fogo (mortos-vivos 
+sofrem 10d8 pontos de dano). Uma 
+criatura que passe no teste de resistên-
+cia não fica cega nem em chamas e so-
+fre metade do dano.
++2 PM:  aumenta o dano em +2d6 
+(+2d8 contra mortos-vivos).
++2 PM: aumenta a área em +6m de raio.
++5 PM: a luz purificadora do Deus-Sol 
+dissipa todas as magias de necroman -
+cia ativas na área. Requer 5º círculo.
+Coluna de Chamas
+Divina 3 (Evocação)
+Execução: padrão; Alcance: longo; 
+Área: cilindro com 3m de raio e 30m 
+de altura; Duração: instantânea; Re-
+sistência: Reflexos reduz à metade. 
+Um pilar de fogo sagrado desce dos 
+céus, causando 6d6 pontos de dano de 
+fogo mais 6d6 pontos de dano de luz 
+nas criaturas e objetos livres na área.
++1 PM: aumenta o dano de fogo em +1d6.
++1 PM: aumenta o dano de luz em +1d6.
+Comando
+Divina 1 (Encantamento)
+Execução: padrão; Alcance: curto; 
+Alvo: 1 humanoide; Duração: 1 roda-
+da; Resistência: Vontade anula. 
+Você dá uma ordem irresistível, que o 
+alvo deve ser capaz de ouvir (mas não 
+precisa entender). Se falhar na resis-
+tência, ele deve obedecer ao comando  
+em seu próprio turno da melhor ma -
+neira possível. Escolha um dos efeitos.
+Fuja: o alvo gasta seu turno se afastando 
+de você (usando todas as suas ações).
+Largue: o alvo solta quaisquer itens que 
+esteja segurando e não pode pegá-los 
+novamente até o início de seu próximo 
+turno. Como esta é uma ação livre, ele 
+ainda pode executar outras ações (ex -
+ceto pegar aquilo que largou).
+Pare: o alvo fica pasmo (apenas uma 
+vez por cena).
+Senta: com uma ação livre, o alvo senta 
+no chão (se estava pendurado ou voan-
+do, desce até o chão). Ele pode fazer 
+outras ações, mas não se levantar até o 
+início de seu próximo turno.
+Venha: o alvo gasta seu turno se apro -
+ximando de você (usando todas as 
+suas ações).
++1 PM: muda o alvo para 1 criatura. 
++2 PM: aumenta a quantidade de alvos 
+em +1.
+Compreensão
+Universal 1 (Adivinhação)
+Execução: padrão; Alcance: toque; 
+Alvo: 1 criatura ou texto; Duração: 
+cena; Resistência: Vontade anula (veja 
+descrição).
+Essa magia lhe confere compreensão 
+sobrenatural. Você pode tocar um tex-
+to e entender as palavras mesmo que 
+não conheça o idioma. Se tocar numa 
+criatura inteligente, pode se comunicar 
+com ela mesmo que não tenham um 
+idioma em comum. Se tocar uma cria -
+tura não inteligente, como um animal, 
+pode perceber seus sentimentos.
+Você também pode gastar uma ação de 
+movimento para ouvir os pensamentos 
+de uma criatura tocada (você “ouve” 
+o que o alvo está pensando), mas um 
+alvo involuntário tem direito a um tes-
+te de Vontade para proteger seus pen -
+samentos e evitar este efeito.
++1 PM: muda o alcance para curto. 
++2 PM: muda o alcance para curto e 
+o alvo para criaturas escolhidas. Você 
+pode entender todas as criaturas afeta-
+das, mas só pode ouvir os pensamen -
+tos de uma por vez.
++2 PM: muda o alvo para 1 criatura. 
+Em vez do normal, pode vasculhar os 
+pensamentos do alvo para extrair in -
+formações. O alvo tem direito a um 
+teste de Vontade para anular este efei-
+to. O mestre decide se a criatura sabe 
+ou não a informação que você procura. 
+Requer 2º círculo. 
++5 PM: muda o alcance para pessoal 
+e o alvo para você. Em vez do normal, 
+você pode falar, entender e escrever 
+qualquer idioma. Requer 3º círculo.
+Comunhão com a Natureza
+Divina 3 (Adivinhação)
+Execução: completa; Alcance: pes-
+soal; Alvo: você; Duração: 1 dia. 
+Após uma breve união com a natureza 
+local, você obtém informações e intui -
+ções sobre a região em que está, numa 
+distância equivalente a um dia de via -
+gem. Você recebe 6d4 dados de auxílio. 
+Enquanto a magia durar, sempre que for 
+realizar um teste de perícia em áreas na-
+turais, você pode gastar 2d4 (mais 2d4 
+para cada círculo de magias acima do 3º 
+que puder lançar) e adicionar o resulta-
+do rolado como bônus no teste. A magia 
+termina se você ficar sem dados.
++1 PM: muda a execução para 1 minu-
+to e a duração para instantânea. Em vez 
+do normal, você descobre 1d4+1 infor-
+mações sobre os seguintes temas: terre-
+no, animais, vegetais, minerais, cursos 
+d’água e presença de criaturas antina-
+turais numa região natural em que você 
+esteja. Você pode, por exemplo, desco-
+brir a quantidade de cavernas (terreno), 
+se uma planta rara existe (vegetais) e 
+se há mortos-vivos (criaturas antinatu-
+rais) na região.
++3 PM: aumenta o número de dados 
+de auxílio em +2.
++4 PM:  muda o tipo dos dados de 
+auxílio para d6.
++8 PM:  muda o tipo dos dados de 
+auxílio para d8.
+Conceder Milagre
+Divina 4 (Encantamento)
+Execução: padrão; Alcance: toque; 
+Alvo: 1 criatura; Duração: permanen-
+te até ser descarregada.
+Você transfere um pouco de seu poder 
+divino a outra criatura. Escolha uma 
+magia de até 2º círculo que você co -
+nheça; o alvo pode lançar essa magia 
+uma vez, sem pagar o custo dela em 
+PM (aprimoramentos podem ser usa -
+dos, mas o alvo deve gastar seus pró -
+prios PM). Você sofre uma penalidade 
+de –3 PM até que o alvo lance a magia.
++4 PM: muda o círculo da magia con-
+cedida para 3º e a penalidade de PM 
+para –6.
+184  

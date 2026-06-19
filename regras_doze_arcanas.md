@@ -51,11 +51,11 @@ Sempre que um personagem com 0 PV (Esgotado) sofrer dano de qualquer tipo, ele d
 
 | Resultado | Trauma | Efeito Mecânico |
 | :--- | :--- | :--- |
-| **2 (Falha Crítica)** | Inconsciente | O personagem cai inconsciente, não pode agir e corre risco de morrer. Um personagem só volta a ficar consciente após ser estabilizado e passar por um descanso longo. |
-| **3 - 4** | Cicatriz Dolorosa | O golpe deixa uma marca profunda. O limite máximo de PV do personagem é reduzido em **3 PV** permanentemente. |
-| **5 - 8** | Concussão Severa | Sofre **1 Desvantagem (-1d4)** em todos os testes Mentais e de Iniciativa até realizar um descanso longo. |
-| **9 - 11** | Fratura Exposta | Um membro é quebrado. Sofre **1 Desvantagem (-1d4)** em testes Físicos até ser tratado com medicina (mental dificuldade 10) ou magia de cura (que cure pelo menos 5pv). |
-| **12 (Sorte)** | Cicatriz Gloriosa | O personagem resiste bravamente. |
+| **2 (Falha Crítica)** | Inconsciente | O personagem cai inconsciente, não pode agir e corre risco de morrer. Um personagem só volta a ficar consciente após ser estabilizado (PV acima de 0) e passar por um descanso longo. |
+| **3 - 4** | Cicatriz Dolorosa | O golpe deixa uma marca profunda. O limite máximo de PV do personagem é reduzido em **3 PV** permanentemente. A recuperação disso requer magias poderosas ou rituais arcanos a critério do narrador. |
+| **5 - 8** | Concussão Severa | Sofre **1 Desvantagem (-1d4)** em todos os testes Mentais, de Iniciativa e na conjuração de magias até realizar um descanso longo. |
+| **9 - 11** | Fratura Exposta | Um membro é quebrado. Sofre **1 Desvantagem (-1d4)** em testes Físicos até ser tratado com medicina (Mental DT 10) ou magia de cura que cure pelo menos 5 PV. |
+| **12 (Sorte)** | Cicatriz Gloriosa | O personagem resiste bravamente (sem efeitos mecânicos negativos). |
 
 #### Iniciativa
 No início de cada combate, todos os participantes rolam para determinar a ordem de ação. A **Iniciativa** é calculada como:
@@ -65,11 +65,13 @@ No início de cada combate, todos os participantes rolam para determinar a ordem
 Resultados mais altos agem primeiro. Em caso de empate, personagens jogadores têm prioridade sobre personagens do Mestre.
 
 #### Ações de Combate
-Em cada turno, um personagem possui:
-*   **2 Ações Padrão:** Atacar, conjurar magia comum, interagir com objeto complexo.
-*   **1 Ação de Movimento:** Deslocar-se pelo cenário, sacar arma, levantar-se.
+Todo personagem recebe **(1 Ação de Movimento + 2 Ações Padrão)** ou **(1 Ação de Movimento + 1 Ação Complexa)** ou **1 Ação Completa** no início de seu turno. Além disso, todos têm direito a **1 Reação por rodada**.
 
-*(Duas Ações Padrões podem ser combinadas em uma Ação Complexa, duas Ações de padrões podem ser combinadas em uma Ação Complexa, e duas Ações Padrão e uma Ação de Movimento podem ser combinadas em uma Ação Complexa).*
+*   **Ação de Movimento:** Mover-se até 6 espaços pelo cenário, levantar-se (caso esteja Caído), sacar/recolher um item do chão, etc.
+*   **Ação Padrão (2 por turno):** Realizar um ataque básico, conjurar um feitiço padrão, interagir com um objeto complexo ou realizar Testes Resistidos (Agarrar, Empurrar, Derrubar). Duas Ações Padrão podem ser combinadas para realizar uma **Ação Complexa**.
+*   **Ação Complexa:** Rituais ou habilidades especiais que consomem ambas as Ações Padrão do turno (permitindo ainda a Ação de Movimento).
+*   **Ação Completa:** Consome todo o tempo e movimento do turno (ambas as Ações Padrão e a Ação de Movimento).
+*   **Reação (1 por rodada):** Ações fora do seu turno em resposta a um gatilho, como defender (dobrar RD) ou esquivar (teste de Físico Destreza para anular ataque).
 
 #### Descanso e Recuperação
 Os personagens recuperam recursos através de dois tipos de descanso:
@@ -471,7 +473,7 @@ Focado na conjuração direta de magias destrutivas e manipulação de zonas de 
 Uso de totens para suporte tático e travessia incorpórea pelo plano astral.
 
 **Habilidades e Totens**
-Você conhece 3 totens místicos e pode posicioná-los em um espaço adjacente a você ou arremessá-los até alcance Curto:
+Você conhece 3 totens místicos e pode posicioná-los em um espaço adjacente a você ou arremessá-los até alcance Curto. Cada totem custa 3 PM, possui 5 PV e Defesa 5. Você não consegue ter mais de 2 totens ativos ao mesmo tempo.
 *   **Totem do Guardião (Urso/Touro):** Aliados adjacentes ao totem recebem Cobertura Leve e +2 de Proteção (PR).
 *   **Totem do Flagelo:** Inimigos que passarem pelo totem sofrem 1d4 de dano elemental (o elemento é escolhido por você ao posicionar).
 *   **Totem da Mãe:** Aliados adjacentes regeneram 1d4 PV no início de seus turnos.
@@ -481,7 +483,7 @@ Você conhece 3 totens místicos e pode posicioná-los em um espaço adjacente a
 *   **Maldição** (1 Ação Padrão | 2 PM): Lançada em alcance Médio. Você só pode manter 1 maldição ativa por vez (conjurar uma nova anula a anterior). Escolha um dos efeitos:
     *   **Perseguidor:** Um espírito maldito assombra o alvo, causando 1d4 de dano mental no início do turno do inimigo. No final do turno dele, ele testa Magia + Controle para tentar banir o espírito.
     *   **Definhar:** O alvo sofre -1 em um Atributo à sua escolha. No final do turno dele, testa Magia + Controle para quebrar o efeito.
-    *   **Malogro:** O alvo sofre 1 Desvantagem (-1d6) em todos os testes. No final do turno dele, testa Magia + Controle para se livrar do azar.
+    *   **Malogro:** O alvo sofre 1 Desvantagem  em todos os testes. No final do turno dele, testa Magia + Controle para se livrar do azar.
 
 **Habilidade Suprema de Arcana**
 *   **Convergência Ancestral** (Ação Padrão | 1 Ponto de Arcana): Os espíritos ancestrais respondem ao seu chamado todos de uma vez. Você invoca os 3 Totens (Guardião, Flagelo e Mãe) instantaneamente em três espaços diferentes à sua escolha em alcance Médio, sem gastar PM. Esses totens duram até o final da cena.
@@ -493,6 +495,18 @@ Evocação de servos mágicos e avatares primordiais no campo de batalha.
 
 **O Contrato**
 Você serve de canal sob a tutela do "Senhor dos Contratos". Você escolhe e invoca um servo de outro plano (um elemental, um demônio menor ou um feérico). Enquanto o contrato for mantido e houver fluxo de mana, a criatura é sustentada no nosso plano material e é imune à morte definitiva.
+
+Todos os servos possuem **1 Ação Padrão** e **1 Ação de Movimento** por turno:
+*   **🔥 Elemental (Combatente/Tanque):**
+    *   *Atributos:* 25 PV | Físico 3 | Magia 0 | Mental 0 | Social 0
+    *   *Redução de Dano (RD):* 1 (Natural)
+    *   *Habilidade (Corpo de Matéria):* Seus ataques causam dano físico ou do seu elemento de origem.
+*   **😈 Demônio Menor (Ofensivo/Ágil):**
+    *   *Atributos:* 18 PV | Físico 2 | Magia 1 | Mental 0 | Social 0
+    *   *Habilidade (Lâmina de Fogo/Sombra):* Seus ataques corpo a corpo causam +1d4 de dano de fogo ou sombra extra.
+*   **🦋 Feérico (Suporte/Mágico):**
+    *   *Atributos:* 15 PV | Físico 1 | Magia 2 | Mental 1 | Social 1
+    *   *Habilidade (Bênção Crepuscular | 1 Ação Padrão):* Concede +2 de Proteção (PR) ou 1 Vantagem na próxima jogada de um aliado em alcance curto.
 
 **Habilidade Suprema de Arcana**
 *   **Quebra do Selo (Libertação)** (Ação Livre | 1 Ponto de Arcana): Você afrouxa as correntes do contrato do seu Servo, permitindo que ele use seu verdadeiro poder cósmico. Até o final da cena, seu servo dobra seus PVs atuais e máximos, e todos os ataques que ele desferir recebem +2d4 de dano bônus. Durante essa cena, se o servo for morto, a entidade volta para seu plano de origem em uma explosão que causa 2d6 de dano mágico a todos os inimigos adjacentes a ele.
@@ -506,7 +520,7 @@ Especialista em pragas, enfraquecimento e pactos de poder.
 Compartilha a mesma lista de Maldições do Xamã (Perseguidor, Definhar, Malogro), porém o Bruxo possui um domínio superior e pode manter até 2 maldições simultaneamente em oponentes distintos (ou acumuladas). Conjurar uma terceira dissipa a primeira.
 
 **Habilidade Suprema de Arcana**
-*   **Peste Inevitável** (Ação Padrão | 1 Ponto de Arcana): O seu rancor se espalha como uma praga. Escolha uma das suas Maldições (Perseguidor, Definhar ou Malogro). Em vez de afetar um único alvo, você lança essa maldição sobre todos os inimigos presentes em uma Área Média ao seu redor. Os testes de Magia + Controle para se livrarem dela nos turnos subsequentes são feitos com 1 Desvantagem (-1d6).
+*   **Peste Inevitável** (Ação Padrão | 1 Ponto de Arcana): O seu rancor se espalha como uma praga. Escolha uma das suas Maldições (Perseguidor, Definhar ou Malogro). Em vez de afetar um único alvo, você lança essa maldição sobre todos os inimigos presentes em uma Área Média ao seu redor. Os testes de Magia + Controle para se livrarem dela nos turnos subsequentes são feitos com 1 Desvantagem .
 
 ---
 
@@ -579,7 +593,7 @@ Criadores de falsas realidades, iscas visuais e projeções aterrorizantes.
 **Magia**
 *   **Ilusão** (1 Ação Padrão | 4 PM): Conjura um construto áudio/visual em alcance Médio. Inimigos que tiverem linha de visão para a ilusão devem passar em um teste de Mental + Vontade ou sofrerão o efeito de engano:
     *   **Monstruosa:** Alvos creem ver uma criatura irreal terrível. Gastarão suas ações atacando-a ou fugindo dela.
-    *   **Desorientadora:** O cenário gira e distorce. Alvos sentem náuseas, perdendo a Ação de Movimento no próximo turno e sofrendo 1 Desvantagem (-1d6) em ataques à distância (físicos ou mágicos).
+    *   **Desorientadora:** O cenário gira e distorce. Alvos sentem náuseas, perdendo a Ação de Movimento no próximo turno e sofrendo 1 Desvantagem  em ataques à distância (físicos ou mágicos).
     *   **Distração:** Pequenos enganos constantes fadigam a mente. O alvo sofre 2 Desvantagens (-2d6) em testes físicos e rolagens de ataque.
 
 **Habilidade Suprema de Arcana**

@@ -1,0 +1,478 @@
+--- PAGE 1 ---
+ATLASATLAS
+HIGH FANTASYHIGH FANTASY
+
+--- PAGE 2 ---
+z
+y
+
+--- PAGE 3 ---
+z
+O
+Uma jornada épica fará de você Uma jornada épica fará de você 
+mais do que jamais imaginou.mais do que jamais imaginou.
+O próprio destino se curvará O próprio destino se curvará 
+diante das chamas em seu coração!diante das chamas em seu coração!
+y
+y
+
+--- PAGE 4 ---
+2
+W
+Game Design, Criação e Desenvolvimento  Emanuele Galletto
+Criação Adicional  Nicola Degobbis, ExtantLily, Chiara Listo, 
+  Nicola Marchi e Alberto Orlandini
+Direção de Arte  Emanuele Galletto
+Arte da Capa  Moryo
+Artes Internas  Josh Cadogan, Tuomas Korpi, Lorenzo Magalotti, Moryo, Ochika,
+  Julian Seifert-Olszewski, Catthy Trinh, Iana Vengerova, Gabriel Yeganyan e Yi Zheng
+Pixel Art  Ben Henry e Sascha Naderer
+Arte dos Ícones de Dano  Lorc 
+Produção Editorial  Nicola Degobbis
+Chefe de Operações  Marco Munari
+Produção  Alberto Orlandini e Matteo Pedroni
+Tradução  Ian Hathaway
+Edição  Emanuele Galletto e Neil Kingham
+Leitura Sensível  Marta Palvarini
+Design Gráfico  Emanuele Galletto e Erica Viotto
+Revisão  Nicola Degobbis, Emanuele Galletto, Neil Kingham, Marco Munari, 
+  Alberto Orlandini, Matteo Pedroni e Erica Viotto
+CRÉDITOS DA EDIÇÃO BRASILEIRA
+Título Original  Fabula Ultima TTJRPG: Atlas High Fantasy
+Tradução  Carine Ribeiro
+Edição  José Cerqueira
+Preparação  Kali de Los Santos
+Revisão  Vitória Vozniak e Rafael Dei Svaldi
+Diagramação  José Cerqueira e Tiago Orib
+Assistente de Produção  Laura Reginin
+Editor de Aquisições  Thiago Rosa
+Editora-Chefe  Karen Soarele
+Diretor-Geral  Guilherme Dei Svaldi
+Equipe da Jambô  Guilherme Dei Svaldi, Rafael Dei Svaldi, Leonel Caldela, Akila Gabriel, Ana Júlia Gamla, Anderson 
+Dornelles, André Schwertz, Bruno Piñeiro, Dan Ramos, Dani Marques, Davide Di Benedetto, Elisa Guimarães, Gabriel 
+Adam, Gabriel Menezes, Isabelle Gomes, Jacqueline Dal Bosco, Jaime de Andruart, José Cerqueira, J. M. Trevisan, Karen 
+Soarele, Laura Reginin, Laura Souza, Leticia Mendes, Marcelo Cassaro, Marcus Vinícius, Marina Alvarez, Marlon Vernes, 
+Matheus Rocha, Maurício Feijó, Miguel Souza, Priscilla Souza, Richelly Kotik, Samuel Anklam, Simone Rocha, Tatiana 
+Gomes, Thaynara Melchior, Thiago Rosa, Tiago Guimarães, Tiago Orib, Vic T erra, Victória Cernicchiaro e Yasmim Borges.
+Fabula Ultima © 2021-2025 Need Games e Rooster Games. T odos os direitos desta edição reservados 
+à Jambô Editora. É proibida a reprodução total ou parcial, por quaisquer meios existentes ou que venham a 
+ser criados, sem autorização prévia, por escrito, da editora. Este é um produto de ficção. Qualquer referência a 
+pessoas e eventos do presente, passado ou futuro é coincidência não intencional.
+Novidades, erratas e FAQ em fabulaultima.com.br
+G167f    Galletto, Emanuele
+Fabula ultima TTJRPG: atlas high fantasy 
+/ Emanuele Galletto; tradução de Carine 
+Ribeiro. — Porto Alegre: Jambô, 2025.
+200p. il.
+1. Jogos eletrônicos - RPG. I. Galletto, 
+Emanuele. II. Fabula Ultima. III. Título.
+CDU 794.021
+CRÉDITOS
+Rua Coronel Genuíno, 209 • Porto Alegre, RS
+contato@jamboeditora.com.br
+www.jamboeditora.com.br
+  
+@jamboeditora
+1ª edição: novembro de 2025 | v.1.03 | ISBN 978858365160-4
+Dados Internacionais de Catalogação na Publicação
+
+--- PAGE 5 ---
+3
+W
+w 3. PROTAGONISTAS
+Heróis de Alta Fantasia................. 90
+Encarne e 
+Desenvolva um T ema .............. 90
+Laços e Sentimentos .................. 91
+Estilo e Aparência ...................... 91
+Exemplos de Personagens 
+de Alta Fantasia ...................... 91
+Novas Opções ............................. 102
+Armas Personalizadas ................. 106
+Novas Peculiaridades ................. 114
+Poderes Zero .............................. 124
+Novos Personagens Clássicos ..... 132
+Comandante ............................... 136
+Dançarino................................... 138
+Simbolista .................................. 142
+Virtuoso ..................................... 148
+Novos Poderes Heroicos ............. 152
+w 4. ANTAGONISTAS 
+Vilões High Fantasy .................... 164
+Eileen, a Rainha Pirata ............. 168
+Dragão das Chamas ................. 174
+Cerine, a Dama Pesarosa .......... 178
+Maximilian .............................. 184
+Tragédia .................................. 190
+w  1. INTRODUÇÃO
+Pilares de Alta Fantasia .................. 8
+Antes de Começar......................... 12
+w 2. O MUNDO
+Locais de Alta Fantasia ................. 16
+Oniria — O Reino Inicial  ................ 20
+Ártemis — A Floresta Sombria  ....... 24
+Miragem — A Aldeia Oculta........... 28
+Yiggdrasill — A Árvore do Mundo .. 32
+Tétis — O Grande Oceano ............. 36
+Endir — A Capital Imperial ............ 40
+Limiar — T erras do Cataclisma ...... 44
+Arcantis — 
+A Cidade dos Antepassados ........ 48
+Serafim — O Reino nos Céus ......... 52
+Concussio Mundi — 
+A Fortaleza Infernal ................... 56
+Conflitos ....................................... 60
+Magia e Rituais ............................ 66
+Arcanos e Invocações ................. 66
+Deuses e Demônios ................... 71
+O Rio das almas ......................... 72
+Rituais “Comuns” e “Especiais” .... 73
+Vida Após a Morte...................... 73
+T ecnologia .................................... 74
+Itens Raros ................................... 76
+Armas Raras ............................... 78
+Armaduras Raras ........................ 80
+Escudos Raros ............................ 80
+Acessórios Raros ........................ 81
+Artefatos ...................................... 82
+SUMÁRIO
+
+--- PAGE 6 ---
+W
+4
+W
+
+--- PAGE 7 ---
+Aventuras além da imaginação o aguardam neste Atlas de Fabula Ultima!
+Esta expansão do Livro Básico foca num gênero de mistérios ancestrais, paisa-
+gens espetaculares, magia incrível e entidades poderosas que batalham pelo 
+controle de mundos imaginários que podem aparentar ser muito diferentes do 
+nosso: High Fantasy (ou alta fantasia).
+Para falar a verdade, este Atlas pode ser visto como uma continuação do Livro 
+Básico, uma vez que ele já apresenta vários exemplos e situações que são con-
+siderados típicos da alta fantasia, graças à sua popularidade em JRPGs.
+Além de apresentar uma introdução básica às nossa visão da alta fantasia, este 
+livro também apresenta conselhos e materiais de jogo para mestres e regras 
+adicionais para jogadores. Tudo em três capítulos simples:
+ w O capítulo de Mundo traz informações valiosas para criar cenários de de alta 
+fantasia, 10 locais arquetípicos que podem ser usados como inspiração para 
+sua campanha, além de novos itens raros e artefatos ideais para aventuras 
+verdadeiramente épicas.
+ w O capítulo dos Protagonistas apresenta 4 novas Classes (comandante, dan-
+çarino, simbolista e virtuoso) e várias regras opcionais (como as de Poderes 
+Zero) para levar seus PJs além do limite e possibilitar um número cada vez 
+maior de combinações.
+ w O capítulo dos Antagonistas traz 5 vilões — chefes prontos, um mais perigoso 
+que o outro — que desafiarão até mesmo os jogadores mais experientes.
+Este Atlas não pretende ser um guia completo para o gênero de alta fantasia; 
+pois ele é bastante difundido e assume inúmeras formas. Em vez disso, esse 
+livro está conectado à visão criativa e filosófica de quem o escreveu. Seu obje-
+tivo é oferecer exemplos e conselhos a partir de JRPGs já estabelecidos (veja 
+p. 199) que sejam úteis tanto a quem for versado no gênero quanto, principal-
+mente, a quem acabou de descobrir Fabula Ultima e JRPGs no geral.
+Basta virar a página para descobrir mais!
+5
+W
+11INTRODUÇÃO
+  CAPÍTULO  CAPÍTULO
+INTRODUÇÃOINTRODUÇÃO
+
+--- PAGE 8 ---
+W
+O QUE DEFINE A ALTA FANTASIA DE FABULA ULTIMA?
+Mesmo no mundo dos JRPGs os termos “high fantasy” e “alta fantasia” podem 
+ter vários significados. Neste livro, e, a nível mais amplo, em Fabula Ultima, eles 
+indicam diversos elementos que os autores acreditam representar uma forma 
+específica de construir histórias e cenários.
+Resumindo, vamos apresentar a visão pessoal do autor, que não pretende ser 
+uma verdade absoluta. Gêneros narrativos têm fronteiras nebulosas e seria im-
+possível — até mesmo irresponsável — querer limitá-los demais.
+Os textos a seguir vão ajudar a entender melhor as raízes criativas deste livro!
+ d SEJA UM BASTIÃO DA BONDADE
+Seus PJs em uma campanhas de alta fantasia são bondosos ao ponto de pare-
+cerem idealizados. Eles sempre hesitam antes de ferir ou tirar vidas, conside-
+ram a violência o último recurso e rejeitam qualquer forma de oportunismo.
+O herói atormentado é uma excessão, pois está disposto a ultrapassar certos 
+limites se necessário. Embora as ações de personagens desse tipo a princípio 
+destoem com as de seus companheiros, os eventos da campanha farão a bon-
+dade se enraizar em seu coração. O grupo inteiro é responsável por contribuir 
+com esse arco de personagem.
+ d OSTENTE TRAÇOS EXTRAORDINÁRIOS
+Personagens, criaturas, objetos e lugares de alta fantasia sempre têm traços 
+extraordinários e extremos: uma guerreira poderosa capaz de destruir paredes 
+com sua espada, uma fortaleza secreta flutuando em meio a montanhas altas e 
+íngremes, e assim por diante. Em outras palavras, não tenha medo de exagerar!
+ d SEJA UM LIVRO ABERTO COM SUAS EMOÇÕES
+Em campanhas de alta fantasia, as emoções dos personagens devem ser ex -
+pressadas de forma clara e constante — muitas vezes sem meios-termos — em 
+suas palavras, ações, roupas e nas armas e magias que podem usar em com-
+bate. Isso não significa jogar apenas com PJs clichês; muito pelo contrário: o 
+conselho é aproveitar ao máximo seus momentos em cena para expressar por 
+completo a natureza de seu personagem.
+6
+W
+
+--- PAGE 9 ---
+ d DESCUBRA UM MUNDO OCUL TO
+Uma verdade absoluta e chocante vem à tona na segunda parte de uma campa-
+nha de alta fantasia, alterando completamente o equilíbrio de poder. Pode ser a 
+descoberta de outro mundo, um desastre iminente no cerne das ações de seus 
+oponentes ou o lado sombrio de uma instituição aparentemente benevolente.
+ d DESAFIE O DESTINO E O DIVINO
+Campanhas de alta fantasia em geral terminam após batalhas contra um desti-
+no inescapável ou uma realidade imutável que podem se apresentar na forma 
+de um falso deus ou outra entidade com poderes praticamente divinos.
+ d REFERÊNCIAS PRINCIPAIS
+A seguir, alguns títulos que compõem a visão artística deste livro.
+ w Bravely Default e Bravely Second têm enredos que iniciam de forma tradicio-
+nal, mas quebram as expectativas do jogador quanto aos heróis e protagonis-
+tas, chegando ao ponto da subversão metanarrativa.
+ w Final Fantasy IV começa com a história da redenção de um protagonista que 
+cometeu um crime hediondo e segue com uma série de cenas e situações cada 
+vez mais explosivas e espalhafatosas.
+ w Final Fantasy IX é um exemplo excelente de criaturas unidas pelo destino  
+em uma história extravagante, com momentos dramáticos e espetaculares, e 
+um grupo extraordinário e diversificado para o qual a magia é crucial. O jogo 
+também não tem medo de lidar com temas mais pesados, como morte e guerra.
+ w Final Fantasy X apresenta um cenário diferente da estética europeia pseudo-
+-medieval. A história foca em invocações, na luta contra o dogmatismo e o pre- 
+conceito, na necessidade de aceitar a morte e as mudanças, além do direito das 
+gerações futuras de escolher o próprio destino.
+ w Tales of Arise é uma excelente inspiração para uma história focada em revo-
+luções. Ele se passa em um mundo destruído pelo colonialismo, no qual os 
+protagonistas devem, com muito cuidado, aprender a confiar uns nos outros, 
+e onde os horrores da escravidão e da opressão são representados de forma 
+concreta pelo roubo e manipulação da força vital.
+“Esteja envolto em luz ou trevas, 
+um destino glorioso nos aguarda.”
+7
+W
+11INTRODUÇÃO
+  CAPÍTULO  CAPÍTULO
+
+--- PAGE 10 ---
+W
+PILARES DA ALTA FANTASIA
+O Livro Básico de Fabula Ultima (p. 14) apresenta Oito Pilares que sustentam 
+a experiência do jogo. Este Atlas se baseia nesses elementos à própria maneira.
+RUÍNAS ANTIGAS E TERRAS INÓSPITAS
+Este pilar vem ainda mais à tona em campanhas de alta fantasia: florestas má-
+gicas fechadas, cidades arcaicas enterradas sob as dunas, castelos assombrados 
+e ruínas que escondem segredos sinistros.
+Cada lugar é uma alegoria para uma emoção ou conceito.
+O Deserto Gélido do Oeste, pontilhado por ruínas cinzentas que se desfazem 
+com um toque, representa o preço catastrófico da magia. O silêncio e a bran-
+quidão cegante da neve transformam o lugar num limbo sem fim.
+Um castelo com torres de cristal está no lado escuro da lua — a morada do 
+último dragão, onde é possível chegar apenas por meio de uma aeronave de 
+eras passadas —, representa a solidão e a perda da fé nos habitantes do mundo.
+Uma cidade-catedral opulenta com torres serrilhadas que se estendem até os 
+céus. Revoadas de wyverns passeiam entre as nuvens, e sentinelas de bronze 
+guardam silenciosamente vários lances de escadas — todos são símbolos do 
+poderio militar da Igreja Dracônica.
+UM MUNDO EM PERIGO
+Este mundo esconde segredos incríveis e magias poderosas…, mas não de todos! 
+O que você sabe no início é apenas a ponta do iceberg — conforme a campanha 
+se aprofunda na história do mundo, você pode descobrir que os vilões enfrenta-
+dos até o momento eram apenas peões de um tabuleiro muito mais complexo.
+Comandante Cadmus, do exército real, planeja convencer o rei de que o movi-
+mento das tropas Imperiais perto da fronteira justifica um ataque preventivo. 
+Ele crê que logo se tornará um general e tem fé na Joia da Luz que recebeu da 
+Bruxa Nileth, mas não sabe que a pedra reagirá à Joia das Trevas imperial e 
+que isso despertará um poder terrível para trazer caos a ambas nações…
+Hordas de monstros surgem periodicamente de fendas sombrias criadas pela 
+Papisa Amortal para justificar a existência da Ordem Imaculada e preservar 
+seu poder, mantendo o mundo dominado pelo pavor sob seu controle.
+8
+W
+
+--- PAGE 11 ---
+PILARES DA ALTA FANTASIA
+COMUNIDADES EM CONFLITO
+É comum que histórias de alta fantasia comecem com guerras ou grandes con-
+flitos — os protagonistas são convocados para lutar por uma facção ou resgatar 
+inocentes. Mas, cedo ou tarde, a situação se tornará mais grave, até virar uma 
+questão de ideologia — liberdade contra a ordem, esperança contra o desespe-
+ro ou tolerância contra o preconceito.
+Enquanto o Império Aqueroniano ataca a cidade de Platea, o principado de 
+Kemet constrói muralhas em suas fronteiras. As ilhas Xanadu, devastadas pelas 
+guerras de sucessão, serão o próximo alvo da cobiça Imperial. Sozinhos, nenhum 
+desses povos têm chance contra os exércitos tecnomágicos aqueronianos.
+Por séculos, os reinos de Londinium e Gralia disputaram pela Nova Babilônia, 
+cada monarca reinvindicando a descendência da Matriarca falecida da cidade. A 
+aeronave na qual você está viajando é derrubada por disparos gralianos, o que 
+revela uma arma terrível e esquecida. Enquanto isso, exércitos enviam seus líde-
+res mais cruéis para esmagar o inimigo, sem se preocupar com a população local.
+TUDO TEM ALMA
+O rio das almas (página 72) é crucial em cenários de alta fantasia: é a única 
+coisa que realmente é eterna, de onde tudo veio e para onde tudo retornará. 
+Mas ele não tem vontade própria e pode ser alterado por magias e entidades 
+particularmente poderosas, às vezes de forma definitiva.
+Zéfiro é um mundo de ilhas que flutuam ao redor de um centro de nuvens tem-
+pestuosas — dizem que, lá, é possível encontrar o Lago Eterno, tanto a fonte 
+da magia quanto da própria vida, para onde todos os espíritos retornam após 
+a morte. Apenas aqueles sob as bênçãos da Igreja de Nimuë têm permissão de 
+acessar as fontes ocultas entre as ilhas: piscinas naturais onde o fluxo vital se 
+condensa em névoas luminosas, permitindo o contato com o Lago Eterno.
+O Dragão Astral Midgardsormr, um demônio criado pelo desespero das pessoas 
+dentro do rio das almas, está invadindo o próprio rio, drenando lentamente a 
+força vital do planeta. Plantas definham, oceanos ficam estáticos e sem vida e 
+animais se transformam em monstros ferozes. Apenas após encontrar e despertar 
+os seis Guardiões Elementais você será capaz de derrotar Midgardsormr, embora 
+ainda haja quem tire vantagem da crise causada pelo sono dos Guardiões.
+9
+W
+11INTRODUÇÃO
+  CAPÍTULO  CAPÍTULO
+
+--- PAGE 12 ---
+W
+MAGIA E TECNOLOGIA
+Em cenários de alta fantasia, a conexão entre magia e tecnologia normalmente 
+segue um de dois extremos: ou são interligadas — como infantaria tecnomági-
+ca poderosa e circuitos de contenção ritualísticos — ou estão em conflito direto. 
+No último caso, a magia tende a ser uma arte ancestral perdida e a tecnologia 
+é perigosa e fria. Ainda assim, pode haver exceções: a magia pode ser capaz de 
+trazer a destruição enquanto a tecnologia é mais facil de controlar.
+As tropas da vanguarda de Asteride usam armas e armaduras tecnomágicas de 
+ponta, feitas para proteger os magos estrategistas de ataques inimigos. Por ou-
+tro lado, a nação vizinha de Dagda usa artes marciais e magias de cura, acredi-
+tando que apenas covardes apelariam para soldados magicamente aprimorados.
+Após a trágica Noite das Estrelas Despedaçadas, a Federação Quivira impôs 
+restrições rigorosas sobre a magia, que agora é ilegal para qualquer um de fora 
+do Castelo Carmesim. A situação se complica ainda mais quando um grupo 
+rebelde de Olmedia, seu reino vassalo, encontra uma jovem bruxa estelar à 
+beira da morte após escapar dos horrores de um laboratório quivirano secreto.
+De qualquer forma, tanto a magia quanto a tecnologia geram momentos explo-
+sivos e incríveis em histórias de alta fantasia.
+HERÓIS DE TODOS OS TAMANHOS E FORMAS
+Não há limites para o que um herói pode ser em histórias de alta fantasia. Além 
+disso, recomenda-se garantir que estes protagonistas sejam extraordinários:
+Albus é um elfo da mata, vindo da Floresta Petrificada. Ele luta usando en-
+xames de cristais flutuantes e lança magias de luz poderosas. Inúmeras flores 
+desabrocham em sua galhada quando usa suas magias mais poderosas.
+Lídia é uma campeã de golfe que chegou nesse mundo vinda de outra dimen-
+são após tocar um fragmento de cristal do tempo. A joia ainda brilha em sua 
+mão, permitindo que invoque Arcanos e use magia entrópica.
+Pwih é uma guerreira de gosma doce da cor azul das mais incomuns, capaz de 
+falar e assumir uma forma humanoide. Ela não sabe de onde vêm seus poderes 
+e se juntou a um grupo de heróis para aprender mais sobre os humanos.
+10
+W
+
+--- PAGE 13 ---
+TUDO GIRA EM TORNO DOS HERÓIS
+Na alta fantasia, os eventos estão intrinsecamente conectados com os heróis. 
+Alguns podem estar cientes disso desde o início, enquanto outros descobrirão 
+com tempo. De qualquer forma, nenhum herói é parte dessa história por acaso 
+— e, se for, é justamente essa existência “além das fronteiras do destino” que o 
+permitirá mudar o futuro do mundo.
+Profecias falam sobre quatro heróis que salvarão o mundo da batalha entre o 
+Gigante de Fogo e o Gigante de Gelo. Como previsto, a Marca do Lírio surgiu 
+na mão direita do Príncipe de Alfheim e das Vestais Gêmeas… mas também na 
+mão de um espadachim errante e da irmã mais nova do Príncipe!
+Ao ser atropelada por uma carruagem quando criança, Valea perdeu o olho es-
+querdo e uma de suas pernas, mas foi salva pela Princesa dos Bandidos. Ela cres-
+ceu, se tornou uma ladra de sucesso e se juntou a um grupo revolucionário, mas 
+está prestes a descobrir que o homem liderando o exército real estava naquela 
+fatídica carruagem e sua salvadora não foi motivada apenas por altruísmo…
+Como sempre, essas conexões e reviravoltas podem vir por intermédio do mes-
+tre ou dos jogadores, usando Pontos de Fabula.
+MISTÉRIOS, DESCOBERTAS E CRESCIMENTO
+Em campanhas de alta fantasia, mistérios são bem enterrados, antigos e chocan-
+tes — o crescimento pessoal dos PJs acontece exatamente quando revelações 
+terríveis abalam a compreensão que tinham sobre política, magia ou espirituali-
+dade. É quando os heróis podem descobrir que, na verdade, estavam ajudando os 
+planos de um vilão supremo durante grande parte de suas aventuras anteriores!
+Kain — último membro de uma linhagem ancestral de sacerdotisas — começa 
+uma peregrinação desesperada para reacender a Chama Sagrada, arriscando a 
+própria vida ao enfrentar anjos monstruosos que assombram os ermos entre as 
+cidades-estados. Porém, o que Kain e seu parceiro não sabem é que a Chama exi-
+ge um sacrifício terrível e que os anjos já foram algo completamente diferente…
+Ao derrotar Charybdis, a guardiã monstruosa do Turbilhão, você quebrou aci-
+dentalmente o Selo Norte. Essa façanha acelerou o plano imprudente da Vi-
+gária Lucretia de quebrar os quatro selos cardeais para canalizar a energia do 
+planeta para os motores tecnomágicos de seu novo veículo dimensional.
+“Não faz sentido! Por quê? Se nós somos tão iguais, por que  
+você está cercado de pessoas dispostas a lhe proteger  
+com as próprias vidas? Por que você não está só?”
+11
+W
+11INTRODUÇÃO
+  CAPÍTULO  CAPÍTULO
+
+--- PAGE 14 ---
+W
+ANTES DE COMEÇAR
+Nas páginas seguintes, discutiremos alguns dos elementos cruciais para uma 
+campanha de alta fantasia em Fabula Ultima.
+Uma vez que o Livro Básico já é muito ligado a este gênero, tais sugestões 
+também funcionam para a grande maioria das campanhas de Fabula Ultima.
+SÍNDROME DE PROTAGONISTA
+Enredos focados em um ou dois personagens são muito comuns ao procurar 
+inspiração em JRPGs, mangás ou animes de alta fantasia. Muitas vezes, são his-
+tórias escritas como fantasias escapistas focadas em um protagonista masculi-
+no — com o qual o público-alvo possa se identificar — e um interesse amoroso, 
+além de alguns companheiros mais ou menos desenvolvidos.
+Por outro lado, todos os PJs são igualmente importantes em Fabula Ultima, algo 
+que os permite ter o mesmo espaço de desenvolvimento na história. Nem mes-
+mo PJs com peculiaridades “de protagonista” (p. 114), como Arauto da Ruína ou 
+Destino Glorioso, devem roubar os holofotes dos outros protagonistas.
+ENREDOS RÍGIDOS E COMPLEXOS
+Mundos de alta fantasia estão repletos de magia e mistério. Por isso, são o ideal 
+para reviravoltas e revelações, profecias antigas e viagens pelo espaço e tempo. 
+T odos esses elementos são aceitáveis em Fabula Ultima, mas não exagere — é 
+melhor que as reviravoltas surjam dos Pontos de Fabula ou de oportunidades 
+do que por pertencerem a uma rede complexa de segredos construída pelo 
+mestre. O planejamento deve ser flexível: você não precisa ter uma resposta 
+para tudo, especialmente se estas respostas impuserem uma rota específica na 
+história, limitando a criatividade dos jogadores e prejudicando o jogo.
+PODERES DIVINOS E IMUTÁVEIS
+Povos em cenários de alta fantasia adoram uma variedade imensa de deuses. 
+Mas uma das premissas de Fabula Ultima é que mesmo as entidades mais 
+formidáveis devem ser, de alguma forma, limitadas. Estes seres podem ter acu-
+mulado um poder imenso, mas também podem ser superados por aqueles com 
+aliados leais e coragem o suficiente.
+O mundo muda constantemente e ninguém é onipotente nem eterno.
+12
+W
+
+--- PAGE 15 ---
+ANTES DE COMEÇAR
+ARQUÉTIPOS E ESTEREÓTIPOS
+Histórias de alta fantasia se apoiam em diferentes arquétipos, do nobre guer-
+reiro exilado à bruxa melancólica que parece ser intrigante e reservada. Estes 
+arquétipos são úteis ao definir um conceito de personagem e seus Traços, mas 
+não devem se tornar estereótipos. T ente incluir detalhes únicos, superando ex-
+pectativas e demonstrando o quanto as primeiras impressões sobre seus heróis 
+escondem personalidades complexas.
+T ome um cuidado especial com os tópicos a seguir:
+ w Arquétipos que emulem povos e culturas reais. Evite estereótipos ao repre-
+sentar elementos culturais, como religiões, costumes e práticas. Se você desejar 
+construir um PJ baseado em figuras reais — como exorcistas, gladiadores, ninjas, 
+piratas, sacerdotes, samurais, bruxas ou vikings —, busque informações em fon-
+tes que não reduzam estas pessoas a ferramentas narrativas ou estéticas. Com 
+fontes de qualidade, você criará heróis complexos e pluridimensionais.
+ w Estereótipos de estética, gênero e vestimentas. T ente evitar ou subverter es-
+tereótipos que moralizem corpos — por exemplo, não faça com que todos os 
+heróis sejam jovens, atléticos e convencionalmente atraentes enquanto todos 
+os inimigos sejam caricaturas grotescas. Além disso, preste atenção a tropos 
+nocivos relacionados a gênero, relações sociais ou vestimentas: uma heroína 
+maternal e tímida, um guerreiro tribal agressivo, uma antagonista cruel e se-
+dutora ou algum vilão perverso e diabólico cuja aparência não se encaixa nas 
+expectativas de gênero do mundo em que vivemos.
+Criar um mundo de fantasia nos permite abandonar nossos fardos diários. De-
+vemos abraçar essa oportunidade sem esquecermos que os mundos, imagens e 
+símbolos que usamos têm significados históricos e culturais já enraizados, que 
+afetarão as pessoas de verdade ao nosso redor.
+VILÕES UNIDIMENSIONAIS
+Você pode ficar à vontade para criar vilões com aparências marcantes e habi-
+lidades chocantes, mas não se esqueça de fazer com que sejam personagens 
+complexos. Da mesma forma, conceitos como “bem absoluto” ou “mal absoluto” 
+não são tão interessantes — o mestre deve dar motivos verossímeis para seus 
+vilões, os transformando em verdadeiros nêmesis dos protagonistas.
+Afinal, grandes vilões surgem de grandes heróis e vice-versa!
+13
+W
+11INTRODUÇÃO
+  CAPÍTULO  CAPÍTULO

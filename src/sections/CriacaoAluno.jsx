@@ -327,7 +327,7 @@ export default function CriacaoAluno() {
               Os atributos de um personagem sempre variam numa escala de <strong>-3 a +3</strong>. 
             </p>
             <p className="text-sm text-gray-600 mb-3 leading-relaxed">
-              Todos os seus quatro atributos <strong>começam em 0</strong>. Como um aluno iniciante, você tem um total de <strong>3 pontos</strong> para distribuir livremente entre eles, podendo colocar até um máximo de 3 pontos em um único atributo (ex: Físico +2, Magia +1, Social 0, Mental 0).
+              Todos os seus quatro atributos <strong>começam em 0</strong>. Como um aluno iniciante, você tem um total de <strong>2 pontos</strong> para distribuir livremente entre eles, podendo colocar até um máximo de 3 pontos em um único atributo (ex: Físico +2, Magia +1, Social 0, Mental 0).
             </p>
           </div>
 

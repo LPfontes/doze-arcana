@@ -1,0 +1,168 @@
+--- PAGE 186 ---
+ARCANO DA RODA
+Domínios: destino, tempo, velocidade.
+FUNDIR
+Você é imune a lento.
+Sua Defesa aumenta em +1.
+DISPENSAR
+Congelar o T empo. Escolha um número qualquer de criaturas que você possa 
+ver; cada uma fica lenta. Se uma criatura escolhida dessa forma já estiver len-
+ta, em vez disso, ela fará uma ação a menos durante seu próximo turno (mí- 
+nimo de zero ações).
+ARCANO DA TORRE
+Domínios: julgamento, proteção, sacrifício.
+FUNDIR
+Ao invocar este Arcano, escolha um tipo de dano: ar, fogo, gelo, raio, terra 
+ou trevas. Até que este Arcano seja dispensado, cada aliado seu em cena tem 
+Resistência ao tipo de dano escolhido (você não recebe esta Resistência).
+DISPENSAR
+Julgamento. Escolha um número qualquer de criaturas que você possa ver; 
+você causa 30 pontos de dano de luz em cada uma delas (esse dano ignora 
+Resistências).
+ARCANO DO CARVALHO
+Domínios: plantas, terra, veneno.
+FUNDIR
+Você tem Resistência a dano de terra e de veneno e é imune a envenenado.
+Sempre que recuperar PV, você recupera 5 PV adicionais.
+DISPENSAR
+Florescer. Escolha um número qualquer de criaturas que você possa ver (in-
+clusive a si mesmo); cada uma perde a condição envenenada e recupera 40 
+PV. Se você estiver no 20° nível ou acima, essa quantidade aumenta para 50 
+PV; se estiver no 40° nível ou acima, essa quantidade aumenta para 60 PV.
+182
+W
+
+--- PAGE 187 ---
+Lendas contam sobre uma antiga paixão entre a Espada e a
+Torre... uma paixão que costumava se transformar em guerra.
+ARCANO DO CÉU
+Domínios: chuva, névoa, tempestades.
+FUNDIR
+Você tem Resistência a dano de ar e de raio.
+Você pode usar uma ação para descobrir as condições climáticas do próximo 
+dia em uma área com raio de dois dias de Viagem — o mestre deve respon-
+der com informações verdadeiras.
+DISPENSAR
+T empestade. Escolha um número qualquer de criaturas que você possa ver; 
+você causa 30 pontos de dano de raio em cada uma delas (esse dano ignora 
+Resistências).
+ARCANO DO GRIMÓRIO
+Domínios: compreensão, conhecimento, revelações.
+FUNDIR
+Você sabe ler, escrever, falar e entender todos os idiomas.
+Seu dado de Astúcia é considerado um passo maior (máximo d12).
+DISPENSAR
+Oráculo. Faça uma única pergunta ao mestre; ele deve responder com since-
+ridade, descrevendo a visão que o Grimório lhe mostrou.
+Depois de usado, este efeito de dispensar só volta a ficar disponível na ma-
+nhã seguinte. Além disso, a mesma pergunta nunca pode ser feita mais de 
+uma vez. O mestre tem a palavra final sobre quais perguntas são similares 
+demais para serem refeitas.
+ARCANO DO PORTÃO
+Domínios: espaço, vazio, viagens.
+FUNDIR
+Você tem Resistência a dano de trevas.
+Sua Defesa Mágica aumenta em +1.
+DISPENSAR
+Ao dispensar este Arcano, escolha Oblívio ou Translocar:
+Oblívio. Escolha um número qualquer de criaturas que você possa ver; você 
+causa 30 pontos de dano de trevas em cada uma delas (esse dano ignora 
+Resistências).
+Translocar. Você e até cinco outras criaturas voluntárias são teletransporta-
+dos para um local que você já visitou em até 1 dia de Viagem.
+183
+W
+33APERTE START
+  CAPÍTULO  CAPÍTULO
+
+--- PAGE 188 ---
+OUTROS NOMES: Arqueiro, Franco-atirador, PistoleiroAtirador
+Fuja até o outro
+   canto do mundo;
+      minha flecha ainda 
+          encontrará você.
+184
+W
+ATIRADOR
+A maioria dos Atiradores é 
+excepcional em lidar com ame-
+aças a uma distância cuidado-
+samente calculada; outros são 
+corajosos, habilidosos ou impru-
+dentes o bastante para enfren-
+tar os adversários de perto.
+Embora muitos desses comba-
+tentes sejam soldados habilido-
+sos, alguns caíram na pirataria, 
+na caça a recompensas ou na 
+bandidagem. Outros colocam 
+suas habilidades a serviço do 
+povo ou as usam para proteger 
+um local sagrado ou proibido 
+contra intrusos.
+n
+n
+
+--- PAGE 189 ---
+BENEFÍCIOS INICIAIS DE ATIRADOR
+ w Aumente permanentemente seus PV máximos em 5.
+ w Você pode equipar armas à distância e escudos marciais.
+PODERES DE ATIRADOR
+BARRAGEM
+Ao fazer um ataque à distância, você pode gastar 10 PM para escolher uma opção: 
+o ataque recebe a propriedade multi (2); ou você aumenta em +1 a propriedade 
+multi do ataque, até o máximo de multi (3).
+FOGO CRUZADO
+Quando uma criatura que você possa ver faz um ataque à distância, você pode 
+gastar um total de PM igual a (5 + teste de Precisão da criatura alvo) para 
+fazer o ataque falhar automaticamente contra todos os alvos. Você só pode usar 
+este poder se tiver uma arma à distância equipada. Este poder não funciona se 
+o teste de Precisão da criatura for um sucesso crítico.
+MAESTRIA COM ARMAS À DISTÂNCIA (çç4)
+Você recebe um bônus igual a (NP) em testes de Precisão à distância.
+OLHOS DE ÁGUIA (çç5)
+Quando faz a ação Guarda, se escolher não dar cobertura a outra criatura, você 
+pode escolher uma opção: o próximo ataque à distância que você fizer na cena 
+atual causa (NP × 3) pontos de dano adicional ou você pode fazer um ataque 
+livre com um arco ou arma de fogo equipada, considerando sua RA como 0 ao 
+calcular o dano causado por este ataque.
+TIRO DE AVISO (çç4)
+Depois de atingir um ou mais alvos com um ataque à distância, você pode esco-
+lher não causar dano. Se fizer isso, escolha uma opção: cada alvo atingido pelo 
+ataque fica abalado; ou fica lento; ou perde (NP × 10) PM. Descreva como você 
+faz essa manobra!
+185
+W
+33APERTE START
+  CAPÍTULO  CAPÍTULO
+O
+ w Alguns acreditam que flechas e balas são armas de covardes. E você?
+ w Se for pego desprevenido, você improvisa ou recua?
+ w Você é discreto e reservado, confiante e astuto ou expansivo e imprudente?
+ w Qual a aparência de suas armas e estilo de luta?
+
+--- PAGE 190 ---
+OUTROS NOMES: Feiticeiro, Geomante, Mago de BatalhaElementalista
+186
+W
+ELEMENTALISTA
+Os Elementalistas aprendem a  
+canalizar as almas que fluem 
+dentro dos elementos básicos 
+da criação: Água, T erra, Fogo e 
+Ar. Alguns deles desenvolvem 
+feitiços complexos para conter 
+os poderosos elementos da na- 
+tureza; outros buscam a prote-
+ção em harmonia e comunhão.
+Magia elemental pode ser mui- 
+to destrutiva, causando dano e  
+infligindo condições negativas;  
+é por isso que muitos desejam 
+as habilidades de um Elemen-
+talista... para fins maléficos.
+n
+n
+Ignore os avisos
+     deste mundo por
+         sua conta e risco.

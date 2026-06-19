@@ -248,6 +248,30 @@ f
                 </div>
               )}
 
+              {/* Servant Stats Block */}
+              {block.type === 'servants' && block.servants && (
+                <div className="grid grid-cols-1 md:grid-cols-3 gap-4 font-sans">
+                  {block.servants.map((servant, idx) => (
+                    <div key={idx} className={`border rounded-xl p-4.5 shadow-sm hover:shadow-md transition-all duration-200 flex flex-col justify-between ${currentTheme.accentBg}`}>
+                      <div>
+                        <div className="flex items-center gap-2 mb-3 pb-2 border-b border-gray-150">
+                          <span className="text-xl select-none">{servant.icon}</span>
+                          <h5 className="font-bold text-magic-950 text-base font-serif">{servant.name}</h5>
+                        </div>
+                        <ul className="text-xs text-gray-700 space-y-1 leading-normal mb-3">
+                          <li><strong>Vida:</strong> {servant.hp}</li>
+                          <li><strong>Atributos:</strong> Fis {servant.fisico} | Mag {servant.magia} | Men {servant.mental} | Soc {servant.social}</li>
+                          {servant.rd && <li><strong>Redução de Dano (RD):</strong> {servant.rd}</li>}
+                        </ul>
+                        <p className="text-[11px] text-gray-600 leading-normal border-t border-gray-100 pt-2 font-sans">
+                          <strong>Habilidade:</strong> {servant.ability}
+                        </p>
+                      </div>
+                    </div>
+                  ))}
+                </div>
+              )}
+
               {/* Cartomante Deck Table Block */}
               {block.type === 'deck' && block.rows && (
                 <div className="space-y-4 font-sans">

@@ -1,0 +1,661 @@
+--- PAGE 138 ---
+AMIGOS DE INFÂNCIA: UMA JORNADA E TANTO PELA FRENTE
+Três jovens heróis acompanham uma elfa misteriosa numa peregrinação para 
+descobrir o significado das visões inesperadas que a assolam. O escudeiro ani-
+mado e a jovem herbalista são personagens flexíveis, capazes tanto de causar 
+dano quanto de prestar suporte a seus aliados com magissementes, Trespassar 
+e Encorajar. A mineradora rabugenta bate forte, mas, acima de tudo, é muito 
+útil durante a viagem e consegue informações relevantes aonde quer que vá.
+ELFA MISTERIOSA Destreza d10, Astúcia d10, Vigor d6, Vontade d6
+Atirador (2 níveis): Barragem, Tiro de Aviso
+Erudito (2 níveis): Lampejo de Saber
+Quimerista (1 nível): Língua das Feras
+Arco curto, vestes de sábio, 170 zênites.
+MINERADORA RABUGENTA Destreza d6, Astúcia d8, Vigor d10, Vontade d8
+Andarilho (2 níveis): Caçador de T esouros, Papo de Taverna, Viajante
+Furioso (1 nível): Provocar
+Mercador (1 nível): Ventos do Comércio
+Machado de guerra (descrito como uma picareta!), placa de bronze, 120 zênites.
+ESCUDEIRO ANIMADO Destreza d10, Astúcia d6, Vigor d8, Vontade d8
+Mestre de Armas (3 níveis): Trespassar, Maestria com Armas Corpo a Corpo, 
+Quebra-ossos
+Orador (2 níveis): Encorajar (NP 2)
+Espada de bronze, traje de viagem, escudo rúnico, 120 zênites.
+JOVEM HERBALISTA Destreza d6, Astúcia d8, Vigor d8, Vontade d10
+Elementalista (2 níveis): Artilharia Mágica, Magia Elemental (T erra)
+Floralista (3 níveis): Cloromancia (NP2: dente-de-leão-saltitante, lírio-medici-
+nal), Enxerto
+Cajado, vestes de sábio, 270 zênites.
+136
+W
+W
+
+--- PAGE 139 ---
+A BRIGADA DA COZINHA: INVENTEI UMA RECEITA NOVA!
+Esse grupo explora a classe gourmet de várias formas diferentes: como a ficha 
+de receitas de cada personagem é pessoal e independente, as mesmas combi-
+nações têm resultados diferentes dependendo de quem as usa.
+ARTISTA DA FRITURA Destreza d8, Astúcia d8, Vigor d10, Vontade d6
+Furioso (1 nível): Resistir
+Gourmet (2 níveis): Culinária, Sal e Pimenta
+Guardião (2 níveis): Guarda-costas, Proteger
+Escudo wok (arma personalizada, (DES + VIG), luta, corpo a corpo; elemen-
+tal (fogo) e com aumento na Defesa e aumento na Defesa Mágica), placa de 
+bronze, 70 zênites.
+MESTRE DAS INFUSÕES Destreza d8, Astúcia d8, Vigor d8, Vontade d8
+Atirador (2 níveis): Barragem, Maestria com Armas à Distância
+Gourmet (2 níveis): Culinária, Garfo e Faca
+Inventor (2 níveis): Engenhocas (Infusões: básicas)
+Chaleira (arma personalizada, (DES + AST), arma de fogo, à distância; certei-
+ra, poderosa e com aumento na Defesa Mágica), camisa de seda, 170 zênites.
+CONSERVEIRO Destreza d6, Astúcia d10, Vigor d8, Vontade d8
+Entropista (1 nível): Magia Entrópica (Parar)
+Gourmet (2 níveis): Cozinheiro Viajante, Culinária
+Mercador (2 níveis): Estoque Pessoal, Ventos do Comércio
+Ultracongelador (arma personalizada, (DES + AST), adaga, corpo a corpo; cer-
+teira, elemental (gelo) e com aumento na Defesa), vestes de sábio, 70 zênites.
+COZINHEIRO DE RUA Destreza d8, Astúcia d8, Vigor d6, Vontade d10
+Andarilho (1 nível): Papo de Taverna
+Gourmet (2 níveis): Culinária, Feito com Amor
+Orador (2 níveis): Confio em Você, Aliado Inesperado
+Cajado (descrito como um leque!), vestes de sábio, 270 zênites.
+“Ainda que o mesmo mundo espere por eles,  
+cada um aprenderá uma lição diferente.”
+33PROTAGONISTAS
+  CAPÍTULO  CAPÍTULO
+137
+W
+
+--- PAGE 140 ---
+138
+W
+Floralista
+OUTROS NOMES: Lâmina do Florescer, Jardineiro, Herbalista
+Não há rosas
+      sem espinhos.
+A energia espiritual é bem 
+intensa nas plantas, graças 
+à sua conexão direta com a 
+terra. Disso, brotam as ma-
+gissementes, portadoras da 
+habilidade única de se nu-
+trir com energia espiritual 
+e florescer num majestoso e 
+efêmero triunfo mágico.
+Floralistas são capazes de 
+identificar e cultivar tais se-
+mentes, fornecendo imensa 
+variedade de benefícios que 
+podem ser combinadas com 
+todos os tipos de disciplinas 
+mágicas ou marciais.
+n
+n
+FLORALISTA
+W
+
+--- PAGE 141 ---
+BENEFÍCIOS INICIAIS DE FLORALISTA
+ w Aumente permanentemente seus PV ou PM máximos em 5 (à sua escolha).
+PODERES DE FLORALISTA
+ÁRVORE DA VIDA (çç5)
+Ao remover uma magissemente de seu jardim, você pode escolher uma criatura 
+que você possa ver: se o alvo estiver em crise, ele recupera (5 + (NP × 5)) PV.
+CLOROMANCIA (çç10)
+Sempre que adquirir este poder, você conhece um tipo diferente de magisse-
+mente da lista nas próximas páginas.
+Durante um conflito, se não houver magissementes em seu jardim, você pode 
+usar uma ação e gastar 20 PM para plantar uma magissemente de um tipo que 
+conheça. As regras de jardim e magissementes estão nas próximas páginas.
+ENXERTO
+Enquanto houver uma magissemente em seu jardim e 1 ou mais seções de seu 
+relógio de germinação estiverem preenchidas, você pode usar uma ação para 
+remover essa magissemente de seu jardim: se fizer isso, plante uma magisse-
+mente diferente, desde que seja uma das que você conhece (isso não altera as 
+sessões preenchidas de seu relógio de germinação).
+INFLUÊNCIA VERDEJANTE
+Você pode fazer rituais da disciplina ritualismo. Além disso, pode usar ritualis-
+mo para criar, animar e/ou controlar vegetação, pólen, esporos e toxinas (mas 
+não pode criar nem controlar NPCs da espécie planta dessa forma).
+JARDINAGEM MARCIAL (çç3)
+Após plantar uma magissemente usando Cloromancia (mas não Enxerto), você 
+pode escolher um: fazer um ataque livre com uma arma equipada; ou fazer a 
+ação Feitiço sem usar uma ação, lançando um feitiço com custo total de PM 
+igual ou inferior a (5 + (NP × 5)) (você ainda precisa pagar seu custo em PM). 
+Sua RA no teste de Precisão ou de Magia é considerada como 0 para calcular o 
+dano causado por este ataque ou magia.
+33PROTAGONISTAS
+  CAPÍTULO  CAPÍTULO
+139
+W
+O
+ w Quando e onde você descobriu sua primeira magissemente?
+ w Quem te ensinou a cuidar de plantas e flores?
+ w Como você implementou as magissementes em seu estilo de combate?
+ w Há muitos praticando a sua arte ou você é uma exceção?
+
+--- PAGE 142 ---
+O JARDIM
+Ao plantar uma magissemente, ela enraíza em seu jardim até ser removida. Seu 
+jardim é um espaço abstrato cuja aparência depende do personagem: pode ser 
+um vaso nas suas costas, uma fenda em sua lâmina ou até o chão sob seus pés. 
+Seu jardim pode ter apenas uma magissemente por vez, e quaisquer magisse-
+mentes no seu jardim são removidas automaticamente no fim de cada cena.
+RELÓGIO DE GERMINAÇÃO
+Ao adquirir Cloromancia, você também recebe um relógio de germinação, pre-
+sente apenas em cenas de conflito. Ele representa o ciclo da vida em seu jardim.
+ w Seu relógio de germinação tem 4 seções e começa cada cena sempre vazio.
+ w No fim do seu turno, se houver uma magissemente em seu jardim, preencha 1 
+seção do seu relógio de germinação; em seguida, se ainda tiver uma magis-
+semente em seu jardim e o efeito dela for “No fim do seu turno” (veja a seguir), 
+você deve ativar este efeito.
+ w Ao preencher a quarta seção de seu relógio de germinação, remova a magis-
+semente de seu jardim e apague todas as seções do relógio de germinação.
+ w Não é possível preencher ou apagar estas seções de nenhuma forma além da 
+descrita acima, do efeito de Dedo Verde ou Muralha de Espinhos (páginas 163 
+e 167) ou de efeitos que afetem especificamente relógios de germinação.
+EFEITOS DE MAGISSEMENTES
+As magissementes podem ter efeitos passivos ou ativados no fim de seu turno, 
+após o preenchimento do seu relógio de germinação.
+ w Efeitos de uma magissemente só se aplicam enquanto ela estiver enraizada e 
+variam a depender das seções preenchidas em seu relógio de germinação (T).
+ w Você aplica apenas o efeito correspondente ao número exato de seções pre-
+enchidas em seu relógio de germinação, nunca os efeitos de uma quantidade 
+maior ou menor de seções.
+ w Se estiver no 30° nível ou acima e o efeito da magissemente causar dano, ele 
+causa 5 pontos de dano adicional. Se estiver no 30° nível ou acima e o efeito 
+da magissemente causar perda ou recuperação de PV e/ou PM, a quantidade 
+de pontos recuperados e/ou perdidos aumenta em 10.
+MAGISSEMENTES
+140
+W
+W
+
+--- PAGE 143 ---
+LISTA DE MAGISSEMENTES
+A seguir, apresentamos uma lista padrão de magissementes que cada floralista 
+pode conhecer ao adquirir níveis em Cloromancia.
+Seu grupo também pode criar novas magissementes em conjunto e o mestre 
+pode incluí-las entre recompensas, independentemente do investimento em 
+Cloromancia. Cada magissemente vale cerca de 1.000z; faça o possível para 
+que novas magissementes tenham nível de poder semelhante às apresentadas.
+ASFÓDELO-DO-CEMITÉRIO
+Solene e elegante, representa a inevitabilidade da morte.
+T EFEITO
+1 No fim do seu turno, você pode escolher um inimigo que você possa ver. 
+Se o fizer, esse inimigo fica abalado.
+2 No fim do seu turno, todos os inimigos que você possa ver ficam abalados.
+3 No fim do seu turno, você causa uma quantidade de dano de trevas igual a 
+(15 + seu NP em Cloromancia) a cada inimigo abalado que você possa ver.
+BELADONA-DE-FOLHA-CURVA
+Seus frutos arroxeados contêm um veneno mágico mortal.
+T EFEITO
+0-1 T odo dano que você causa torna-se de veneno (esse tipo não pode ser 
+mudado e ignora Imunidades e Resistências).
+2-3
+O dano de todos os seus ataquer torna-se de veneno (esse tipo não pode 
+ser mudado e ignora Imunidades e Resistências). Além disso, quando você 
+causar dano de veneno pela primeira vez em seu turno, você causa dano 
+adicional igual a (seu NP em Cloromancia) e cada criatura que perder PV 
+dessa forma fica envenenada.
+33PROTAGONISTAS
+  CAPÍTULO  CAPÍTULO
+141
+W
+
+--- PAGE 144 ---
+CRAVO-FURIOSO
+Apesar da beleza, suas flores amarelas emitem odores desagradáveis.
+T EFEITO
+0-1
+Quando esta magissemente deixar seu jardim, escolha um inimigo que 
+você possa ver. Até o fim do seu próximo turno, quando o inimigo escolhi-
+do fizer um ataque ou lançar um feitiço ofensivo (O), ele deve incluir você 
+entre os alvos do ataque deste feitiço (se for possível).
+Até o fim do seu turno, você pode remover esta magissemente de seu 
+jardim. Se o fizer, apague todas as seções do seu relógio de germinação.
+CRISÂNTEMO-ARDENTE
+Suas pétalas grossas lembram um vulcão em erupção.
+T EFEITO
+1-3
+No fim do seu turno, escolha entre terra ou fogo. Até você usar esse efeito 
+novamente ou essa magissemente deixar seu jardim, todo o dano cau-
+sado por você e cada aliado presente na cena torna-se do tipo escolhido 
+(esse tipo não pode ser mudado e ignora Resistências).
+DÁLIA-DO-DESERTO
+Uma planta resistente que não teme a aridez.
+T EFEITO
+0-1 Você tem Resistência a dano de ar e de fogo.
+2-3 Você e aliados presentes na cena têm Resistência a dano de ar e de fogo.
+142
+W
+W
+
+--- PAGE 145 ---
+DENTE-DE-LEÃO-SALTITANTE
+Este símbolo de alegria espalha suas sementes em meio à tempestade.
+T EFEITO
+1-3
+No fim do seu turno, escolha entre ar ou raio. Até você usar esse efeito no-
+vamente ou essa magissemente deixar seu jardim, todo o dano causado 
+por você e cada aliado presente na cena torna-se do tipo escolhido (esse 
+tipo não pode ser mudado e ignora Resistências).
+ESPINHEIRO-CHIFRUDO
+Disputado por bruxas e cirgurgiões graças às suas propriedades purificantes.
+T EFEITO
+0-1 Você tem Resistência a dano de trevas e de veneno.
+2-3 Você e aliados presentes na cena têm Resistência a dano de trevas e de 
+veneno.
+ESTRELÍCIA-PRATEADA
+Seus botões prateados são facilmente confundidos com joias.
+T EFEITO
+0-1 Você tem Resistência a dano de raio e de luz.
+2-3 Você e aliados presentes na cena têm Resistência a dano de raio e de luz.
+GAZÂNIA PEREGRINA
+Suas pétalas exuberantes são sinônimo de abundância.
+T EFEITO
+1-2 No final do seu turno, escolha você ou outro personagem que puder ver.  
+O personagem escolhido recuperam 2 Pontos de Inventário.
+3 No fim do seu turno, você e todos os outros personagens que você possa 
+ver recuperam 1 Ponto de Inventário.
+33PROTAGONISTAS
+  CAPÍTULO  CAPÍTULO
+143
+W
+
+--- PAGE 146 ---
+GINKGO-DOURADO
+Suas folhas e cores vibrantes representam a resistência.
+T EFEITO
+1 No fim do seu turno, você e todos os aliados que você possa ver se recu-
+peram das condições abalados, atordoados e/ou enfurecidos.
+2-3 No fim do seu turno, você e todos aliados que você possa ver recuperam 
+uma quantidade de PM igual a (5 + seu NP em Cloromancia).
+ÍRIS-EREMITA
+Suas folhas trazem sussurros de conhecimentos antigos.
+T EFEITO
+1
+No fim do seu turno, escolha um inimigo que você possa ver. O mestre 
+deve revelar seu nível, patente, espécie, Pontos de Vida máximos, Pon-
+tos de Mana máximos, Traços, Atributos, Defesa e Defesa Mágica.
+2-3
+No fim do seu turno, escolha um inimigo que você possa ver. O mestre deve 
+revelar seu nível, patente, espécie, Pontos de Vida máximos, Pontos de 
+Mana máximos, Traços, Atributos, Defesa, Defesa Mágica e Afinidades.
+LÍRIO-MEDICINAL
+Suas folhas elegantes filtram e purificam a energia espiritual.
+T EFEITO
+0-1 No fim do seu turno, você e todos os aliados que você possa ver se recu-
+peram das condições envenenado, fraco e lento.
+2-3 No fim do seu turno, você e todos aliados que você possa ver recuperam 
+uma quantidade de PV igual (15 + seu NP em Cloromancia).
+144
+W
+W
+
+--- PAGE 147 ---
+LÓTUS-OCEÂNICA
+Um símbolo gracioso de serenidade e sabedoria.
+T EFEITO
+0-1 Você é imune às condições atordoado e lento.
+2 Você considera seus dados de Destreza e Astúcia como um passo maior 
+(máximo de d12).
+3 Você e todos os aliados que você possa ver consideram seus dados de 
+Destreza e Astúcia como um passo maior (máximo de d12).
+MAGNÓLIA-LUNAR
+Ela floresce nas horas mais escuras da noite.
+T EFEITO
+1-3
+No fim do seu turno, escolha entre gelo ou luz. Até você usar esse efeito 
+novamente ou esta magissemente deixar seu jardim, todo dano causado 
+por você e seus aliados presentes na cena torna-se do tipo escolhido 
+(esse tipo não pode ser mudado e ignora Resistências).
+MURALHA-DE-ESPINHOS
+Um emaranhado espinhento de galhos robustos que secretam veneno.
+T EFEITO
+0-1 Você tem Resistência a dano físico.
+2
+Você tem Resistência a dano físico. Além disso, após ser atingido por um 
+ataque corpo a corpo de uma criatura, você causa uma quantidade de 
+dano físico a esta criatura igual a (5 + seu NP em Cloromancia) (após o 
+ataque ser resolvido).
+3
+Você tem Resistência a dano físico. Além disso, após ser atingido por um 
+ataque corpo a corpo de uma criatura, você causa uma quantidade de dano 
+físico a esta criatura igual a (5 + seu NP em Cloromancia) e então causa 
+uma quantidade de dano físico a esta criatura igual a ( 5 + seu NP em 
+Cloromancia) (ambos os danos acontecem após o ataque ser resolvido).
+33PROTAGONISTAS
+  CAPÍTULO  CAPÍTULO
+145
+W
+
+--- PAGE 148 ---
+NARCISO-DO-ÁRTICO
+Sobrevive, firme e forte, em territórios congelados.
+T EFEITO
+0-1 Você tem Resistência a dano de terra e de gelo.
+2-3 Você e aliados presentes na cena têm Resistência a dano de terra e de gelo.
+ORQUÍDEA-LISTRADA
+T odas as partes dessa planta estão cobertas de toxinas.
+T EFEITO
+1 No fim do seu turno, você pode escolher um inimigo que você possa ver. 
+Se o fizer, esse inimigo fica fraco.
+2 No fim do seu turno, todos os inimigos que você possa ver ficam fracos.
+3 No fim do seu turno, você causa uma quantidade de dano de veneno igual 
+a (15 + seu NP em Cloromancia) a cada inimigo fraco que você possa ver.
+PEÔNIA-ESTRELADA
+Ela fita silenciosamente as profundezas celestiais.
+T EFEITO
+1 No fim do seu turno, você pode escolher um inimigo que você possa ver. 
+Se o fizer, esse inimigo fica atordoado.
+2 No fim do seu turno, todos os inimigos que você possa ver ficam atordoados.
+3 No fim do seu turno, você causa uma quantidade de dano de luz igual a (15 
++ seu NP em Cloromancia) a cada inimigo atordoado que você possa ver.
+146
+W
+W
+
+--- PAGE 149 ---
+PROTEA-REAL
+Uma flor colorida e resistente, símbolo de uma dinastia antiga.
+T EFEITO
+0-1 Você é imune às condições abalado e fraco.
+2 Você considera seus dados de Vigor e Vontade como um passo maior (má-
+ximo de d12).
+3 Você e todos os aliados que você possa ver consideram seus dados de 
+Vigor e Vontade como um passo maior (máximo de d12).
+ROSA-SERRILHADA
+Seus espinhos formam um emaranhado tão encantador quanto perigoso.
+T EFEITO
+1 No fim do seu turno, você pode escolher um inimigo que você possa ver. 
+Se o fizer, esse inimigo fica lento.
+2 No fim do seu turno, todos os inimigos que você possa ver ficam lentos.
+3 No fim do seu turno, você causa uma quantidade de dano de luz igual a 
+(15 + seu NP em Cloromancia) a cada inimigo lento que você possa ver.
+33PROTAGONISTAS
+  CAPÍTULO  CAPÍTULO
+147
+W
+
+--- PAGE 150 ---
+Gourmet
+148
+W
+W
+OUTROS NOMES: Cervejeiro, Chef, Confeiteiro
+Cozinhar pode ser uma habi-
+lidade comum, mas os gour-
+mets refinam o seu conhe-
+cimento sobre alimentos a 
+um nível que quase tona-se 
+sobrenatural: aperfeiçoando 
+a arte de extrair a energia 
+espiritual dos ingredientes e 
+infusionando suas refeições 
+com efeitos poderosos.
+Embora alguns gourmets fi-
+quem satisfeitos em apenas 
+se estabelecer em uma vila 
+ou aldeia, vivendo das suas 
+habilidades, alguns viajam o 
+mundo buscando por novos 
+ingredientes.
+n
+n
+Chefs de verdade 
+  respeitam a natureza 
+     do que transformam.
+GOURMET
+
+--- PAGE 151 ---
+BENEFÍCIOS INICIAIS DE GOURMET
+ w Aumente permanentemente seus Pontos de Inventário em 2.
+ w Você pode iniciar projetos para criar comidas e bebidas únicas: são sempre con-
+sumíveis com área baseada no número e tipo de criatura que precisa alimentar.
+PODERES DE GOURMET
+COZINHEIRO VIAJANTE (çç3)
+Após cada rolagem de viagem, se tiver o poder Culinária, você recebe (NP × 
+2) ingredientes.
+CULINÁRIA (çç5)
+Ao descansar em um assentamento, você recebe (NP) ingredientes.
+Você pode usar uma ação e combinar 2 ou 3 ingredientes para preparar uma 
+iguaria (veja a próxima página) e escolher um: aplicar os efeitos em você e num 
+aliado que você possa ver; ou fazer um ataque livre com uma arma equipada. 
+Esse ataque não causa dano, mas você aplica os efeitos da iguaria a cada inimi-
+go atingido pelo ataque.
+Você pode carregar consigo até 10 + (NP × 5) ingredientes e eles nunca estra-
+gam até que você os use. Se adquirir este poder na criação de personagem, você 
+pode começar o jogo com dez ingredientes com sabores aleatórios.
+FEITO COM AMOR (çç3)
+Quando usa Culinária e aplica os efeitos da iguaria em você ou num aliado que 
+você possa ver, você pode gastar até (NP × 10) PM. Para cada 10 PM gastos des-
+sa forma, aplique os efeitos da iguaria num aliado adicional que você possa ver.
+GARFO E FACA
+Quando usa Culinária para fazer um ataque livre, se você combinou apenas um 2 
+ingredientes, você também pode fazer o ataque causar dano normalmente. Se fi-
+zer isso, sua RA é considerada como 0 ao calcular o dano causado por este ataque.
+SAL E PIMENTA
+Ao preparar uma iguaria, você pode gastar 2 Pontos de Inventário. Se o fizer, 
+mude o sabor de um ingrediente para outro sabor à sua escolha.
+33PROTAGONISTAS
+  CAPÍTULO  CAPÍTULO
+149
+W
+O
+ w Quem te ensinou a cozinhar? Qual sua relação com seu mentor?
+ w Sua arte é revolucionária ou você já é estabelecido no meio?
+ w Qual a aparência dos seus pratos? Que ferramentas você usa?
+ w Por qual receita ou ingrediente lendário você está procurando?
+
+--- PAGE 152 ---
+A classe gourmet foi criada com foco na experimentação de novas combinações 
+de sabores, assim como o uso dessas combinações para criar uma variedade de 
+estratégias. Para registrar todas essas informações, você pode usar a ficha de 
+receitas que pode ser baixada em jamboeditora.com.br.
+RECEBENDO INGREDIENTES
+No geral, você recebe ingredientes através de Culinária e Cozinheiro Viajan-
+te. Você também pode recebê-los como recompensa durante o jogo. Ao obter  
+um ingrediente, você nem sempre terá certeza de qual será seu sabor — role um  
+d6 para determinar o sabor do ingrediente usando a tabela abaixo. Então, des-
+creva sua aparência e dê um nome a ele.
+Você também pode comprar ingredientes em feiras, lojas ou com mercadores. 
+O preço é de 10 zênites para um ingrediente com um sabor aleatório ou 20 
+zênites para um ingrediente com um sabor à sua escolha.
+SABORES DE INGREDIENTES
+1. Amargo 2. Salgado 3. Azedo 4. Doce 5. Umami 6. Sua escolha
+Exemplo: após atravessar a Floresta Petrificada, você recebe 2 ingredientes graças ao 
+poder Cozinheiro Viajante. Você rola 1 e 5 em seus sabores, o que significa que um 
+deles é amargo e o outro, umami.
+Você decide chamar o primeiro ingrediente de “Mel Fossilizado” e o segundo ingre-
+diente de “Cogumelo Casca de Árvore”. Você registra ambos em sua ficha de receitas, 
+cada um na sua respectiva coluna.
+INGREDIENTES E IGUARIAS
+150
+W
+W
+
+--- PAGE 153 ---
+SABORES E IGUARIAS
+Ao usar Culinária, você combina dois ou três ingredientes para gerar uma igua-
+ria com efeitos poderosos que serão aplicados a seus alvos.
+ w Cada combinação diferente de dois sabores (mesmo que seja o mesmo sabor 
+usado duas vezes) acrescenta um efeito à iguaria.
+ w Combinando dois sabores que nunca combinou antes, determine o efeito da 
+combinação rolando um d12 na tabela da próxima página. A maioria das op-
+ções também exige que você faça uma escolha (como um tipo de dano ou uma 
+condição). Depois, registre o resultado na ficha de receitas: a partir de então, 
+essa combinação de sabores sempre vai gerar esse exato efeito ao ser usada.
+ w Duas combinações de sabores em sua ficha de receitas não podem ter efeitos 
+idênticos. Ao determinar o efeito de uma combinação nova, faça suas escolhas 
+para que o efeito resultante não tenha semelhantes (por exemplo, com um tipo 
+diferente de dano ou condição). Se não for possível, rola o d12 novamente.
+ w Após ser preenchida, sua ficha de receitas terá um total de 15 efeitos, uma 
+para cada combinação possível de sabores.
+Exemplo: Você combina três ingredientes, um deles é salgado e dois, amargos. 
+A iguaria resultante tem duas combinações (amargo + amargo e amargo + 
+salgado), o que significa que ela vai gerar dois efeitos diferentes.
+No passado, você combinou amargo + amargo e rolou 4, resultando num efeito 
+de recuperação de PM. Por outro lado, você nunca combinou amargo + salgado. 
+Logo, precisa usar os dados para determinar o efeito dessa combinação.
+O resultado é 1, e você precisa escolher uma condição para este efeito. Como já 
+escolheu a recuperação da condição fraco para azedo + doce em outro momen-
+to, desta vez escolhe atordoado. De agora em diante, a combinação amargo + 
+salgado sempre removerá a condição atordoado do alvo.
+Após essas etapas, você sabe que sua iguaria recupera 40 PM de cada alvo e faz 
+eles se recuperarem da condição atordoado.
+Iguarias criadas por meio de Culinária têm efeito imediato e são destruídas 
+imediatamente. Se quiser preparar alimentos com efeitos únicos para usá-los 
+depois, você pode usar as regras para projetos (Livro Básico, página 134).
+33PROTAGONISTAS
+  CAPÍTULO  CAPÍTULO
+151
+W
+
+--- PAGE 154 ---
+EFEITOS DE IGUARIA
+d12 Efeito da combinação
+1 Cada alvo desta iguaria se recupera da condição (escolha uma: atordo-
+ado, furioso, envenenado, abalado, lento ou fraco).
+2 Cada alvo desta iguaria fica (escolha uma condição: atordoado, furioso, 
+envenenado, abalado, lento ou fraco).
+3 Cada alvo desta iguaria recupera 40 Ponto de Vida. Se estiver no 30º 
+nível ou acima, essa quantidade aumenta para 50.
+4 Cada alvo desta iguaria recupera 40 Pontos de Mana. Se estiver no 30º 
+nível ou acima, essa quantidade aumenta para 50.
+5
+Esta iguaria causa 20 pontos de dano de (escolha um tipo: fogo, gelo, 
+raio, terra ou veneno) a cada um de seus alvos. Se estiver no 30º nível 
+ou acima, esse dano aumenta para 30.
+6
+Até o fim do seu próximo turno, cada fonte de dano de (escolha um 
+tipo: fogo, gelo, raio, terra ou veneno) causa 5 pontos de dano adicio-
+nal em cada um dos alvos dessa iguaria.
+7 Cada alvo desta iguaria é impedido de fazer a ação Guarda no próximo 
+turno dele.
+8 Cada alvo desta iguaria é impedido de fazer a ação Feitiço no próximo 
+turno dele.
+9 Cada alvo desta iguaria é impedido de fazer a ação Poder no próximo 
+turno dele.
+10 Até o fim do seu próximo turno, cada alvo desta iguaria torna-se Resis-
+tente a dano de (escolha um tipo: fogo, gelo, raio, terra ou veneno).
+11
+Cada alvo desta iguaria considera seu dado de (escolha um: Destreza, 
+Astúcia, Vigor ou Vontade) como um passo maior (máximo de d12) até 
+o final do seu próximo turno.
+12
+No próximo turno de cada alvo desta iguaria, todo dano causado por 
+eles torna-se de (escolha um tipo: fogo, gelo, raio, terra ou veneno) e 
+esse tipo não pode ser mudado.
+152
+W
+W
+
+--- PAGE 155 ---
+REGRAS ESPECIAIS DE EFEITOS
+Iguarias e seus respectivos efeitos seguem algumas regras especiais.
+ w Cada iguaria sempre tem um, dois ou três efeitos dependendo da combinação 
+de sabores usada (os efeitos também podem chegar a quatro ou seis se você 
+usar a poder heroico Rodízio, página 169). Você decide em que ordem aplicar 
+os efeitos e pode escolher abrir mão de quantos desejar (mas a mesma esco-
+lha deve se aplicar a todos os alvos da iguaria).
+ w Efeitos de 5 a 12 só podem ser aplicados em cenas de conflito.
+ w Uma iguaria só pode ter um único efeito do tipo 5 (ou seja, um efeito que 
+causa dano). Se a iguaria tiver 2 ou mais efeitos do tipo 5 pela combinação de 
+sabores usada, você precisa escolher apenas um deles e abrir mão dos outros.
+ w Uma iguaria só pode ter um único efeito do tipo 12 (ou seja, um efeito que 
+muda o tipo de dano). Se a iguaria tiver 2 ou mais efeitos do tipo 12 pela 
+combinação de sabores usada, você precisa escolher apenas um deles e abrir 
+mão dos outros.
+Exceto nos casos explicados acima, os efeitos de uma iguaria são cumulativos 
+e devem ser aplicados por completo a cada um de seus alvos.
+Exemplo: se você rolar o efeito 2 para a combinação doce + umami, o efeito 5 
+para amargo + umami e o efeito 9 para amargo + doce, a iguaria criada com a 
+combinação destes efeitos vai causar dano, causar uma condição e evitar o uso 
+da ação Poder por um período curto de tempo!
+POR FIM, ALGUNS CONSELHOS
+Esta é uma classe bastante atípica: não existe nenhuma forma concreta de 
+controlar perfeitamente o papel assumido pelo seu personagem porque suas 
+habilidades serão geradas proceduralmente ao longo da campanha. Mas não 
+esqueça que você pode preparar iguarias fora das cenas de conflito: vai custar 
+alguns ingredientes, é claro, mas poderá descobrir os efeitos antes do combate 
+e evitar o processo de tentativa e erro durante uma situação crítica. Fora isso, 
+preste atenção a quais efeitos interagem melhor uns com os outros e com o 
+resto do seu grupo e tire vantagem da propriedade multi para aplicar a mesma 
+iguaria a dois ou mais inimigos!
+“Boatos dizem que o Templo das Cinco Especiarias tem a receita
+de um prato que pode invocar a alma de quem já partiu.”
+33PROTAGONISTAS
+  CAPÍTULO  CAPÍTULO
+153
+W
+
+--- PAGE 156 ---
+154
+W
+Invocador
+OUTROS NOMES: Assecla, Canalizador, Mestre das Cinco Almas
+Invocadores estudam a ener- 
+gia inata das almas e a for-
+ma como ela flui e se mani-
+festa espontaneamente em 
+seus arredores. Mesmo que 
+sua arte dependa de cana-
+lizar o poder elemental, ela 
+se adapta às fontes já exis-
+tentes em vez de forçar um 
+resultado que não é natural 
+e afetar o fluxo espiritual.
+Isso posto, invocadores ain-
+da são aventureiros formi-
+dáveis. Detentores de gran-
+de flexibilidade e com uma 
+afinidade única para com as 
+criaturas elementais.
+n
+n
+Anseie pela compreensão,
+     não pelo controle.
+W
+INVOCADOR
+
+--- PAGE 157 ---
+BENEFÍCIOS INICIAIS DE INVOCADOR
+ w Aumente permanentemente seus PV ou PM máximos em 5 (à sua escolha).
+PODERES DE INVOCADOR
+CASCATA (çç5)
+Após um inimigo que você possa ver perder PV graças ao dano causado por um de 
+seus aliados, se o aliado causou dano adicional graças a uma de suas invocações 
+do tipo “Praga”, você pode fazer um ataque livre com uma arma equipada. Esse 
+ataque pode ter apenas o mesmo inimigo como alvo e você recebe um bônus no 
+teste de Precisão igual a (NP). Se o atingir, todo dano causado pelo seu ataque 
+é do mesmo tipo causado pelo aliado, e todas as invocações do tipo “Praga” que 
+estão no alvo se dissipam após o ataque ser resolvido.
+Se dois ou mais inimigos engatilharem esse poder ao mesmo tempo, você pode 
+fazer um ataque livre contra cada um deles, na ordem você que preferir.
+EXPANDIR MANANCIAL (çç5)
+Enquanto você estiver equipado com um arco, arma arcana, arma arremessável, 
+arma de luta, espada ou mangual, suas invocações de tipo “explosão” causam 
+(NP) pontos de dano adicional e o dano adicional concedido por suas invoca-
+ções do tipo “praga” aumenta em (NP).
+HARMONIA ELEMENTAL (çç2)
+Você consegue se comunicar verbalmente com criaturas elementais.
+Ao restaurar os PV de uma criatura com uma invocação ou feitiço, se houver um 
+elemental presente na cena, o efeito restaura (NP × 5) PV adicionais.
+INVOCAÇÃO (çç3)
+Você pode usar uma ação e gastar 5 PM para fazer uma invocação acessando a 
+energia de um dos mananciais presentes na cena (veja a próxima página). Seu 
+(NP) determina a quais invocações você tem acesso.
+INVOCAÇÕES CONECTADAS (çç3)
+Ao fazer uma invocação, você pode gastar até (NP × 10) PM adicionais. A cada 
+10 PM gastos desta forma, a invocação pode ter uma criatura adicional que você 
+possa ver como alvo.
+33PROTAGONISTAS
+  CAPÍTULO  CAPÍTULO
+155
+W
+O
+ w Como você desenvolveu a arte da invocação?
+ w Há um espírito ou criatura elemental com quem você tem um vínculo único?
+ w Como suas invocações se manifestam?
+ w Suas habilidades são comuns ou você é uma exceção?

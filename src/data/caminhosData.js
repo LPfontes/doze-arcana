@@ -13,7 +13,7 @@ const CAMINHOS_DATA = {
       {
         title: 'Posturas de Combate',
         type: 'postures',
-        desc: 'Você adquire 3 posturas de combate. Custa 1 Ação Padrão para entrar ou trocar de postura:',
+        desc: 'Você adquire posturas de combate. Custa 1 Ação Padrão para entrar ou trocar de postura, mas desfazer uma postura ativa é uma Ação Livre:',
         items: [
           { name: 'Ofensiva', desc: 'Posiciona o pé de apoio à frente, focando no alcance. Seus ataques corpo a corpo causam +2 de dano, mas sua Defesa é reduzida em -2.' },
           { name: 'Defensiva', desc: 'Foco em proteção. Sua Defesa aumenta em +2, mas seu deslocamento (movimentação) é reduzido pela metade.' },
@@ -25,7 +25,10 @@ const CAMINHOS_DATA = {
         type: 'abilities',
         items: [
           { name: 'Interpor', details: 'Passiva', desc: 'Você ganha a reação Interpor. Ao usá-la, você entra na frente de um ataque direcionado a um aliado adjacente, sofrendo o dano no lugar dele e recebendo +1 de Redução de Dano (PR) contra esse golpe.' },
-          { name: 'Espadachim', details: 'Ativação: 1 Ponto de Arcana', desc: 'Você manifesta um Dado de Espadachim que dura até o final da cena. No seu primeiro acerto corpo a corpo, o dado começa in 1d4. A cada acerto consecutivo, o dado "cresce" um passo (1d4 ➔ 1d6 ➔ 1d8 ➔ 1d10 ➔ 1d12). Você pode gastar este dado a qualquer momento para somar o valor rolado ao dano ou à rolagem de acerto de um ataque corpo a corpo. Se você errar um ataque ou consumir o dado, ele é reiniciado.' }
+          { name: 'Espadachim', details: 'Ativação: 1 Ponto de Arcana', desc: 'Você manifesta um Dado de Espadachim que dura até o final da cena. No seu primeiro acerto corpo a corpo, o dado começa em 1d4. A cada acerto consecutivo, o dado "cresce" um passo (1d4 ➔ 1d6 ➔ 1d8 ➔ 1d10 ➔ 1d12). Você pode gastar este dado a qualquer momento para somar o valor rolado ao dano ou à rolagem de acerto de um ataque corpo a corpo. Se você errar um ataque ou consumir o dado, ele é reiniciado.' },
+          { name: 'Golpe Personalizado', details: '1 Ação Padrão | 2 PM', desc: 'Quando você realiza um ataque físico básico corpo a corpo, você adiciona um efeito especial: o ataque ignora até 2 pontos de Redução de Dano (RD) do alvo ou você recebe Vantagem (+1d4) no teste de acerto.' },
+          { name: 'Postura do Vento', details: 'Passiva', desc: 'Você adquire a Postura do Vento. Quando ativa (custa 1 Ação Padrão para entrar/trocar), sempre que você realizar um ataque corpo a corpo e acertar, todos os inimigos adjacentes ao alvo sofrem 2 de dano de impacto.' },
+          { name: 'Postura do Fogo', details: 'Passiva', desc: 'Você adquire a Postura do Fogo. Quando ativa (custa 1 Ação Padrão para entrar/trocar), você pune os avanços do seu inimigo, causando 2 de dano de fogo a qualquer alvo que efetuar um ataque corpo a corpo contra você.' }
         ]
       },
       {
@@ -33,7 +36,7 @@ const CAMINHOS_DATA = {
         type: 'spells',
         items: [
           { name: 'Encantar', details: '1 Ação Padrão | 3 PM', desc: 'Você imbui uma arma com energia de uma Arcana. Até o final do seu próximo turno, a arma causa 1d4 de dano mágico extra do elemento escolhido. (Nível 2: O dano extra aumenta para 1d6).' },
-          { name: 'Velocidade de Mir', details: '1 Ação Padrão | 4 PM', desc: 'Você impulsiona seu potencial físico com magia. No seu próximo turno, você recebe +1 Ação Padrão extra e +3 Espaços de movimento.' },
+          { name: 'Velocidade de Mir', details: '1 Ação Padrão | 4 PM', desc: 'Você impulsiona seu potential físico com magia. No seu próximo turno, você recebe +1 Ação Padrão extra e +3 Espaços de movimento.' },
           { name: 'Escudo Arcano', details: '1 Ação Padrão | 3 PM', desc: 'Você gera uma barreira e recebe +2 de Redução de Dano até o seu próximo turno. (Melhoria: Por +2 PM, a duração aumenta em 1 turno). (Nível 2: Custa 4 PM e fornece +4 de Redução de Dano).' }
         ]
       },
@@ -78,7 +81,9 @@ const CAMINHOS_DATA = {
           { name: 'Coordenar Ataque', details: '1 Ação Complexa | 3 PM', desc: 'Você e sua fera atacam simultaneamente. Você realiza um ataque contra o alvo com 1 Vantagem. Se acertar, causa o dano do seu ataque somado ao dano do ataque da fera, mais 1d6 de dano bônus.' },
           { name: 'Marcar', details: '1 Ação Padrão | 4 PM', desc: 'Você estipula um alvo. Pelo resto da cena, todos os ataques seus e do seu Laço Animal contra ele recebem 1 Vantagem, e a margem de acerto crítico contra este alvo é expandida para (11/11 e 12/12). (Melhoria: Por +3 PM, você pode marcar um alvo adicional).' },
           { name: 'Rastrear', details: '1 Ação Padrão | 2 PM', desc: 'Usa a conexão sensorial com a fera para buscar rastros. Exige um teste de Magia + Controle (DT 10). No sucesso, você descobre a posição relativa, a direção tomada e a quantidade aproximada de indivíduos.' },
-          { name: 'Domar', details: '1 Ação Complexa | 3 PM', desc: 'Você acalma e se conecta com um animal ou besta mágica. Por 1 dia, a criatura o vê como aliado e obedece a ordens simples que não violem sua natureza (ordens suicidas quebram o encanto imediatamente e tornam a criatura hostil).' }
+          { name: 'Domar', details: '1 Ação Complexa | 3 PM', desc: 'Você acalma e se conecta com um animal ou besta mágica. Por 1 dia, a criatura o vê como aliado e obedece a ordens simples que não violem sua natureza (ordens suicidas quebram o encanto imediatamente e tornam a criatura hostil).' },
+          { name: 'Língua das Feras', details: 'Passiva', desc: 'Você é capaz de se comunicar com animais e bestas mágicas naturalmente. Você recebe Vantagem (+1d4) em testes de Social (como Persuadir) aplicados a criaturas da espécie fera ou monstro.' },
+          { name: 'Fúria Coordenada', details: 'Reação | 2 PM', desc: 'Gatilho: Quando a sua Fera (Laço Animal) sofre dano. Você e seu companheiro animal entram em um estado de fúria selvagem por 1 rodada. Ambos causam +2 de dano físico e recebem +1 de Redução de Dano (RD) física natural.' }
         ]
       },
       {
@@ -102,6 +107,14 @@ const CAMINHOS_DATA = {
     desc: 'Focado na conjuração direta de magias destrutivas e manipulação de zonas de combate.',
     subtitle: 'Caminho: Elementalista',
     blocks: [
+      {
+        title: 'Habilidades',
+        type: 'abilities',
+        items: [
+          { name: 'Artilharia Mágica', details: 'Passiva', desc: 'Ao conjurar um feitiço de dano em área (como Bola de Fogo ou Flores de Liz), o alcance base do feitiço aumenta em um passo (ex: de Curto para Médio, ou de Médio para Longo).' },
+          { name: 'Sintonia da Arcana', details: 'Ação Livre | 2 PM', desc: 'Até o final da cena, você sintoniza seu foco com uma Arcana Elemental específica (Fogo, Água, Terra, Vento, Luz ou Escuridão). Você ganha Resistência (RD 2) contra o elemento escolhido e todas as suas magias dessa Arcana causam +2 de dano mágico adicional.' }
+        ]
+      },
       {
         title: 'Magias',
         type: 'spells',
@@ -137,7 +150,7 @@ const CAMINHOS_DATA = {
           {
             name: 'Avatar da Destruição',
             details: 'Ação Livre | 1 Ponto de Arcana',
-            desc: 'Você se torna a própria manifestação da fúria da natureza. Até o final da cena, todas as suas magias de dano elemental têm seu custo em PM reduzido em 2. Adicionalmente, quando você conjurar uma magia em área (como Bola de Fogo ou Área Persistente), você possui controle absoluto e escolhe quem sofre o dano e quem é ignorado, protegendo seus aliados perfeitamente.'
+            desc: 'Você se torna a própria manifestação da fúria da natureza. Até o final da cena, todas as suas magias de dano elemental têm seu custo em PM reduzido em 1. Adicionalmente, quando você conjurar uma magia em área (como Bola de Fogo ou Área Persistente), você possui controle absoluto e escolhe quem sofre o dano e quem é ignorado, protegendo seus aliados perfeitamente.'
           }
         ]
       }
@@ -154,11 +167,18 @@ const CAMINHOS_DATA = {
       {
         title: 'Habilidades e Totens',
         type: 'totems',
-        desc: 'Você conhece 3 totens místicos e pode posicioná-los em um espaço adjacente a você ou arremessá-los até alcance Curto:',
+        desc: 'Você conhece 3 totens místicos e pode posicioná-los em um espaço adjacente a você ou arremessá-los até alcance Curto. Cada totem custa 3 PM, possui 5 PV e Defesa 5. Você não consegue ter mais de 2 totens ativos ao mesmo tempo:',
         items: [
           { name: 'Totem do Guardião (Urso/Touro)', desc: 'Aliados adjacentes ao totem recebem Cobertura Leve e +2 de Proteção (PR).' },
           { name: 'Totem do Flagelo', desc: 'Inimigos que passarem pelo totem sofrem 1d4 de dano elemental (o elemento é escolhido por você ao posicionar).' },
           { name: 'Totem da Mãe', desc: 'Aliados adjacentes regeneram 1d4 PV no início de seus turnos.' }
+        ]
+      },
+      {
+        title: 'Habilidades',
+        type: 'abilities',
+        items: [
+          { name: 'Totem Verdoso', details: 'Passiva', desc: 'Você pode plantar uma magissemente mágica na base de um de seus Totens ativos. O totem passa a emitir uma aura que limpa as condições Envenenado ou Lento de qualquer aliado que iniciar o turno adjacente a ele.' },
         ]
       },
       {
@@ -173,7 +193,7 @@ const CAMINHOS_DATA = {
             effects: [
               { name: 'Perseguidor', desc: 'Um espírito maldito assombra o alvo, causando 1d4 de dano mental no início do turno do inimigo. No final do turno dele, ele testa Magia + Controle para tentar banir o espírito.' },
               { name: 'Definhar', desc: 'O alvo sofre -1 em um Atributo à sua escolha. No final do turno dele, testa Magia + Controle para quebrar o efeito.' },
-              { name: 'Malogro', desc: 'O alvo sofre 1 Desvantagem (-1d6) em todos os testes. No final do turno dele, testa Magia + Controle para se livrar do azar.' }
+              { name: 'Malogro', desc: 'O alvo sofre 1 Desvantagem em todos os testes. No final do turno dele, testa Magia + Controle para se livrar do azar.' }
             ]
           }
         ]
@@ -205,6 +225,52 @@ const CAMINHOS_DATA = {
         desc: 'Você serve de canal sob a tutela do "Senhor dos Contratos". Você escolhe e invoca um servo de outro plano (um elemental, um demônio menor ou um feérico). Enquanto o contrato for mantido e houver fluxo de mana, a criatura é sustentada no nosso plano material e é imune à morte definitiva.'
       },
       {
+        title: 'Habilidades',
+        type: 'abilities',
+        items: [
+          { name: 'Vínculo do Guardião', details: 'Reação | 2 PM', desc: 'Gatilho: Quando seu Servo Planar sofrer dano de um ataque inimigo. Você divide o fluxo de mana para absorver metade do dano sofrido pelo servo diretamente na sua Proteção (PR) ou PV.' },
+          { name: 'Comunhão de Matéria', details: 'Passiva', desc: 'Enquanto seu servo do tipo Elemental estiver ativo em campo, todos os seus ataques físicos corpo a corpo causam +2 de dano mágico do elemento correspondente ao elemental invocado.' }
+        ]
+      },
+      {
+        title: 'Servos Planares (Estatísticas Base)',
+        type: 'servants',
+        desc: 'O conjurador escolhe um tipo de servo ao realizar o pacto. Todos os servos possuem 1 Ação Padrão e 1 Ação de Movimento por turno:',
+        servants: [
+          {
+            name: 'Elemental',
+            icon: '🔥',
+            hp: '25 PV',
+            fisico: '3',
+            magia: '0',
+            mental: '0',
+            social: '0',
+            rd: '1 (Natural)',
+            ability: 'Corpo de Matéria: Recebe +1 de Redução de Dano (RD) natural. Seus ataques causam dano físico ou do seu elemento de origem.'
+          },
+          {
+            name: 'Demônio Menor',
+            icon: '😈',
+            hp: '18 PV',
+            fisico: '2',
+            magia: '1',
+            mental: '0',
+            social: '0',
+            ability: 'Lâmina de Fogo/Sombra: Seus ataques corpo a corpo causam +1d4 de dano de fogo ou sombra extra.'
+          },
+          {
+            name: 'Feérico',
+            icon: '🦋',
+            hp: '15 PV',
+            fisico: '1',
+            magia: '2',
+            mental: '1',
+            social: '1',
+            ability: 'Bênção Crepuscular (1 Ação Padrão): Concede +2 de Proteção (PR) ou 1 Vantagem na próxima jogada de um aliado em alcance curto.'
+          }
+        ]
+      },
+      {
         title: 'Habilidade Suprema de Arcana',
         type: 'arcana',
         items: [
@@ -229,7 +295,25 @@ const CAMINHOS_DATA = {
         title: 'Habilidades',
         type: 'abilities',
         items: [
-          { name: 'Maldições Avançadas', details: '1 Ação Padrão | 2 PM', desc: 'Compartilha a mesma lista de Maldições do Xamã (Perseguidor, Definhar, Malogro), porém o Bruxo possui um domínio superior e pode manter até 2 maldições simultaneamente em oponentes distintos (ou acumuladas). Conjurar uma terceira dissipa a primeira.' }
+          { name: 'Maldições Avançadas', details: '1 Ação Padrão | 2 PM', desc: 'Compartilha a mesma lista de Maldições do Xamã (Perseguidor, Definhar, Malogro), porém o Bruxo possui um domínio superior e pode manter até 2 maldições simultaneamente em oponentes distintos (ou acumuladas). Conjurar uma terceira dissipa a primeira.' },
+          { name: 'Selo de Peste', details: '1 Ação Padrão | 3 PM', desc: 'O Bruxo amaldiçoa uma Área Pequena (3x3) em alcance Médio até o final da cena. Inimigos que terminarem o turno na área sofrem a condição Fraco por 1 rodada e perdem 2 PM.' },
+          { name: 'Barganha de Alma', details: 'Ação Livre | 1 Ponto de Arcana', desc: 'Você queima parte de seu vigor físico em troca de poder bruto. Você perde 5 PV (que ignoram Proteção e RD) e recupera instantaneamente 4 PM da sua reserva.' }
+        ]
+      },
+      {
+        title: 'Magias',
+        type: 'spells',
+        items: [
+          {
+            name: 'Maldição',
+            details: '1 Ação Padrão | 2 PM',
+            desc: 'Lançada em alcance Médio. Você só pode manter 1 maldição ativa por vez (ou até 2 se possuir a habilidade Maldições Avançadas; conjurar além do limite dissipa a mais antiga). Escolha um dos efeitos:',
+            effects: [
+              { name: 'Perseguidor', desc: 'Um espírito maldito assombra o alvo, causando 1d4 de dano mental no início do turno do inimigo. No final do turno dele, ele testa Magia + Controle para tentar banir o espírito.' },
+              { name: 'Definhar', desc: 'O alvo sofre -1 em um Atributo à sua escolha. No final do turno dele, testa Magia + Controle para quebrar o efeito.' },
+              { name: 'Malogro', desc: 'O alvo sofre 1 Desvantagem em todos os testes. No final do turno dele, testa Magia + Controle para se livrar do azar.' }
+            ]
+          }
         ]
       },
       {
@@ -239,7 +323,7 @@ const CAMINHOS_DATA = {
           {
             name: 'Peste Inevitável',
             details: 'Ação Padrão | 1 Ponto de Arcana',
-            desc: 'O seu rancor se espalha como uma praga. Escolha uma das suas Maldições (Perseguidor, Definhar ou Malogro). Em vez de afetar um único alvo, você lança essa maldição sobre todos os inimigos presentes em uma Área Média ao seu redor. Os testes de Magia + Controle para se livrarem dela nos turnos subsequentes são feitos com 1 Desvantagem (-1d6).'
+            desc: 'O seu rancor se espalha como uma praga. Escolha uma das suas Maldições (Perseguidor, Definhar ou Malogro). Em vez de afetar um único alvo, você lança essa maldição sobre todos os inimigos presentes em uma Área Média ao seu redor. Os testes de Magia + Controle para se livrarem dela nos turnos subsequentes são feitos com 1 Desvantagem .'
           }
         ]
       }
@@ -257,7 +341,7 @@ const CAMINHOS_DATA = {
         title: 'Habilidades',
         type: 'abilities',
         items: [
-          { name: 'Projeto Especial', desc: 'Você pode trabalhar na criação de um Artefato unique em colaboração com o Narrador, que definirá a Dificuldade e o tempo necessário para o projeto.' },
+          { name: 'Projeto Especial', desc: 'Você pode trabalhar na criação de um Artefato único em colaboração com o Narrador, que definirá a Dificuldade e o tempo necessário para o projeto.' },
           {
             name: 'Melhoria de Equipamento',
             desc: 'Durante um Descanso Longo, você pode realizar manutenção e melhorar até 2 itens do seu grupo. Os efeitos duram até o próximo descanso longo e não se acumulam:',
@@ -277,7 +361,9 @@ const CAMINHOS_DATA = {
               { name: 'Runa de Terra (Defesa)', desc: 'Concede +2 de Redução de Dano até o próximo turno do usuário.' },
               { name: 'Runa de Ar (Defesa)', desc: 'Ao sofrer dano corpo a corpo, empurra o atacante 3 Espaços para trás imediatamente, sem provocar reações.' }
             ]
-          }
+          },
+          { name: 'Foco Aprimorado', details: 'Passiva', desc: 'Você personaliza seu foco arcano (cajado, varinha ou runa). Ao conjurar feitiços através dele, o custo em PM de todos os aprimoramentos aplicados é reduzido em 1 (até o custo mínimo de 1 PM).' },
+          { name: 'Runomancia Provisória', details: '1 Ação Padrão | 2 PM', desc: 'Você inscreve uma runa elemental efêmera em um aliado. Ele recebe Resistência (RD 3) contra uma Arcana elemental à sua escolha (Fogo, Água, Terra, Vento, Luz ou Escuridão) até o final da cena.' }
         ]
       },
       {
@@ -322,6 +408,17 @@ const CAMINHOS_DATA = {
         ]
       },
       {
+        title: 'Habilidades',
+        type: 'abilities',
+        items: [
+          { name: 'Acerto do Caos', details: 'Passiva', desc: 'Sempre que você rolar um Acerto Crítico (6 e 6) ou uma Falha Crítica (1 e 1) ao fazer um ataque ou teste de Cartomante, você pode puxar uma carta adicional de seu Baralho do Destino sem gastar ações ou PM.' },
+          { name: 'Trapaça do Destino', details: 'Reação | 2 PM', desc: 'Gatilho: Ao puxar uma carta do Baralho do Destino. Você descarta a carta puxada e rola novamente 1d12 para puxar outra, aceitando o novo resultado.' },
+          { name: 'Leitura de Cartas', details: '1 Ação Completa | 5 PM', desc: 'Você lê as cartas de alguém. Role 3d12 e guarde os valores. Você pode escolher um teste que o alvo da magia vai realizar e, em vez dele rolar os dados, você escolhe e aplica um dos valores guardados.' },
+          { name: 'Vislumbre Maldito', details: 'Reação | 3 PM', desc: 'Gatilho: Quando você ou um aliado sofre um ataque que acerta. Você vê um futuro desfavorável e reage para tentar mudar esse momento. Role 1d4 + Magia e subtraia o resultado do valor do ataque inimigo.' },
+          { name: 'Amarração', details: 'Ritual de 2 horas | 4 PM', desc: 'Você realiza um ritual poderoso que vincula duas pessoas, fazendo com que sejam atraídas uma pela outra e se encontrem "por coincidência" no futuro. Você precisa ter um artefato pessoal de cada pessoa para este ritual.' }
+        ]
+      },
+      {
         title: 'Habilidade Suprema de Arcana',
         type: 'arcana',
         items: [
@@ -343,7 +440,7 @@ const CAMINHOS_DATA = {
     subtitle: 'Caminho: Metamorfo',
     blocks: [
       {
-        title: 'Habilidade',
+        title: 'Habilidades',
         type: 'abilities',
         items: [
           {
@@ -355,6 +452,38 @@ const CAMINHOS_DATA = {
               { name: 'Ofensiva', desc: 'Cresce garras, caudas perfurantes ou chifres. O primeiro ataque corpo a corpo feito no seu turno recebe 1 Vantagem e causa +1d4 de dano físico.' },
               { name: 'Defensiva', desc: 'Pele engrossa ou brotam escamas espessas. Você recebe +2 de Redução de Dano (PR) permanente enquanto mantido.' }
             ]
+          },
+          { name: 'Quimera Apex', details: '1 Ação Complexa | 4 PM', desc: 'Seu corpo se altera violentamente, fundindo múltiplos traços animais. Você ativa as mutações Alada e Ofensiva simultaneamente por 3 rodadas sem precisar pagar custos de PM adicionais por elas.' },
+          { name: 'Mitose Regenerativa', details: 'Ação Livre | 2 PM', desc: 'No início de seu turno, você pode forçar suas células a se regenerarem rapidamente, curando 1d6 PV. Como efeito colateral, seu corpo fica temporariamente dormente, aplicando a condição Lento em você até o início do seu próximo turno.' },
+          {
+            name: 'Adaptação',
+            details: '1 Ação Completa | 4 PM',
+            desc: 'Você analisa uma fera à sua vista. Faça um teste de Mental Percepção (DT 8). Em caso de sucesso, o Narrador revela as habilidades naturais da fera; você escolhe uma delas e pode utilizá-la até o seu próximo Descanso Longo.'
+          },
+          {
+            name: 'Sentidos Apurados',
+            details: '1 Ação Padrão | 2 PM',
+            desc: 'Você aprimora temporariamente um de seus sentidos. Escolha uma das opções a seguir:',
+            effects: [
+              { name: 'Visão', desc: 'Você recebe 1 Vantagem (+1d4) em testes de percepção ligados à visão.' },
+              { name: 'Audição', desc: 'Você recebe 1 Vantagem (+1d4) em testes de percepção ligados à audição.' },
+              { name: 'Olfato', desc: 'Você recebe 1 Vantagem (+1d4) em testes de percepção ligados ao olfato.' }
+            ]
+          },
+          {
+            name: 'Físico Aprimorado',
+            details: '1 Ação Padrão | 4 PM',
+            desc: 'Você melhora temporariamente seu organismo. Escolha um dos atributos a seguir:',
+            effects: [
+              { name: 'Destreza', desc: 'Você recebe 1 Vantagem (+1d4) em testes de Físico Destreza.' },
+              { name: 'Força', desc: 'Você recebe 1 Vantagem (+1d4) em testes de Físico Força.' },
+              { name: 'Vigor', desc: 'Você recebe 1 Vantagem (+1d4) em testes de Físico Vigor.' }
+            ]
+          },
+          {
+            name: 'Metamorfose Peçonhenta',
+            details: 'Passiva',
+            desc: 'Você adquire uma peçonha feral. Você pode desferir um ataque básico corpo a corpo especial: em caso de acerto, causa dano igual ao Maior d6 do ataque + seu atributo de Físico + 1d4 de dano de veneno. O alvo deve fazer um salvamento de Físico Vigor (DT 8) ou sofrerá a condição Envenenado.'
           }
         ]
       },
@@ -379,6 +508,14 @@ const CAMINHOS_DATA = {
     desc: 'Mestres da cura milagrosa, proteção de grupo e purificação física/espiritual.',
     subtitle: 'Caminho: Clérigo',
     blocks: [
+      {
+        title: 'Habilidades',
+        type: 'abilities',
+        items: [
+          { name: 'Aura de Pacifismo', details: '1 Ação Padrão | 3 PM', desc: 'Você projeta um campo de serenidade absoluta em uma Área Pequena (3x3) ao seu redor. Qualquer criatura (aliada ou inimiga) que tentar realizar uma ação agressiva ou ataque físico na área deve passar em um salvamento de Mental Vontade ou perderá a ação. A aura dura por 1 rodada.' },
+          { name: 'Taumaturgia Sagrada', details: 'Passiva', desc: 'Seus feitiços de cura direta de PV fornecem +2 PV adicionais na cura final para cada nível de Caminho que você possuir em Clérigo.' }
+        ]
+      },
       {
         title: 'Magias',
         type: 'spells',
@@ -409,6 +546,14 @@ const CAMINHOS_DATA = {
     subtitle: 'Caminho: Ilusionista',
     blocks: [
       {
+        title: 'Habilidades',
+        type: 'abilities',
+        items: [
+          { name: 'Dublê Ilusório', details: 'Reação | 3 PM', desc: 'Gatilho: Ao ser alvo de um ataque físico corpo a corpo ou à distância. Você cria uma projeção ilusória no seu espaço e se esquiva 2 espaços para o lado. O ataque inimigo atinge a ilusão automaticamente (dissipando-a) e causa 0 de dano a você.' },
+          { name: 'Ilusão Lacerante', details: 'Passiva', desc: 'Suas magias do tipo Ilusão passam a causar dano mental direto igual ao seu Atributo de Magia em inimigos que falharem no salvamento de Mental Vontade ao tentarem desacreditar ou resistir à ilusão.' }
+        ]
+      },
+      {
         title: 'Magia',
         type: 'spells',
         items: [
@@ -418,7 +563,7 @@ const CAMINHOS_DATA = {
             desc: 'Conjura um construto áudio/visual em alcance Médio. Inimigos que tiverem linha de visão para a ilusão devem passar em um teste de Mental + Vontade ou sofrerão o efeito de engano:',
             effects: [
               { name: 'Monstruosa', desc: 'Alvos creem ver uma criatura irreal terrível. Gastarão suas ações atacando-a ou fugindo dela.' },
-              { name: 'Desorientadora', desc: 'O cenário gira e distorce. Alvos sentem náuseas, perdendo a Ação de Movimento no próximo turno e sofrendo 1 Desvantagem (-1d6) em ataques à distância (físicos ou mágicos).' },
+              { name: 'Desorientadora', desc: 'O cenário gira e distorce. Alvos sentem náuseas, perdendo a Ação de Movimento no próximo turno e sofrendo 1 Desvantagem em ataques à distância (físicos ou mágicos).' },
               { name: 'Distração', desc: 'Pequenos enganos constantes fadigam a mente. O alvo sofre 2 Desvantagens (-2d6) em testes físicos e rolagens de ataque.' }
             ]
           }
@@ -445,6 +590,14 @@ const CAMINHOS_DATA = {
     desc: 'Especialistas na condução de canções mágicas e melodias rúnicas que manipulam o fluxo de combate.',
     subtitle: 'Caminho: Bardo',
     blocks: [
+      {
+        title: 'Habilidades',
+        type: 'abilities',
+        items: [
+          { name: 'Melodia do Alento', details: '1 Ação Padrão | 2 PM', desc: 'Você entoa um canto encorajador. Todos os aliados a alcance Curto recebem +2 de Proteção (PR) e removem a condição Abalado. A proteção dura até o início do seu próximo turno.' },
+          { name: 'Vibrato Ensurdecedor', details: 'Ação Livre | 1 Ponto de Arcana', desc: 'Gatilho: Ao conjurar um feitiço de som ou realizar um ataque básico do Bardo. O som reverbera com força de choque, forçando o alvo a passar em um salvamento de Físico Vigor ou ele ficará Atordoado por 1 rodada.' }
+        ]
+      },
       {
         title: 'Habilidades e Magias',
         type: 'spells',
