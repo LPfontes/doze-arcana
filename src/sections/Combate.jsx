@@ -3,19 +3,70 @@ import React from 'react';
 export default function Combate() {
     return (
         <section id="sec-combate" className="content-section">
-            <h2 className="text-3xl border-b-2 border-magic-100 pb-2 mb-4">4. Combate e Recursos</h2>
+            <h2 className="chapter-title">
+                <span className="chapter-number">2</span>
+                Combate e Recursos
+            </h2>
             <p className="mb-4">O combate é estruturado através de testes de atributos, comparando o ataque contra uma Defesa padrão.</p>
 
             <h3 className="text-2xl mt-6 mb-2">Atributos de Combate</h3>
             <ul>
-                <li><strong>Defesa Padrão</strong><br />A capacidade de desviar e resistir a ataques. Representa a dificuldade para que um ataque te acerte de modo a causar dano. Calculada como <code>10 + Destreza</code> (sem somar equipamentos).</li>
-                <li><strong>Pontos de Vitalidade (PV)</strong><br />Medem a saúde física. Calculado como <code> 15 + (Atributo Físico x 3)</code>. Ao chegar a 0 PV, o personagem fica Esgotado e precisa passar em testes de Mental + Vontade (DT 12) a cada rodada para evitar desmaios ou sequelas.
-                </li>
+                <li><strong>Defesa Padrão</strong><br />A capacidade de desviar e resistir a ataques. Representa a dificuldade para que um ataque te acerte de modo a causar dano. Calculada como <code>7 + Fisico</code>.</li>
+                <li><strong>Pontos de Vida (PV)</strong><br />Medem a saúde física. Calculado como <code>20 + (Fisico x 5)</code>. Ao chegar a 0 PV, o personagem fica Esgotado. Se sofrer qualquer tipo de dano enquanto estiver com 0 PV, ele sofre um Trauma (veja a tabela de traumas abaixo).</li>
                 <li><strong>Pontos de Mana (PM)</strong><br />Reservatório mágico para feitiços. Calculado como <code>12 + (seu atributo de Magia x 3)</code>.</li>
-                <li><strong>Redução de Dano (RD)</strong><br />Um atributo contínuo proveniente de equipamentos (como armaduras) que reduz uma quantidade fixa do dano recebido de cada ataque. Sempre que o dano total recebido em um único ataque ultrapassar o <strong>Limite de Quebra</strong> de um item defensivo, esse item recebe 1 ponto de <strong>Quebra</strong>. Itens que atingem seu limite de Quebras deixam de fornecer RD até serem consertados. O Limite de Quebra não se acumula entre itens, aplica-se a cada item individualmente.</li>
-                <li><strong>Proteção (PR)</strong><br />Um valor extra de vida temporário (concedido por magias e habilidades temporárias) que absorve o dano sofrido antes de atingir seus Pontos de Vitalidade (PV). É consumido e destruído ao chegar a 0.</li>
+                <li><strong>Pontos de Arcana</strong><br />Recursos poderosos que representam o seu potencial mágico latente. Podem ser utilizados para ativar habilidades especiais, magias e aprimorar testes. Você recebe Pontos de Arcana ao realizar acertos críticos em rolagens ou ao concluir missões importantes.</li>
+                <li><strong>Redução de Dano (RD)</strong><br />Um atributo contínuo proveniente de equipamentos (como armaduras) que reduz uma quantidade fixa do dano recebido de cada ataque.</li>
+                <li><strong>Proteção (PR)</strong><br />Um valor extra de vida temporário (concedido por magias e habilidades temporárias) que absorve o dano sofrido antes de atingir seus Pontos de Vida (PV). É consumido e destruído ao chegar a 0.</li>
                 <li><strong>Cobertura</strong><br />Cobertura Leve impõe 1 Desvantagem ao ataque inimigo, enquanto Cobertura Pesada impõe 2 Desvantagens.</li>
             </ul>
+
+            {/* Tabela de Traumas */}
+            <div className="bg-rose-50/30 border border-rose-200/60 rounded-xl p-5 mt-6 shadow-sm">
+                <h4 className="font-serif font-bold text-rose-950 text-lg mb-3 flex items-center gap-2">
+                    <span>🩸</span> Tabela de Traumas (Rolagem de 2d6)
+                </h4>
+                <p className="text-xs text-gray-700 leading-relaxed mb-4">
+                    Sempre que um personagem estiver com <strong>0 PV</strong> (Esgotado) e sofrer qualquer tipo de dano, ele deve rolar <strong>2d6</strong> e aplicar o trauma correspondente:
+                </p>
+                <div className="overflow-x-auto">
+                    <table className="w-full text-xs text-left border-collapse border border-rose-100/50">
+                        <thead>
+                            <tr className="bg-rose-50/50 text-rose-900 font-bold font-sans">
+                                <th className="p-2.5 border border-rose-100">Resultado (2d6)</th>
+                                <th className="p-2.5 border border-rose-100">Trauma</th>
+                                <th className="p-2.5 border border-rose-100">Efeito Mecânico</th>
+                            </tr>
+                        </thead>
+                        <tbody className="text-gray-700 font-sans">
+                            <tr className="bg-rose-50/10">
+                                <td className="p-2.5 border border-rose-100 font-bold text-rose-950">2 (Falha Crítica)</td>
+                                <td className="p-2.5 border border-rose-100 font-serif font-bold text-magic-950">inconsciente</td>
+                                <td className="p-2.5 border border-rose-100">O personagem cai inconsciente, não pode agir e corre risco de morrer. Um personagem so volta a ficar consciente apos ser estabilizado (pvs acima de 0) e passar por um descanso longo.</td>
+                            </tr>
+                            <tr>
+                                <td className="p-2.5 border border-rose-100 font-bold">3 -4</td>
+                                <td className="p-2.5 border border-rose-100 font-serif font-semibold">Cicatriz Dolorosa</td>
+                                <td className="p-2.5 border border-rose-100">O golpe deixa uma marca profunda. O limite máximo de PV do personagem é reduzido em <strong>3 PV</strong> permanentemente. A Recuperação disso fica a cargo do narrador, pode ser necessário magias poderosas ou rituais arcanos. </td>
+                            </tr>
+                            <tr>
+                                <td className="p-2.5 border border-rose-100 font-bold">5 - 8</td>
+                                <td className="p-2.5 border border-rose-100 font-serif font-semibold">Fratura Exposta</td>
+                                <td className="p-2.5 border border-rose-100">Um membro é quebrado. Sofre <strong>+1 Desvantagem (-1d4)</strong> em testes Físicos até ser tratado com medicina (mental dificuldade 10) ou magia de cura (que cure pelo menos 5pv).</td>
+                            </tr>
+                            <tr>
+                                <td className="p-2.5 border border-rose-100 font-bold">9 - 11</td>
+                                <td className="p-2.5 border border-rose-100 font-serif font-semibold">Concussão Severa</td>
+                                <td className="p-2.5 border border-rose-100">Sofre <strong>+1 Desvantagem (-1d4)</strong> em todos os testes Mentais e de Iniciativa e conjuração de magia até realizar um descanso longo.</td>
+                            </tr>
+                            <tr className="bg-rose-50/10">
+                                <td className="p-2.5 border border-rose-100 font-bold text-emerald-800">12 (Acerto de Sorte)</td>
+                                <td className="p-2.5 border border-rose-100 font-serif font-bold text-emerald-900">Cicatriz Gloriosa</td>
+                                <td className="p-2.5 border border-rose-100">O personagem resiste bravamente.</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
 
             <h3 className="text-2xl mt-8 mb-3 font-serif text-magic-900 flex items-center">Cálculo de Danos & Sistema de Armas
             </h3>
@@ -24,20 +75,19 @@ export default function Combate() {
                 <div className="bg-indigo-50/50 border border-indigo-100 p-4 rounded-xl shadow-sm">
                     <span
                         className="text-[10px] font-bold text-indigo-600 uppercase tracking-wider font-sans block mb-1">Dano Físico Básico</span>
-                    <div className="font-serif text-xl font-bold text-magic-900 mb-1">3 + 1d6 + Físico</div>
-                    <p className="text-[11px] text-gray-500 font-sans leading-tight">Utilizado por armas físicas como espadas, machados, lanças e arcos.</p>
+                    <div className="font-serif text-xl font-bold text-magic-900 mb-1">Maior d6 do ataque + Físico</div>
+                    <p className="text-[11px] text-gray-500 font-sans leading-tight">Determinado pelo maior d6 rolado no teste de ataque físico, somado ao seu atributo Físico.</p>
                 </div>
                 <div className="bg-cyan-50/50 border border-cyan-100 p-4 rounded-xl shadow-sm">
                     <span
                         className="text-[10px] font-bold text-cyan-600 uppercase tracking-wider font-sans block mb-1">Dano Mágico Básico</span>
-                    <div className="font-serif text-xl font-bold text-magic-900 mb-1">3 + 1d6 + seu atributo de Magia</div>
-                    <p className="text-[11px] text-gray-500 font-sans leading-tight">Utilizado por varinhas, cajados, orbes e canalizadores de Arcana.</p>
+                    <div className="font-serif text-xl font-bold text-magic-900 mb-1">Maior d6 do ataque + Magia</div>
+                    <p className="text-[11px] text-gray-500 font-sans leading-tight">Determinado pelo maior d6 rolado no teste de ataque mágico, somado ao seu atributo de Magia.</p>
                 </div>
                 <div className="bg-amber-50/50 border border-amber-100 p-4 rounded-xl shadow-sm">
                     <span
                         className="text-[10px] font-bold text-amber-700 uppercase tracking-wider font-sans block mb-1">Dano Crítico</span>
-                    <div className="font-serif text-lg font-bold text-amber-900 mb-1">Máximo + 1d6 Extra</div>
-                    <p className="text-[11px] text-gray-500 font-sans leading-tight">Maximiza o valor base dos dados de dano e adiciona +1d6 extra.</p>
+                    <div className="font-serif text-lg font-bold text-amber-900 mb-1">dano base Maximizado + 1d6 + Atributo</div>
                 </div>
             </div>
 
@@ -73,7 +123,7 @@ export default function Combate() {
                             <p
                                 className="bg-red-50/50 text-red-950 px-2.5 py-1.5 rounded border border-red-100/60 text-[11px] flex items-start gap-1.5 leading-normal">
 
-                                <span><strong>Salvamento:</strong><br></br>Após sofrer o dano no seu turno, o alvo testa <strong>Físico + Vigor (DT 12 + Pontos de Sangramento)</strong>. Sucesso zera os Pontos de Sangramentos; falha mantém o efeito ativo para a próxima rodada.</span>
+                                <span><strong>Salvamento:</strong><br></br>Após sofrer o dano no seu turno, o alvo testa <strong>Físico + Vigor (DT 7 + Pontos de Sangramento)</strong>. Sucesso zera os Pontos de Sangramentos; falha mantém o efeito ativo para a próxima rodada.</span>
                             </p>
                         </div>
                     </div>
@@ -91,7 +141,7 @@ export default function Combate() {
                             <em>O ataque preciso que busca as frestas das armaduras e pontos vitais.</em>
                         </p>
                         <div className="space-y-2 text-xs text-gray-600 font-sans leading-normal">
-                            <p><strong>Efeito:</strong><br></br>Você foca o impacto em um ponto vulnerável. O dano deste ataque <strong>ignora até 2 pontos de Redução de Dano (RD)</strong> do alvo, atingindo os PVs com mais facilidade.</p>
+                            <p><strong>Efeito:</strong><br></br>Você foca o impacto em um ponto vulnerável. O dano deste ataque <strong>ignora até 4 pontos de Redução de Dano (RD)</strong> do alvo, atingindo os PVs com mais facilidade.</p>
                         </div>
                     </div>
 
@@ -102,23 +152,17 @@ export default function Combate() {
                             <span className="font-serif font-bold text-base text-magic-900">3. Contusão <span
                                 className="font-sans font-normal text-xs text-gray-500 block md:inline md:ml-1">(Martelos, Maças, Bastões Pesados, Punhos)</span></span>
                             <span
-                                className="bg-indigo-50 text-indigo-800 text-[10px] font-bold px-2 py-0.5 rounded font-sans border border-indigo-100 uppercase tracking-wider">Quebra de Armadura</span>
+                                className="bg-indigo-50 text-indigo-800 text-[10px] font-bold px-2 py-0.5 rounded font-sans border border-indigo-100 uppercase tracking-wider">Derrubar / Empurrar</span>
                         </div>
                         <p className="text-xs text-gray-700 leading-relaxed font-sans mb-3">
-                            <em>O impacto bruto projetado para esmagar couraças, amassar escudos e estilhaçar barreiras mágicas.</em>
+                            <em>O impacto bruto projetado para desestabilizar oponentes e quebrar sua postura.</em>
                         </p>
-                        <div className="space-y-2 text-xs text-gray-600 font-sans leading-normal">
-                            <p><strong>Efeito:</strong><br></br>Você foca toda a energia cinética na estrutura defensiva do alvo. Ao acertar o ataque e gastar 1 Ação Padrão, o dano é <strong>dobrado exclusivamente para verificar se ultrapassa o Limite de Quebra</strong> dos itens do oponente. <em>(Nota: O dano extra não é aplicado contra a Vitalidade (PV), ele serve apenas para testar a durabilidade dos itens).</em>
-                            </p>
-                            <p
-                                className="bg-red-50/50 text-red-950 px-2.5 py-1.5 rounded border border-red-100/60 text-[11px] flex items-start gap-1.5 mt-2">
-
-                                <span><strong>Destruição de Item:</strong><br></br>Caso o dano total deste golpe ultrapasse o Limite de Quebra de um equipamento defensivo (armadura física, amuleto ou item mágico), o estresse mecânico é avassalador. O item recebe imediatamente <strong>2 pontos de Quebra (ao invés de 1).</strong></span>
-                            </p>
+                        <div className="space-y-2 text-xs text-gray-650 font-sans leading-normal">
+                            <p><strong>Efeito:</strong><br></br>Você foca toda a energia do impacto no equilíbrio do alvo. Ao acertar o ataque e gastar 1 Ação Padrão, o alvo deve fazer um teste de salvamento de <strong>Físico + Vigor (DT 8 + seu Atributo Físico)</strong>. Em caso de falha, ele é empurrado até 2 espaços e fica Caído.</p>
                         </div>
                     </div>
                 </div>
-            </div>
+            </div>=
 
             <hr />
 
@@ -142,6 +186,46 @@ export default function Combate() {
                     <ul className="mb-0 space-y-2">
                         <li><strong>Defender:</strong><br />Dobra a sua Redução de Dano (RD) até o início do seu próximo turno.</li>
                         <li><strong>Esquivar:</strong><br />Realiza um teste de Físico (Destreza) contra o acerto inimigo para tentar anular o ataque completamente.</li>
+                    </ul>
+                </div>
+            </div>
+
+            <hr className="my-6" />
+
+            {/* Iniciativa */}
+            <h3 className="text-2xl mt-6 mb-2">Iniciativa</h3>
+            <p className="mb-3 text-gray-700 leading-relaxed">No início de cada combate, todos os participantes rolam para determinar a ordem de ação. O resultado mais alto age primeiro.</p>
+            <div className="bg-indigo-50/50 border border-indigo-100 rounded-xl p-4 mb-4 flex items-center gap-4 shadow-sm">
+                <div className="text-center">
+                    <span className="text-[10px] font-bold text-indigo-600 uppercase tracking-wider block mb-1">Fórmula</span>
+                    <span className="font-serif text-2xl font-black text-magic-900">2d6 + Mental</span>
+                </div>
+                <p className="text-xs text-gray-600 font-sans leading-relaxed">Em caso de empate, personagens <strong>jogadores</strong> têm prioridade sobre personagens do Mestre.</p>
+            </div>
+
+            <hr className="my-6" />
+
+            {/* Descanso */}
+            <h3 className="text-2xl mt-6 mb-3">Descanso e Recuperação</h3>
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+                <div className="bg-amber-50/40 border border-amber-200/60 rounded-xl p-4 shadow-sm">
+                    <span className="text-[10px] font-bold text-amber-700 uppercase tracking-wider block mb-1 font-sans">🌙 Descanso Curto</span>
+                    <span className="font-serif font-bold text-base text-amber-900 block mb-1">Mínimo 4 horas</span>
+                    <ul className="text-xs text-gray-700 font-sans space-y-1 leading-relaxed">
+                        <li>Recupera <strong>3 + 1d6 PV</strong></li>
+                        <li>Recupera <strong>3 + 1d6 PM</strong></li>
+                        <li>Remove condições temporárias (Sangramento, Desorientado, etc.)</li>
+                        <li className="text-amber-700 italic">Não remove Traumas, Fratura Exposta ou Concussão Severa.</li>
+                    </ul>
+                </div>
+                <div className="bg-indigo-50/40 border border-indigo-200/60 rounded-xl p-4 shadow-sm">
+                    <span className="text-[10px] font-bold text-indigo-700 uppercase tracking-wider block mb-1 font-sans">⭐ Descanso Longo</span>
+                    <span className="font-serif font-bold text-base text-indigo-900 block mb-1">8 horas completas</span>
+                    <ul className="text-xs text-gray-700 font-sans space-y-1 leading-relaxed">
+                        <li>Recupera <strong>todos os PV</strong></li>
+                        <li>Recupera <strong>todos os PM</strong></li>
+                        <li>Remove Concussão Severa, Fratura Exposta (se tratada) e todas as condições "até descanso longo"</li>
+                        <li className="text-indigo-700 italic">Personagem Inconsciente só desperta após um Descanso Longo.</li>
                     </ul>
                 </div>
             </div>

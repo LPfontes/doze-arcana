@@ -1,16 +1,20 @@
 import React, { useState } from 'react';
 
 const NAV_ITEMS = [
-  { id: 'sec-mecanicas', label: '1. Testes', icon: '🎲' },
-  { id: 'sec-atributos', label: '2. Atributos', icon: '📊' },
-  { id: 'sec-criacao', label: '3. Criando Aluno', icon: '📝' },
-  { id: 'sec-combate', label: '4. Combate', icon: '⚔️' },
-  { id: 'sec-grimorio', label: '5. O Grimório', icon: '📖' },
-  { id: 'sec-filosofia', label: '6. Arcanas', icon: '🔮' },
-  { id: 'sec-condicoes', label: '7. Condições', icon: '⚠️' },
-  { id: 'sec-economia', label: '8. Economia', icon: '🎓' },
-  { id: 'sec-caminhos', label: '9. Escolas', icon: '📜' },
-  { id: 'sec-casas', label: '10. Casas Acadêmicas', icon: '🏛️' }
+  { type: 'header', label: 'Parte I: Mecânicas' },
+  { id: 'sec-mecanicas', label: '1. Testes de Atributo', icon: '🎲' },
+  { id: 'sec-combate', label: '2. Combate e Recursos', icon: '⚔️' },
+  { id: 'sec-economia', label: '3. Economia Escolar', icon: '🎓' },
+  { type: 'header', label: 'Parte II: Personagens' },
+  { id: 'sec-criacao', label: '4. Ficha & Raças', icon: '📝' },
+  { id: 'sec-atributos', label: '6. Atributos & Perícias', icon: '📊' },
+  { id: 'sec-casas', label: '7. Casas Acadêmicas', icon: '🏛️' },
+  { type: 'header', label: 'Parte III: Magia' },
+  { id: 'sec-filosofia', label: '8. As Doze Arcanas', icon: '🔮' },
+  { id: 'sec-grimorio', label: '9. O Grimório', icon: '📖' },
+  { type: 'header', label: 'Apêndices' },
+  { id: 'sec-caminhos', label: 'Apêndice B: Caminhos', icon: '📜' },
+  { id: 'sec-condicoes', label: 'Apêndice C: Condições', icon: '⚠️' }
 ];
 
 export default function MobileNav({ activeSection }) {
@@ -73,7 +77,17 @@ export default function MobileNav({ activeSection }) {
 
           {/* Links inside Drawer */}
           <nav className="space-y-1.5 flex-1 overflow-y-auto font-sans">
-            {NAV_ITEMS.map((item) => {
+            {NAV_ITEMS.map((item, index) => {
+              if (item.type === 'header') {
+                return (
+                  <div
+                    key={`header-${index}`}
+                    className="text-[10px] font-bold uppercase tracking-widest text-indigo-400 mt-4 mb-2 first:mt-0 px-3 select-none"
+                  >
+                    {item.label}
+                  </div>
+                );
+              }
               const isActive = activeSection === item.id;
               return (
                 <a

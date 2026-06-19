@@ -38,25 +38,26 @@ export default function Grimorio() {
     const lamurCusto = 3 + (lamurMode === 'lufada' ? lamurConeLevel * 2 : 0);
 
     const getChamaDmgText = () => {
-        const dice = chamaDmg ? '2d6' : '1d6';
-        const totalMagia = 3 + magia;
-        return totalMagia === 0 ? dice : `${totalMagia} + ${dice}`;
+        const diceLabel = chamaDmg ? 'Maior d6 + 1d6' : 'Maior d6';
+        return magia === 0 ? diceLabel : (magia > 0 ? `${diceLabel} + ${magia}` : `${diceLabel} - ${Math.abs(magia)}`);
     };
 
     const getLancaDmgText = () => {
         if (lancaMode === 'corpo') {
-            const totalFisico = 3 + fisico;
-            return totalFisico === 0 ? '1d6' : `1d6 + ${totalFisico}`;
+            const diceLabel = 'Maior d6';
+            return fisico === 0 ? diceLabel : (fisico > 0 ? `${diceLabel} + ${fisico}` : `${diceLabel} - ${Math.abs(fisico)}`);
         } else {
-            const dice = lancaDouble ? '2d6' : '1d6';
-            const totalMagia = 3 + magia;
-            return totalMagia === 0 ? dice : `${totalMagia} + ${dice}`;
+            const diceLabel = lancaDouble ? 'Maior d6 + 1d6' : 'Maior d6';
+            return magia === 0 ? diceLabel : (magia > 0 ? `${diceLabel} + ${magia}` : `${diceLabel} - ${Math.abs(magia)}`);
         }
     };
 
     return (
         <section id="sec-grimorio" className="content-section">
-            <h2 className="text-3xl border-b-2 border-magic-100 pb-2 mb-4">5. O Grimório e a Jornada do Conhecimento</h2>
+            <h2 className="chapter-title">
+                <span className="chapter-number">9</span>
+                O Grimório e os Feitiços
+            </h2>
 
             {/* Lore Card: Agnes Hilmer */}
             <div className="bg-gradient-to-br from-amber-50/60 via-indigo-50/20 to-purple-50/40 border-l-4 border-indigo-600 p-6 rounded-r-2xl mb-8 font-sans shadow-sm">
@@ -218,7 +219,7 @@ export default function Grimorio() {
                                         />
                                         <div>
                                             <strong>+2 PM:</strong> Dano Extra (+1d6)
-                                            <span className="text-gray-400 block text-[10px]">Aumenta a carga de destruição do impacto.</span>
+                                            <span className="text-gray-400 block text-[10px]">O ataque causa +1d6 de dano bônus (rolado separadamente).</span>
                                         </div>
                                     </label>
                                 </div>
@@ -316,7 +317,7 @@ export default function Grimorio() {
                                             />
                                             <div>
                                                 <strong>+2 PM:</strong> Lança Adicional
-                                                <span className="text-gray-400 block text-[10px]">Conjura mais uma lança na jogada à distância, causando <strong>+1d6 de dano de gelo</strong> adicional.</span>
+                                                <span className="text-gray-400 block text-[10px]">Conjura mais uma lança na jogada à distância, causando +1d6 de dano de gelo bônus (rolado separadamente).</span>
                                             </div>
                                         </label>
                                     </div>
@@ -367,14 +368,10 @@ export default function Grimorio() {
                                     Você tece a mana ao seu redor para criar um escudo místico e semi-translúcido de energia sólida. A barreira flutua à sua frente para interceptar ataques.
                                 </p>
 
-                                <div className="grid grid-cols-2 gap-3 mb-4 font-sans">
+                                <div className="grid gap-3 mb-4 font-sans">
                                     <div className="bg-emerald-50/60 border border-emerald-100 p-3 rounded-xl text-center shadow-xs">
-                                        <span className="text-emerald-800 font-bold block text-sm">+2 CA</span>
+                                        <span className="text-emerald-800 font-bold block text-sm">+2 Defesa</span>
                                         <span className="text-[10px] text-emerald-600">Classe de Armadura</span>
-                                    </div>
-                                    <div className="bg-sky-50/60 border border-sky-100 p-3 rounded-xl text-center shadow-xs">
-                                        <span className="text-sky-800 font-bold block text-sm">+2 RD</span>
-                                        <span className="text-[10px] text-sky-600">Redução de Dano</span>
                                     </div>
                                 </div>
                             </div>
@@ -506,7 +503,7 @@ export default function Grimorio() {
                                             Dispara uma massa compacta de vento de alta velocidade. Faça um ataque mágico contra o alvo.
                                         </p>
                                         <p>
-                                            <strong>Em caso de acerto:</strong> Causa <strong>{3 + 1 + magia >= 0 ? `3+1d6+${magia}` : `3+1d6${magia}`}</strong> de dano de impacto e aplica <strong>1 ponto de Sangramento</strong> no alvo.
+                                            <strong>Em caso de acerto:</strong> Causa <strong>{magia === 0 ? 'Maior d6' : (magia > 0 ? `Maior d6 + ${magia}` : `Maior d6 - ${Math.abs(magia)}`)}</strong> de dano de impacto e aplica <strong>1 ponto de Sangramento</strong> no alvo.
                                         </p>
                                     </div>
                                 )}
@@ -595,7 +592,7 @@ export default function Grimorio() {
                                 2. Teste de Intenção
                             </h4>
                             <p className="text-sm text-gray-655 font-sans leading-relaxed">
-                                Para resolver um obstáculo fora de combate (como arrombar uma fechadura com magia), faça um único teste de <strong>Magia + Perícia (Controle, Compreensão ou Ofício)</strong>. Sucesso com valor 13 ou mais resolve, sem custo de PM.
+                                Para resolver um obstáculo fora de combate (como arrombar uma fechadura com magia), faça um único teste de <strong>Magia + Perícia (Controle, Compreensão ou Ofício)</strong>. Sucesso com valor 7 ou mais resolve, sem custo de PM.
                             </p>
                         </div>
 

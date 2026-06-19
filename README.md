@@ -2,7 +2,7 @@
 
 O **Doze Arcanas** é uma aplicação web interativa e companion app oficial para o sistema de RPG de mesa focado em aventuras, mistérios e estudos dentro de escolas de magia. Esta plataforma reúne todo o livro de regras, grimório de feitiços e simuladores úteis para os jogadores e mestres.
 
-O núcleo mecânico do sistema baseia-se em rolagens de **2d12+** combinando quatro atributos principais e doze perícias para definir o sucesso das ações mágicas e mundanas.
+O núcleo mecânico do sistema baseia-se em rolagens de **2d6+** combinando quatro atributos principais e doze perícias para definir o sucesso das ações mágicas e mundanas.
 
 ---
 

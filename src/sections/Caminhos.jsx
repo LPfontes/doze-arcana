@@ -1,362 +1,401 @@
 import React, { useState } from 'react';
-import Combatente from './caminhos/Combatente';
-import Invocador from './caminhos/Invocador';
-import Transmutador from './caminhos/Transmutador';
-import Mentalista from './caminhos/Mentalista';
-
-const ESCOLAS_DATA = {
-  guerra: {
-    name: 'Escola da Guerra',
-    theme: 'indigo',
-    bgGradient: 'from-magic-900 to-indigo-950',
-    borderColor: 'border-indigo-500',
-    bgLight: 'bg-indigo-50/10',
-    desc: 'No sistema Doze Arcanas, a Escola da Guerra é focada naqueles que estão na linha de frente, mesclando aptidão física com canalização mágica. Eles não ficam na retaguarda lançando feitiços; eles são a própria arma.',
-    specs: [
-      { id: 'lamina', label: 'A Lâmina', subtitle: 'Ataque & Encantamento', icon: '⚔️' },
-      { id: 'bastiao', label: 'O Bastião', subtitle: 'Defesa & Retaliação', icon: '🛡️' },
-      { id: 'vanguarda', label: 'A Vanguarda', subtitle: 'Mobilidade & Habilidades', icon: '⚡' },
-      { id: 'francoatirador', label: 'O Franco-Atirador', subtitle: 'À Distância & Precisão', icon: '🎯' }
-    ]
-  },
-  elemental: {
-    name: 'Escola Elemental',
-    theme: 'cyan',
-    bgGradient: 'from-cyan-900 to-cyan-950',
-    borderColor: 'border-cyan-500',
-    bgLight: 'bg-cyan-50/10',
-    desc: 'A Escola Elemental estuda a manipulação direta e expansão das energias dos elementos primordiais e a alteração mística e física dos espaços de batalha.',
-    specs: [
-      { id: 'elementalista', label: 'Elementalista', subtitle: 'Dano em Área', icon: '🔥' },
-      { id: 'dominios', label: 'Mestre de Domínios', subtitle: 'Alteração de Terreno', icon: '🪨' }
-    ]
-  },
-  vinculos: {
-    name: 'Escola dos Vínculos',
-    theme: 'cyan',
-    bgGradient: 'from-cyan-955 to-cyan-950',
-    borderColor: 'border-cyan-500',
-    bgLight: 'bg-cyan-50/10',
-    desc: 'A Escola dos Vínculos foca na criação de conexões invisíveis, elos telepáticos/kármicos e na evocação e aprimoramento de familiares ou entidades arcanas.',
-    specs: [
-      { id: 'vinculos', label: 'Mestre de Vínculos', subtitle: 'Familiares & Evocações', icon: '🐾' }
-    ]
-  },
-  artifices: {
-    name: 'Escola dos Artífices',
-    theme: 'emerald',
-    bgGradient: 'from-emerald-900 to-emerald-950',
-    borderColor: 'border-emerald-500',
-    bgLight: 'bg-emerald-50/10',
-    desc: 'A Escola dos Artífices foca no controle, manufatura e sobrecarga de constructos, na alteração e corrosão estrutural da matéria de equipamentos e em reações químicas voláteis.',
-    specs: [
-      { id: 'arquiteto', label: 'Arquiteto de Construtos', subtitle: 'Torres & Dispositivos', icon: '🤖' },
-      { id: 'artifice', label: 'Artífice da Matéria', subtitle: 'Alteração de Cenário', icon: '🔨' },
-      { id: 'alquimista', label: 'Alquimista Volátil', subtitle: 'Reações & Consumíveis', icon: '🧪' }
-    ]
-  },
-  vida: {
-    name: 'Escola da Vida',
-    theme: 'emerald',
-    bgGradient: 'from-emerald-900 to-emerald-955',
-    borderColor: 'border-emerald-500',
-    bgLight: 'bg-emerald-50/10',
-    desc: 'A Escola da Vida estuda a biologia celular e metamorfose anatômica corporal, bem como a cura acelerada, controle do fluxo vital e atrofia corporal.',
-    specs: [
-      { id: 'metamorfo', label: 'Metamorfo', subtitle: 'Transformação Anatômica', icon: '🦎' },
-      { id: 'biomante', label: 'Biomante', subtitle: 'Buffs & Debuffs Corporais', icon: '🧬' }
-    ]
-  },
-  mente: {
-    name: 'Escola da Mente',
-    theme: 'purple',
-    bgGradient: 'from-purple-900 to-purple-950',
-    borderColor: 'border-purple-500',
-    bgLight: 'bg-purple-50/10',
-    desc: 'A Escola da Mente manipula os sentidos, pensamentos, emoções e a percepção dos adversários. Seus conhecimentos operam na ilusão, coerção, controle motor e na alteração de probabilidades.',
-    specs: [
-      { id: 'ilusionista', label: 'Ilusionista', subtitle: 'Falsa Realidade', icon: '👁️' },
-      { id: 'controlador', label: 'Controlador', subtitle: 'Controle Mental', icon: '🧠' },
-      { id: 'dobrador', label: 'Dobrador do Destino', subtitle: 'Probabilidades', icon: '🎲' },
-      { id: 'oraculo', label: 'O Oráculo', subtitle: 'Premonição', icon: '🔮' }
-    ]
-  }
-};
+import { CAMINHOS_DATA, ESCOLAS_GROUPING } from '../data/caminhosData';
 
 export default function Caminhos() {
-    const [activeEscola, setActiveEscola] = useState('guerra');
-    const [activeSpec, setActiveSpec] = useState('lamina');
+  const [activeEscola, setActiveEscola] = useState('guerra');
+  const [activeCaminho, setActiveCaminho] = useState('guerreiro');
 
-    const selectEscola = (escola) => {
-        setActiveEscola(escola);
-        setActiveSpec(ESCOLAS_DATA[escola].specs[0].id);
-    };
+  const selectEscola = (escolaKey) => {
+    setActiveEscola(escolaKey);
+    const firstCaminho = ESCOLAS_GROUPING[escolaKey].caminhos[0];
+    setActiveCaminho(firstCaminho);
+  };
 
-    const switchSpec = (spec) => {
-        setActiveSpec(spec);
-    };
+  const switchCaminho = (caminhoKey) => {
+    setActiveCaminho(caminhoKey);
+  };
 
-    return (
-        <section id="sec-caminhos" className="content-section">
-            <h2 className="text-3xl border-b-2 border-magic-100 pb-2 mb-4">9. As Escolas e Talentos</h2>
-            <p className="mb-4">O desenvolvimento dos personagens é feito através de Escolas, divididas em
-                especializações que fornecem talentos escalonáveis (Níveis 1 a 3). <strong>Sempre que você ganha 1 nível em uma Escola, você pode escolher aprender um novo talento dessa escola ou evoluir o grau de um talento/caminho conhecido.</strong></p>
+  const getSchoolIcon = (schoolKey) => {
+    switch (schoolKey) {
+      case 'guerra': return '⚔️';
+      case 'elemental': return '🔥';
+      case 'vinculos': return '🔮';
+      case 'artifices': return '⚙️';
+      case 'vida': return '🧬';
+      case 'mente': return '🎭';
+      default: return '🛡️';
+    }
+  };
 
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mt-6">
-                {Object.entries(ESCOLAS_DATA).map(([key, data]) => {
-                    const isActive = activeEscola === key;
-                    const themeColor = data.theme;
-                    
-                    let activeStyles = '';
-                    if (themeColor === 'indigo') activeStyles = 'border-indigo-500 bg-indigo-50/10 shadow-md hover:shadow-lg';
-                    else if (themeColor === 'cyan') activeStyles = 'border-cyan-500 bg-cyan-50/10 shadow-md hover:shadow-lg';
-                    else if (themeColor === 'emerald') activeStyles = 'border-emerald-500 bg-emerald-50/10 shadow-md hover:shadow-lg';
-                    else if (themeColor === 'purple') activeStyles = 'border-purple-500 bg-purple-50/10 shadow-md hover:shadow-lg';
-                    
-                    let hoverStyles = '';
-                    if (themeColor === 'indigo') hoverStyles = 'hover:border-indigo-500 hover:shadow-lg';
-                    else if (themeColor === 'cyan') hoverStyles = 'hover:border-cyan-500 hover:shadow-lg';
-                    else if (themeColor === 'emerald') hoverStyles = 'hover:border-emerald-500 hover:shadow-lg';
-                    else if (themeColor === 'purple') hoverStyles = 'hover:border-purple-500 hover:shadow-lg';
+  // Helper to get styling based on theme color
+  const getThemeClasses = (theme) => {
+    switch (theme) {
+      case 'indigo':
+        return {
+          borderActive: 'border-indigo-500 bg-indigo-50/10 shadow-md',
+          hover: 'hover:border-indigo-500 hover:shadow-lg',
+          svgBg: 'bg-indigo-500/5 group-hover:bg-indigo-500/10 text-indigo-600',
+          textColor: 'text-indigo-600 group-hover:text-indigo-800',
+          btnActive: 'bg-white border-indigo-200 text-indigo-900 shadow-sm',
+          accentText: 'text-indigo-500',
+          accentBg: 'bg-indigo-50/30 border-indigo-100/40',
+          accentBgMedium: 'bg-indigo-50/50 border-indigo-100/60',
+          accentBgDark: 'bg-indigo-50/70 border-indigo-200/50',
+          bulletColor: 'bg-indigo-500'
+        };
+      case 'cyan':
+        return {
+          borderActive: 'border-cyan-500 bg-cyan-50/10 shadow-md',
+          hover: 'hover:border-cyan-500 hover:shadow-lg',
+          svgBg: 'bg-cyan-500/5 group-hover:bg-cyan-500/10 text-cyan-600',
+          textColor: 'text-cyan-600 group-hover:text-cyan-800',
+          btnActive: 'bg-white border-cyan-200 text-cyan-900 shadow-sm',
+          accentText: 'text-cyan-500',
+          accentBg: 'bg-cyan-50/30 border-cyan-100/40',
+          accentBgMedium: 'bg-cyan-50/50 border-cyan-100/60',
+          accentBgDark: 'bg-cyan-50/70 border-cyan-200/50',
+          bulletColor: 'bg-cyan-500'
+        };
+      case 'emerald':
+        return {
+          borderActive: 'border-emerald-500 bg-emerald-50/10 shadow-md',
+          hover: 'hover:border-emerald-500 hover:shadow-lg',
+          svgBg: 'bg-emerald-500/5 group-hover:bg-emerald-500/10 text-emerald-600',
+          textColor: 'text-emerald-600 group-hover:text-emerald-800',
+          btnActive: 'bg-white border-emerald-200 text-emerald-900 shadow-sm',
+          accentText: 'text-emerald-500',
+          accentBg: 'bg-emerald-50/30 border-emerald-100/40',
+          accentBgMedium: 'bg-emerald-50/50 border-emerald-100/60',
+          accentBgDark: 'bg-emerald-50/70 border-emerald-200/50',
+          bulletColor: 'bg-emerald-500'
+        };
+      case 'purple':
+      default:
+        return {
+          borderActive: 'border-purple-500 bg-purple-50/10 shadow-md',
+          hover: 'hover:border-purple-500 hover:shadow-lg',
+          svgBg: 'bg-purple-500/5 group-hover:bg-purple-500/10 text-purple-600',
+          textColor: 'text-purple-600 group-hover:text-purple-800',
+          btnActive: 'bg-white border-purple-200 text-purple-900 shadow-sm',
+          accentText: 'text-purple-500',
+          accentBg: 'bg-purple-50/30 border-purple-100/40',
+          accentBgMedium: 'bg-purple-50/50 border-purple-100/60',
+          accentBgDark: 'bg-purple-50/70 border-purple-200/50',
+          bulletColor: 'bg-purple-500'
+        };
+    }
+  };
 
-                    let svgColor = '';
-                    if (themeColor === 'indigo') svgColor = 'text-indigo-600';
-                    else if (themeColor === 'cyan') svgColor = 'text-cyan-600';
-                    else if (themeColor === 'emerald') svgColor = 'text-emerald-600';
-                    else if (themeColor === 'purple') svgColor = 'text-purple-600';
+  const currentCaminho = CAMINHOS_DATA[activeCaminho];
+  const currentTheme = getThemeClasses(currentCaminho.theme);
 
-                    let svgBg = '';
-                    if (themeColor === 'indigo') svgBg = 'bg-indigo-500/5 group-hover:bg-indigo-500/10';
-                    else if (themeColor === 'cyan') svgBg = 'bg-cyan-500/5 group-hover:bg-cyan-500/10';
-                    else if (themeColor === 'emerald') svgBg = 'bg-emerald-500/5 group-hover:bg-emerald-500/10';
-                    else if (themeColor === 'purple') svgBg = 'bg-purple-500/5 group-hover:bg-purple-500/10';
+  return (
+    <section id="sec-caminhos" className="content-section">
+      <h2 className="chapter-title">
+        <span className="chapter-number">Ap. B</span>
+        Escolas, Caminhos e Habilidades
+      </h2>
+      <p className="mb-4 text-gray-700 leading-relaxed font-sans">
+        O desenvolvimento dos personagens é feito através de <strong>Caminhos Tradicionais</strong> associados às Escolas Acadêmicas. 
+        <strong> Magias de Caminho só podem ser aprendidas ganhando Níveis no respectivo Caminho. Ao ganhar um Nível de Caminho, o aluno pode escolher uma das seguintes opções para aquele Caminho: aprender uma nova Habilidade (no Grau I), evoluir/aprimorar o Grau (para Grau II ou Grau III) de uma Habilidade que já possui, aprender uma nova Magia de Caminho (no Nível 1), ou melhorar/aprimorar uma Magia de Caminho já aprendida. Não há ordem ou nível pré-requisito fixo para adquirir as habilidades ou magias de um Caminho.</strong>
+      </p>
 
-                    let textBottomColor = '';
-                    if (themeColor === 'indigo') textBottomColor = 'text-indigo-600 group-hover:text-indigo-800';
-                    else if (themeColor === 'cyan') textBottomColor = 'text-cyan-600 group-hover:text-cyan-800';
-                    else if (themeColor === 'emerald') textBottomColor = 'text-emerald-600 group-hover:text-emerald-800';
-                    else if (themeColor === 'purple') textBottomColor = 'text-purple-600 group-hover:text-purple-800';
+      {/* Menu de Abas das Escolas */}
+      <div className="flex flex-wrap border-b border-slate-200 gap-1.5 mt-6 mb-6 font-sans bg-slate-50/50 p-1.5 rounded-xl">
+        {Object.entries(ESCOLAS_GROUPING).map(([key, data]) => {
+          const isActive = activeEscola === key;
+          const firstCaminhoKey = data.caminhos[0];
+          const firstCaminho = CAMINHOS_DATA[firstCaminhoKey];
+          const schoolTheme = getThemeClasses(firstCaminho.theme);
 
-                    return (
-                        <div key={key} id={`card-${key}`} onClick={() => selectEscola(key)}
-                            className={`p-5 rounded-lg border-2 cursor-pointer transition-all duration-300 transform hover:-translate-y-1 relative overflow-hidden group flex flex-col justify-between ${isActive
-                                ? activeStyles
-                                : `bg-white border-magic-100 shadow-sm ${hoverStyles}`
-                                }`}>
-                            <div>
-                                <div
-                                    className={`absolute top-0 right-0 w-16 h-16 rounded-bl-full transition-colors duration-300 flex items-start justify-end p-2 ${svgBg} ${svgColor}`}>
-                                    <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"
-                                        xmlns="http://www.w3.org/2000/svg">
-                                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2"
-                                            d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path>
-                                    </svg>
-                                </div>
-                                <div className="flex justify-between items-start pr-6">
-                                    <h4 className="font-bold text-xl text-magic-900 mb-3 flex items-center">{data.name}</h4>
-                                </div>
-                                <p className="text-sm text-gray-500 mb-3">{data.desc}</p>
-                                <ul className="text-sm space-y-2 mb-4">
-                                    {data.specs.map(spec => (
-                                        <li key={spec.id} className="leading-tight">
-                                            <strong>{spec.label}</strong> <span className="text-xs text-gray-400">({spec.subtitle})</span>
-                                        </li>
-                                    ))}
-                                </ul>
-                            </div>
-                            <div
-                                className={`pt-3 border-t border-gray-100 flex items-center justify-between text-xs font-semibold ${textBottomColor}`}>
-                                <span>Explorar Especializações</span>
-                            </div>
-                        </div>
-                    );
-                })}
+          return (
+            <button
+              key={key}
+              onClick={() => selectEscola(key)}
+              className={`flex-1 min-w-[125px] py-3 px-3 rounded-lg font-bold text-xs md:text-sm transition-all duration-200 cursor-pointer flex items-center justify-center gap-2 border border-transparent shadow-xs ${
+                isActive
+                  ? `${schoolTheme.btnActive} border-slate-200/80 font-black`
+                  : 'text-gray-500 hover:text-indigo-650 hover:bg-white/50'
+              }`}
+            >
+              <span className="text-base">{getSchoolIcon(key)}</span>
+              <span className="truncate">{data.name.replace('Escola da ', '').replace('Escola dos ', '').replace('Escola do ', '').replace('Escola ', '')}</span>
+            </button>
+          );
+        })}
+      </div>
+f
+      {/* Explorador de Talentos Dinâmico */}
+      <div id="talent-explorer-section" className="mt-8 border border-indigo-100 rounded-xl overflow-hidden bg-slate-50 shadow-md transition-all duration-300">
+        
+        {/* Banner do Explorador com base no Caminho Ativo */}
+        <div className={`text-white p-6 md:p-8 transition-colors duration-300 bg-gradient-to-r ${currentCaminho.bgGradient}`}>
+          <div className="flex items-center gap-3">
+            <div id="explorer-icon" className={`p-2.5 rounded-lg border shadow-inner flex items-center justify-center text-2xl bg-white/10 border-white/20`}>
+              {currentCaminho.icon}
             </div>
+            <div>
+              <span className="text-xs font-semibold tracking-wider text-white/70 uppercase block mb-0.5">
+                Caminho do Personagem
+              </span>
+              <h3 id="explorer-title" className="text-2xl md:text-3xl font-bold font-serif text-white leading-none">
+                {currentCaminho.name}
+              </h3>
+            </div>
+          </div>
+          <p id="explorer-desc" className="text-gray-200 text-sm md:text-base leading-relaxed mt-4 border-t border-white/10 pt-4 font-sans font-light">
+            {currentCaminho.desc}
+          </p>
+        </div>
 
-            {/* Detalhamento de Especializações e Talentos */}
-            <div id="talent-explorer-section"
-                className="mt-8 border border-indigo-100 rounded-xl overflow-hidden bg-slate-50 shadow-md transition-all duration-300">
+        {/* Sub-Navegação interna (Abas dos caminhos pertencentes à Escola ativa) */}
+        <div id="nav-escola-specs" className={`caminho-nav p-2 flex flex-wrap gap-2 border-b bg-white border-gray-100`}>
+          {ESCOLAS_GROUPING[activeEscola].caminhos.map((caminhoKey) => {
+            const path = CAMINHOS_DATA[caminhoKey];
+            const isCaminhoActive = activeCaminho === caminhoKey;
+            const pathTheme = getThemeClasses(path.theme);
 
-                {/* Explorer Header Banner */}
-                <div className={`text-white p-6 md:p-8 transition-colors duration-300 bg-gradient-to-r ${
-                    ESCOLAS_DATA[activeEscola].bgGradient
-                }`}>
-                    <div className="flex items-center gap-3">
-                        <div id="explorer-icon"
-                            className={`p-2.5 rounded-lg border shadow-inner flex items-center justify-center text-amber-400 ${
-                                activeEscola === 'guerra' ? 'bg-indigo-500/20 border-indigo-500/30' :
-                                activeEscola === 'elemental' || activeEscola === 'vinculos' ? 'bg-cyan-500/20 border-cyan-500/30' :
-                                activeEscola === 'artifices' || activeEscola === 'vida' ? 'bg-emerald-500/20 border-emerald-500/30' :
-                                'bg-purple-500/20 border-purple-500/30'
+            const btnClass = isCaminhoActive
+              ? pathTheme.btnActive
+              : 'border-transparent text-gray-500 hover:text-gray-800 hover:bg-gray-100/70';
+
+            const subColor = isCaminhoActive ? pathTheme.accentText : 'text-gray-400';
+
+            return (
+              <button
+                key={caminhoKey}
+                onClick={() => switchCaminho(caminhoKey)}
+                id={`tab-${caminhoKey}`}
+                className={`flex-1 min-w-[140px] py-3 px-4 rounded-lg font-semibold text-sm transition-all duration-200 flex flex-col items-center justify-center gap-1 border focus:outline-none ${btnClass}`}
+              >
+                <span className="font-serif text-base flex items-center gap-1.5">
+                  <span>{path.icon}</span>
+                  <span>{path.name}</span>
+                </span>
+                <span className={`text-[9px] uppercase tracking-wider font-sans font-normal ${subColor}`}>
+                  {path.subtitle}
+                </span>
+              </button>
+            );
+          })}
+        </div>
+
+        {/* Conteúdo Dinâmico dos Caminhos (Posturas, Habilidades, Magias, Totens, etc) */}
+        <div className="p-6 md:p-8 bg-white space-y-8">
+          {currentCaminho.blocks && currentCaminho.blocks.map((block, bIdx) => (
+            <div key={bIdx} className="space-y-4">
+              <h4 className="font-serif font-bold text-2xl text-magic-950 border-b border-gray-150 pb-2 mb-3 flex items-center gap-2">
+                <span className={`w-2.5 h-2.5 rounded-full ${currentTheme.bulletColor}`} />
+                {block.title}
+              </h4>
+              
+              {block.desc && (
+                <p className="text-sm text-gray-650 leading-relaxed font-sans mb-3">{block.desc}</p>
+              )}
+
+              {/* Stances Block */}
+              {block.type === 'postures' && block.items && (
+                <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
+                  {block.items.map((item, idx) => (
+                    <div key={idx} className={`border rounded-xl p-4 shadow-sm hover:shadow-md transition-all duration-200 flex flex-col justify-between ${currentTheme.accentBg}`}>
+                      <div>
+                        <h5 className="font-bold text-magic-950 text-base mb-2 flex items-center gap-1.5 font-serif">
+                          <span className={`w-2 h-2 rounded-full ${currentTheme.bulletColor}`} />
+                          {item.name}
+                        </h5>
+                        <p className="text-xs text-gray-700 leading-relaxed font-sans">{item.desc}</p>
+                      </div>
+                    </div>
+                  ))}
+                </div>
+              )}
+
+              {/* Beast Stats Block */}
+              {block.type === 'beast_stats' && block.stats && (
+                <div className="bg-slate-50 border border-slate-200/80 rounded-xl p-5 shadow-sm max-w-md font-sans">
+                  <div className="flex items-center gap-3 mb-4">
+                    <span className="text-2xl">🐾</span>
+                    <h5 className="font-bold text-lg text-magic-900 font-serif">Companheiro Bestial</h5>
+                  </div>
+                  <div className="grid grid-cols-2 gap-3 mb-4">
+                    <div className="bg-white border border-gray-150 p-2.5 rounded-lg text-center">
+                      <span className="text-[10px] font-bold text-gray-400 uppercase tracking-wider block">Vida</span>
+                      <span className="font-serif text-lg font-bold text-emerald-700">{block.stats.hp}</span>
+                    </div>
+                    <div className="bg-white border border-gray-150 p-2.5 rounded-lg text-center">
+                      <span className="text-[10px] font-bold text-gray-400 uppercase tracking-wider block">Físico</span>
+                      <span className="font-serif text-lg font-bold text-gray-800">{block.stats.fisico}</span>
+                    </div>
+                    <div className="bg-white border border-gray-150 p-2.5 rounded-lg text-center">
+                      <span className="text-[10px] font-bold text-gray-400 uppercase tracking-wider block">Mental</span>
+                      <span className="font-serif text-lg font-bold text-gray-800">{block.stats.mental}</span>
+                    </div>
+                    <div className="bg-white border border-gray-150 p-2.5 rounded-lg text-center">
+                      <span className="text-[10px] font-bold text-gray-400 uppercase tracking-wider block">Social / Magia</span>
+                      <span className="font-serif text-xs font-bold text-gray-800">Soc {block.stats.social} | Mag {block.stats.magia}</span>
+                    </div>
+                  </div>
+                  <div className="bg-white border border-gray-150 p-3 rounded-lg text-xs text-gray-700 leading-normal">
+                    <strong>Ações por Turno:</strong> {block.stats.actions}
+                  </div>
+                </div>
+              )}
+
+              {/* Contract Block */}
+              {block.type === 'contract' && (
+                <div className={`border rounded-xl p-5 shadow-xs text-sm leading-relaxed ${currentTheme.accentBg}`}>
+                  <p className="text-gray-700 font-sans">{block.desc}</p>
+                </div>
+              )}
+
+              {/* Cartomante Deck Table Block */}
+              {block.type === 'deck' && block.rows && (
+                <div className="space-y-4 font-sans">
+                  <div className="overflow-x-auto border border-slate-200 rounded-xl shadow-sm bg-white">
+                    <table className="w-full text-left border-collapse">
+                      <thead>
+                        <tr className="bg-slate-50 text-slate-700 text-xs font-bold font-sans border-b border-slate-200">
+                          <th className="p-3">Resultado no d12</th>
+                          <th className="p-3">Tipo de Carta</th>
+                          <th className="p-3">Efeito do Saque</th>
+                        </tr>
+                      </thead>
+                      <tbody className="text-xs text-gray-700">
+                        {block.rows.map((row, idx) => (
+                          <tr key={idx} className="border-b border-slate-100 last:border-0 hover:bg-slate-50/50">
+                            <td className="p-3 font-bold text-magic-950 font-serif text-sm">{row.roll}</td>
+                            <td className="p-3">
+                              <span className={`px-2.5 py-0.5 rounded text-[10px] font-bold uppercase tracking-wider ${
+                                row.roll === '12' ? 'bg-amber-100 text-amber-800 border border-amber-200' :
+                                row.roll === '6 a 11' ? 'bg-indigo-100 text-indigo-800 border border-indigo-200' :
+                                'bg-rose-100 text-rose-800 border border-rose-200'
+                              }`}>
+                                {row.type}
+                              </span>
+                            </td>
+                            <td className="p-3">
+                              <div className="leading-relaxed">{row.effect}</div>
+                              {row.subChoices && (
+                                <div className="grid grid-cols-1 md:grid-cols-2 gap-2 mt-3 pl-2 border-l-2 border-amber-300">
+                                  {row.subChoices.map((choice, cIdx) => (
+                                    <div key={cIdx} className="bg-amber-50/40 border border-amber-100 p-2 rounded text-[11px] leading-relaxed">
+                                      <strong>• {choice.name}:</strong> {choice.desc}
+                                    </div>
+                                  ))}
+                                </div>
+                              )}
+                            </td>
+                          </tr>
+                        ))}
+                      </tbody>
+                    </table>
+                  </div>
+                </div>
+              )}
+
+              {/* Totems Block */}
+              {block.type === 'totems' && block.items && (
+                <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
+                  {block.items.map((item, idx) => (
+                    <div key={idx} className={`border rounded-xl p-4 shadow-sm hover:shadow-md transition-all duration-200 flex flex-col justify-between ${currentTheme.accentBg}`}>
+                      <div>
+                        <h5 className="font-bold text-magic-950 text-base mb-2 flex items-center gap-1.5 font-serif">
+                          <span className="text-sm">🪘</span>
+                          {item.name}
+                        </h5>
+                        <p className="text-xs text-gray-700 leading-relaxed font-sans">{item.desc}</p>
+                      </div>
+                    </div>
+                  ))}
+                </div>
+              )}
+
+              {/* Spells or Abilities Block */}
+              {(block.type === 'spells' || block.type === 'abilities') && block.items && (
+                <div className="space-y-4">
+                  {block.items.map((item, idx) => (
+                    <div key={idx} className="bg-slate-50 border border-slate-200/80 rounded-xl p-5 hover:border-slate-300 hover:bg-slate-50/50 transition-all duration-250 shadow-sm">
+                      <div className="flex flex-wrap items-center justify-between gap-3 mb-3">
+                        <h5 className="font-bold text-lg text-magic-900 font-serif flex items-center gap-2">
+                          <span className={`w-1.5 h-1.5 rounded-full ${currentTheme.bulletColor}`} />
+                          {item.name}
+                        </h5>
+                        {item.details && (
+                          <span className="bg-indigo-50 border border-indigo-200/60 text-indigo-800 text-[10px] font-bold px-2.5 py-0.5 rounded flex items-center gap-1.5 shadow-sm font-sans uppercase tracking-wide">
+                            {item.details}
+                          </span>
+                        )}
+                      </div>
+                      <p className="text-sm text-gray-700 font-sans leading-relaxed">{item.desc}</p>
+                      
+                      {/* Sub-levels inside spell/ability */}
+                      {item.levels && (
+                        <div className="mt-3 space-y-2 border-t border-slate-200/60 pt-3 text-xs leading-normal">
+                          {item.levels.map((level, lIdx) => (
+                            <div key={lIdx} className={`rounded-lg p-2.5 ${
+                              lIdx === 0 ? currentTheme.accentBg :
+                              lIdx === 1 ? currentTheme.accentBgMedium :
+                              currentTheme.accentBgDark
                             }`}>
-                            🔮
+                              <span className="font-bold text-gray-900 block mb-1">{level.name}</span>
+                              <p className="text-gray-700">{level.desc}</p>
+                            </div>
+                          ))}
                         </div>
-                        <div>
-                            <span
-                                className="text-xs font-semibold tracking-wider text-indigo-300 uppercase block mb-0.5">
-                                Explorador de Talentos
-                            </span>
-                            <h3 id="explorer-title"
-                                className="text-2xl md:text-3xl font-bold font-serif text-white leading-none">
-                                {ESCOLAS_DATA[activeEscola].name}
-                            </h3>
+                      )}
+                      
+                      {/* Improvements */}
+                      {item.improvements && (
+                        <div className="mt-2 text-xs bg-amber-50 border border-amber-100 text-amber-900 px-3 py-2 rounded-lg leading-relaxed font-sans">
+                          <strong>Melhorias:</strong> {item.improvements}
                         </div>
+                      )}
+                      
+                      {/* Sub-effects */}
+                      {item.effects && (
+                        <div className="mt-3 space-y-2 border-t border-slate-200/60 pt-3 text-xs leading-normal">
+                          {item.effects.map((eff, eIdx) => (
+                            <div key={eIdx} className={`rounded-lg p-2.5 ${currentTheme.accentBg}`}>
+                              <strong className="text-gray-900 block mb-1 font-serif">{eff.name}</strong>
+                              <p className="text-gray-755 font-sans">{eff.desc}</p>
+                            </div>
+                          ))}
+                        </div>
+                      )}
                     </div>
-                    <p id="explorer-desc"
-                        className={`text-gray-300 text-sm md:text-base leading-relaxed mt-4 border-t pt-4 font-sans font-light ${
-                            activeEscola === 'guerra' ? 'border-indigo-800/50' :
-                            activeEscola === 'elemental' || activeEscola === 'vinculos' ? 'border-cyan-800/50' :
-                            activeEscola === 'artifices' || activeEscola === 'vida' ? 'border-emerald-800/50' :
-                            'border-purple-800/50'
-                        }`}>
-                        {ESCOLAS_DATA[activeEscola].desc}
-                    </p>
+                  ))}
                 </div>
+              )}
 
-                {/* Sub-Navigation Bar inside the active school */}
-                <div id="nav-escola-specs"
-                    className={`caminho-nav p-2 flex flex-wrap gap-2 border-b ${
-                        ESCOLAS_DATA[activeEscola].theme === 'indigo' ? 'bg-indigo-50/50 border-indigo-100' :
-                        ESCOLAS_DATA[activeEscola].theme === 'cyan' ? 'bg-cyan-50/50 border-cyan-100' :
-                        ESCOLAS_DATA[activeEscola].theme === 'emerald' ? 'bg-emerald-50/50 border-emerald-100' :
-                        'bg-purple-50/50 border-purple-100'
-                    }`}>
-                    {ESCOLAS_DATA[activeEscola].specs.map((spec) => {
-                        const isSpecActive = activeSpec === spec.id;
-                        const theme = ESCOLAS_DATA[activeEscola].theme;
-                        
-                        let btnActiveStyle = '';
-                        if (theme === 'indigo') btnActiveStyle = 'bg-white border-indigo-200 text-indigo-900 shadow-sm';
-                        else if (theme === 'cyan') btnActiveStyle = 'bg-white border-cyan-200 text-cyan-900 shadow-sm';
-                        else if (theme === 'emerald') btnActiveStyle = 'bg-white border-emerald-200 text-emerald-900 shadow-sm';
-                        else if (theme === 'purple') btnActiveStyle = 'bg-white border-purple-200 text-purple-900 shadow-sm';
-
-                        let btnInactiveStyle = 'border-transparent text-gray-500 hover:text-gray-800 hover:bg-gray-100/70';
-
-                        let subtitleColor = '';
-                        if (theme === 'indigo') subtitleColor = isSpecActive ? 'text-indigo-500' : 'text-gray-400';
-                        else if (theme === 'cyan') subtitleColor = isSpecActive ? 'text-cyan-500' : 'text-gray-400';
-                        else if (theme === 'emerald') subtitleColor = isSpecActive ? 'text-emerald-500' : 'text-gray-400';
-                        else if (theme === 'purple') subtitleColor = isSpecActive ? 'text-purple-500' : 'text-gray-400';
-
-                        return (
-                            <button
-                                key={spec.id}
-                                onClick={() => switchSpec(spec.id)}
-                                id={`tab-${spec.id}`}
-                                className={`flex-1 min-w-[120px] py-3 px-4 rounded-lg font-semibold text-sm transition-all duration-200 flex flex-col items-center justify-center gap-1 border focus:outline-none ${
-                                    isSpecActive ? btnActiveStyle : btnInactiveStyle
-                                }`}
-                            >
-                                <span className="font-serif text-base flex items-center gap-1.5">
-                                    <span>{spec.icon}</span>
-                                    <span>{spec.label}</span>
-                                </span>
-                                <span className={`text-[9px] uppercase tracking-wider font-sans font-normal ${subtitleColor}`}>
-                                    {spec.subtitle}
-                                </span>
-                            </button>
-                        );
-                    })}
+              {/* Arcana (Signature Ability) Block */}
+              {block.type === 'arcana' && block.items && (
+                <div className="space-y-4">
+                  {block.items.map((item, idx) => (
+                    <div key={idx} className="border border-amber-300/80 rounded-xl p-6 bg-gradient-to-br from-amber-50/20 to-orange-50/10 hover:border-amber-400 hover:shadow-[0_0_20px_rgba(245,158,11,0.08)] transition-all duration-300 shadow-md relative overflow-hidden font-sans">
+                      {/* Decorative background flare */}
+                      <div className="absolute top-0 right-0 w-24 h-24 bg-amber-500/5 rounded-full blur-2xl pointer-events-none" />
+                      
+                      <div className="flex flex-wrap items-center justify-between gap-3 mb-3">
+                        <h5 className="font-bold text-xl text-amber-950 font-serif flex items-center gap-2">
+                          <span className="text-xl">🌟</span>
+                          {item.name}
+                        </h5>
+                        {item.details && (
+                          <span className="bg-amber-100 border border-amber-300 text-amber-900 text-[10px] font-extrabold px-3 py-1 rounded flex items-center gap-1.5 shadow-sm uppercase tracking-wider">
+                            {item.details}
+                          </span>
+                        )}
+                      </div>
+                      <p className="text-sm text-gray-800 leading-relaxed border-t border-amber-150/60 pt-3 mt-2 font-sans">{item.desc}</p>
+                    </div>
+                  ))}
                 </div>
-
-                {/* Subcomponent content rendering */}
-                <div className="bg-white">
-                    {['lamina', 'bastiao', 'vanguarda', 'francoatirador'].includes(activeSpec) && (
-                        <Combatente activeSpec={activeSpec} switchSpec={switchSpec} hideNav={true} />
-                    )}
-                    {['elementalista', 'vinculos', 'dominios', 'arquiteto'].includes(activeSpec) && (
-                        <Invocador activeSpec={activeSpec} switchSpec={switchSpec} hideNav={true} />
-                    )}
-                    {['metamorfo', 'artifice', 'biomante', 'alquimista'].includes(activeSpec) && (
-                        <Transmutador activeSpec={activeSpec} switchSpec={switchSpec} hideNav={true} />
-                    )}
-                    {['ilusionista', 'controlador', 'dobrador', 'oraculo'].includes(activeSpec) && (
-                        <Mentalista activeSpec={activeSpec} switchSpec={switchSpec} hideNav={true} />
-                    )}
-                </div>
-
+              )}
             </div>
+          ))}
+        </div>
+      </div>
 
-            {/* Sinergia entre Escolas e Criação de Magias */}
-            <div className="mt-12 bg-gradient-to-br from-indigo-950 to-slate-900 text-white rounded-2xl p-6 md:p-8 shadow-xl border border-indigo-500/30">
-                <h3 className="font-serif font-bold text-2xl mb-4 flex items-center gap-2.5 text-amber-300">Sinergia: Escolas e Limites de Feitiços
-                </h3>
-                <p className="text-sm text-gray-300 leading-relaxed font-sans mb-6">Em <strong>Doze Arcanas</strong>, a evolução do seu personagem em uma Escola dita diretamente a sua capacidade de memorizar e utilizar os feitiços prontos e seus aprimoramentos do seu Grimório.
-                </p>
-
-                {/* Grid de Nível e Limites */}
-                <div className="grid grid-cols-1 gap-6 mb-8">
-                    <div className="bg-white/5 border border-white/10 rounded-xl p-5 hover:border-amber-500/30 transition-all duration-300">
-                        <div className="flex items-center gap-2.5 mb-3 text-amber-400">
-                            <span className="font-serif font-bold text-lg">Nível 1: Aprendiz</span>
-                        </div>
-                        <ul className="text-xs text-gray-300 space-y-2 font-sans list-disc pl-4">
-                            <li><strong>Limite de Feitiços:</strong><br></br>Apenas <strong>Feitiços de Grau I</strong> (Fundamentais).</li>
-                            <li><strong>Feitiços Consolidados:</strong><br></br>Máximo de <strong>3 feitiços</strong> ativos no Grimório.</li>
-                        </ul>
-                    </div>
-                    <div className="bg-white/5 border border-white/10 rounded-xl p-5 hover:border-indigo-400/30 transition-all duration-300">
-                        <div className="flex items-center gap-2.5 mb-3 text-indigo-300">
-                            <span className="font-serif font-bold text-lg">Nível 2: Experiente</span>
-                        </div>
-                        <ul className="text-xs text-gray-300 space-y-2 font-sans list-disc pl-4">
-                            <li><strong>Limite de Feitiços:</strong><br></br>Desbloqueia <strong>Feitiços de Grau II</strong> (Avançados).</li>
-                            <li><strong>Feitiços Consolidados:</strong><br></br>Máximo de <strong>6 feitiços</strong> ativos no Grimório.</li>
-                        </ul>
-                    </div>
-                    <div className="bg-white/5 border border-white/10 rounded-xl p-5 hover:border-purple-400/30 transition-all duration-300">
-                        <div className="flex items-center gap-2.5 mb-3 text-purple-300">
-                            <span className="font-serif font-bold text-lg">Nível 3: Graduante</span>
-                        </div>
-                        <ul className="text-xs text-gray-300 space-y-2 font-sans list-disc pl-4">
-                            <li><strong>Limite de Feitiços:</strong><br></br>Desbloqueia <strong>Feitiços de Grau III</strong> (Espirituais/Obscuras).</li>
-                            <li><strong>Feitiços Consolidados:</strong><br></br>Máximo de <strong>12 feitiços</strong> ativos no Grimório.</li>
-                            <li><strong>Domínio de Aprimoramentos:</strong><br></br>Pode conjurar e ativar aprimoramentos de Grau III sem restrições.</li>
-                        </ul>
-                    </div>
-                </div>
-
-                {/* Aquisição de Novos Feitiços */}
-                <div className="mt-8 bg-white/5 border border-white/10 rounded-xl p-5">
-                    <h4 className="font-serif font-bold text-base text-amber-300 mb-2 flex items-center gap-2">Como obter novos Feitiços pela Escola
-                    </h4>
-                    <p className="text-xs text-gray-300 leading-relaxed font-sans mb-3">O avanço em suas Especializações garante novos Feitiços no seu Grimório de duas maneiras complementares:
-                    </p>
-                    <ul className="text-xs space-y-2.5 text-gray-300 font-sans list-disc pl-4">
-                        <li>
-                            <strong>Sintonia Natural:</strong><br></br>Toda vez que você avança um nível em qualquer Especialização de sua Escola, você ganha instantaneamente <strong>1 Feitiço de Grau I</strong> pertencente às Arcanas associadas daquela especialidade. Isso representa suas horas de treinamento e conclusão de fórmulas práticas na escola de magia.
-                        </li>
-                        <li>
-                            <strong>Pesquisa Extra-Curricular:</strong><br></br>Para aprender feitiços de Arcanas fora de sua Escola, você deve realizar atividades de pesquisa na biblioteca e gastar pergaminhos:
-                            <ul className="list-disc pl-5 mt-1.5 space-y-1">
-                                <li>Aprender Feitiço de Arcana afiliada à sua Escola: Teste de Magia (Controle) ou Mental (Conhecimento) contra <strong>DT 8 + Custo de PM do Feitiço</strong>.</li>
-                                <li>Aprender Feitiço de Arcana estranha à sua Escola: Teste de Magia (Controle) ou Mental (Conhecimento) contra <strong>DT 10 + Custo de PM do Feitiço</strong>.</li>
-                            </ul>
-                        </li>
-                    </ul>
-                </div>
-
-                {/* Sinergia Operacional com Conjurações */}
-                <div className="mt-6 bg-white/5 border border-white/10 rounded-xl p-5">
-                    <h4 className="font-serif font-bold text-base text-amber-300 mb-2 flex items-center gap-2">Sinergia Operacional com Conjurações
-                    </h4>
-                    <p className="text-xs text-gray-300 leading-relaxed font-sans mb-3">
-                        A economia de ações e os talentos de Escola possuem sinergia direta com a conjuração de magias do seu Grimório:
-                    </p>
-                    <ul className="text-xs space-y-2.5 text-gray-300 font-sans list-disc pl-4">
-                        <li>
-                            <strong>Ações Padrões Dobradas:</strong> Como um personagem possui <strong>2 Ações Padrões</strong> por turno, ele pode conjurar até <strong>2 Feitiços Consolidados</strong> (que custam 1 Ação Padrão cada) em um único turno, maximizando seu potencial mágico.
-                        </li>
-                        <li>
-                            <strong>Multiplicadores de Ação:</strong> Habilidades que concedem Ações Padrões adicionais (como <em>Acelerar</em> de Vanguarda ou <em>Sobrecarga Vital</em> de Biomante) ampliam exponencialmente essa capacidade, permitindo conjurações consecutivas de magias complexas ou a mescla de ataques e feitiços no mesmo turno.
-                        </li>
-                        <li>
-                            <strong>Interrupção e Controle de Iniciativa:</strong> Reações baseadas em contra-feitiço (como <em>Ruído de Pensamento</em> do Oráculo) permitem anular feitiços inteiros inimigos, forçando-os a gastar PM e consumir suas ações correspondentes, controlando a dinâmica do combate.
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </section>
-    );
+    </section>
+  );
 }

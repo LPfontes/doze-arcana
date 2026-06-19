@@ -24,7 +24,10 @@ export default function Casas() {
 
  return (
  <section id="sec-casas" className="content-section">
- <h2 className="text-3xl border-b-2 border-magic-100 pb-2 mb-4">10. O Sistema de Casas Acadêmicas</h2>
+ <h2 className="chapter-title">
+   <span className="chapter-number">7</span>
+   Casas Acadêmicas
+ </h2>
 
  <p className="mb-6 text-gray-700 leading-relaxed font-sans">As Casas não são meros alojamentos; são instituições de poder político e mágico dentro da
  academia. Ser aceito em uma delas é a garantia de que você terá uma rede de apoio poderosa,

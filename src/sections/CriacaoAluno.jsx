@@ -3,9 +3,9 @@ import React from 'react';
 export default function CriacaoAluno() {
   return (
     <section id="sec-criacao" className="content-section">
-      <h2 className="text-3xl font-serif font-black text-magic-900 mb-6 pb-2 border-b-2 border-indigo-100 flex items-center gap-3">
-        <span className="bg-indigo-100 text-indigo-800 px-3 py-1 rounded-lg text-2xl">3</span>
-        Criando a Ficha de Aluno
+      <h2 className="chapter-title">
+        <span className="chapter-number">4 &amp; 5</span>
+        Criando a Ficha de Aluno &amp; Origens e Raças
       </h2>
       <p className="mb-4">
         A jornada de um estudante na escola de magia começa pela sua origem e seus laços. A ficha de aluno documenta as características vitais que definem quem o personagem é antes mesmo de suas notas ou habilidades.
@@ -54,15 +54,15 @@ export default function CriacaoAluno() {
         <h4 className="font-serif font-bold text-amber-900 mb-2">Exemplos de Motivações:</h4>
         <ul className="space-y-2 text-sm text-gray-700">
           <li className="flex items-start gap-2">
-            <span className="text-amber-500 mt-0.5">⭐</span>
+            <span className="text-amber-500 mt-0.5">✦</span>
             <span><strong>Aprovação:</strong> Satisfazer as altas expectativas impostas pelo seu Patrono ou família.</span>
           </li>
           <li className="flex items-start gap-2">
-            <span className="text-amber-500 mt-0.5">🛡️</span>
+            <span className="text-amber-500 mt-0.5">✦</span>
             <span><strong>Proteção:</strong> Ganhar poder mágico forte o suficiente para proteger pessoas importantes do seu passado.</span>
           </li>
           <li className="flex items-start gap-2">
-            <span className="text-amber-500 mt-0.5">👑</span>
+            <span className="text-amber-500 mt-0.5">✦</span>
             <span><strong>Ambição Pura:</strong> Tornar-se um Mago Supremo apenas pela glória, título e reconhecimento inquestionável.</span>
           </li>
         </ul>
@@ -75,107 +75,235 @@ export default function CriacaoAluno() {
         Em geral, as Raças não conferem discrepâncias numéricas gigantescas ou poderes desbalanceados; elas fornecem a <strong>base cultural da sua interpretação</strong> e estipulam a sua faísca mágica original. 
       </p>
 
-      <div className="grid grid-cols-1 lg:grid-cols-3 gap-5 mt-6 mb-8">
-        {/* Elfos */}
+      <div className="grid grid-cols-1 gap-5 mt-6 mb-8">
+        {/* Elfos — 4 subtipos */}
         <div className="bg-emerald-50/40 border border-emerald-100 rounded-2xl p-5 shadow-sm hover:shadow-md hover:border-emerald-300 transition-all duration-300">
-          <h4 className="font-serif font-bold text-xl text-emerald-900 mb-2 flex items-center gap-2">
-            <span className="text-2xl drop-shadow-sm">🌿</span> Elfos
+          <h4 className="font-serif font-bold text-xl text-emerald-900 mb-1 flex items-center gap-2">
+            🌿 Elfos
           </h4>
-          <p className="text-sm text-emerald-950/80 mb-5 leading-relaxed min-h-[60px]">
-            As espécies primordiais do mundo, dotadas de uma ligação profunda, serena e natural com o fluxo das Arcanas.
+          <p className="text-sm text-emerald-950/80 mb-4 leading-relaxed">
+            Espécies primordiais e antigas, com ligação inata às correntes elementais do mundo. Existem <strong>quatro linhagens élficas</strong>, cada uma com cultura própria e uma resistência ao dano correspondente à sua arcana de origem.
           </p>
-          <div className="bg-white border border-emerald-100 p-3.5 rounded-xl text-sm shadow-inner">
-            <strong className="text-emerald-800 block mb-1.5 uppercase text-[10px] tracking-wider font-bold">Conexão Inata</strong>
-            <span className="text-gray-700">
-              Inicia com <strong>um Feitiço de Grau I</strong> das Arcanas:<br/>
-              <span className="inline-block mt-1 font-medium text-emerald-900">Fogo, Vento, Vida ou Vazio.</span>
-            </span>
+          <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
+            {/* Elfo do Fogo */}
+            <div className="bg-orange-50/60 border border-orange-200/70 rounded-xl p-3.5 shadow-inner">
+              <strong className="text-orange-900 block mb-1 text-sm">🔥 Elfo do Fogo</strong>
+              <p className="text-xs text-gray-600 leading-relaxed mb-2">Apaixonados, intensos e guerreiros por natureza. Vivem em tribos nômades nas terras vulcânicas.</p>
+              <div className="space-y-0.5 text-xs">
+                <span className="block text-orange-800 font-semibold">Feitiço inicial: <span className="font-bold">Fogo (Grau I)</span></span>
+                <span className="block text-gray-500 italic">Resistência: RD 2 contra dano de fogo</span>
+              </div>
+            </div>
+            {/* Elfo da Água */}
+            <div className="bg-cyan-50/60 border border-cyan-200/70 rounded-xl p-3.5 shadow-inner">
+              <strong className="text-cyan-900 block mb-1 text-sm">💧 Elfo da Água</strong>
+              <p className="text-xs text-gray-600 leading-relaxed mb-2">Fluidos, contemplativos e adaptáveis. Habitam ilhas e costas, navegantes natos e guardiões dos oceanos.</p>
+              <div className="space-y-0.5 text-xs">
+                <span className="block text-cyan-800 font-semibold">Feitiço inicial: <span className="font-bold">Água (Grau I)</span></span>
+                <span className="block text-gray-500 italic">Resistência: RD 2 contra dano de gelo/água</span>
+              </div>
+            </div>
+            {/* Elfo da Natureza */}
+            <div className="bg-emerald-50/60 border border-emerald-200/70 rounded-xl p-3.5 shadow-inner">
+              <strong className="text-emerald-900 block mb-1 text-sm">🍃 Elfo da Natureza</strong>
+              <p className="text-xs text-gray-600 leading-relaxed mb-2">Serenos e protetores, ligados à biologia do mundo. Guardiões de florestas antigas e ciclos da vida.</p>
+              <div className="space-y-0.5 text-xs">
+                <span className="block text-emerald-800 font-semibold">Feitiço inicial: <span className="font-bold">Vida (Grau I)</span></span>
+                <span className="block text-gray-500 italic">Resistência: RD 2 contra dano de veneno</span>
+              </div>
+            </div>
+            {/* Elfo da Noite */}
+            <div className="bg-violet-50/60 border border-violet-200/70 rounded-xl p-3.5 shadow-inner">
+              <strong className="text-violet-900 block mb-1 text-sm">🌑 Elfo da Noite</strong>
+              <p className="text-xs text-gray-600 leading-relaxed mb-2">Sombrios, misteriosos e próximos do plano do Vazio. Estudiosos da antimagia e das fronteiras da existência.</p>
+              <div className="space-y-0.5 text-xs">
+                <span className="block text-violet-800 font-semibold">Feitiço inicial: <span className="font-bold">Vazio (Grau I)</span></span>
+                <span className="block text-gray-500 italic">Resistência: RD 2 contra dano de Escuridão ou Vazio</span>
+              </div>
+            </div>
           </div>
         </div>
 
         {/* Humanos */}
         <div className="bg-blue-50/40 border border-blue-100 rounded-2xl p-5 shadow-sm hover:shadow-md hover:border-blue-300 transition-all duration-300">
           <h4 className="font-serif font-bold text-xl text-blue-900 mb-2 flex items-center gap-2">
-            <span className="text-2xl drop-shadow-sm">⚔️</span> Humanos
+          ⚔️ Humanos
           </h4>
-          <p className="text-sm text-blue-950/80 mb-5 leading-relaxed min-h-[60px]">
+          <p className="text-sm text-blue-950/80 mb-4 leading-relaxed">
             Os mais numerosos. Suas vidas curtas fazem com que sejam intensos, passionais e irredutíveis em suas convicções.
           </p>
-          <div className="bg-white border border-blue-100 p-3.5 rounded-xl text-sm shadow-inner">
-            <strong className="text-blue-800 block mb-1.5 uppercase text-[10px] tracking-wider font-bold">Conexão Inata</strong>
-            <span className="text-gray-700">
-              Inicia com <strong>um Feitiço de Grau I</strong> das Arcanas:<br/>
-              <span className="inline-block mt-1 font-medium text-blue-900">Luz, Água, Ordem ou Caos.</span>
-            </span>
+          <div className="space-y-2">
+            <div className="bg-white border border-blue-100 p-3.5 rounded-xl text-sm shadow-inner">
+              <strong className="text-blue-800 block mb-1.5 uppercase text-[10px] tracking-wider font-bold">Conexão Inata</strong>
+              <span className="text-gray-700">
+                Inicia com <strong>um Feitiço de Grau I</strong> das Arcanas:<br/>
+                <span className="inline-block mt-1 font-medium text-blue-900">Luz, Água, Ordem ou Caos.</span>
+              </span>
+            </div>
+            <div className="bg-blue-50/70 border border-blue-200/60 p-3.5 rounded-xl text-sm shadow-inner">
+              <strong className="text-blue-800 block mb-1.5 uppercase text-[10px] tracking-wider font-bold">★ Bônus Racial — Adaptáveis</strong>
+              <span className="text-gray-700">
+                Inicia com <strong>1 treinamento de Perícia extra</strong> (3 treinamentos no total, em vez dos 2 padrões).
+              </span>
+            </div>
           </div>
         </div>
 
         {/* Anões */}
         <div className="bg-amber-50/40 border border-amber-100 rounded-2xl p-5 shadow-sm hover:shadow-md hover:border-amber-300 transition-all duration-300">
           <h4 className="font-serif font-bold text-xl text-amber-900 mb-2 flex items-center gap-2">
-            <span className="text-2xl drop-shadow-sm">⛰️</span> Anões
+          ⛰️ Anões
           </h4>
           <p className="text-sm text-amber-950/80 mb-5 leading-relaxed min-h-[60px]">
             Compartilham origens com os elfos, mas são atarracados, com personas fortes, destemidos e cabeça-duras.
           </p>
-          <div className="bg-white border border-amber-100 p-3.5 rounded-xl text-sm shadow-inner">
-            <strong className="text-amber-800 block mb-1.5 uppercase text-[10px] tracking-wider font-bold">Conexão Inata</strong>
-            <span className="text-gray-700">
-              Inicia com <strong>um Feitiço de Grau I</strong> das Arcanas:<br/>
-              <span className="inline-block mt-1 font-medium text-amber-900">Terra, Escuridão, Vínculo ou Isolamento.</span>
-            </span>
+          <div className="space-y-2">
+            <div className="bg-white border border-amber-100 p-3.5 rounded-xl text-sm shadow-inner">
+              <strong className="text-amber-800 block mb-1.5 uppercase text-[10px] tracking-wider font-bold">Conexão Inata</strong>
+              <span className="text-gray-700">
+                Inicia com <strong>um Feitiço de Grau I</strong> das Arcanas:<br/>
+                <span className="inline-block mt-1 font-medium text-amber-900">Terra, Escuridão, Vínculo ou Isolamento.</span>
+              </span>
+            </div>
+            <div className="bg-amber-50/70 border border-amber-200/60 p-3.5 rounded-xl text-sm shadow-inner">
+              <strong className="text-amber-800 block mb-1.5 uppercase text-[10px] tracking-wider font-bold">★ Bônus Racial — Robusto</strong>
+              <span className="text-gray-700">
+                Recebe <strong>+1 no atributo Físico</strong> (somado após a distribuição de pontos na criação).
+              </span>
+            </div>
           </div>
         </div>
 
         {/* Feéricos */}
         <div className="bg-fuchsia-50/40 border border-fuchsia-100 rounded-2xl p-5 shadow-sm hover:shadow-md hover:border-fuchsia-300 transition-all duration-300">
           <h4 className="font-serif font-bold text-xl text-fuchsia-900 mb-2 flex items-center gap-2">
-            <span className="text-2xl drop-shadow-sm">🦋</span> Feéricos
+          🦋 Feéricos
           </h4>
           <p className="text-sm text-fuchsia-950/80 mb-5 leading-relaxed min-h-[60px]">
-            Seres travessos nascidos de bolsões de mana do Crepúsculo. Guiam-se por intuição pura e são mestres das sutilezas emocionais.
+            Seres travessos nascidos de bolsões de mana do Crepúsculo. Guiam-se por intuição pura e são mestres das sutilezas emocionais. Você pode escolher ser uma <strong>fada, fauno ou dríade</strong>.
           </p>
-          <div className="bg-white border border-fuchsia-100 p-3.5 rounded-xl text-sm shadow-inner">
-            <strong className="text-fuchsia-800 block mb-1.5 uppercase text-[10px] tracking-wider font-bold">Conexão Inata</strong>
-            <span className="text-gray-700">
-              Inicia com <strong>um Feitiço de Grau I</strong> de livre escolha entre qualquer uma das <br/>
-              <span className="inline-block mt-1 font-medium text-fuchsia-900">Seis Arcanas Espirituais.</span>
-            </span>
+          <div className="space-y-2">
+            <div className="bg-white border border-fuchsia-100 p-3.5 rounded-xl text-sm shadow-inner">
+              <strong className="text-fuchsia-800 block mb-1.5 uppercase text-[10px] tracking-wider font-bold">Conexão Inata</strong>
+              <span className="text-gray-700">
+                Inicia com <strong>um Feitiço de Grau I</strong> de livre escolha entre qualquer uma das <br/>
+                <span className="inline-block mt-1 font-medium text-fuchsia-900">Seis Arcanas Espirituais.</span>
+              </span>
+            </div>
+            <div className="bg-fuchsia-50/70 border border-fuchsia-200/60 p-3.5 rounded-xl text-sm shadow-inner">
+              <strong className="text-fuchsia-800 block mb-1.5 uppercase text-[10px] tracking-wider font-bold">★ Bônus Racial — Charme Místico</strong>
+              <span className="text-gray-700">
+                Recebe <strong>+1 no atributo Social</strong> (somado após a distribuição de pontos na criação).
+              </span>
+            </div>
           </div>
         </div>
 
         {/* Drakin */}
         <div className="bg-rose-50/40 border border-rose-100 rounded-2xl p-5 shadow-sm hover:shadow-md hover:border-rose-300 transition-all duration-300">
           <h4 className="font-serif font-bold text-xl text-rose-900 mb-2 flex items-center gap-2">
-            <span className="text-2xl drop-shadow-sm">🐉</span> Drakin
+          🐉 Drakin
           </h4>
-          <p className="text-sm text-rose-950/80 mb-5 leading-relaxed min-h-[60px]">
+          <p className="text-sm text-rose-950/80 mb-4 leading-relaxed">
             Herdeiros do sangue de dragões ancestrais. Possuem escamas esparsas pelo corpo, um orgulho inabalável e grande ferocidade.
           </p>
-          <div className="bg-white border border-rose-100 p-3.5 rounded-xl text-sm shadow-inner">
-            <strong className="text-rose-800 block mb-1.5 uppercase text-[10px] tracking-wider font-bold">Conexão Inata</strong>
-            <span className="text-gray-700">
-              Inicia com <strong>um Feitiço de Grau I</strong> de livre escolha entre qualquer uma das <br/>
-              <span className="inline-block mt-1 font-medium text-rose-900">Seis Arcanas Elementais.</span>
-            </span>
+          <div className="space-y-3">
+            {/* Bônus Racial */}
+            <div className="bg-rose-50/70 border border-rose-200/60 p-3.5 rounded-xl text-sm shadow-inner">
+              <strong className="text-rose-800 block mb-1.5 uppercase text-[10px] tracking-wider font-bold">★ Bônus Racial — Escamas Rígidas</strong>
+              <span className="text-gray-700">
+                Recebe <strong>+1 de Redução de Dano (RD) natural</strong> contra qualquer tipo de dano.
+              </span>
+            </div>
+
+            {/* Linhagens Elementais */}
+            <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-3">
+              {/* Drakin do Fogo */}
+              <div className="bg-orange-50/60 border border-orange-200/70 rounded-xl p-3 shadow-inner">
+                <strong className="text-orange-950 block mb-1 text-sm">🔥 Drakin do Fogo</strong>
+                <div className="space-y-1 text-xs text-gray-700">
+                  <span className="block font-semibold">Feitiço Inicial: <span className="font-bold text-orange-900">Fogo (Grau I)</span></span>
+                  <span className="block font-semibold">Ataque Natural: <span className="font-bold text-orange-900">Sopro Flamejante</span></span>
+                  <span className="block text-gray-500 italic">Dano: Maior d6 do ataque (Fogo)</span>
+                </div>
+              </div>
+              {/* Drakin da Água */}
+              <div className="bg-cyan-50/60 border border-cyan-200/70 rounded-xl p-3 shadow-inner">
+                <strong className="text-cyan-950 block mb-1 text-sm">💧 Drakin da Água</strong>
+                <div className="space-y-1 text-xs text-gray-700">
+                  <span className="block font-semibold">Feitiço Inicial: <span className="font-bold text-cyan-900">Água (Grau I)</span></span>
+                  <span className="block font-semibold">Ataque Natural: <span className="font-bold text-cyan-900">Jorro Glacial</span></span>
+                  <span className="block text-gray-500 italic">Dano: Maior d6 do ataque (Gelo/Água)</span>
+                </div>
+              </div>
+              {/* Drakin da Terra */}
+              <div className="bg-amber-50/60 border border-amber-200/70 rounded-xl p-3 shadow-inner">
+                <strong className="text-amber-950 block mb-1 text-sm">⛰️ Drakin da Terra</strong>
+                <div className="space-y-1 text-xs text-gray-700">
+                  <span className="block font-semibold">Feitiço Inicial: <span className="font-bold text-amber-900">Terra (Grau I)</span></span>
+                  <span className="block font-semibold">Ataque Natural: <span className="font-bold text-amber-900">Golpe Sísmico</span></span>
+                  <span className="block text-gray-500 italic">Dano: Maior d6 do ataque (Impacto)</span>
+                </div>
+              </div>
+              {/* Drakin do Vento */}
+              <div className="bg-teal-50/60 border border-teal-200/70 rounded-xl p-3 shadow-inner">
+                <strong className="text-teal-950 block mb-1 text-sm">🌀 Drakin do Vento</strong>
+                <div className="space-y-1 text-xs text-gray-700">
+                  <span className="block font-semibold">Feitiço Inicial: <span className="font-bold text-teal-900">Vento (Grau I)</span></span>
+                  <span className="block font-semibold">Ataque Natural: <span className="font-bold text-teal-900">Lâmina de Vento</span></span>
+                  <span className="block text-gray-500 italic">Dano: Maior d6 do ataque (Vento/Cortante)</span>
+                </div>
+              </div>
+              {/* Drakin da Luz */}
+              <div className="bg-yellow-50/60 border border-yellow-200/70 rounded-xl p-3 shadow-inner">
+                <strong className="text-yellow-950 block mb-1 text-sm">☀️ Drakin da Luz</strong>
+                <div className="space-y-1 text-xs text-gray-700">
+                  <span className="block font-semibold">Feitiço Inicial: <span className="font-bold text-yellow-900">Luz (Grau I)</span></span>
+                  <span className="block font-semibold">Ataque Natural: <span className="font-bold text-yellow-900">Raio Solar</span></span>
+                  <span className="block text-gray-500 italic">Dano: Maior d6 do ataque (Luz)</span>
+                </div>
+              </div>
+              {/* Drakin da Escuridão */}
+              <div className="bg-violet-50/60 border border-violet-200/70 rounded-xl p-3 shadow-inner">
+                <strong className="text-violet-950 block mb-1 text-sm">🌑 Drakin da Escuridão</strong>
+                <div className="space-y-1 text-xs text-gray-700">
+                  <span className="block font-semibold">Feitiço Inicial: <span className="font-bold text-violet-900">Escuridão (Grau I)</span></span>
+                  <span className="block font-semibold">Ataque Natural: <span className="font-bold text-violet-900">Garras Umbrais</span></span>
+                  <span className="block text-gray-500 italic">Dano: Maior d6 do ataque (Sombra/Frio)</span>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
 
         {/* Quiméricos */}
         <div className="bg-violet-50/40 border border-violet-100 rounded-2xl p-5 shadow-sm hover:shadow-md hover:border-violet-300 transition-all duration-300">
           <h4 className="font-serif font-bold text-xl text-violet-900 mb-2 flex items-center gap-2">
-            <span className="text-2xl drop-shadow-sm">👁️</span> Quiméricos
+          👁️ Quiméricos
           </h4>
-          <p className="text-sm text-violet-950/80 mb-5 leading-relaxed min-h-[60px]">
+          <p className="text-sm text-violet-950/80 mb-4 leading-relaxed">
             Mestiços ou indivíduos tocados por fortes anomalias arcanas. Carregam mutações físicas e um fluxo de mana instável e caótico.
           </p>
-          <div className="bg-white border border-violet-100 p-3.5 rounded-xl text-sm shadow-inner">
-            <strong className="text-violet-800 block mb-1.5 uppercase text-[10px] tracking-wider font-bold">Conexão Inata</strong>
-            <span className="text-gray-700">
-              Inicia com <strong>um Feitiço de Grau I</strong> de <br/>
-              <span className="inline-block mt-1 font-medium text-violet-900">Qualquer Arcana (Livre Escolha).</span>
-              <br/><span className="text-[10px] uppercase tracking-wider text-violet-600 mt-1 block">Requer aprovação narrativa.</span>
-            </span>
+          <div className="space-y-2.5">
+            <div className="bg-white border border-violet-100 p-3.5 rounded-xl text-sm shadow-inner">
+              <strong className="text-violet-800 block mb-1.5 uppercase text-[10px] tracking-wider font-bold">Conexão Inata</strong>
+              <span className="text-gray-700">
+                Inicia com <strong>um Feitiço de Grau I</strong> de <br/>
+                <span className="inline-block mt-1 font-medium text-violet-900">Qualquer Arcana (Livre Escolha).</span>
+                <span className="text-[10px] uppercase tracking-wider text-violet-600 mt-1 block">Requer aprovação narrativa.</span>
+              </span>
+            </div>
+            <div className="bg-violet-50/70 border border-violet-200/60 p-3.5 rounded-xl text-sm shadow-inner">
+              <strong className="text-violet-800 block mb-1.5 uppercase text-[10px] tracking-wider font-bold">★ Linhagens Quiméricas</strong>
+              <div className="space-y-2 text-gray-700 text-xs">
+                <div>
+                  <span className="font-bold text-violet-900">🐾 Bestial:</span> Descendentes de raças de povo-bicho (como homens-fera). Converse com o narrador para obter um <strong>bônus de atributo condizente (+1)</strong> ou uma pequena habilidade utilitária associada à sua natureza animal.
+                </div>
+                <div className="border-t border-violet-100 pt-2">
+                  <span className="font-bold text-violet-900">✨ Tocado pelas Arcanas:</span> Tiveram contato com uma fonte de poder elemental ou espiritual ainda jovens. Escolha uma Arcana: você recebe <strong>Redução de Dano (RD 2)</strong> contra dano causado por essa Arcana e <strong>+1 Vantagem (+1d4)</strong> em testes envolvendo-a.
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
@@ -193,7 +321,7 @@ export default function CriacaoAluno() {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 relative z-10">
           <div>
             <h4 className="font-serif text-lg text-indigo-900 font-bold mb-3 flex items-center gap-2">
-              <span className="text-xl">⚖️</span> Sistema de Pontos
+            Sistema de Pontos
             </h4>
             <p className="text-sm text-gray-600 mb-3 leading-relaxed">
               Os atributos de um personagem sempre variam numa escala de <strong>-3 a +3</strong>. 
@@ -205,7 +333,7 @@ export default function CriacaoAluno() {
 
           <div>
             <h4 className="font-serif text-lg text-rose-900 font-bold mb-3 flex items-center gap-2">
-              <span className="text-xl">📉</span> Sacrifícios e Foco
+            Sacrifícios e Foco
             </h4>
             <p className="text-sm text-gray-600 mb-3 leading-relaxed">
               Se você quiser um personagem ainda mais focado, você pode optar por <strong>diminuir atributos</strong> abaixo de zero. 
@@ -232,14 +360,12 @@ export default function CriacaoAluno() {
       <div className="bg-indigo-50/40 border border-indigo-100 rounded-xl p-5 mb-8">
         <ul className="space-y-4 text-sm text-gray-700">
           <li className="flex gap-3">
-            <span className="text-lg">⏳</span>
             <div>
               <strong className="text-indigo-900 block mb-0.5">Longo Prazo Narrativo</strong>
               O aluno pode dedicar parte do seu dia a dia e tempo livre para estudar avidamente na biblioteca (Mental), treinar o corpo na Forja (Físico), etc. É recomendado alinhar esse desejo com o Mestre. A evolução de um ponto de atributo é um processo demorado que costuma acontecer apenas <strong>ao final de cada período letivo (o equivalente a 6 meses de tempo no mundo do jogo)</strong>.
             </div>
           </li>
           <li className="flex gap-3">
-            <span className="text-lg">🌟</span>
             <div>
               <strong className="text-indigo-900 block mb-0.5">O Limite do Potencial</strong>
               Embora atributos individuais variem de -3 a +3, a <strong>soma total de todos os atributos</strong> de um personagem dificilmente ultrapassa o valor de <strong>6</strong>. Apenas magos e seres verdadeiramente extraordinários e lendários chegam a patamares superiores a isso em seu ápice.
@@ -257,23 +383,23 @@ export default function CriacaoAluno() {
       
       <div className="bg-white border border-slate-200/80 rounded-2xl p-6 shadow-sm mb-8 hover:shadow-md transition-all duration-300">
         <h4 className="font-serif text-lg text-indigo-900 font-bold mb-3 flex items-center gap-2">
-          <span className="text-xl">📜</span> Escolha e Coerência Narrativa
+        Escolha e Coerência Narrativa
         </h4>
         <p className="text-sm text-gray-600 mb-4 leading-relaxed">
-          Na criação do personagem, você inicia sabendo o <strong>Nível 1 de uma Especialização de Caminho</strong> (Lâmina, Metamorfo, Ilusionista, etc). Você é livre para escolher qual talento busca desenvolver inicialmente.
+          Na criação do personagem, você inicia sabendo o <strong>Nível 1 de um Caminho</strong> (Guerreiro, Metamorfo, Ilusionista, etc). Você é livre para escolher qual talento busca desenvolver inicialmente.
         </p>
 
         <div className="bg-amber-50/50 border-l-4 border-amber-400 p-4 rounded-r-lg text-sm text-gray-700">
           <p className="mb-2"><strong>Importante:</strong> A sua escolha de Caminho <strong>deve refletir a sua narrativa e rotina</strong> dentro da academia.</p>
           <ul className="list-disc pl-5 space-y-1 text-gray-600">
-            <li>Dificilmente um aluno que gasta seus dias trancado na biblioteca estudando teoria desenvolverá o Nível 1 em um Caminho puramente físico, como o do <strong>Combatente</strong>.</li>
-            <li>Da mesma forma, um atleta que passa os dias focando no esporte e nos treinos de luta corporal não fará sentido ganhar um nível em um Caminho do <strong>Mentalista</strong>.</li>
+            <li>Dificilmente um aluno que gasta seus dias trancado na biblioteca estudando teoria desenvolverá o Nível 1 em um Caminho puramente físico, como o do <strong>Guerreiro</strong>.</li>
+            <li>Da mesma forma, um atleta que passa os dias focando no esporte e nos treinos de luta corporal não fará sentido ganhar um nível em um Caminho da Mente, como o do <strong>Ilusionista</strong> ou <strong>Bardo</strong>.</li>
           </ul>
         </div>
       </div>
 
       <h4 className="font-serif text-lg text-indigo-900 font-bold mb-3 flex items-center gap-2 mt-6">
-        <span className="text-xl">📈</span> Evolução nos Caminhos
+      Evolução nos Caminhos
       </h4>
       <p className="mb-4 text-gray-700 leading-relaxed">
         Assim como a evolução dos atributos, o avanço para o <strong>Nível 2 e Nível 3</strong> de um Caminho não ocorre por um acúmulo genérico de pontos de experiência, mas é ditado pelo progresso da sua narrativa.
@@ -282,14 +408,12 @@ export default function CriacaoAluno() {
       <div className="bg-indigo-50/40 border border-indigo-100 rounded-xl p-5 mb-8">
         <ul className="space-y-4 text-sm text-gray-700">
           <li className="flex gap-3">
-            <span className="text-lg">🎯</span>
             <div>
               <strong className="text-indigo-900 block mb-0.5">Recompensas e Treinamento</strong>
               Aprender um novo nível em um Caminho exige tempo e esforço dedicado. Um nível pode ser destravado como <strong>recompensa por completar missões difíceis</strong>, conquistar o acesso a mestres excepcionais, ou encontrar grimórios e manuais perdidos relacionados à sua especialização. Esse avanço exige bastante tempo de prática.
             </div>
           </li>
           <li className="flex gap-3">
-            <span className="text-lg">🔀</span>
             <div>
               <strong className="text-indigo-900 block mb-0.5">Múltiplos Caminhos</strong>
               O aluno não está preso a um único Caminho pelo resto da vida. Ele é totalmente <strong>livre para aprender e ter mais de um Caminho</strong> ao mesmo tempo (iniciando os novos Caminhos no Nível 1), desde que sua narrativa de treino justifique como ele adquiriu e pratica essas novas habilidades diversificadas.

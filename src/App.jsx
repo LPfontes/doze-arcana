@@ -99,21 +99,21 @@ function App() {
         <main className="xl:ml-[312px] bg-white shadow-2xl rounded-2xl xl:rounded-3xl overflow-hidden border border-gray-200 p-6 md:p-12 text-gray-700 leading-relaxed">
           
           <p className="text-lg mb-8 italic text-center text-gray-600 font-sans">
-            O <strong>Doze Arcanas</strong> é um sistema de RPG focado em aventuras dentro de escolas de magia e mistérios arcanos. O núcleo mecânico do jogo utiliza rolagens de 2d12+, combinando quatro atributos principais e doze perícias para definir as aptidões dos personagens.
+            O <strong>Doze Arcanas</strong> é um sistema de RPG focado em aventuras dentro de escolas de magia e mistérios arcanos. O núcleo mecânico do jogo utiliza rolagens de 2d6+, combinando quatro atributos principais e doze perícias para definir as aptidões dos personagens.
           </p>
 
           <hr className="my-8 border-gray-200" />
           
           <Introduction />
-          <Attributes />
-          <CriacaoAluno />
           <Combate />
-          <Grimorio />
-          <Arcanas />
-          <Condicoes />
           <Economia />
-          <Caminhos />
+          <CriacaoAluno />
+          <Attributes />
           <Casas />
+          <Arcanas />
+          <Grimorio />
+          <Caminhos />
+          <Condicoes />
 
         </main>
       </div>

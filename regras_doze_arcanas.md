@@ -4,44 +4,143 @@ Bem-vindo a **Doze Arcanas**, um sistema de RPG focado em aventuras dentro de es
 
 ---
 
-## 1. Mecânicas Centrais de Teste
+## PARTE I: O SISTEMA E AS MECÂNICAS
+
+### 1. Mecânicas Centrais de Teste
 
 Todas as incertezas e conflitos do sistema são resolvidos através de Testes de Atributo.
-A amplitude numérica básica varia de **2 a 24**, com uma média esperada de **13**.
+A amplitude numérica básica varia de **2 a 12**, com uma média esperada de **7**.
 
-*   **Teste Comum:** O resultado é a soma de `2d12 + Atributo`.
-*   **Teste Especializado:** Utilizado quando o personagem possui treinamento na Perícia exigida. Adiciona-se 1d12 extra por possuir o treinamento (totalizando 3d12), mantendo apenas os dois maiores valores rolados. O resultado final é a soma dos `2 maiores d12 + Atributo`. Não existem pontos de Perícia, apenas o fato de ter ou não o treinamento. Um aluno começa tendo 2 treinamentos, dificilmente passa de 3, mas é possível trocá-los (algo que não é praticado acaba se perdendo).
+*   **Teste Comum:** O resultado é a soma de `2d6 + Atributo`.
+*   **Teste Especializado:** Utilizado quando o personagem possui treinamento na Perícia exigida. Adiciona-se 1d6 extra por possuir o treinamento (totalizando 3d6), mantendo apenas os dois maiores valores rolados. O resultado final é a soma dos `2 maiores d6 + Atributo`. Não existem pontos de Perícia, apenas o fato de ter ou não o treinamento. Um aluno começa tendo 2 treinamentos, dificilmente passa de 3, mas é possível trocá-los (algo que não é praticado acaba se perdendo).
 *   **Vantagens e Desvantagens:** São modificadores situacionais que se anulam entre si.
-    *   **Vantagem:** Adiciona **1d6** à rolagem.
-    *   **Desvantagem:** Subtrai **1d6** da rolagem.
-    *   *(Em caso de acúmulo de Vantagens, rola-se a quantidade total de d6s e aplica-se apenas o maior resultado).*
+    *   **Vantagem:** Adiciona **1d4** à rolagem.
+    *   **Desvantagem:** Subtrai **1d4** da rolagem.
+    *   *(Em caso de acúmulo de Vantagens, rola-se a quantidade total de d4s e aplica-se apenas o maior resultado).*
 *   **Falha Crítica (1 e 1):** Representa uma falha garantida com consequências negativas e circunstâncias desfavoráveis.
-*   **Acerto Crítico (12 e 12):** Representa um sucesso garantido, gerando bônus e vantagens adicionais para a cena.
+*   **Acerto Crítico (6 e 6):** Representa um sucesso garantido, gerando bônus e vantagens adicionais para a cena. Note que o resultado máximo natural (6 e 6) continua somando 12, preservando o tema do nome "Doze Arcanas".
 
 ---
 
-## 2. Criando a Ficha de Aluno
+### 2. Combate e Recursos
+
+O combate compara o ataque contra uma Defesa padrão.
+
+*   **Defesa Base:** `7 + Físico`. (Representa a dificuldade para que um ataque te acerte).
+*   **Defesa Mágica:** `7 + Vigor + Condições Mágicas`.
+*   **Ataque:** `2d6 + Atributo de Ataque (Força/Destreza/Magia) + Modificadores`.
+
+#### Recursos e Atributos de Combate
+*   **Pontos de Vida (PV):** Medem a saúde física. Calculado como `20 + (Físico x 5)`. Ao chegar a 0 PV, o personagem fica Esgotado e precisa passar em testes de Mental + Vontade (DT 8) a cada rodada para evitar ficar inconsciente. Se sofrer qualquer tipo de dano enquanto estiver com 0 PV, ele sofre um Trauma (veja a Tabela de Traumas abaixo). Um personagem só pode possuir no máximo 2 Traumas ativos; ao acumular o 3º Trauma, ele cai inconsciente imediatamente.
+*   **Pontos de Mana (PM):** Reservatório de energia mágica. Calculado como `12 + (Magia x 3)`.
+*   **Pontos de Arcana:** Recursos poderosos que representam o seu potencial mágico latente. Eles podem ser utilizados para ativar habilidades especiais, magias e aprimorar testes. Você recebe Pontos de Arcana ao realizar acertos críticos in rolagens ou ao concluir missões importantes.
+*   **Defesa (DF):** Sua capacidade de desviar e resistir a ataques. Representa a dificuldade (Dificuldade de Teste - DT) para que um ataque te acerte de modo a causar dano.
+*   **Redução de Dano (RD):** Um atributo contínuo proveniente de **equipamentos** (como armaduras físicas) que reduz um valor fixo de todo dano sofrido de cada ataque.
+*   **Proteção (PR):** Um valor temporário extra de vida que absorve o dano sofrido antes de atingi-lo (como escudos e armaduras mágicas temporárias). É consumido e destruído ao chegar a 0.
+
+#### Cálculo de Danos
+Em um acerto, o dano do ataque não é rolado separadamente. O dano é determinado diretamente pela própria rolagem de ataque:
+*   **Dano Físico Básico:** `Maior d6 da rolagem de ataque + Físico`.
+*   **Dano Mágico Básico:** `Maior d6 da rolagem de ataque + Magia`.
+*   **Dano Crítico:** Maximiza o valor do maior d6 do ataque (dano igual a `6 + Atributo`).
+
+Habilidades e aprimoramentos que concedem dados de dano bônus em um ataque (como `+1d6 de dano`) são rolados separadamente como dados extras de dano e somados ao total (ex: Maior d6 do ataque + Atributo + 1d6 de dano bônus).
+
+#### Tabela de Traumas (Rolagem de 2d6)
+Sempre que um personagem com 0 PV (Esgotado) sofrer dano de qualquer tipo, ele deve rolar 2d6 na tabela a seguir. Um personagem só pode ter no máximo 2 Traumas ativos antes de cair inconsciente (ao acumular o 3º Trauma, desmaia imediatamente):
+
+| Resultado | Trauma | Efeito Mecânico |
+| :--- | :--- | :--- |
+| **2 (Falha Crítica)** | Inconsciente | O personagem cai inconsciente, não pode agir e corre risco de morrer. Um personagem só volta a ficar consciente após ser estabilizado e passar por um descanso longo. |
+| **3 - 4** | Cicatriz Dolorosa | O golpe deixa uma marca profunda. O limite máximo de PV do personagem é reduzido em **3 PV** permanentemente. |
+| **5 - 8** | Concussão Severa | Sofre **1 Desvantagem (-1d4)** em todos os testes Mentais e de Iniciativa até realizar um descanso longo. |
+| **9 - 11** | Fratura Exposta | Um membro é quebrado. Sofre **1 Desvantagem (-1d4)** em testes Físicos até ser tratado com medicina (mental dificuldade 10) ou magia de cura (que cure pelo menos 5pv). |
+| **12 (Sorte)** | Cicatriz Gloriosa | O personagem resiste bravamente. |
+
+#### Iniciativa
+No início de cada combate, todos os participantes rolam para determinar a ordem de ação. A **Iniciativa** é calculada como:
+
+`2d6 + Mental`
+
+Resultados mais altos agem primeiro. Em caso de empate, personagens jogadores têm prioridade sobre personagens do Mestre.
+
+#### Ações de Combate
+Em cada turno, um personagem possui:
+*   **2 Ações Padrão:** Atacar, conjurar magia comum, interagir com objeto complexo.
+*   **1 Ação de Movimento:** Deslocar-se pelo cenário, sacar arma, levantar-se.
+
+*(Duas Ações Padrões podem ser combinadas em uma Ação Complexa, duas Ações de padrões podem ser combinadas em uma Ação Complexa, e duas Ações Padrão e uma Ação de Movimento podem ser combinadas em uma Ação Complexa).*
+
+#### Descanso e Recuperação
+Os personagens recuperam recursos através de dois tipos de descanso:
+
+*   **Descanso Curto (mínimo 4 horas):** O personagem descansa, come e dorme parcialmente. Recupera `3 + 1d6` de **PV** e `3 + 1d6` de **PM**. Remove condições temporárias de combate (ex: Sangramento, Desorientado). Não remove Traumas nem condições de Fratura Exposta ou Concussão Severa.
+*   **Descanso Longo (8 horas completas):** O personagem dorme uma noite inteira em segurança. Recupera **todos os PV e todos os PM**. Remove Concussão Severa, Fratura Exposta (se tratada) e outras condições com duração "até descanso longo". Um personagem Inconsciente só pode ser estabilizado e só desperta após um Descanso Longo.
+
+---
+
+### 3. Economia Escolar: Créditos & Prestígio
+
+O dinheiro mundano não tem valor nos corredores da escola.
+
+#### Créditos Acadêmicos (A Moeda Prática)
+Substituem o dinheiro comum e medem a confiança que a escola deposita no aluno.
+*   **Como Ganhar:** Notas altas, clubes acadêmicos, missões escolares.
+*   **Como Gastar:** Equipamentos, acesso à biblioteca restrita, chaves de laboratórios.
+*   **Como Perder:** Quebrar regras, multas, notas baixas.
+
+#### Prestígio (A Moeda Social)
+O status narrativo do personagem dentro do ecossistema da escola.
+*   **Fama:** O quão conhecido você é.
+*   **Reputação:** O "título" que carrega (ex: "Gênio", "Encrenqueiro").
+*   **Impacto:** Permite conseguir Vantagens (+1d4) em testes sociais ou abrir portas sem gastar Créditos.
+
+---
+
+#### Recessos e Atividades de Tempo Livre
+
+Os Recessos são períodos de rotina dentro do ano letivo da academia, dedicados aos estudos, descanso e outras atividades pessoais. Durante um recesso, o aluno tem direito a realizar **até 2 atividades** de sua escolha:
+
+*   **Treinar um nível de caminho:** Dedicar tempo a aprimorar suas técnicas e avançar na sua trilha de especialização acadêmica.
+*   **Aprender uma magia:** Praticar e transcrever um novo feitiço em seu grimório.
+*   **Descobrir um boato:** Investigar mistérios, fofocas e segredos ocultos pelos corredores da escola.
+*   **Cobrar um favor:** Usar suas conexões sociais e influência para reaver recursos ou favores de outros alunos ou funcionários.
+*   **Ciclar Mana (Treinamento de Mana):** Um treinamento especial e arriscado que consiste em manipular e circular toda a mana do próprio corpo. O aluno pode escolher realizar esse treinamento como uma de suas ações de recesso. Exige um teste de **Magia + Controle (DT 10)**. Em caso de sucesso, o aluno recebe **+4 PM máximos** permanentemente.
+
+---
+
+## PARTE II: CRIAÇÃO DE PERSONAGEM
+
+### 4. Criando a Ficha de Aluno
 
 A jornada de um estudante na escola de magia começa pela sua origem e seus laços.
 
-### O Patrono
+#### O Patrono
 Representa alguém de grande importância na vida do estudante que atua como um elo com o mundo.
 *   **Figuras Próximas:** Parente poderoso ou um mago famoso que enxergou potencial no aluno.
 *   **Figuras Distantes:** O lorde ou líder da terra natal, que financia jovens promissores.
 *   **Figuras Acadêmicas:** Um professor tutor ou um aluno veterano de grande prestígio.
 
-### A Raça
+---
+
+### 5. Origens e Raças
+
 As Raças fornecem a base cultural da sua interpretação e estipulam a sua faísca mágica original (Dádiva Arcana).
-*   **🌿 Elfos:** Primordiais. Inicia com 1 Feitiço de Grau I das Arcanas: Fogo, Vento, Vida ou Vazio.
-*   **⚔️ Humanos:** Numerosos e intensos. Inicia com 1 Feitiço de Grau I das Arcanas: Luz, Água, Ordem ou Caos.
-*   **⛰️ Anões:** Atarracados e destemidos. Inicia com 1 Feitiço de Grau I das Arcanas: Terra, Escuridão, Vínculo ou Isolamento.
-*   **🦋 Feéricos:** Seres do crepúsculo. Inicia com 1 Feitiço de Grau I de qualquer Arcana Espiritual.
-*   **🐉 Drakin:** Herdeiros de dragões. Inicia com 1 Feitiço de Grau I de qualquer Arcana Elemental.
-*   **👁️ Quiméricos:** Mestiços e anomalias. Inicia com 1 Feitiço de Grau I de qualquer Arcana (Requer aprovação narrativa).
+
+*   **🌿 Elfos:** Espécies primordiais e antigas, com ligação inata às correntes elementais do mundo. Existem quatro linhagens élficas, cada uma com cultura própria e resistência ao dano correspondente à sua arcana de origem.
+    *   **Elfo do Fogo (Ign):** Apaixonados, intensos, guerreiros por natureza. Inicia com o Feitiço de Grau I de **Fogo** e possui **Resistência ao Fogo (RD 2 contra dano de fogo)**.
+    *   **Elfo da Água (Flu):** Fluidos, contemplativos e adaptáveis. Inicia com o Feitiço de Grau I de **Água** e possui **Resistência ao Gelo (RD 2 contra dano de gelo/água)**.
+    *   **Elfo da Natureza (Lar):** Serenos, protetores, ligados à biologia do mundo. Inicia com o Feitiço de Grau I de **Vida** e possui **Resistência ao Veneno (RD 2 contra dano de veneno ou Vida corrompida)**.
+    *   **Elfo da Noite (Vat):** Sombrios, misteriosos e próximos do plano do Vazio. Inicia com o Feitiço de Grau I de **Vazio** e possui **Resistência às Trevas (RD 2 contra dano de Escuridão ou Vazio)**.
+*   **⚔️ Humanos:** Numerosos e intensos. Iniciam com 1 Feitiço de Grau I das Arcanas: Luz, Água, Ordem ou Caos — e com **1 treinamento de Perícia extra** (3 treinamentos no total, em vez dos 2 padrões de outras raças).
+*   **⛰️ Anões:** Atarracados e destemidos. Inicia com 1 Feitiço de Grau I das Arcanas: Terra, Escuridão, Vínculo ou Isolamento — e recebe **+1 no atributo Físico** (somado após a distribuição de pontos).
+*   **🦋 Feéricos:** Seres do crepúsculo. Você pode escolher ser uma **Fada**, **Fauno** ou **Dríade**. Inicia com 1 Feitiço de Grau I de qualquer Arcana Espiritual — e recebe **+1 no atributo Social** (somado após a distribuição de pontos).
+*   **🐉 Drakin:** Herdeiros de dragões. Recebe **+1 de RD natural** contra qualquer tipo de dano. Existe 1 linhagem para cada uma das seis Arcanas Elementais. Cada drakin inicia com 1 Feitiço de Grau I de sua arcana elemental e possui um **Ataque Natural Elemental** que causa **dano igual ao valor do maior d6 do ataque** do elemento correspondente (Sopro Flamejante para Fogo, Jorro Glacial para Água, Golpe Sísmico para Terra, Lâmina de Vento para Vento, Raio Solar para Luz, Garras Umbrais para Escuridão).
+*   **👁️ Quiméricos:** Mestiços e anomalias. Inicia com 1 Feitiço de Grau I de qualquer Arcana (Livre Escolha). Existem linhagens como a **Bestial** (descendentes de povo-bicho; veja com o narrador um bônus de atributo condizente de +1 ou habilidade equivalente) e **Tocado pelas Arcanas** (tiveram contato com uma fonte de poder ainda jovens; escolha uma Arcana para receber resistência a dano correspondente de RD 2 e +1 Vantagem em testes dela). (Requer aprovação narrativa).
 
 ---
 
-## 3. Atributos e Perícias
+### 6. Atributos e Perícias
 
 O sistema divide as capacidades dos personagens em quatro pilares fundamentais, cada um com três perícias associadas.
 
@@ -54,61 +153,95 @@ O sistema divide as capacidades dos personagens em quatro pilares fundamentais, 
 
 ---
 
-## 4. Combate e Recursos
+### 7. Casas Acadêmicas
 
-O combate compara o ataque contra uma Defesa padrão.
+As Casas não são meros alojamentos; são instituições de poder político e mágico dentro da academia. Ser aceito em uma delas é a garantia de que você terá uma rede de apoio poderosa, mas também significa comprar as inimizades que vêm com aquele brasão.
 
-*   **Defesa Base:** `10 + Destreza`. (Representa a dificuldade para que um ataque te acerte).
-*   **Defesa Mágica:** `10 + Vigor + Condições Mágicas`.
-*   **Ataque:** `2d12 + Atributo de Ataque (Força/Destreza/Magia) + Modificadores`.
+#### Status e Ingresso
+*   **Novato Neutro:** No início do primeiro ano, todos os alunos são considerados "Novatos Neutros". As Casas enviam seus veteranos como "olheiros" para observar o desempenho dos calouros nas aulas práticas e nos corredores.
+*   **O Rito de Ingresso:** Cada Casa define suas próprias regras de admissão, o convite nunca é de graça. O jogador precisará passar por um Rito de Ingresso narrativo (geralmente durante o 1º Período) para provar seu valor.
+*   **Poder Além dos Créditos:** Um aluno sem Casa sobrevive, mas um aluno filiado prospera. Fazer parte de uma Casa concede acessos que nenhum Crédito pode comprar: o Cofre da Casa, a Biblioteca Privada e a Rede de Influência.
 
-### Recursos Defensivos
-*   **Defesa**: Sua capacidade de desviar e resistir a ataques. Representa a dificuldade (Dificuldade de Teste - DT) para que um ataque te acerte de modo a causar dano.
-*   **Redução de Dano (RD)**: Um atributo contínuo proveniente de **equipamentos** (como armaduras físicas) que reduz um valor fixo de todo dano sofrido de cada ataque.
-*   **Proteção (PR)**: Um valor temporário extra de vida que absorve o dano sofrido antes de atingi-lo (como escudos e armaduras mágicas temporárias). É consumido e destruído ao chegar a 0.
+#### Perfis das Casas Acadêmicas
 
-### Ações de Combate
-Em cada turno, um personagem possui:
-*   **1 Ação Padrão:** Atacar, conjurar magia comum, interagir com objeto complexo.
-*   **1 Ação de Movimento:** Deslocar-se pelo cenário, sacar arma, levantar-se.
-*   **1 Ação Rápida:** Falar, soltar item, ativar certas habilidades de Escola.
+##### 🦁 Casa do Leão
+*   **Lema:** *"A verdade deve ser dita e o mal deve ser exposto."*
+*   **Arcanas Associadas:** Fogo (Igni), Luz (Lux), Ordem (Proto).
+*   **Perfil do Estudante:** Os alunos do Leão são fiéis a seus princípios, agentes da lei, buscadores da verdade, defensores daqueles que sofrem com a injustiça e sob o peso do poder absoluto. Aqueles que queimam com propósito e não se escondem nas sombras.
 
-*(Duas Ações Padrões podem ser combinadas em uma Ação Complexa).*
+##### 🌿 Casa da Árvore
+*   **Lema:** *"A vida persiste, o mundo é a rede dos corações dos vivos."*
+*   **Arcanas Associadas:** Terra (Tera), Vida (Lar), Vínculo (Vic).
+*   **Perfil do Estudante:** Os alunos da Árvore são o coração pulsante da escola. Eles possuem uma conexão profunda e quase instintiva com o mundo natural e com as pessoas ao seu redor. Não buscam a glória ou o centro das atenções; em vez disso, encontram propósito em nutrir o crescimento dos outros, proteger os mais vulneráveis e manter o equilíbrio do ecossistema mágico e social da academia. São excelentes ouvintes, amigos leais e defensores implacáveis quando aqueles que amam estão em perigo.
+
+##### ⚙️ Casa da Engrenagem
+*   **Lema:** *"Os limites da verdade são frágeis sobre o limiar do conhecimento, avançamos sobre ambos."*
+*   **Arcanas Associadas:** Vento (Aero), Isolamento (Nim), Caos (Kat).
+*   **Perfil do Estudante:** Os alunos da Engrenagem são as mentes inquietas da academia. Eles não se contentam em decorar feitiços antigos; eles querem desmontar a magia para ver como as peças funcionam por dentro. São inventores, teóricos e desbravadores de limiares. Muitas vezes vistos como excêntricos ou até perigosos pelos outros alunos, eles abraçam o risco com naturalidade, sabendo que a genialidade e a loucura são separadas por uma linha muito tênue. Se há uma regra dizendo "não misture essas duas poções", um aluno da Engrenagem será o primeiro a misturá-las só para anotar o resultado.
+
+##### 🌑 Casa da Noite
+*   **Lema:** *"O silêncio é o nosso guia, os segredos nossas armas, movemos as cordas para tocar a sintonia."*
+*   **Arcanas Associadas:** Água (Aqua), Escuridão (Nox), Vazio (Vat).
+*   **Perfil do Estudante:** Os alunos da Noite são os observadores da academia. Eles não se destacam nas multidões; em vez disso, flutuam sobre os tecidos sociais de forma quase imperceptível. São calmos, calculistas e extremamente perceptivos. Eles sabem quem tem uma dívida com quem, conhecem as passagens secretas do colégio e guardam segredos que poderiam arruinar reputações (ou salvar vidas). Um aluno da Noite nunca age no impulso ou se exibe sem propósito; quando eles finalmente agem, o resultado já foi decidido muito antes de alguém notar a sua presença.
 
 ---
 
-## 5. O Grimório e os Feitiços
+## PARTE III: O GRIMÓRIO E A MAGIA
+
+### 8. As Doze Arcanas
+
+As Arcanas representam os conceitos primordiais do universo que os magos podem dobrar.
+
+#### Arcanas Elementais (Manipulação Física)
+*   **Fogo (Igni):** Destruição, calor, energia.
+*   **Água (Aqua):** Fluidez, cura física, adaptação.
+*   **Terra (Tera):** Resiliência, peso, cristalização.
+*   **Vento (Aero):** Mobilidade, dispersão, leveza.
+*   **Luz (Lux):** Revelação, pureza, cegueira.
+*   **Escuridão (Nox):** Ocultação, frio profundo, gravidade.
+
+#### Arcanas Espirituais (Conceitual/Mental)
+*   **Vida (Lar):** Metabolismo, biologia, crescimento.
+*   **Vazio (Vat):** Entropia, anulação, antimagia.
+*   **Vínculo (Vic):** Conexões invisíveis, telepatia.
+*   **Isolamento (Nim):** Barreiras absolutas, repulsão.
+*   **Ordem (Proto):** Precisão matemática, rituais exatos.
+*   **Caos (Kat):** Acaso, probabilidades, imprevisibilidade.
+
+---
+
+### 9. O Grimório e os Feitiços
 
 A magia em Doze Arcanas é uma ciência estruturada. Magias não são montadas livremente em combate; elas são aprendidas como **Feitiços Prontos** consolidados por grandes conjuradores e transcritos no grimório.
 
-### Estrutura dos Feitiços e Aprimoramentos
+#### Estrutura dos Feitiços e Aprimoramentos
 *   **Custo Base:** Cada feitiço tem um custo fixo de Pontos de Mana (PM) para conjurar sua versão mais simples.
 *   **Aprimoramentos:** Ao conjurar, o mago pode investir Pontos de Mana (PM) extras para ativar aprimoramentos específicos do feitiço, melhorando o dano, alcance, área ou adicionando condições especiais.
 *   **Graus de Feitiço:** As magias são divididas em Graus de complexidade (Grau I, II e III), exigindo maior domínio do conjurador para serem aprendidas.
 
 Magias conjuradas custam **PM (Pontos de Mana)**. Se o personagem não tiver PM suficiente, sofre Exaustão.
 
-### Magia Narrativa (Fora de Combate)
+#### Magia Narrativa (Fora de Combate)
 
 Para dar fluidez ao uso de magias no cotidiano escolar, o sistema adota regras narrativas que substituem a necessidade constante de cálculos de aprimoramentos para problemas simples.
 
-#### 1. A Regra do Esforço Zero (Magias de Conforto)
+##### 1. A Regra do Esforço Zero (Magias de Conforto)
 Se o uso da magia for puramente estético, para conforto pessoal, ou não der nenhuma vantagem mecânica para resolver um grande problema da aventura, ela simplesmente acontece e **não custa PM**.
 *   **Como funciona:** Um aluno com o feitiço de Iluminação não precisa gastar mana para manter uma luzinha acesa para ler à noite. Um aluno de Água pode criar um pequeno guarda-chuva invisível para não se molhar no pátio.
 *   **O Limite:** Se o jogador tentar usar esse feitiço "gratuito" para cegar um guarda ou apagar um incêndio perigoso, o Mestre avisa: "Isso exige esforço real. Vamos para as regras de Teste ou Combate".
 
-#### 2. O Teste de Intenção (Substituindo a Conjuração Dinâmica)
+##### 2. O Teste de Intenção (Substituindo a Conjuração Dinâmica)
 Quando um jogador quer usar magia fora de combate para resolver um obstáculo real (arrombar uma porta, enganar um professor, levitar furtivamente um molho de chaves), não o faça calcular aprimoramentos. Reduza tudo a um único Teste de Atributo.
 *   **A Rolagem:** Peça um teste do Atributo **Magia** somado à Perícia mais lógica (Controle, Compreensão ou Ofício).
-*   **O Resultado:** Se ele tirar um valor alto (lembrando que a média é 13), a magia funciona perfeitamente. Não há contagem de PM ou dano; o problema narrativo é superado.
+*   **O Resultado:** Se ele tirar um valor alto (lembrando que a média é 7), a magia funciona perfeitamente. Não há contagem de PM ou dano; o problema narrativo é superado.
 
-#### 3. Consequências em vez de Custos (O Preço da Falha)
+##### 3. Consequências em vez de Custos (O Preço da Falha)
 Em vez de microgerenciar os Pontos de Mana (PM) dos alunos durante o tempo livre, gerencie a tensão narrativa. Se eles falharem no "Teste de Intenção", em vez de apenas dizer "não funcionou", aplique uma complicação:
 *   **Sobrecarga / Exaustão:** A magia exige demais dele. O aluno consegue o que quer, mas começa a próxima cena importante (ou o próximo combate) com menos PM ou com uma desvantagem temporária.
 *   **Efeito Colateral Revestido:** A magia do Caos destrancou a porta, mas derreteu a maçaneta em uma poça neon que denuncia exatamente quem passou por ali, arriscando seu Prestígio ou gerando perda de Créditos por vandalismo escolar.
 *   **Atenção Indesejada:** O uso de magia alta fora do laboratório chama a atenção de monitores, dos gatos arcanos da escola ou de um professor rigoroso.
 
-#### 4. Permissão Narrativa pelas Arcanas e Escolas
+##### 4. Permissão Narrativa pelas Arcanas e Escolas
 Use as Arcanas e as Escolas (Áreas) como "permissões verbais" para o que o personagem pode ou não tentar fazer narrativamente.
 *   Um **Ilusionista** naturalmente pode pedir para mudar a cor das próprias roupas sem rolar dados.
 *   Um **Biomante** pode perceber que a comida do refeitório está estragada só de sentir o cheiro, porque a vida e a biologia são sua segunda natureza.
@@ -117,130 +250,82 @@ A magia deles reflete quem eles são, não apenas os botões que eles apertam em
 
 ---
 
-## 6. Economia Escolar: Créditos & Prestígio
+## APÊNDICES DE REFERÊNCIA
 
-O dinheiro mundano não tem valor nos corredores da escola.
-
-### Créditos Acadêmicos (A Moeda Prática)
-Substituem o dinheiro comum e medem a confiança que a escola deposita no aluno.
-*   **Como Ganhar:** Notas altas, clubes acadêmicos, missões escolares.
-*   **Como Gastar:** Equipamentos, acesso à biblioteca restrita, chaves de laboratórios.
-*   **Como Perder:** Quebrar regras, multas, notas baixas.
-
-### Prestígio (A Moeda Social)
-O status narrativo do personagem dentro do ecossistema da escola.
-*   **Fama:** O quão conhecido você é.
-*   **Reputação:** O "título" que carrega (ex: "Gênio", "Encrenqueiro").
-*   **Impacto:** Permite conseguir Vantagens (+1d6) em testes sociais ou abrir portas sem gastar Créditos.
-
----
-
-## 7. Escolas e Casas Acadêmicas
-
-### Escolas (Áreas de Progressão)
-O desenvolvimento dos alunos é feito através de Escolas, que fornecem talentos escalonáveis (Níveis 1 a 3). Sempre que você ganha 1 nível em uma Escola, você pode escolher aprender um novo talento dessa escola ou evoluir o grau de um talento/caminho conhecido.
-
-1.  **Escola da Guerra:** Foco na linha de frente e combate físico (Lâmina, Bastião, Vanguarda, Franco-Atirador).
-2.  **Escola Elemental:** Foco na manipulação direta dos elementos e do espaço (Elementalista, Mestre de Domínios).
-3.  **Escola dos Vínculos:** Foco na criação de conexões arcanas e controle de familiares (Mestre de Vínculos).
-4.  **Escola dos Artífices:** Foco em manufatura, engenharia de construtos e alquimia (Arquiteto de Construtos, Artífice da Matéria, Alquimista Volátil).
-5.  **Escola da Vida:** Foco na manipulação da biologia e regeneração de tecidos (Metamorfo, Biomante).
-6.  **Escola da Mente:** Foco psicológico, ilusão e alteração de probabilidades (Ilusionista, Controlador, Dobrador do Destino, Oráculo).
-
-### As Casas Acadêmicas
-Facções dentro da escola que orientam a filosofia mágica do aluno. Pertencer a uma Casa afeta a aptidão rúnica. Cada Casa possui 2 Arcanas Regentes, 1 Arcana Oposta e uma Filosofia central.
-
----
-
-## 8. As Doze Arcanas
-
-As Arcanas representam os conceitos primordiais do universo que os magos podem dobrar.
-
-### Arcanas Elementais (Manipulação Física)
-*   **Fogo (Igni):** Destruição, calor, energia.
-*   **Água (Aqua):** Fluidez, cura física, adaptação.
-*   **Terra (Tera):** Resiliência, peso, cristalização.
-*   **Vento (Aero):** Mobilidade, dispersão, leveza.
-*   **Luz (Lux):** Revelação, pureza, cegueira.
-*   **Escuridão (Nox):** Ocultação, frio profundo, gravidade.
-
-### Arcanas Espirituais (Conceitual/Mental)
-*   **Vida (Lar):** Metabolismo, biologia, crescimento.
-*   **Vazio (Vat):** Entropia, anulação, antimagia.
-*   **Vínculo (Vic):** Conexões invisíveis, telepatia.
-*   **Isolamento (Nim):** Barreiras absolutas, repulsão.
-*   **Ordem (Proto):** Precisão matemática, rituais exatos.
-*   **Caos (Kat):** Acaso, probabilidades, imprevisibilidade.
-
-
----
-
-## Apêndice A: Grimório e Feitiços Prontos
+### Apêndice A: Grimório e Feitiços Prontos
 
 Em Doze Arcanas, a magia é expressa através de Feitiços Prontos. Abaixo estão os feitiços clássicos divididos pelas Doze Arcanas e categorizados por Grau de complexidade.
 
-### Arcanas Elementais
+#### Arcanas Elementais
 
-#### 1. Fogo (Ign)
-*   **Chama de Agnes** (Grau I | Custo: 2 PM | Toque): Uma chama arcana e intensa, faça um ataque mágico contra o alvo. Em um acerto, ele sofre 3 + 1d6 + Magia de dano de fogo.
+##### 1. Fogo (Ign)
+*   **Chama de Agnes** (Grau I | Custo: 2 PM | Toque): Uma chama arcana e intensa, faça um ataque mágico contra o alvo. Em um acerto, ele sofre dano de fogo igual ao maior d6 do ataque + Magia.
     *   *Aprimoramentos:*
         *   `+1 PM`: Transforma em um ataque à curta distância.
         *   `+2 PM`: O alvo pega fogo. No próximo turno dele, ele sofre 3 de dano de fogo e faz um salvamento de Físico Destreza. Sucesso encerra o efeito; fracasso mantém.
-        *   `+2 PM`: O ataque causa +1d6 de dano.
-*   **Combustão de Caelestus** (Grau II | Custo: 3 PM | Curto): O alvo fica Marcado por 1 Rodada. Se ele sofrer dano enquanto marcado, explode causando 6 de dano de fogo a ele e a inimigos adjacentes.
+        *   `+2 PM`: O ataque causa +1d6 de dano bônus.
+*   **Combustão de Caelestus** (Grau II | Custo: 3 PM | Curto): O alvo faz um salvamento de Físico Agilidade (DT 8). Se falhar, fica Marcado por 1 Rodada. Se ele sofrer dano enquanto marcado, explode causando 6 de dano de fogo a ele e a inimigos adjacentes.
     *   *Aprimoramentos:*
         *   `+2 PM`: Aumenta o dano da explosão para 10 de fogo.
         *   `+2 PM`: Aplica Queimadura (3 de dano/turno) em todos os alvos atingidos.
 
-#### 2. Água (Flu)
-*   **Lança de Agnes** (Grau I | Custo: 3 PM | Híbrido): Corpo a corpo: alcance 2, dano 1d6 + Físico (cortante) + 3 (gelo) em acerto. À Distância: arremesso médio, ataque mágico, 3 + 1d6 + Magia de dano de gelo.
+##### 2. Água (Flu)
+*   **Lança de Agnes** (Grau I | Custo: 3 PM | Híbrido): Corpo a corpo: alcance 2, dano igual ao maior d6 do ataque + Físico (cortante) em acerto. À Distância: arremesso médio, ataque mágico, dano de gelo igual ao maior d6 do ataque + Magia.
     *   *Aprimoramentos:*
-        *   `+2 PM` (somente distância): Conjura mais uma lança que causa +1d6 de dano de gelo.
+        *   `+2 PM` (somente distância): Conjura mais uma lança que causa +1d6 de dano de gelo bônus.
 *   **Nevoeiro de Vapor** (Grau I | Custo: 2 PM | Área Pequena): Cria uma nuvem de vapor 3x3 em alcance curto. Bloqueia linha de visão. Alvos internos ficam Cegos.
     *   *Aprimoramentos:*
         *   `+2 PM`: A nuvem aplica Hipotermia (alvo perde 1 Ação Padrão no próximo turno; salvamento Físico Vigor) para quem iniciar o turno nela.
 
-#### 3. Terra (Ro)
+##### 3. Terra (Ro)
 *   **Barreira de Pedra** (Grau I | Custo: 3 PM | Adjacente): Ergue uma parede de rocha em um espaço adjacente. Fornece Cobertura Total e possui 10 PV.
     *   *Aprimoramentos:*
         *   `+2 PM`: A parede ganha +10 PV e causa 3 de dano contundente a qualquer inimigo adjacente no início do turno dele.
 *   **Tremor de Tera** (Grau II | Custo: 3 PM | Área Pequena): Provoca um abalo no solo em uma área pequena (3x3). Alvos fazem salvamento de Físico Agilidade ou ficam Caídos e Impedidos até o fim do próximo turno.
     *   *Aprimoramentos:*
         *   `+2 PM`: A área afetada vira terreno difícil permanente até o fim do combate.
+*   **Moldar Terra de Gaztle** (Grau II | Custo: 4 PM | 1 Ação Complexa): você consegue modelar a terra ao seu redor, criando, movendo ou destruindo estruturas.
+    *   *Moldar:* você consegue criar e moldar uma área pequena de terra, pode criar plataformas, escadas, pilares etc.
+    *   *Mover:* você consegue mover uma área pequena de terra ou rocha até 4 espaços, alvos nessa área devem fazer um teste de física destreza ou ficam caídos.
+    *   *Destruir:* você destrói uma área pequena de terra ou rocha, você pode criar buracos de até 3 metros, alvos que estiverem nessa área devem fazer teste de física destreza ou caem nesse buraco e sofre 1d6 de dano de concussão.
+*   **Pele de Rocha** (Grau II | Custo: 4 PM | 1 Ação Padrão): Uma camada de rocha revestiu sua pele, você recebe +2 de defesa e 4 de proteção.
+    *   *Aprimoramentos:*
+        *   `+3 PM`: O bônus de defesa se torna +3.
 
-#### 4. Vento (Aer)
-*   **Controle de Vento de Lamur** (Grau I | Custo: 3 PM | Curto): Escolha um efeito ao conjurar: Lufada (Físico Vigor ou sofre 6 dano cortante e é empurrado 4 espaços; sucesso = 3 dano), Barreira (adjacentes sofrem 3 dano cortante e você ganha Cobertura Leve) ou Projétil (ataque mágico, 3 + 1d6 + Magia de dano e 1 Sangramento).
+##### 4. Vento (Aer)
+*   **Controle de Vento de Lamur** (Grau I | Custo: 3 PM | Curto): Escolha um efeito ao conjurar: Lufada (Físico Vigor ou sofre 6 dano cortante e é empurrado 4 espaços; sucesso = 3 dano), Barreira (adjacentes sofrem 3 dano cortante e você ganha Cobertura Leve) ou Projétil (ataque mágico, dano de impacto igual ao maior d6 do ataque + Magia e 1 Sangramento).
     *   *Aprimoramentos:*
         *   `+2 PM` (somente Lufada): Cone de 4 unidades (+2 PM = 4u, +4 PM = 8u, +6 PM = 12u, máx 3 vezes).
 
-#### 5. Luz (Lit)
-*   **Escudo de Agnes** (Grau I | Custo: 2 PM | 1 Rodada): Você recebe +2 de CA e +2 de RD até o início do seu próximo turno.
+##### 5. Luz (Lit)
+*   **Escudo de Agnes** (Grau I | Custo: 2 PM | 1 Rodada): Você recebe **+2 de Defesa** e **+2 de RD** até o início do seu próximo turno.
     *   *Aprimoramentos:*
         *   `+2 PM`: Ao receber um ataque, emite um clarão. O atacante faz salvamento de Físico Vigor ou fica Cego por 1 rodada.
 *   **Clarão Solar** (Grau II | Custo: 2 PM | Raio): Dispara um raio luminoso em linha reta que atinge até 2 alvos. Alvos fazem salvamento de Físico Vigor ou ficam Cegos por 1 rodada.
     *   *Aprimoramentos:*
-        *   `+2 PM`: Deixa um rastro de luz que concede Vantagem (+1d6) nos ataques de aliados contra quem estiver na linha da magia por 1 rodada.
+        *   `+2 PM`: Deixa um rastro de luz que concede **Vantagem (+1d4)** nos ataques de aliados contra quem estiver na linha da magia por 1 rodada.
 
-#### 6. Escuridão (Ru)
+##### 6. Escuridão (Ru)
 *   **Garras da Umbra** (Grau I | Custo: 3 PM | Curto): Garras de sombra prendem o alvo. Ele faz um salvamento de Físico Destreza ou fica Imobilizado por 1 rodada.
     *   *Aprimoramentos:*
-        *   `+2 PM`: Causa 3 + 1d6 + Magia de dano de frio e o alvo ganha Desvantagem (-1d6) em testes físicos de força.
+        *   `+2 PM`: Causa dano de frio igual ao maior d6 do ataque + Magia e o alvo ganha Desvantagem (-1d4) em testes físicos de força.
 *   **Manto do Oculto** (Grau II | Custo: 3 PM | Pessoal): O conjurador ganha Invisibilidade até o final de seu próximo turno. O estado não é quebrado por desferir ataques ou lançar feitiços.
     *   *Aprimoramentos:*
         *   `+2 PM`: Aumenta a duração do efeito em +1 rodada.
 
-### Arcanas Espirituais
+#### Arcanas Espirituais
 
-#### 7. Vida (Lar)
+##### 7. Vida (Lar)
 *   **Cura Vital** (Grau I | Custo: 2 PM | Curto): Cura 1d6 Pontos de Vida em um alvo a alcance curto.
     *   *Aprimoramentos:*
         *   `+2 PM`: Aumenta a cura em +1d6 PV.
         *   `+1 PM`: Limpa todas as condições de Sangramento e Veneno do alvo.
-*   **Sifão de Seiva** (Grau II | Custo: 3 PM | Toque): Ataque mágico ao toque, causando 3 + 1d6 + Magia de dano. Metade é revertido em cura para você ou aliado adjacente.
+*   **Sifão de Seiva** (Grau II | Custo: 3 PM | Toque): Ataque mágico ao toque, causando dano igual ao maior d6 do ataque + Magia. Metade é revertido em cura para você ou aliado adjacente.
     *   *Aprimoramentos:*
-        *   `+2 PM`: Causa +1d6 de dano e a cura se torna igual a 100% do dano causado.
+        *   `+2 PM`: Causa +1d6 de dano bônus e a cura se torna igual a 100% do dano causado.
+*   **Controle de Plantas de Mir** (Grau II | Custo: 4 PM | 1 Ação Padrão): Você consegue controlar as plantas ao seu redor, fazendo-as crescer, prender ou chicotear inimigos.
 
-#### 8. Vazio (Vat)
+##### 8. Vazio (Vat)
 *   **Privação Existencial** (Grau I | Custo: 3 PM | Curto): O alvo faz salvamento de Mental Vontade. Em caso de fracasso, fica Cego e Surdo por 1 rodada.
     *   *Aprimoramentos:*
         *   `+2 PM`: O alvo também fica Silenciado e impedido de conjurar magias.
@@ -248,403 +333,295 @@ Em Doze Arcanas, a magia é expressa através de Feitiços Prontos. Abaixo estã
     *   *Aprimoramentos:*
         *   `+2 PM`: Inimigos que entrarem ou iniciarem o turno na área sofrem 3 de dano de força (ignora PR).
 
-#### 9. Vínculo (Vic)
+##### 9. Vínculo (Vic)
 *   **Elo Kármico** (Grau I | Custo: 2 PM | Curto): Conecta duas criaturas (sente localização e estado emocional) por 1 rodada.
     *   *Aprimoramentos:*
         *   `+2 PM` (Ressonância): Qualquer dano sofrido por uma causa metade do valor como dano de força (ignora PR) na outra.
 *   **Corrente de Submissão** (Grau II | Custo: 3 PM | Curto): Alvo faz salvamento de Físico Destreza ou fica acorrentado. Se afastar-se mais de 3m, sofre 6 de dano e perde a ação.
     *   *Aprimoramentos:*
         *   `+2 PM`: O alvo fica Imobilizado (movimento 0).
+*   **Sonho** (Grau II | Custo: 3 PM | 1 Ação Complexa/Transe): Você entra nos sonhos de uma criatura. Uma vez lá, pode conversar com ela até que ela acorde. Se o alvo não estiver dormindo quando você lançar a magia, você pode permanecer em transe até que ele adormeça. Durante o transe, você fica indefeso e sem consciência dos arredores. Você pode sair do transe quando quiser, mas a magia termina.
 
-#### 10. Isolamento (Nim)
+##### 10. Isolamento (Nim)
 *   **Quarentena Arcana** (Grau I | Custo: 3 PM | Curto): Alvo faz salvamento de Mental Vontade. Se falhar, fica Isolado: não pode receber curas, buffs, auras ou efeitos benéficos de aliados por 1 rodada.
     *   *Aprimoramentos:*
         *   `+2 PM`: Aumenta a duração para 2 rodadas.
 *   **Redoma do Vácuo** (Grau II | Custo: 4 PM | Área Pequena): Ergue barreira de vácuo rígido. Impede ataques e projéteis de passarem em ambas as direções.
     *   *Aprimoramentos:*
-        *   `+2 PM`: Aliados dentro da redoma regeneram 1 PM no início de seus turnos.
+        *   `+2 PM`: Aliados dentro da redoma regeneram 1d4 PV/rodada.
 
-#### 11. Ordem (Proto)
-*   **Axioma do Duelo** (Grau I | Custo: 2 PM | Curto): Marca o alvo. Se ele desferir ataques ou magias que não tenham você como alvo, sofre Desvantagem no acerto e 3 de dano mental.
+##### 11. Ordem (Proto)
+*   **Cálculo Preciso** (Grau I | Custo: 2 PM | Pessoal): Até o próximo turno, todas as suas rolagens de ataque somam +2.
     *   *Aprimoramentos:*
-        *   `+2 PM`: O alvo é banido de usar ou receber qualquer Vantagem (+1d6).
-*   **Gravidade Singular** (Grau III | Custo: 3 PM | Curto): Alvo faz salvamento de Físico Vigor. Em falha, é Derrubado, perde voo/salto e cada espaço de movimento custa o dobro.
+        *   `+2 PM`: Estende o bônus para um aliado a alcance Curto.
+*   **Prisão Geométrica** (Grau II | Custo: 3 PM | Curto): Cria grade de luz. Alvo faz salvamento de Físico Agilidade ou fica preso em uma caixa de luz (sem movimento, mas com proteção extra).
     *   *Aprimoramentos:*
-        *   `+2 PM`: O alvo fica Imobilizado.
+        *   `+2 PM`: Dano recebido pela criatura na caixa é reduzido à metade.
+*   **Selar Mana** (Grau III | Custo: 5 PM | 1 Ação Complexa): Você restringe as correntes de mana do alvo. Ele deve passar por um salvamento de Mental Vontade ou fica silenciado magicamente e impedido de gastar PM por 1 rodada.
 
-#### 12. Caos (Kat)
-*   **Cascata Estocástica** (Grau I | Custo: 3 PM | Curto): Ataque mágico de caos, causa 3 + 1d6 + Magia. Dados de dano máximo (6) explodem (concede +1 dado idêntico).
+##### 12. Caos (Kat)
+*   **Cascata Estocástica** (Grau I | Custo: 3 PM | Curto): Ataque mágico de caos, causa dano de caos igual ao maior d6 do ataque + Magia. Qualquer 6 natural rolado no d6 de ataque explode, concedendo +1d6 de dano adicional.
     *   *Aprimoramentos:*
-        *   `+2 PM` (Instabilidade): Sempre que o alvo tentar usar PM, rola 1d6. Em ímpar, os recursos são gastos e a magia implode.
-*   **Cara ou Coroa** (Grau III | Custo: 3 PM | Curto): Alvo faz salvamento de Magia Controle. Se falhar, rola moeda no início de cada ação: coroa perde a ação.
+        *   `+2 PM` (Instabilidade): sempre que o alvo tentar usar PM, rola 1d6; em um número ímpar, os recursos são gastos e a magia implode (falha).
+*   **Cara ou Coroa** (Grau III | Custo: 3 PM | Curto): Alvo faz salvamento de Magia Controle. Se falhar, rola uma moeda no início de cada ação: coroa perde a ação por travamento mental.
     *   *Aprimoramentos:*
-        *   `+2 PM`: Alvo sofre 3 de dano mental sempre que falhar na moeda.
+        *   `+2 PM`: Alvo também sofre 3 de dano mental sempre que falhar na moeda.
+*   **Relâmpago de Liz** (Grau II | Custo: 4 PM | 1 Ação Padrão): você conjura um relâmpago que salta de um alvo a outro, escolha um inimigo ele deve fazer um teste de físico destreza em um fracasso sofre 2d4 + magia, alvos hostis a até 3 espaços sofrem metade do dano.
 
 ---
 
-## Apêndice B: Escolas e Especializações (Poderes)
+### Apêndice B: Escolas, Caminhos e Habilidades
+
+O desenvolvimento de Especialização dos alunos é feito através de 6 Escolas Acadêmicas, cada uma abrigando 2 Caminhos Tradicionais (totalizando 12 Caminhos).
+
+#### As 6 Escolas e seus 12 Caminhos
+1.  **Escola da Guerra:** Foco em combate físico, táticas de combate marciais e maestria das armas ou feras selvagens.
+    *   **Guerreiro:** Lâmina, escudo e técnicas de combate armado.
+    *   **Mestre de Bestas:** Laço animal e combate coordenado com feras selvagens.
+2.  **Escola Elemental:** Manipulação direta da matéria elemental (fogo, água, vento, terra) e das energias totêmicas e espirituais.
+    *   **Elemental:** Conjuração direta de feitiços de dano e efeitos de área.
+    *   **Xamã:** Uso de totens de suporte e travessia incorpórea astral.
+3.  **Escola dos Vínculos:** Criação de elos telepáticos, evocações de familiares e pactos com entidades planares.
+    *   **Invocador:** Evocação de servos mágicos e avatares primordiais de combate.
+    *   **Bruxo:** Pragas e maldições debilitantes, e pactos de sacrifício.
+4.  **Escola dos Artífices:** Construção mecânica, alquimia e uso de artefatos e ferramentas rúnicas ou cartas mágicas.
+    *   **Artífice:** Sentinelas mecânicas autônomas e alteração da matéria física.
+    *   **Cartomante:** Manipulação da sorte por baralho místico e lâminas de papel.
+5.  **Escola da Vida:** Alteração celular, cura avançada, regeneração de tecidos e metamorfose corporal biológica.
+    *   **Metamorfo:** Autotransmutação celular (garras, escamas e forma quimérica).
+    *   **Clérigo:** Cura sagrada, purificação de enfermidades e auras protetoras.
+6.  **Escola da Mente:** Domínio psicológico, distorção dos sentidos e percepção através de canções de alento ou ilusões visuais.
+    *   **Ilusionista:** Falsas realidades, decoys e projeções mentais assustadoras.
+    *   **Bardo:** Canções de inspiração rúnica, buffs de PR e acordes sonoros dissonantes.
+
+Magias de Caminho só podem ser aprendidas ganhando Níveis no respectivo Caminho. Ao ganhar um Nível de Caminho, o aluno pode escolher uma das seguintes opções para aquele Caminho:
+*   Aprender uma nova Habilidade (no Grau I);
+*   Evoluir/aprimorar o Grau (para Grau II ou Grau III) de uma Habilidade que já possui;
+*   Aprender uma nova Magia de Caminho (no Nível 1);
+*   Melhorar/aprimorar uma Magia de Caminho já aprendida.
+
+Não há ordem ou nível pré-requisito fixo para adquirir as habilidades ou magias de um Caminho.
+
+
+---
+
+#### ⚔️ Caminho: Guerreiro
+Focado no uso de lâminas, escudos e técnicas de combate armado. A magia aqui é aplicada diretamente na postura e no equipamento.
+
+**Posturas de Combate**
+Você adquire 3 posturas de combate. Custa 1 Ação Padrão para entrar ou trocar de postura:
+*   **Ofensiva:** Posiciona o pé de apoio à frente, focando no alcance. Seus ataques corpo a corpo causam +2 de dano, mas sua Defesa é reduzida em -2.
+*   **Defensiva:** Foco em proteção. Sua Defesa aumenta em +2, mas seu deslocamento (movimentação) é reduzido pela metade.
+*   **Punitiva:** Preparação para explorar as brechas do oponente. Você ganha acesso à reação Resposta, permitindo realizar um ataque contra um oponente como uma Reação.
 
-### A Lâmina
+**Habilidades**
+*   **Interpor (Passiva):** Você ganha a reação Interpor. Ao usá-la, você entra na frente de um ataque direcionado a um aliado adjacente, sofrendo o dano no lugar dele e recebendo +1 de Redução de Dano (PR) contra esse golpe.
+*   **Espadachim (Ativação: 1 Ponto de Arcana):** Você manifesta um Dado de Espadachim que dura até o final da cena. No seu primeiro acerto corpo a corpo, o dado começa em 1d4. A cada acerto consecutivo, o dado "cresce" um passo (1d4 ➔ 1d6 ➔ 1d8 ➔ 1d10 ➔ 1d12). Você pode gastar este dado a qualquer momento para somar o valor rolado ao dano ou à rolagem de acerto de um ataque corpo a corpo. Se você errar um ataque ou consumir o dado, ele é reiniciado.
+
+**Magias de Guerreiro**
+*   **Encantar** (1 Ação Padrão | 3 PM): Você imbui uma arma com energia de uma Arcana. Até o final do seu próximo turno, a arma causa 1d4 de dano mágico extra do elemento escolhido. (Nível 2: O dano extra aumenta para 1d6).
+*   **Velocidade de Mir** (1 Ação Padrão | 4 PM): Você impulsiona seu potencial físico com magia. No seu próximo turno, você recebe +1 Ação Padrão extra e +3 Espaços de movimento.
+*   **Escudo Arcano** (1 Ação Padrão | 3 PM): Você gera uma barreira e recebe +2 de Redução de Dano até o seu próximo turno. (Melhoria: Por +2 PM, a duração aumenta em 1 turno). (Nível 2: Custa 4 PM e fornece +4 de Redução de Dano).
+
+**Habilidade Suprema de Arcana**
+*   **Maestria Incontestável** (Ação Livre | 1 Ponto de Arcana): Você transcende as limitações do combate básico. Até o final da cena, você pode manter duas Posturas de Combate simultaneamente.
+
+---
+
+#### 🐺 Caminho: Mestre de Bestas
+Focado na criação de um laço inquebrável e no combate coordenado com feras selvagens.
+
+**O Laço Animal (Nível 1)**
+Você possui um companheiro bestial com as seguintes estatísticas base:
+*   **Atributos:** 20 PV | Físico 2 | Mental 1 | Social 0 | Magia 0
+*   **Ações por Turno:** 1 Ação Padrão e 1 Ação de Movimento.
+
+**Habilidades**
+*   **Coordenar Ataque** (1 Ação Complexa | 3 PM): Você e sua fera atacam simultaneamente. Você realiza um ataque contra o alvo com 1 Vantagem. Se acertar, causa o dano do seu ataque somado ao dano do ataque da fera, mais 1d6 de dano bônus.
+*   **Marcar** (1 Ação Padrão | 4 PM): Você estipula um alvo. Pelo resto da cena, todos os ataques seus e do seu Laço Animal contra ele recebem 1 Vantagem, e a margem de acerto crítico contra este alvo é expandida para (11/11 e 12/12). (Melhoria: Por +3 PM, você pode marcar um alvo adicional).
+*   **Rastrear** (1 Ação Padrão | 2 PM): Usa a conexão sensorial com a fera para buscar rastros. Exige um teste de Magia + Controle (DT 10). No sucesso, você descobre a posição relativa, a direção tomada e a quantidade aproximada de indivíduos.
+*   **Domar** (1 Ação Complexa | 3 PM): Você acalma e se conecta com um animal ou besta mágica. Por 1 dia, a criatura o vê como aliado e obedece a ordens simples que não violem sua natureza (ordens suicidas quebram o encanto imediatamente e tornam a criatura hostil).
+
+**Habilidade Suprema de Arcana**
+*   **Sincronia Primal** (Ação Livre | 1 Ponto de Arcana): Você e sua fera lutam como um único organismo perfeito. Até o final da cena, você e seu Laço Animal compartilham a mesma reserva de Pontos de Vida (soma os PVs atuais de ambos). Além disso, a fera recebe +1 Ação Padrão adicional em todos os turnos dela, e qualquer ataque desferido por vocês contra um alvo Marcado ignora completamente a Redução de Dano (RD) do inimigo.
+
+---
+
+#### 🔥 Caminho: Elementalista
+Focado na conjuração direta de magias destrutivas e manipulação de zonas de combate.
+
+**Magias**
+*   **Área Persistente:** Cria uma zona instável focada em uma Arcana. Inimigos sofrem dano ao entrar ou iniciar o turno nela.
+    *   **Nível 1** (1 Ação Padrão | 2 PM): Área Pequena, causa 3 de dano mágico.
+    *   **Nível 2** (1 Ação Padrão | 3 PM): Área Pequena, causa 6 de dano mágico.
+    *   **Nível 3** (1 Ação Padrão | 5 PM): Área Média, causa 6 de dano mágico.
+    *   *Melhorias:* +1 PM torna a área Terreno Difícil (reduz movimento); +2 PM permite conjurar como Ação de Movimento.
+*   **Bola de Fogo** (1 Ação Padrão | 3 PM): Disparo clássico. Ataque mágico contra um alvo. No acerto, causa dano de fogo igual ao maior d6 do ataque + Atributo de Magia + 2. Efeito Secundário: Todas as criaturas em uma Emanação de raio 2 a partir do alvo sofrem 2 de dano de fogo.
+*   **Flores de Liz** (1 Ação Padrão | 3 PM): Um campo de lótus de gelo eclode em uma Área Pequena. Alvos na área testam Físico + Destreza. Falha: Sofrem 6 de dano de gelo e perdem 1 Ação de Movimento e 1 Ação Padrão no próximo turno. Sucesso: Sofrem apenas 3 de dano de gelo. (Melhorias: +2 PM o alvo fica Paralisado se falhar; +2 PM causa +3 de dano extra na falha).
+*   **Campo de Sombras** (1 Ação Padrão): Ergue uma área de escuridão Média obscurecida. Ataques feitos para dentro da área sofrem 2 Desvantagens (-2d6). Inimigos que entrarem ou iniciarem o turno nela testam Físico + Destreza para não serem Agarrados.
+    *   **Nível 1** (2 PM): Efeitos base acima.
+    *   **Nível 2** (3 PM): Adiciona 2d4 de dano de sombra caso o inimigo falhe no teste de Destreza.
 
-#### Nível 1: Encantar
-Você consegue encantar uma arma com um toque, imbuindo-a com energia elemental ativa. O talento evolui conforme seu domínio arcano se aprofunda.
+**Habilidade Suprema de Arcana**
+*   **Avatar da Destruição** (Ação Livre | 1 Ponto de Arcana): Você se torna a própria manifestação da fúria da natureza. Até o final da cena, todas as suas magias de dano elemental têm seu custo em PM reduzido em 2. Adicionalmente, quando você conjurar uma magia em área (como Bola de Fogo ou Área Persistente), você possui controle absoluto e escolhe quem sofre o dano e quem é ignorado, protegendo seus aliados perfeitamente.
 
-- **Grau I**: A arma causa **+1d6** de dano Elemental até o final do seu turno. (Custo: 2 Ações Padrões, 3 PM. Manutenção: +1 PM por turno adicional).
-- **Grau II**: O custo de ativação é reduzido para **1 Ação Padrão** (mantendo 3 PM). O dano elemental extra aumenta para **1d6 + seu atributo de Magia**.
-- **Grau III**: Pode ser ativado como **Ação de Movimento** ou como **Reação** ao desembainhar a arma (custo de 4 PM). Além disso, o primeiro ataque bem-sucedido de cada turno aplica a Condição rúnica correspondente ao elemento (ex: Fogo aplica Queimadura, Água aplica Hipotermia).
+---
 
-#### Nível 2: Fenda
-Você projeta a energia do encantamento à distância por meio de uma fenda no espaço.
+#### 🦅 Caminho: Xamã
+Uso de totens para suporte tático e travessia incorpórea pelo plano astral.
 
-- **Grau I**: Ataque corpo a corpo até alcance **Curto(3 quadrados)**. Causa o dano normal da arma, transformado em **Mágico**. Se a arma estiver sob efeito de *Encantar*, a fenda carrega o dano elemental extra e atinge todos em linha reta até o alvo.
-- **Grau II**: O alcance do corte se estende para **Médio(6 quadrados)** e o ataque recebe **+1d6** de dano mágico adicional.
-- **Grau III**: O ataque ignora **Cobertura Leve**. Se a arma estiver encantada, a fenda deixa um rastro rúnico na trajetória por 1 rodada, causando **3** de dano elemental a qualquer criatura que a atravesse.
+**Habilidades e Totens**
+Você conhece 3 totens místicos e pode posicioná-los em um espaço adjacente a você ou arremessá-los até alcance Curto:
+*   **Totem do Guardião (Urso/Touro):** Aliados adjacentes ao totem recebem Cobertura Leve e +2 de Proteção (PR).
+*   **Totem do Flagelo:** Inimigos que passarem pelo totem sofrem 1d4 de dano elemental (o elemento é escolhido por você ao posicionar).
+*   **Totem da Mãe:** Aliados adjacentes regeneram 1d4 PV no início de seus turnos.
 
-#### Nível 3: Execução Arcana
-Você concentra toda a sua força e mana em um único golpe finalizador absoluto.
+**Magias e Rituais**
+*   **Comunhão** (Ritual de 1 hora | 3 PM): Conecta sua mente com os espíritos guardiões para conversar, pedir conselhos e buscar conhecimento esquecido.
+*   **Maldição** (1 Ação Padrão | 2 PM): Lançada em alcance Médio. Você só pode manter 1 maldição ativa por vez (conjurar uma nova anula a anterior). Escolha um dos efeitos:
+    *   **Perseguidor:** Um espírito maldito assombra o alvo, causando 1d4 de dano mental no início do turno do inimigo. No final do turno dele, ele testa Magia + Controle para tentar banir o espírito.
+    *   **Definhar:** O alvo sofre -1 em um Atributo à sua escolha. No final do turno dele, testa Magia + Controle para quebrar o efeito.
+    *   **Malogro:** O alvo sofre 1 Desvantagem (-1d6) em todos os testes. No final do turno dele, testa Magia + Controle para se livrar do azar.
 
-- **Grau I**: O ataque físico ignora completamente a Redução de Dano (RD) do alvo. O acerto é considerado automaticamente como **Acerto Crítico** e causa +6 de dano adicional.
-- **Grau II**: Você aplica uma condição(Caído ou Desarmado ou Desorientado) por 1 rodada. Se o ataque derrotar o alvo, você recupera imediatamente 2 PM.
-- **Grau III**: Voce sabe aplicar seu golpe em uma area(linha(5 quadrados) ou cone(3 quadrados)) voce faz apenas um ataque contra a defesa de todos os alvos, em um acerto causa o dano completo em um erro causa apenas a metade do dano.
+**Habilidade Suprema de Arcana**
+*   **Convergência Ancestral** (Ação Padrão | 1 Ponto de Arcana): Os espíritos ancestrais respondem ao seu chamado todos de uma vez. Você invoca os 3 Totens (Guardião, Flagelo e Mãe) instantaneamente em três espaços diferentes à sua escolha em alcance Médio, sem gastar PM. Esses totens duram até o final da cena.
 
-### O Bastião
+---
 
-#### Nível 1: Escudo Arcano
-Você conjura um escudo mágico unilateral que evolui conforme seu domínio defensivo se aprofunda.
+#### 👁️ Caminho: Invocador
+Evocação de servos mágicos e avatares primordiais no campo de batalha.
 
-- **Grau I**: Você conjura um escudo mágico unilateral. Ele fornece **6 pontos de Proteção (PR)** para ataques vindos de fora até o início do seu próximo turno. Ataques/pessoas de dentro conseguem sair, mas os de fora não entram.
-- **Grau II**: A barreira é reforçada e se torna mais flexível. A Proteção (PR) fornecida aumenta para **8 pontos** e voce consegue estender o escudo em um circulo emanando de você com 2 quadrados de raio ou um cone emanando de você com até 4,5 quadrados de comprimento.
-- **Grau III**: Você pode conjurar o escudo como uma **Reação** ao receber um ataque, com custo de 4 PM. Além disso, quando o escudo é quebrado por um ataque inimigo, ele gera uma onda de choque que empurra todos os inimigos adjacentes a alcance Curto.
+**O Contrato**
+Você serve de canal sob a tutela do "Senhor dos Contratos". Você escolhe e invoca um servo de outro plano (um elemental, um demônio menor ou um feérico). Enquanto o contrato for mantido e houver fluxo de mana, a criatura é sustentada no nosso plano material e é imune à morte definitiva.
 
-#### Nível 2: Retaliação Rúnica
-Suas defesas reagem violentamente contra agressores físicos, liberando explosões de mana elemental.
+**Habilidade Suprema de Arcana**
+*   **Quebra do Selo (Libertação)** (Ação Livre | 1 Ponto de Arcana): Você afrouxa as correntes do contrato do seu Servo, permitindo que ele use seu verdadeiro poder cósmico. Até o final da cena, seu servo dobra seus PVs atuais e máximos, e todos os ataques que ele desferir recebem +2d4 de dano bônus. Durante essa cena, se o servo for morto, a entidade volta para seu plano de origem em uma explosão que causa 2d6 de dano mágico a todos os inimigos adjacentes a ele.
 
-- **Grau I**: **Gatilho:** Quando um inimigo atinge você com um ataque corpo a corpo e o dano é absorvido por sua Proteção (PR) ou Escudo Arcano.<br></br>O atacante sofre automaticamente **3 + seu atributo de Magia** de dano mágico e é empurrado para alcance Curto.
-- **Grau II**: A explosão mágica se torna mais destrutiva. O dano aumenta para **6 + seu atributo de Magia**, o atacante é empurrado para alcance **Médio** e deve passar em um teste de **Físico + Destreza (DT 12 + seu atributo de Magia)** ou ficará **Caído**.
-- **Grau III**: Você pode infundir o dano com o Elemento de um feitiço ativo ou de uma das suas Arcanas dominadas. Se o atacante falhar no teste físico, ele também sofre a Condição correspondente ao elemento (ex: Fogo aplica Queimadura, Água aplica Hipotermia) por 1 rodada. Se o ataque inimigo for completamente absorvido pelo Escudo Arcano, a retaliação não consome sua Reação da rodada.
+---
 
-#### Nível 3: Armadura Arcana
-Você canaliza energia arcana para criar uma armadura mágica protetora ao seu redor. ela concede 12 pontos de Proteção bonus que duram até o final do combate ou até perderem toda a sua durabilidade.
+#### 🔮 Caminho: Bruxo
+Especialista em pragas, enfraquecimento e pactos de poder.
 
-- **Grau I**: Você consegue infundir uma das suas Arcanas elementais dominadas na sua armadura. 
-- **Grau II**: Você cosegue conjurar armaduras em aliados a alcance curto de você. cada armadura custa 4 PM adicional e segue as mesma regras que a sua armadura. 
-- **Grau III**: Você reduz o custo da armadura para 3 PM e ganha a reação de reativar a armadura como uma reação sempre que ela for desativada pagando 2 PM. 
+**Maldições Avançadas** (1 Ação Padrão | 2 PM)
+Compartilha a mesma lista de Maldições do Xamã (Perseguidor, Definhar, Malogro), porém o Bruxo possui um domínio superior e pode manter até 2 maldições simultaneamente em oponentes distintos (ou acumuladas). Conjurar uma terceira dissipa a primeira.
 
-### A Vanguarda
+**Habilidade Suprema de Arcana**
+*   **Peste Inevitável** (Ação Padrão | 1 Ponto de Arcana): O seu rancor se espalha como uma praga. Escolha uma das suas Maldições (Perseguidor, Definhar ou Malogro). Em vez de afetar um único alvo, você lança essa maldição sobre todos os inimigos presentes em uma Área Média ao seu redor. Os testes de Magia + Controle para se livrarem dela nos turnos subsequentes são feitos com 1 Desvantagem (-1d6).
 
-#### Nível 1: Acelerar
-Você usa sua mana para ampliar sua capacidade física. O talento evolui conforme sua velocidade e força se aprimoram.
+---
 
-- **Grau I**: Você usa sua mana para ampliar sua capacidade física. Você ganha **1 Ação Padrão adicional** por 2 Rodadas. (Custo: 2 Ações Padrões, 3 PM).
-- **Grau II**: A aceleração também canaliza energia cinética para seus músculos. Enquanto *Acelerar* estiver ativo, você amplia sua força, aumentando seu dano em **+2** para ataques físicos.
-- **Grau III**: O fluxo de mana se torna instantâneo. O custo de ativação do *Acelerar* é reduzido para **1 Ação Padrão**. Além disso, enquanto estiver ativo, você recebe **1 Vantagem** em todos os testes de Físico.
+#### ⚙️ Caminho: Artífice
+Inventor tático que aprimora permanentemente equipamentos do grupo.
 
-#### Nível 2: Impacto Meteórico
-Você usa a gravidade e a magia para cair como um meteoro sobre os inimigos.
+**Habilidades**
+*   **Projeto Especial:** Você pode trabalhar na criação de um Artefato único em colaboração com o Narrador, que definirá a Dificuldade e o tempo necessário para o projeto.
+*   **Melhoria de Equipamento:** Durante um Descanso Longo, você pode realizar manutenção e melhorar até 2 itens do seu grupo. Os efeitos duram até o próximo descanso longo e não se acumulam:
+    *   **Afiar:** A arma passa a causar +2 de dano.
+    *   **Balancear:** A arma ganha +1 na rolagem de Acerto.
+    *   **Reforçar:** A armadura/escudo ganha +1 de Redução de Dano.
+*   **Escrita Arcana** (Ritual de 1 hora | 4 PM): Imprime selos rúnicos latentes em equipamentos, válidos até o próximo descanso longo. Durante o combate, o usuário da arma/armadura pode gastar 1 PM para ativar o selo inscrito:
+    *   **Runa de Fogo (Arma):** Ativa antes ou depois de acertar; causa +2 de dano de fogo.
+    *   **Runa de Água (Defesa):** Aumenta a Defesa em +2 até o próximo turno do usuário.
+    *   **Runa de Terra (Defesa):** Concede +2 de Redução de Dano até o próximo turno do usuário.
+    *   **Runa de Ar (Defesa):** Ao sofrer dano corpo a corpo, empurra o atacante 3 Espaços para trás imediatamente, sem provocar reações.
 
-- **Grau I**: Você realiza um salto mágico até alcance **Médio (6 quadrados)** e aterrissa causando uma explosão cinética. Todos os inimigos adjacentes ao ponto de aterrissagem devem fazer um teste de **Físico + Destreza (DT 12 + seu atributo de Magia)** ou sofrem **3 + 1d6 + Físico** de dano físico e ficam **Caídos** (metade do dano em caso de sucesso). (Custo: 2 Ações Padrões, 3 PM).
-- **Grau II**: O impacto é mais devastador. O raio da explosão cinética se expande para atingir todos os inimigos a alcance **Curto (3 quadrados)** de você na aterrissagem.
+**Habilidade Suprema de Arcana**
+*   **Sobrecarga de Engenho** (Ação de Movimento | 1 Ponto de Arcana): Você força os mecanismos e runas aos seus limites. Até o final do combate, todos os benefícios de Melhoria de Equipamento (Afiar, Balancear, Reforçar) que você aplicou na sua equipe são dobrados (ex: uma arma afiada passa a dar +4 de dano em vez de +2). Além disso, ativar qualquer selo da sua Escrita Arcana passa a custar 0 PM para os seus aliados.
 
-#### Nível 3: Deslize Dimensional
-Você manipula o espaço para evitar ataques, surgindo em uma posição de vantagem.
+---
 
-- **Grau I**: **Gatilho:** Quando você é alvo de um ataque.<br></br>Você manipula o espaço para se esquivar: o ataque inimigo erra automaticamente (exceto se for um Acerto Crítico natural 12/12) e você reaparece em um espaço adjacente a sua posição inicial.
-- **Grau II**: O alcance do teleporte de reaparecimento aumenta para até alcance **Curto (3 quadrados)** de onde você estava.
-- **Grau III**: Controle do fluxo dimensional. O custo do deslize é reduzido para **4 PM**. Em caso de sucesso na esquiva, você pode optar por teletransportar a si mesmo E um aliado adjacente para qualquer espaço livre a alcance Curto de onde estavam. Se o ataque que desencadeou o gatilho era de área, ambos saem da área e não sofrem dano.
+#### 🃏 Caminho: Cartomante
+Manipulação pura da probabilidade mística e canalização por meio de um baralho arcano.
 
-### O Franco-Atirador
+**Baralho do Destino**
+Você canaliza seus poderes sacando cartas aleatórias. Seu baralho possui 12 cartas. Quando o deck acabar, é necessário um Ritual de 4 horas para recarregá-lo de mana. Sempre que usar a habilidade, role 1d12 para determinar a carta puxada:
 
-#### Nível 1: Disparo Energizado
-Você concentra uma densa carga mágica na ponta do seu projétil. O talento evolui conforme sua precisão e potência de disparo se aprimoram.
+| Resultado no d12 | Tipo de Carta | Efeito do Saque |
+| :--- | :--- | :--- |
+| **1 a 5** | Carta de Maldição | Ativa Malogro (desvantagens) ou Perseguidor (dano mental). |
+| **6 a 11** | Carta de Combate | Dispara um ataque mágico (toque ou distância Média) que causa 6 de dano base se acertar. |
+| **12** | Arcano Maior | Escolha um de quatro milagres: **Carrasco** (Corta o PV atual do alvo pela metade), **Madrona** (Cura o alvo totalmente e fornece +6 de Proteção (PR)), **Valete** (Invoca uma Entidade poderosa aliada para a cena), ou **Rainha** (Restaura 12 Pontos de Mana (PM) do alvo). |
 
-- **Grau I**: Você realiza um ataque à distância (alcance **Longo**). Se acertar, o projétil atravessa o alvo primário, atingindo também um inimigo que esteja em linha reta logo atrás dele. Ambos sofrem o dano normal da arma. (Custo: 2 Ações Padrões, 3 PM).
-- **Grau II**: O disparo se torna uma linha de energia devastadora. O projétil atravessa o primeiro alvo e continua em uma linha de até **3 quadrados (4,5 metros)** a partir do primeiro alvo, atingindo todos os inimigos no caminho.
-- **Grau III**: O custo de ativação é reduzido para **1 Ação Padrão** (mantendo 3 PM). Além disso, o ataque causa **+1d6** de dano bônus no primeiro alvo atingido.
+**Habilidade Suprema de Arcana**
+*   **As Cartas Não Mentem (O Destino Certo)** (Ação Livre ao usar a habilidade "Baralho do Destino" | 1 Ponto de Arcana): Seu baralho se torna infinito até o final da cena. Você pode puxar 2 cartas e escolher uma (você rola 2d12 e escolhe qualquer um dos resultados).
 
-#### Nível 2: Mira Perfurante
-Você gasta tempo lendo a movimentação e armadura do alvo, localizando pontos vulneráveis.
+---
 
-- **Grau I**: Você lê as defesas do inimigo.O alvo tem a condição **Vigiado** e seu próximo ataque à distância contra o alvo cosnome a condição **Vigiado**, recebe **1 Vantagem (+1d6)** e ignora passivamente até **3 Pontos de Redução de Dano (RD)**.
-- **Grau II**: A mira se torna letal. A Redução de Dano (RD) ignorada aumenta para **6 pontos**,alem disso voce pode usar Mira Perfurante gastando 1 ação padrão + 1 ação de movimento.
-- **Grau III**: Você ganha a reação de **Sob Vigia**, quando um aliado atacar o alvo que você esta vigiando, você pode usar essa habilidade para dar **+1d6 de dano** no ataque aliado. 
+#### 🧬 Caminho: Metamorfo
+Baseia-se na autotransmutação celular imediata para ganhar traços animais.
 
-#### Nível 3: Tiro de Execução
-O disparo perfeito, calibrado com a respiração e a pulsação do universo.
+**Habilidade**
+*   **Mutação** (1 Ação Padrão | 4 PM): Altera violentamente a sua biologia. Apenas 1 mutação pode ser mantida por vez:
+    *   **Alada:** Desenvolve asas. Você adquire a Ação de Movimento Alçar Voo (move-se pelo ar em sua velocidade padrão) e a Ação Padrão Planar (para permanecer suspenso no mesmo lugar sem cair). Armaduras pesadas impedem o voo.
+    *   **Ofensiva:** Cresce garras, caudas perfurantes ou chifres. O primeiro ataque corpo a corpo feito no seu turno recebe 1 Vantagem e causa +1d4 de dano físico.
+    *   **Defensiva:** Pele engrossa ou brotam escamas espessas. Você recebe +2 de Redução de Dano (PR) permanente enquanto mantido.
 
-- **Grau I**: Se o alvo estiver sem aliados adjacentes (isolado), o ataque causa **dano máximo** nos dados base.
-- **Grau II**: O tiro ignora 5 pontos de Redução de Dano (RD) e causa **dano máximo** mesmo que o alvo não esteja isolado.
-- **Grau III**: O tiro ignora completamente qualquer Redução de Dano (RD). Se o alvo for derrotado por este ataque, você recupera 3 PM.
+**Habilidade Suprema de Arcana**
+*   **A Quimera Apex** (Ação Padrão | 1 Ponto de Arcana): Seu corpo quebra o limite biológico, fundindo todas as suas evoluções. Até o final da cena, você ativa as três mutações (Alada, Ofensiva e Defensiva) simultaneamente, sem gastar nenhum PM para isso. Seu corpo se torna uma máquina de caça perfeita: enquanto estiver voando, seus ataques corpo a corpo ignoram a Cobertura Leve.
 
-### Elementalista
+---
 
-#### Nível 1: Erupção Elemental
-O estudo aprofundado dos elementos fundamentais. Você aprende a moldar a mana em chamas, geada, terra e ventos, canalizando arcanas elementais para criar feitiços poderosos.
+#### 🕊️ Caminho: Clérigo
+Mestres da cura milagrosa, proteção de grupo e purificação física/espiritual.
 
-- **Grau I**: Você aprende **2 feitiços elementais de Grau I** à sua escolha (de Fogo, Água, Terra ou Vento). Ao conjurar um feitiço de uma Arcana que você domina, você adiciona **+1 de dano bônus** por dado de dano do feitiço.
-- **Grau II**: Você aprende **2 feitiços elementais adicionais de Grau I ou II** à sua escolha. Além disso, você recebe **1 Vantagem (+1d6)** no teste de conjuração para feitiços que utilizem elementos conhecidos por você.
-- **Grau III**: Você aprende **2 feitiços adicionais de qualquer Grau** (incluindo Grau III) à sua escolha. O custo total em PM para conjurar magias elementais é reduzido em **1 PM** (mínimo 1 PM), e a dificuldade (DT) para os alvos resistirem a essas magias aumenta em **+2**.
+**Magias**
+*   **Cura** (1 Ação Complexa | 3 PM): Pelo toque, você restaura 3 + 1d4 + (2x Atributo Magia) Pontos de Vida de um aliado. (Melhorias modulares: +2 PM estende a cura a um aliado adjacente ao alvo; +2 PM permite conjurar a uma distância Média; +2 PM adiciona mais 1d4 na rolagem de cura).
+*   **Bênção** (1 Ação Padrão | 2 PM): Canaliza mana positiva em um aliado a alcance Curto. Ele recebe 1 Vantagem na próxima rolagem ou teste que realizar. (Melhoria: Por +2 PM, abençoa um aliado extra).
 
-#### Nível 2: Área Persistente
-- **Grau I**: Aplica-se apenas a **Áreas Pequenas (3x3)**. Qualquer criatura que iniciar o turno dentro da área, ou atravessá-la, sofre **3** de dano elemental automaticamente.
-- **Grau II**: O dano contínuo da área ancorada aumenta para **6** de dano elemental.
-- **Grau III**: Você pode aplicar em **Áreas Médias (6x6)**. O dano contínuo da área ancorada aumenta para **9** de dano elemental.
+**Habilidade Suprema de Arcana**
+*   **Intervenção Milagrosa** (Reação Instantânea | 1 Ponto de Arcana | Gatilho: Quando um aliado em alcance Médio tiver seus PVs reduzidos a 0): Antes que o aliado caia, um feixe de luz arcana o atinge. Ele não cai; em vez disso, seus Pontos de Vida são totalmente restaurados para o valor máximo instantaneamente, e o aliado recebe um bônus de +2 Vantagens no seu próximo turno como resultado.
 
-#### Nível 3: Cataclismo
-Você aprende a manipular e maximizar os modificadores que ampliam a área e alcance de suas magias elementais, invocando a devastação total no campo de batalha.
+---
 
-- **Grau I**: Seus feitiços de área de Grau I ou II causam **1d6 extra** de dano.
-- **Grau II**: A Dificuldade (DT) dos testes de resistência das suas magias de área aumenta em **+2**.
-- **Grau III**: A Dificuldade (DT) dos testes de resistência das suas magias de área aumenta em **+4**. Em caso de acerto crítico com uma magia de área, o alvo sofre o dano maximizado do feitiço.
+#### 🎭 Caminho: Ilusionista
+Criadores de falsas realidades, iscas visuais e projeções aterrorizantes.
 
-### Mestre de Vínculos
+**Magia**
+*   **Ilusão** (1 Ação Padrão | 4 PM): Conjura um construto áudio/visual em alcance Médio. Inimigos que tiverem linha de visão para a ilusão devem passar em um teste de Mental + Vontade ou sofrerão o efeito de engano:
+    *   **Monstruosa:** Alvos creem ver uma criatura irreal terrível. Gastarão suas ações atacando-a ou fugindo dela.
+    *   **Desorientadora:** O cenário gira e distorce. Alvos sentem náuseas, perdendo a Ação de Movimento no próximo turno e sofrendo 1 Desvantagem (-1d6) em ataques à distância (físicos ou mágicos).
+    *   **Distração:** Pequenos enganos constantes fadigam a mente. O alvo sofre 2 Desvantagens (-2d6) em testes físicos e rolagens de ataque.
 
-#### Nível 1: Evolução: Servil Arcano
-Seu elo com o Servil se aprofunda, permitindo imbuí-lo com poderes e formas mais potentes.
+**Habilidade Suprema de Arcana**
+*   **Realidade Fraturada** (Ação Livre ao conjurar a magia "Ilusão" | 1 Ponto de Arcana): A linha entre o real e o falso colapsa. Até o final da cena, a sua ilusão ganha forma física e letal. Inimigos que falharem no teste de Mental + Vontade não sofrem apenas efeitos narrativos e desvantagens; eles passam a sofrer 2d4 + seu Atributo de Magia em dano psíquico/físico direto no início de seus turnos, enquanto continuarem engajados ou acreditando na Ilusão.
 
-- **Grau I**: O Servil canaliza energia elemental. Seus ataques desferem **+2 de dano bônus** elemental de sua escolha (Fogo, Água, Terra, Vento) e ele recebe **+5 PV** adicionais.
-- **Grau II**: O Servil ganha a habilidade **Interposição**. Uma vez por rodada, se um aliado adjacente ao Servil for alvo de um ataque, o Servil pode usar uma **Reação** para se tornar o alvo desse ataque em seu lugar.
-- **Grau III**: O Servil se torna um **Servil Maior**. O dado de dano de seu ataque aumenta para **1d6** (em vez de 1d3).Você tambem ganha a capcidade de lançar magias pro meio dele, gastando suas ações no seu turno.
+---
 
-#### Nível 2: Elo de Sangue e Mana
-Você utiliza a ligação arcana entre vocês para transferir o perigo, dividindo o peso das feridas.
+#### 🪕 Caminho: Bardo
+Especialistas na condução de canções mágicas e melodias rúnicas que manipulam o fluxo de combate.
 
-- **Grau I**: **Gatilho:** Quando você ou seu Servil forem alvos de um ataque que causaria dano aos PVs.<br></br>Você faz com que o dano que sofreria seja transferido integralmente para o Servil (ou vice-versa). Se o Servil for destruído usando esta reação, ele explode, causando **1d6 + seu atributo de Magia** de dano no atacante.
-- **Grau II**: Enquanto o Servil estiver ativo, você recebe **+2 de Proteção (PR)** passiva. A explosão de destruição do Servil aumenta para **2d6 + seu atributo de Magia** de dano.
-- **Grau III**: Seu servil ganha +1 ação padrão. você pode lançar magias pro meio dele, gastando suas ações no seu turno.
+**Habilidades e Magias**
+*   **Sifra Destoante** (1 Ação Padrão | 2 PM): Um ataque mágico sonoro que força o alvo a um teste de Mental + Vontade. Em caso de falha, sofre 2 + 2d4 + Atributo de Magia de dano mental direto.
+*   **Refrão de Inspiração** (1 Ação Complexa | 4 PM): Você entoa uma melodia heróica encorajando até 3 aliados em alcance Curto. Eles recebem 1 Vantagem no próximo teste que realizarem. (Melhorias: +1 PM inclui mais 1 aliado; +2 PM propaga a melodia até alcance Médio).
+*   **Verso de Conforto** (1 Ação Padrão | 3 PM): Um cantar suave que acalma a mente em alcance Médio. O alvo regenera 1d4 de cura e é purificado de 1 efeito ou condição psicológica ativa (medo, desorientação, etc). (Melhoria: +2 PM permite confortar 1 alvo adicional).
 
-#### Nível 3: Avatar de Invocação
-Você conjura uma entidade primordial de grande porte (ocupa espaço 3).
+**Habilidade Suprema de Arcana**
+*   **Opus Magnum (A Grande Sinfonia)** (Ação Padrão | 1 Ponto de Arcana): Você inicia uma canção que se torna uma aura viva em torno de você. Pelo resto da cena, você emana a Opus Magnum em uma Área Média ao seu redor (a aura se move com você). Todo aliado que iniciar o turno dentro dessa área é purificado automaticamente de todas as condições negativas e ganha +1 Ação Rápida e +2 na Proteção enquanto estiver na zona de som.
 
-- **Grau I**: Exige a concentração do invocador (custa **1 PM por turno** para ser mantido). O Avatar possui **PV igual a 20 + (seu atributo de Magia x 2)**, **1 Ação de Movimento e 1 Ações Padrões** e seus ataques físicos causam **4 + 1d6 + seu atributo de Magia** de dano.
-- **Grau II**: O Avatar emana uma **Presença Aterradora**. Inimigos adjacentes ao Avatar devem fazer um Teste de Vontade (DT 14) ou receberão a condição **Assustado.**
-- **Grau III**: Sinergia Primordial. Não exige mais o custo de Concentração por turno (custo de manutenção reduzido para **0 PM**).A vida do Avatar aumenta para **25 + (seu atributo de Magia x 2)** e o dano dos seus ataques aumenta para **4 + 2d6 + seu atributo de Magia.**
+---
 
-### Mestre de Domínios
+### Apêndice C: Condições de Combate
 
-#### Nível 1: Evolução: Muralha Mística
-Sua capacidade de modelar e fortificar as barreiras mágicas atinge novos patamares táticos.
+No campo de batalha mágico, as Condições alteram drasticamente as capacidades físicas, sensoriais e místicas dos personagens.
 
-- **Grau I**: A muralha ganha **+10 PV** (totalizando 25 PV) e você pode criá-la em formato de semicírculo ou ângulo de até 90 graus para isolar ou cercar inimigos.
-- **Grau II**: A muralha emana energia elemental instável. Criaturas que iniciarem o turno adjacentes à muralha sofrem **1d6 + seu atributo de Magia** de dano mágico do elemento correspondente à barreira (Fogo, Gelo, Terra ou Vento).
-- **Grau III**: Você pode erguer a Muralha Mística como uma **Reação** ao ser alvo de um ataque físico ou mágico à distância, interceptando-o completamente (a muralha recebe o dano do ataque em seu lugar).
+#### Condições Físicas (Mobilidade e Defesa)
+*   **Caído:** O alvo está no chão. Seu deslocamento cai para 0 e ele deve gastar uma Ação de Movimento para se levantar. Enquanto estiver Caído, ataques corpo a corpo contra ele recebem 1 Vantagem (+1d4), e ataques à distância sofrem 1 Desvantagem (-1d4).
+*   **Imobilizado:** O alvo está preso (por raízes, gelo, estase). Seu deslocamento torna-se 0 e ele não pode ser empurrado ou puxado. Não pode realizar ações que exijam as pernas e sofre 1 Desvantagem (-1d4) em testes de Físico (Destreza).
+*   **Desarmado:** O alvo deixou cair seu catalisador ou arma. Ele não pode realizar ataques marciais ou conjurar feitiços que exijam aquele foco. Recolher o item do chão custa 1 Ação de Movimento.
 
-#### Nível 2: Pântano Arcano
-- **Grau I**: O pântano cobre uma **Área Pequena**. O solo se torna **Terreno Difícil** e inimigos que iniciarem o turno lá dentro sofrem **3 + seu atributo de Magia** de dano mágico.
-- **Grau II**: A área do pântano aumenta para **Área Média**. Inimigos que iniciarem o turno na área devem fazer um teste de **Físico + Vigor (DT 12 + seu atributo de Magia)** ou ganham a condição **Lento** (velocidade reduzida pela metade) por 1 rodada.
-- **Grau III**: O custo de ativação é reduzido para **1 Ação Padrão** (mantendo 4 PM). Além disso, inimigos que falharem no teste de Físico + Vigor sofrem a condição **Imobilizado** (em vez de Lento) por 1 rodada.
+#### Condições Sensoriais e Mentais (Percepção e Foco)
+*   **Cego:** A visão foi anulada. O alvo falha em testes de Percepção baseados em visão, sofre 1 Desvantagem (-1d4) em rolagens de ataque e feitiços, e atacantes recebem 1 Vantagem (+1d4) contra ele.
+*   **Surdo:** A audição foi anulada. O alvo falha em testes baseados em som, fica imune a magias de comando de voz ou encantos cantados, e sofre 1 Desvantagem (-1d4) em testes de Iniciativa.
+*   **Desorientado:** Mente atordoada. O alvo não consegue se focar, sofrendo 1 Desvantagem (-1d4) em ataques e magias, não pode usar Reações e só recebe 1 Ação (Padrão ou de Movimento) no seu turno.
+*   **Assustado:** Medo irracional. O alvo sofre 1 Desvantagem (-1d4) em todos os testes e ataques enquanto a fonte do medo estiver visível, e não pode se aproximar voluntariamente dela.
 
-#### Nível 3: Santuário do Manipulador
-Você projeta a sua própria realidade dimensional sobre o campo de batalha, distorcendo o espaço a seu favor.
+#### Condições Mágicas e de Degradação
+*   **Silenciado:** Cordas vocais bloqueadas. Não pode conjurar magias que exijam componentes verbais.
+*   **Dano Contínuo (Queimando, Sangrando, Envenenado):** O alvo sofre dano fixo no início de seus turnos (ignora RD). Dura o tempo especificado ou até ser tratado (gastando 1 turno para apagar o fogo/estancar ferimento).
+*   **Esgotado:** Limite físico/mental. O personagem sofre 1 Desvantagem (-1d4) para qualquer teste realizado.
 
-- **Grau I**: Você projeta um santuário em uma **Área Grande** em alcance Médio. Você e seus aliados ganham **+1 de Vantagem (+1d6)** em um teste por rodada, e inimigos rolam ataques contra você com **1 Desvantagem (-1d6)**.
-- **Grau II**: Sinergia Dimensional. Enquanto o Santuário estiver ativo, qualquer feitiço ou habilidade sua que crie barreiras ou altere o terreno (como Muralha ou Pântano) tem seu custo reduzido em **-1 PM** (mínimo 1 PM).
-- **Grau III**: O custo de ativação é reduzido para **1 Ação Padrão**. Além disso, uma vez por rodada, se um inimigo tentar se mover voluntariamente dentro do Santuário, você pode usar uma **Reação** para teleportá-lo para qualquer outro espaço desocupado dentro do Santuário.
-
-### O Arquiteto de
-                                Construtos
-
-#### Nível 1: Evolução: Sentinela Arcana
-Sua competência na fabricação de construtos e no aprimoramento de sentinelas mecânicas se expande significativamente.
-
-- **Grau I**: Sentinela Blindada. Suas Sentinelas passam a ter **15 PV** máximos (em vez de 10) e você pode manter até **3 Sentinelas** ativas simultaneamente.
-- **Grau II**: Sentinela Elemental. Ao conjurar, escolha um elemento (Fogo, Gelo, Veneno). O ataque da Sentinela aplica dano desse elemento (Gelo reduz velocidade em 1 quadrado, Fogo causa +2 de dano bônus).
-- **Grau III**: Torre de Artilharia. Você pode usar uma Ação Padrão para fazer com que uma Sentinela ative um disparo concentrado de longo alcance, desferindo um ataque que atinge até alcance **Médio** e causa **2d6 + seu atributo de Magia** de dano (consome 1 PM do conjurador).
-
-#### Nível 2: Campo de Interação
-Você ativa uma ressonância entre você e suas Sentinelas, gerando uma zona protetora e revitalizadora.
-
-- **Grau I**: Ressonância de Proteção. A área ao redor (alcance **Curto**) de cada Sentinela sua se torna uma zona de buff. Aliados dentro dessa área ganham **+2 de Proteção (PR) passiva** e regeneram **1 PV por rodada** enquanto permanecerem lá.
-- **Grau II**: Campo de Bateria. Aliados na área também regeneram **1 PM** no início de seus turnos. Além disso, a área del campo ao redor das Sentinelas aumenta para alcance **Médio**.
-- **Grau III**: Escudo de Retaliação. O custo é reduzido para **Ação de Movimento** (mantendo 3 PM). Quando um aliado dentro do campo de uma Sentinela é atacado, ela pode disparar um pulso defensivo como uma **Reação**, reduzindo o dano sofrido pelo aliado em **1d6 + seu atributo de Magia**.
-
-#### Nível 3: Sobrecarga do Arquiteto
-Você detona os núcleos de energia de suas Sentinelas em uma explosão devastadora.
-
-- **Grau I**: Núcleos Detonadores. Você detona todas as Sentinelas ativas. Cada uma explode em alcance **Curto**. Inimigos na área testam Físico + Destreza (DT 14 + seu atributo de Magia) ou sofrem **3d6 + seu atributo de Magia** de dano (metade no sucesso). Acúmulo de explosões impõe **1 Desvantagem (-1d6)**.
-- **Grau II**: Sobrecarga de Pulso. O dano aumenta para **4d6 + seu atributo de Magia** de dano. Inimigos que falharem no teste físico também são empurrados para alcance **Médio** a partir do centro da Sentinela.
-- **Grau III**: Detonação Seletiva. O custo de ativação é reduzido para **1 Ação Padrão**. Aliados na área da explosão ignoram o dano da explosão e você regenera **1 PM** (máximo 3 PM) por Sentinela detonada.
-
-### Metamorfo
-
-#### Nível 1: Mutação de Batalha
-Sua capacidade de automutação biológica se aprofunda, permitindo manifestações mais agressivas e eficientes em combate.
-
-- **Grau I**: **Mutação Sinergética:** Você pode ativar ambas as adaptações (Garras e Escamas) simultaneamente ao usar o Efeito de Especialização. Seus ataques desarmados passam a causar **3 + 1d6 + seu atributo de Físico** de dano letal.
-- **Grau II**: **Mutação Ampliada:** Adiciona novas opções de mutação que você pode escolher: **Membros Estendidos** (seus ataques desarmados passam a ter alcance Curto/2 quadrados) ou **Membros Alados** (ganha deslocamento de voo igual ao seu movimento terrestre).
-- **Grau III**: **Predador Perfeito:** O dano básico de suas garras desarmadas aumenta para **6 + 1d6 + seu atributo de Físico**. Além disso, uma vez por turno, após atingir um inimigo com as garras, você pode fazer um ataque rápido de mordida extra como Ação Livre (causa 1d4 de dano).
-
-#### Nível 2: Fisiologia Fluida
-Você transmuta a estrutura cellular instantaneamente para desviar de ferimentos letais ou escapar de restrições físicas.
-
-- **Grau I**: **Gatilho:** Quando for atingido por um ataque físico ou agarrado.<br></br>Como Reação (3 PM), você liquefaz a área atingida de seu corpo: sofre apenas **metade do dano** (após reduzir pela sua PR) e escapa de qualquer imobilização ou agarramento, deslizando para um espaço adjacente livre.
-- **Grau II**: O custo da reação é reduzido para **2 PM**. Além disso, você pode deslizar até **2 espaços** (em vez de 1) sem provocar ataques de Reação dos oponentes.
-- **Grau III**: **Fluidez Absoluta:** Se você passar em um teste de Físico + Agilidade (DT igual ao ataque do inimigo), o dano sofrido é reduzido a **zero** (em vez de metade). Além disso, você pode deslizar para qualquer espaço livre dentro de alcance Curto.
-
-#### Nível 3: Quimera Arcana
-Você libera toda a estabilidade celular, transfigurando seu corpo temporariamente na temida Forma Quimérica.
-
-- **Grau I**: Como uma **Ação Completa** (8 PM), você assume a forma de besta quimérica por **3 turnos**. Seu atributo Físico recebe **+2** (podendo ultrapassar o limite), ganha **1 Vantagem (+1d6)** em testes de Físico e regenera **1d4 PV** no início de seus turnos. Ao final do efeito, você sofre Fadiga e perde **2 Ações Padrões** no seu próximo turno.
-- **Grau II**: **Quimera Elemental:** Ao se transformar, escolha um elemento (Fogo, Gelo ou Veneno). Seus ataques corporais causam **+2 de dano bônus** daquele elemento e a regeneração de PVs por turno aumenta para **2d4 PV**.
-- **Grau III**: **Quimera Suprema:** O custo de ativação é reduzido para **1 Ação Padrão e 1 Ação de Movimento** e **6 PM**. Além disso, seu metabolismo estabiliza o estresse biológico e você não sofre a penalidade de Fadiga (perda de ações) ao término do efeito.
-
-### Artífice da Matéria
-
-#### Nível 1: Transmutar Objeto
-Você altera a matéria ao redor para erguer defesas ou bloquear caminhos.
-
-- **Grau I**: **Alteração de Terreno:** Como 2 Ações Padrões (3 PM), você cria zonas de Terreno Difícil em uma área de até 4 espaços ou ergue estruturas temporárias (como paredes ou rampas) de até 4 espaços de volume.
-- **Grau II**: **Estruturas Complexas:** A área ou o volume das estruturas aumenta para até **6 espaços**. As barreiras erguidas agora possuem **15 PV** e podem ser usadas como cobertura parcial ou total contra ataques.
-- **Grau III**: **Transmutação Dinâmica:** O custo de ativação é reduzido para **1 Ação Padrão** (mantendo 3 PM). Além disso, você pode prender um inimigo erguendo o solo ao redor dele, exigindo um teste de Físico + Agilidade (DT 12 + seu atributo de Magia) para não ganhar a condição **Impedido**.
-
-#### Nível 2: Sabotagem Arcana
-Você foca sua magia diretamente na estrutura física dos equipamentos dos oponentes para destruí-los.
-
-- **Grau I**: **Corrosão Estrutural:** Como 2 Ações Padrões (4 PM), faça um ataque mágico (teste de Magia + Controle contra a Defesa do alvo). Se acertar, a **RD de armadura do alvo é reduzida a zero instantaneamente** e o item acumula 1 ponto de **Danificado**.
-- **Grau II**: **Ruína de Equipamento:** Se o alvo utilizar armas ou escudos físicos, você pode optar por enferrujar a arma (impondo **1 Desvantagem** contínua nas rolagens de ataque dela) ou estilhaçar o escudo (removendo seu bônus de Defesa permanentemente).
-- **Grau III**: **Sobrecarga Molecular:** O custo de ativação é reduzido para **1 Ação Padrão** (3 PM). Se o alvo sabotado portar armaduras ou armas mágicas, o colapso de mana gera uma micro-explosão que causa **2d6 + seu atributo de Magia** de dano mágico direto no portador.
-
-#### Nível 3: Definir Ambiente
-Você transmuta a própria constituição do campo de batalha ao seu redor, alterando o ambiente para debilitar os oponentes.
-
-- **Grau I**: Como 1 Ação Complexa (6 PM), você transmuta uma área **Média (6x6)** em alcance Médio em um ambiente extremo por **1 rodada**. Alvos na área devem passar no teste de resistência correspondente ou sofrer os efeitos:
-- **Grau II**: **Ambiente Persistente:** A transmutação climática torna-se estável e dura por até **3 rodadas** (exige manutenção de 1 PM por turno do conjurador no início de seu turno).
-- **Grau III**: **Domínio Ambiental Absoluto:** O custo de ativação é reduzido para **1 Ação Padrão**. Além disso, você e seus aliados tornam-se imunes e ignoram completamente os danos e condições nocivas do ambiente transmutado.
-
-### Biomante
-
-#### Nível 1: Costura Celular
-Você acelera o metabolismo celular para restaurar tecidos rompidos ou purificar infecções do organismo.
-
-- **Grau I**: **Regeneração Tecidual:** Como 2 Ações Padrões (3 PM), você cura **3 + 1d6 + seu atributo de Magia** em PV de um aliado tocado, ou purifica totalmente uma condição física mundana ativa (como envenenamento simples ou sangramento).
-- **Grau II**: **Restauração Acelerada:** O valor da cura celular aumenta para **5 + 1d6 + seu atributo de Magia**. Além disso, você pode gastar **+2 PM** para projetar a cura por meio do ar, estendendo o alcance para Curto.
-- **Grau III**: **Milagre Biológico:** A cura aumenta para **7 + 2d6 + seu atributo de Magia** em PV. Adicionalmente, você pode purificar até **duas condições físicas** simultaneamente (incluindo condições mágicas como Cegueira ou Surdez).
-
-#### Nível 2: Toque da Atrofia
-Você inverte a lógica do fluxo vital, enfraquecendo e atrofiando o sistema biológico dos oponentes.
-
-- **Grau I**: **Enfraquecimento Corporal:** Como 2 Ações Padrões (4 PM), faça um ataque mágico corpo a corpo contra a Defesa do alvo. Se acertar, causa **1d6 de dano base** e o Atributo Físico do alvo é reduzido em **-1** por 2 rodadas.
-- **Grau II**: **Paralisia Nervosa:** A penalidade no Atributo Físico do alvo aumenta para **-2**. Além disso, se ele falhar em um teste de Físico + Vigor (DT 12 + seu atributo de Magia), ele fica sob a condição **Enfraquecido**.
-- **Grau III**: **Necrose Localizada:** O custo de ativação é reduzido para **1 Ação Padrão** (3 PM). Além da atrofia dos atributos, o alvo sofre **4 de dano contínuo (que ignora PR)** no início de seus próximos 2 turnos devido à rápida degradação tecidual.
-
-#### Nível 3: Sobrecarga Vital
-Você injeta pura energia arcana no metabolismo, forçando o corpo do alvo muito além dos limites biológicos normais.
-
-- **Grau I**: Como 1 Ação Complexa (6 PM), você concede a um aliado tocado (ou a si mesmo) **+2 Ações Padrões adicionais** por rodada e **1 Vantagem (+1d6)** em todas as rolagens por **3 turnos**. Ao término, o alvo perde **metade de seus PV atuais** e fica **Esgotado** por 1 rodada.
-- **Grau II**: **Metabolismo de Aço:** Durante os 3 turnos de sobrecarga, o alvo protegido torna-se completamente **imune a todas as condições físicas e mentais**, e ganha um bônus de **+4 de Proteção (PR)**.
-- **Grau III**: **Hiper-Canalização Segura:** O preço cobrado ao final do efeito é suavizado: o alvo perde apenas **25% de seus PV atuais** (em vez de metade) e não sofre a condição **Esgotado**.
-
-### O Alquimista Volátil
-
-#### Nível 1: Mistura Instável
-Você cria e arremessa poções arcanas que explodem ao impacto, cobrindo o solo de elementos.
-
-- **Grau I**: **Frasco Elemental:** Como 1 Ação Padrão (2 PM), você arremessa um frasco explosivo a alcance Curto. Escolha um elemento (Fogo, Gelo ou Veneno). Inimigos em uma área **Pequena (3x3)** sofrem **1d6 + seu atributo de Magia** de dano daquele elemento.
-- **Grau II**: **Névoa Química persistente:** O dano elemental aumenta para **2d6 + seu atributo de Magia**. A área atingida fica impregnada pelo elemento por **2 rodadas**, agindo como terreno perigoso (sofre 3 de dano elemental ao entrar ou começar o turno na área).
-- **Grau III**: **Explosivos em Cadeia:** O alcance do arremesso aumenta para Médio. O custo em ações é de 1 Ação Padrão (2 PM), e o frasco se divide em **3 fragmentos**, permitindo atingir 3 alvos diferentes ou cobrir uma área muito maior.
-
-#### Nível 2: Catalisador Reativo
-Você usa sua magia para catalisar reações elementares, maximizando os danos no corpo dos oponentes.
-
-- **Grau I**: **Gatilho:** Quando um inimigo sofrer dano elemental de qualquer fonte.<br></br>Como Reação (3 PM), você acelera a reação molecular: o dano é **maximizado nos dados automaticamente**, e o alvo principal ganha a condição **Cego** ou **Surdo** por 1 rodada.
-- **Grau II**: **Reação em Cadeia:** A catalisação química expande-se para inimigos adjacentes ao alvo primário, fazendo com que eles também sofram metade do dano elemental maximizado.
-- **Grau III**: **Combustão Repentina:** O custo em PM cai para **2 PM**. O alvo catalisado explode, espalhando chamas/estilhaços que aplicam a condição elemental correspondente (ex: Queimadura ou Hipotermia) a todas as criaturas em alcance Curto.
-
-#### Nível 3: Transmutação Sanguínea
-Você altera a composição do sangue de oponentes vivos, transformando-o em chumbo pesado ou ácido corrosivo.
-
-- **Grau I**: Como 1 Ação Complexa (7 PM), transmuta o sangue de um alvo vivo em alcance Curto. O inimigo faz um teste de Físico + Vigor (DT 14 + seu atributo de Magia). Se falhar, sofre **2d6 de dano contínuo (que ignora PR)** no início de seus próximos 3 turnos, e todos os seus Atributos Físicos contam como -2.
-- **Grau II**: **Peste Biológica:** O dano contínuo aumenta para **3d6**. Se o inimigo morrer sob o efeito deste feitiço, seu corpo explode em uma névoa ácida infectando todos os oponentes adjacentes (que devem fazer novos testes).
-- **Grau III**: **Alquimia Hemática Rápida:** O custo de ativação é reduzido para **1 Ação Padrão**. Além disso, o alvo rola o teste de resistência com **1 Desvantagem (-1d6)**.
-
-### Ilusionista
-
-#### Nível 1: Imagem Falsa
-Você conjura imagens e projeções complexas no campo para enganar os sentidos dos oponentes.
-
-- **Grau I**: **Holograma Distrativo:** Como 1 Ação Padrão (2 PM), você cria uma ilusão de um objeto, criatura ou cópia de si mesmo em alcance Médio. Inimigos que interagirem com ela perdem o ataque automaticamente. Teste de Mental + Percepção (DT 12 + seu atributo de Magia) para discernir sem interagir.
-- **Grau II**: **Ilusão Dinâmica:** A imagem falsa criada pode mover-se de forma realista e emitir sons complexos. A DT para discernir a natureza falsa da ilusão aumenta em **+2**.
-- **Grau III**: **Ilusão Sólida:** A imagem falsa simula massa física sólida temporariamente. Ela pode obstruir caminhos físicos (como uma parede ou ponte falsa) até que seja atacada (se dissipa se sofrer dano) ou descoberta.
-
-#### Nível 2: Véu do Oculto
-Você dobra a luz e oculta assinaturas térmicas para tornar criaturas completamente invisíveis.
-
-- **Grau I**: Como 2 Ações Padrões (4 PM), torna a si mesmo ou um aliado adjacente invisível. Ataques de alvo único não podem alvejá-lo, e ataques em área têm **1 Desvantagem (-1d6)** contra ele. O próximo ataque feito a partir da invisibilidade recebe **1 Vantagem (+1d6)**. Quebra ao atacar ou conjurar magia hostil.
-- **Grau II**: **Ocultamento Persistente:** A invisibilidade não se desfaz ao realizar interações simples ou movimentação física (apenas ao desferir ataques ou conjurar magias que causem dano a oponentes).
-- **Grau III**: **Dobra de Véu:** O custo de ativação é reduzido para **1 Ação Padrão**. Além disso, você pode ocultar até **duas criaturas simultaneamente** pelo mesmo custo em PM.
-
-#### Nível 3: Pesadelo
-Você invade a mente profunda de oponentes, forçando-os a experimentar seus piores medos em um horror psíquico.
-
-- **Grau I**: Como 1 Ação Complexa (6 PM), arrasta a mente de um inimigo em alcance Médio. O alvo testa Mental + Vontade (DT 12 + seu Atributo Mental). Se falhar, sofre **3 + 2d6 + seu atributo de Mental** de dano psíquico (ignora PR) e ganha a condição **Atordoado** por 1 rodada.
-- **Grau II**: **Paralisia de Choque:** O dano mental aumenta para **4d6 + seu atributo de Mental** e o alvo que falhar no teste de resistência fica sob a condição **Paralisado** (em vez de Atordoado) por 1 rodada.
-- **Grau III**: **Pesadelo Coletivo:** O custo de ativação é reduzido para **1 Ação Padrão**. O horror psíquico se espalha, permitindo atingir até **3 inimigos** que estejam a alcance Curto uns dos outros (exige testes separados para cada um).
-
-### Controlador
-
-#### Nível 1: Chicote Psíquico
-Você atinge os pensamentos do inimigo com uma descarga pura de dor e coerção telepática.
-
-- **Grau I**: **Chicote Mental:** Como 2 Ações Padrões (3 PM), faça um ataque psíquico (teste de Mental + Vontade contra a Defesa do alvo). Se acertar, causa **3 + 1d6 + seu atributo de Mental** de dano mental direto (que **ignora completamente a Redução de Dano (RD) física** do alvo).
-- **Grau II**: **Chicote Dilacerador:** O dano do feitiço aumenta para **2d6 + seu atributo de Mental**, e o alvo atingido fica sob a condição **Desorientado** por 1 rodada, recebendo -2 de penalidade em rolagens de salvamento mental.
-- **Grau III**: **Laço Psíquico:** O custo de ativação é reduzido para **1 Ação Padrão**. Ao acertar, você pode puxar fisicamente o alvo por até 3 quadrados em qualquer direção de sua escolha (o inimigo faz um teste de Físico para resistir e não ser arrastado).
-
-#### Nível 2: Comando Subconsciente
-Você planta pensamentos imperativos na mente consciente de um alvo, forçando-o a obedecer a suas ordens.
-
-- **Grau I**: **Palavra de Ordem:** Como 2 Ações Padrões (4 PM), force uma ordem verbal (como "Ajoelhe", "Largue a arma" ou "Recue") a um oponente em alcance Médio. O alvo testa Mental + Vontade (DT 12 + seu Atributo Mental). Se falhar, no próximo turno dele, a primeira Ação Padrão dele será **gasta obrigatoriamente** para cumprir a ordem.
-- **Grau II**: **Sugestão Complexa:** Gastando **+2 PM** durante a conjuração, a ordem psíquica é prolongada para abranger as duas principais ações do turno do alvo (ex: "Corra e caia no chão", consumindo a Ação de Movimento e a Ação Padrão dele).
-- **Grau III**: **Comando de Grupo:** O custo de ativação é reduzido para **1 Ação Padrão** (4 PM). A palavra de ordem projeta-se em ressonância mental, permitindo controlar até **2 inimigos simultaneamente** na cena (rolagens de resistência individuais).
-
-#### Nível 3: Marionete Arcana
-Você usurpa o controle motor e os sentidos de uma criatura, manipulando seu corpo como um fantoche de fios de mana.
-
-- **Grau I**: **Posse Psíquica:** Como 1 Ação Complexa (7 PM), controle totalmente as ações de um alvo em alcance Médio por **1 turno**. Teste de Mental + Vontade (DT 12 + seu Atributo Mental) para resistir. Se falhar, você escolhe todas as ações do alvo (1 Movimento, 2 Padrões). Pode sustentar gastando +3 PM por rodada (novo teste a cada turno).
-- **Grau II**: **Marionete Armada:** O alvo sob controle motor recebe um bônus de **+2 em testes de ataque** e causa **+1d6 de dano mágico adicional** caso você o force a atacar seus próprios aliados.
-- **Grau III**: **Dominação Instantânea:** O custo de ativação é reduzido para **1 Ação Padrão**. Além disso, o alvo realiza o teste de resistência com **1 Desvantagem (-1d6)**.
-
-### Dobrador do Destino
-
-#### Nível 1: Fio da Causalidade
-Você manipula o destino imediato, distorcendo a "sorte" para reverter sucessos ou falhas anunciadas.
-
-- **Grau I**: **Gatilho:** Quando um aliado errar um teste ou quando um inimigo acertar um ataque (antes do dano).<br></br>Como Reação (2 PM), você aplica **1 Desvantagem (-1d6)** retroativa na rolagem do inimigo (subtraindo do valor final) ou concede **1 Vantagem (+1d6)** na rolagem do aliado.
-- **Grau II**: **Destino Selado:** A vantagem ou desvantagem aplicada retroativamente aumenta para **2d6** (você subtrai o menor/soma o maior dado rolado, definindo o novo resultado).
-- **Grau III**: **Causalidade Perfeita:** O custo em PM cai para **1 PM**. Se sua reação converter o erro do aliado em sucesso, ele causa +3 de dano bônus. Se converter o acerto do inimigo em erro, o oponente fica **Desestabilizado** (-2 na Defesa por 1 rodada).
-
-#### Nível 2: Sorte Roubada
-Você drena a probabilidade positiva de um inimigo, canalizando essa energia de sorte diretamente para fortalecer seu grupo.
-
-- **Grau I**: **Sifão de Sorte:** Como 2 Ações Padrões (4 PM), selecione um inimigo em alcance Médio. O alvo testa Mental + Vontade (DT 12 + seu Atributo Mental). Se falhar, por **2 rodadas**, todas as rolagens dele sofrem **1 Desvantagem (-1d6)** e um aliado ganha **1 Vantagem (+1d6)**.
-- **Grau II**: **Roubo Exponencial:** O inimigo que falhar no teste sofre **2 Desvantagens (-2d6)** nas rolagens, e você pode conceder a condição benéfica de 1 Vantagem para **dois aliados diferentes** simultaneamente.
-- **Grau III**: **Dreno da Causalidade:** O custo de ativação é reduzido para **1 Ação Padrão**. Além disso, sempre que o inimigo sob o efeito do Sifão errar um teste ou ataque devido às desvantagens, você recupera **1 PM**.
-
-#### Nível 3: Isso não aconteceu
-Você dobra a realidade temporal imediata, rebobinando os últimos segundos para reescrever um acontecimento catastrófico.
-
-- **Grau I**: **Gatilho:** Imediatamente após qualquer teste, ataque ou evento ser anunciado pelo mestre.<br></br>Como Reação (12 PM), você desfaz a ação: a rolagem anterior é apagada e refeita com **1 Vantagem** (aliado) ou **1 Desvantagem** (inimigo). Consome todas as ações de seu próximo turno (Fadiga Temporal).
-- **Grau II**: **Âncora Temporal:** O custo é reduzido para **10 PM**. Ao forçar a nova rolagem de um aliado, você pode optar por manter o resultado original caso o novo valor rolado seja pior.
-- **Grau III**: **Rebobinar Supremo:** O custo é reduzido para **8 PM**. A Fadiga é atenuada: você perde apenas **1 Ação Padrão** no seu próximo turno (em vez de todas as ações).
-
-### O Oráculo
-
-#### Nível 1: Visão de Segundos
-Você prevê golpes milissegundos antes que ocorram, permitindo alertar e reposicionar aliados em perigo.
-
-- **Grau I**: **Aviso Precognitivo:** Gatilho: Quando você ou um aliado em alcance Curto for alvo de um ataque (antes da rolagem). Como Reação (2 PM), você grita um aviso: o alvo ganha **+3 na Defesa** contra aquele golpe. Se o ataque errar, o atacante perde 1 Ação Padrão no próprio turno dele.
-- **Grau II**: **Defesa Antecipada:** O bônus concedido na Defesa aumenta para **+5**. Adicionalmente, você pode projetar o aviso para aliados situados até alcance Médio.
-- **Grau III**: **Contra-Ataque Profético:** Caso o ataque inimigo erre devido ao bônus de sua premonição, o aliado protegido pode desferir um contra-ataque físico imediato contra o atacante como uma Reação gratuita.
-
-#### Nível 2: Ruído de Pensamento
-Você projeta um grito psíquico direcionado para quebrar a concentração e interromper a conjuração inimiga.
-
-- **Grau I**: **Contra-Feitiço Psíquico:** Gatilho: Quando um inimigo começar a conjurar. Como Reação (4 PM), faça uma disputa de Magia + Controle contra a conjuração dele. Se você vencer, a magia falha (consome os PMs e as ações do oponente), mas você consome 1 Ação Padrão do seu próximo turno.
-- **Grau II**: **Silêncio Psíquico:** Se você vencer a disputa, o conjurador sofre **1d6 + seu atributo de Magia** de dano psíquico e fica impedido de conjurar qualquer magia na rodada seguinte devido ao choque neural.
-- **Grau III**: **Fluidez de Interrupção:** A reação torna-se perfeitamente fluida, não consumindo nenhuma ação de seu próprio turno seguinte caso você vença a disputa contra o conjurador.
-
-#### Nível 3: Sincronia Tática Absoluta
-Você conecta a consciência dos aliados, compartilhando precognição e criando uma perfeita mente tática coletiva.
-
-- **Grau I**: Como 1 Ação Complexa (6 PM), você sincroniza a mente de todos os aliados por **1 rodada**. Todos os aliados (inclusive você) recebem **1 Vantagem (+1d6)** em todas as rolagens de ataque e defesa. Aliados não podem ser flanqueados ou surpresos.
-- **Grau II**: **Coordenação Perfeita:** A duração da sincronia aumenta para **2 rodadas**. Enquanto conectados, todos os aliados ganham **+2 na Defesa** se estiverem em alcance Curto de pelo menos um outro aliado conectado.
-- **Grau III**: **Sincronia Fluida:** O custo de ativação é reduzido para **1 Ação Padrão**. Adicionalmente, toda vez que um aliado conectado realizar um acerto crítico, você recupera **1 PM** (máximo de 3 PM recuperados por conjuração).
+#### Regras Gerais de Resolução
+*   **Não Cumulativas:** Efeitos da mesma condição não se acumulam; apenas reiniciam a duração.
+*   **Sobreposição:** Vantagens (+1d4) e Desvantagens (-1d4) se anulam mutuamente.
+*   **Fim do Efeito:** A maioria das condições dura até o final do próximo turno do causador ou exige ações específicas para remoção (ex: levantar-se ou apagar chamas).
 

@@ -25,7 +25,10 @@ export default function Arcanas() {
 
     return (
         <section id="sec-filosofia" className="content-section">
-            <h2 className="text-3xl border-b-2 border-magic-100 pb-2 mb-4">6. A Filosofia da Magia e As Doze Arcanas</h2>
+            <h2 className="chapter-title">
+                <span className="chapter-number">8</span>
+                As Doze Arcanas
+            </h2>
 
             {/* Trindade da Magia */}
             <div className="mb-8">
@@ -38,7 +41,7 @@ export default function Arcanas() {
 
                 <h3 className="text-2xl mt-6 mb-4 font-serif text-magic-900 flex items-center">A Trindade da Magia</h3>
 
-                <div className="grid grid-cols-1 gap-6 mt-4 md:grid-cols-3 font-sans">
+                <div className="grid grid-cols-1 gap-6 mt-4 font-sans">
                     {/* A Fonte */}
                     <div className="bg-gradient-to-br from-indigo-50/30 to-indigo-100/10 border border-indigo-100 rounded-xl p-5 hover:border-indigo-300 hover:shadow-md transition-all duration-300">
                         <div className="flex items-center gap-3 mb-3">

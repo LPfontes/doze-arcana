@@ -3,7 +3,10 @@ import React from 'react';
 export default function Condicoes() {
  return (
  <section id="sec-condicoes" className="content-section">
- <h2 className="text-3xl border-b-2 border-magic-100 pb-2 mb-4">7. Condições de Combate</h2>
+ <h2 className="chapter-title">
+    <span className="chapter-number">Ap. C</span>
+    Condições de Combate
+  </h2>
  <p className="mb-6 text-gray-700 leading-relaxed font-sans">No campo de batalha mágico, controlar o posicionamento, os sentidos e o fluxo arcano dos
  adversários é tão vital quanto desferir golpes mortais. As <strong>Condições</strong> alteram drasticamente as capacidades físicas, sensoriais e místicas de alvos aliados ou
  inimigos.
@@ -40,8 +43,8 @@ export default function Condicoes() {
  <div className="space-y-2 text-xs text-gray-650 font-sans leading-normal">
  <p><strong>Mobilidade:</strong><br></br>Seu deslocamento cai para<strong> 0</strong>. Ele deve gastar uma <strong>Ação de Movimento</strong> no seu turno exclusivamente para se levantar.
  </p>
- <p><strong>Ataques de Perto:</strong><br></br>Enquanto estiver Caído, ataques corpo a corpo contra ele recebe <strong>1 Vantagem (+1d6)</strong>.</p>
- <p><strong>Ataques à Distância:</strong><br></br>Ataques à distância sofrem <strong>+1 Desvantagem (-1d6)</strong>.</p>
+ <p><strong>Ataques de Perto:</strong><br></br>Enquanto estiver Caído, ataques corpo a corpo contra ele recebe <strong>1 Vantagem (+1d4)</strong>.</p>
+ <p><strong>Ataques à Distância:</strong><br></br>Ataques à distância sofrem <strong>+1 Desvantagem (-1d4)</strong>.</p>
  </div>
  </div>
 
@@ -58,7 +61,7 @@ export default function Condicoes() {
  <div className="space-y-2 text-xs text-gray-655 font-sans leading-normal">
  <p><strong>Mobilidade:</strong><br></br>Seu deslocamento torna-se <strong>0</strong> e ele não pode sofrer efeitos que o empurrem ou puxem.</p>
  <p><strong>Restrição:</strong><br></br>Não pode usar nenhuma ação que exija as pernas.</p>
- <p><strong>Penalidade:</strong><br></br>Sofre <strong>+1 Desvantagem (-1d6)</strong> em testes de <strong>Físico (Destreza)</strong>.</p>
+ <p><strong>Penalidade:</strong><br></br>Sofre <strong>+1 Desvantagem (-1d4)</strong> em testes de <strong>Físico (Destreza)</strong>.</p>
  </div>
  </div>
 
@@ -107,8 +110,8 @@ export default function Condicoes() {
  </p>
  <div className="space-y-2 text-xs text-gray-655 font-sans leading-normal">
  <p><strong>Percepção:</strong><br></br>O alvo falha automaticamente em testes de Percepção baseados em visão.</p>
- <p><strong>Ataques:</strong><br></br>Ele sofre <strong>+1 Desvantagem (-1d6)</strong> em todas as suas rolagens de ataque e feitiços com alvo.</p>
- <p><strong>Abertura:</strong><br></br>Qualquer personagem que ataque um alvo Cego recebe <strong>1 Vantagem (+1d6)</strong>.</p>
+ <p><strong>Ataques:</strong><br></br>Ele sofre <strong>+1 Desvantagem (-1d4)</strong> em todas as suas rolagens de ataque e feitiços com alvo.</p>
+ <p><strong>Abertura:</strong><br></br>Qualquer personagem que ataque um alvo Cego recebe <strong>1 Vantagem (+1d4)</strong>.</p>
  </div>
  </div>
 
@@ -125,7 +128,7 @@ export default function Condicoes() {
  <div className="space-y-2 text-xs text-gray-655 font-sans leading-normal">
  <p><strong>Percepção:</strong><br></br>Falha automaticamente em Percepção baseada em som.</p>
  <p><strong>Imunidade/Bloqueio:</strong><br></br>Não pode ser alvo de magias de comando de voz ou efeitos de encanto cantados.</p>
- <p><strong>Iniciativa:</strong><br></br>Sofre <strong>+1 Desvantagem (-1d6)</strong> em testes de Iniciativa (já que não consegue ouvir os inimigos se movendo).</p>
+ <p><strong>Iniciativa:</strong><br></br>Sofre <strong>+1 Desvantagem (-1d4)</strong> em testes de Iniciativa (já que não consegue ouvir os inimigos se movendo).</p>
  </div>
  </div>
 
@@ -140,7 +143,7 @@ export default function Condicoes() {
  <p className="text-xs text-gray-700 leading-relaxed font-sans mb-3">A mente do alvo está atordoada por um impacto forte ou confusão mágica.
  </p>
  <div className="space-y-2 text-xs text-gray-655 font-sans leading-normal">
- <p><strong>Foco:</strong><br></br>O alvo não consegue se focar. Sofre <strong>+1 Desvantagem (-1d6)</strong> em ataques corpo a corpo, ataques a distância e magias.</p>
+ <p><strong>Foco:</strong><br></br>O alvo não consegue se focar. Sofre <strong>+1 Desvantagem (-1d4)</strong> em ataques corpo a corpo, ataques a distância e magias.</p>
  <p><strong>Reações:</strong><br></br>Não pode usar Reações.</p>
  <p><strong>Economia:</strong><br></br>Só recebe <strong>1 Ação (Padrão ou de Movimento)</strong> no início do seu turno, em vez do conjunto normal de ações.</p>
  </div>
@@ -157,7 +160,7 @@ export default function Condicoes() {
  <p className="text-xs text-gray-700 leading-relaxed font-sans mb-3">O alvo está sob efeito de medo irracional provocado por uma criatura ou feitiço.
  </p>
  <div className="space-y-2 text-xs text-gray-655 font-sans leading-normal">
- <p><strong>Desvantagem:</strong><br></br>Sofre <strong>+1 Desvantagem (-1d6)</strong> em todos os testes e ataques enquanto a fonte do medo estiver na sua linha de visão.</p>
+ <p><strong>Desvantagem:</strong><br></br>Sofre <strong>+1 Desvantagem (-1d4)</strong> em todos os testes e ataques enquanto a fonte do medo estiver na sua linha de visão.</p>
  <p><strong>Movimento:</strong><br></br>Não pode se mover voluntariamente para um quadrado que o aproxime da fonte do medo.</p>
  </div>
  </div>
@@ -212,6 +215,21 @@ export default function Condicoes() {
  <p><strong>Resolução:</strong><br></br>A condição dura o tempo especificado pelo feitiço, ou até que o alvo (ou um aliado adjacente) gaste <strong>1 turno</strong> para estancar o ferimento/apagar o fogo.</p>
  </div>
  </div>
+
+ {/* Esgotado */}
+ <div
+ className="bg-white border border-slate-200/80 rounded-xl p-4 hover:border-purple-300 hover:shadow-md transition-all duration-200 shadow-sm mb-4">
+ <div className="flex items-center justify-between mb-2">
+ <span className="font-serif font-bold text-base text-magic-900">3. Esgotado</span>
+ <span
+ className="bg-purple-50 text-purple-800 text-[9px] font-bold px-2 py-0.5 rounded font-sans border border-purple-100 uppercase tracking-wider">Limite do Corpo</span>
+ </div>
+ <p className="text-xs text-gray-700 leading-relaxed font-sans mb-3">Seu corpo está além do limite físico e mental.
+ </p>
+ <div className="space-y-2 text-xs text-gray-655 font-sans leading-normal">
+ <p><strong>Penalidade:</strong><br></br>Você sofre <strong>+1 Desvantagem (-1d4)</strong> para todo teste que fizer nessa condição.</p>
+ </div>
+ </div>
  </div>
  </div>
  </div>
@@ -243,7 +261,7 @@ export default function Condicoes() {
  <h4
  className="font-serif font-bold text-sm text-white mb-2 flex items-center gap-1.5 font-bold">Sobreposição de Modificadores
  </h4>
- <p>As Vantagens (+1d6) e Desvantagens (-1d6) se anulam mutuamente. Se um personagem Cego (Desvantagem) ataca um inimigo Caído no chão (Vantagem para perto), a matemática se anula perfeitamente e ele rola o teste de forma pura (2d12 puros).
+ <p>As Vantagens (+1d4) e Desvantagens (-1d4) se anulam mutuamente. Se um personagem Cego (Desvantagem) ataca um inimigo Caído no chão (Vantagem para perto), a matemática se anula perfeitamente e ele rola o teste de forma pura (2d6 puros).
  </p>
  </div>
 
